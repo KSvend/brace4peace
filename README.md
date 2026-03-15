@@ -22,9 +22,14 @@ brace4peace/
 │   └── models.json              # Model configurations and column mappings
 ├── monitoring/
 │   ├── brace4peace_protocol.md  # Full monitoring protocol (Steps 1-5)
-│   └── baseline_feb26_2026.md   # Threat baseline for alert decisions
+│   ├── baseline_feb26_2026.md   # Threat baseline for alert decisions
+│   └── findings/                # Daily scan outputs (JSON)
+│       ├── README.md            # Findings schema documentation
+│       ├── state.json           # Monitor state tracking
+│       └── findings_YYYY-MM-DD.json  # Daily structured findings
 └── docs/
-    └── methodology.md           # Classification methodology and data schema
+    ├── methodology.md           # Classification methodology and data schema
+    └── data_dictionary.md       # Complete column reference (149 columns documented)
 ```
 
 ## Dataset Summary
@@ -86,10 +91,11 @@ The scripts are **incremental** — they skip already-classified rows and save p
 
 ## Monitoring Protocol
 
-The `monitoring/` directory contains the BRACE4PEACE automated monitoring protocol:
+The `monitoring/` directory contains the BRACE4PEACE automated monitoring protocol and its collected output:
 
 - **brace4peace_protocol.md** — Full 5-step scan procedure (X/Twitter searches, web monitoring, direct URL fetches, narrative classification, alert decisions)
 - **baseline_feb26_2026.md** — Rolling threat baseline used to determine what constitutes "new" intelligence
+- **findings/** — Structured daily scan results in JSON format, including narrative classification, source audit trails, and alert history. See `findings/README.md` for the schema.
 
 ### Narrative Classification Framework
 

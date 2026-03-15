@@ -1,0 +1,87 @@
+{
+  "run_timestamp_utc": "2026-03-15T06:00:00Z",
+  "run_timestamp_local": "2026-03-15T07:00:00+01:00",
+  "notable_new_intel": [
+    {
+      "region": "South Sudan",
+      "threat_level": "P1 CRITICAL",
+      "headline": "Jonglei/Akobo: military evacuation order + active SSPDF–SPLA-IO fighting; aid agencies suspend operations amid 280k+ displaced",
+      "why_new_vs_baseline": "Baseline notes Jonglei displacement (280k+) but not the specific March 6 evacuation order affecting civilians/UN/humanitarians and the March 11 reported battle dynamics + cross-border flight into Ethiopia.",
+      "sources": [
+        {
+          "title": "Mass suffering after violence forces aid agencies to withdraw from Jonglei",
+          "url": "https://www.radiotamazuj.org/en/news/article/mass-suffering-after-violence-forces-aid-agencies-to-withdraw-from-jonglei"
+        },
+        {
+          "title": "SSPDF, SPLA-IO battle for control of Akobo",
+          "url": "https://www.radiotamazuj.org/en/news/article/sspdf-spla-io-battle-for-control-of-akobo"
+        }
+      ],
+      "narrative_classification": [
+        {
+          "family": "Victimhood/Grievance",
+          "weight": 4,
+          "note": "Civilian flight, service suspension, protection concerns create grievance narratives.",
+          "evidence": "280,000+ displaced since Dec; operations suspended; civilians fleeing into Ethiopia; UNMISS protective presence."
+        },
+        {
+          "family": "Existential Threat",
+          "weight": 4,
+          "note": "Evacuation order and anticipated offensive can be framed as imminent threat to communities.",
+          "evidence": "Military ordered civilians/NGOs/UN to leave ahead of planned operations (Mar 6)."
+        }
+      ],
+      "ve_related": false,
+      "al_shabaab_related": false,
+      "confidence": "high"
+    }
+  ],
+  "items_checked": {
+    "x_twitter": {
+      "status": "not_executed",
+      "reason": "search_social tool not available in this environment (cannot run X/Twitter searches as specified)."
+    },
+    "web": [
+      {
+        "topic": "South Sudan Jonglei aid suspension",
+        "url": "https://www.radiotamazuj.org/en/news/article/mass-suffering-after-violence-forces-aid-agencies-to-withdraw-from-jonglei",
+        "relevance": "High (Jonglei violence/displacement + operational suspension)",
+        "assessment": "New operational restriction signal (evacuation order affecting UN/humanitarian actors); no explicit hate speech references in article text."
+      },
+      {
+        "topic": "South Sudan Akobo battle",
+        "url": "https://www.radiotamazuj.org/en/news/article/sspdf-spla-io-battle-for-control-of-akobo",
+        "relevance": "High (active fighting + displacement + social media video)",
+        "assessment": "Escalatory in security/humanitarian risk; no explicit hate speech language found in article text."
+      },
+      {
+        "topic": "Somalia SNA/NISA operation (routine)",
+        "url": "https://www.garoweonline.com/en/news/somalia/inside-somalia-s-fight-against-terror-how-govt-troops-foiled-planned-al-shabaab-attacks",
+        "relevance": "Moderate (counterterror operation)",
+        "assessment": "Routine CT operation (arrests, explosives seized) with no propaganda/recruitment indicators; not new beyond baseline."
+      }
+    ],
+    "direct_fetch": [
+      {
+        "url": "https://www.eyeradio.org/save-the-children-suspends-operations-in-jonglei-as-violence-escalates/",
+        "result": "blocked",
+        "issue": "disallow_by_robots"
+      },
+      {
+        "url": "https://www.eyeradio.org/un-alarmed-over-ssddfs-akobo-evacuation-order-warns-civilians-at-risk/",
+        "result": "blocked",
+        "issue": "disallow_by_robots"
+      },
+      {
+        "url": "https://www.eyeradio.org",
+        "result": "ok_but_unhelpful",
+        "issue": "homepage extraction did not yield headlines"
+      },
+      {
+        "url": "https://www.garoweonline.com/en/news",
+        "result": "partial",
+        "issue": "index extraction returned snippets without URLs"
+      }
+    ]
+  }
+}

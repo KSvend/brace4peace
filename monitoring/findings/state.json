@@ -1,0 +1,11 @@
+{
+  "last_run": "2026-03-15T06:00:00Z",
+  "last_run_local": "2026-03-15T07:00:00+01:00",
+  "latest_findings_file": "findings_2026-03-15.json",
+  "notified": [
+    {
+      "timestamp_utc": "2026-03-15T06:00:00Z",
+      "item_key": "south-sudan_akobo_evacuation-order_fighting_aid-suspension"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "run_timestamp_utc": "2026-03-14T06:00:00Z",
+  "run_timestamp_local": "2026-03-14T07:00:00+01:00",
+  "notable_new_intel": [],
+  "items_checked": {
+    "web": [
+      {
+        "topic": "South Sudan HS legal enforcement",
+        "assessment": "Not new beyond baseline (Cyber Crimes/Computer Misuse Act already noted as signed/enforced); still relevant signal of enforcement posture but dated Jan 2026.",
+        "source_url": "https://www.eyeradio.org/misuse-of-social-media-will-no-longer-be-tolerated-minister-ateny/",
+        "narrative_classification": [
+          {"family": "Delegitimization", "weight": 3, "note": "Govt framing HS as destabilizing; warning tone."},
+          {"family": "Peace/Counter-Narratives", "weight": -2, "note": "Calls for responsible use/ national unity."}
+        ]
+      },
+      {
+        "topic": "South Sudan HS tracking device",
+        "assessment": "Not new beyond baseline; dated Jan 26 2026 but useful detail on claimed technical capability to identify HS posters.",
+        "source_url": "https://www.eyeradio.org/govt-acquires-device-to-track-online-hate-speech-ateny/",
+        "narrative_classification": [
+          {"family": "Delegitimization", "weight": 3, "note": "Govt signals crackdown/enforcement."},
+          {"family": "Peace/Counter-Narratives", "weight": -2, "note": "Framed as preventing division/violence."}
+        ]
+      },
+      {
+        "topic": "ACLED Africa Overview March 2026",
+        "assessment": "No East Africa (Somalia/Kenya/South Sudan) HS/VE/disinfo items surfaced in top-level update excerpt; logged for situational awareness.",
+        "source_url": "https://acleddata.com/update/africa-overview-march-2026",
+        "narrative_classification": []
+      },
+      {
+        "topic": "Garowe Online news index",
+        "assessment": "No clearly extracted Al-Shabaab related headlines from index page extraction; needs manual follow-up if required.",
+        "source_url": "https://www.garoweonline.com/en/news",
+        "narrative_classification": []
+      }
+    ],
+    "direct_fetch": [
+      "https://www.eyeradio.org",
+      "https://www.garoweonline.com/en/news",
+      "https://acleddata.com/",
+      "https://ctc.westpoint.edu",
+      "https://www.longwarjournal.org/",
+      "https://www.criticalthreats.org/"
+    ]
+  },
+  "tooling_notes": {
+    "eyeradio_article_fetch_blocked": {
+      "url": "https://www.eyeradio.org/save-the-children-suspends-operations-in-jonglei-as-violence-escalates/",
+      "issue": "fetch_url returned disallow_by_robots"
+    },
+    "x_twitter_search": {
+      "issue": "search_social tool not available in current toolset; X queries could not be executed from this environment"
+    }
+  }
+}

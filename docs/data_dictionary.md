@@ -363,6 +363,64 @@ This ensures both posts and comments are classified, with post text taking prior
 
 ---
 
+## Monitoring Data (Daily Scans)
+
+In addition to the Phoenix social media datasets, this repository contains structured findings from the **BRACE4PEACE automated monitoring system** — a daily scan that monitors web sources, news outlets, and analysis platforms for new hate speech, disinformation, and violent extremism developments.
+
+### Location
+
+```
+monitoring/
+├── brace4peace_protocol.md        # Full 5-step monitoring protocol
+├── baseline_feb26_2026.md         # Rolling threat baseline for alert decisions
+└── findings/                      # Daily scan outputs
+    ├── README.md                  # Schema documentation
+    ├── state.json                 # System state (last run, notifications sent)
+    ├── findings_2026-03-14.json   # Daily findings
+    └── findings_2026-03-15.json
+```
+
+### What the Monitor Covers
+
+| Dimension | Scope |
+|-----------|-------|
+| Countries | South Sudan (P1 CRITICAL), Kenya (P1 HIGH), Somalia (P1 HIGH) |
+| Threat types | Hate speech, disinformation, violent extremism, Al-Shabaab media |
+| Sources | 10+ news sites, 6+ analysis centres, Al-Shabaab media outlets |
+| Frequency | Daily at 06:00 UTC |
+| Protocol steps | X/Twitter searches (24 queries), web monitoring (27 searches), direct URL fetches (6 sites), narrative classification, alert decisions |
+
+### Findings Schema
+
+Each daily JSON file contains:
+
+- **`notable_new_intel`** — Array of findings that represent genuinely new intelligence beyond the rolling baseline. Each entry includes:
+  - `region`, `threat_level` (P1/P2/P3), `headline`
+  - `why_new_vs_baseline` — explanation of why this crosses the alert threshold
+  - `sources` — array of `{title, url}` references
+  - `narrative_classification` — mapping to BRACE4PEACE narrative families (Ethnic Incitement, Victimhood/Grievance, Revenge/Retribution, Religious Distortion, Delegitimization, Misinformation/Disinformation, Existential Threat, Collective Blame, Peace/Counter-Narratives)
+  - `ve_related`, `al_shabaab_related` — boolean flags
+  - `confidence` — high / medium / low
+
+- **`items_checked`** — Full audit trail of all sources queried, with per-source relevance assessment and analytical notes
+
+See [`monitoring/findings/README.md`](../monitoring/findings/README.md) for the complete schema documentation.
+
+### Collected Intelligence Summary
+
+| Date | Alerts | Key Finding |
+|------|--------|-------------|
+| 2026-03-14 | 0 | Routine scan — no new intelligence beyond baseline |
+| 2026-03-15 | 1 (P1 CRITICAL) | South Sudan: Akobo evacuation order, SSPDF–SPLA-IO fighting, aid agencies suspended, 280K+ displaced |
+
+### Current Limitations
+
+- X/Twitter social media searches (24 queries in protocol) cannot execute in the automated environment
+- Eye Radio articles blocked by robots.txt
+- System relies on web search + direct URL fetches; real-time social media monitoring requires additional tooling
+
+---
+
 ## Missing Data
 
 - **2 pending files**: `Somalia_Comments_Escalation.csv` and `Somalia_Other.csv` (~4,067 additional rows) were not included in the current upload
