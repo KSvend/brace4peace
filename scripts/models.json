@@ -1,0 +1,58 @@
+{
+  "models": {
+    "ea_hs": {
+      "hf_name": "KSvendsen/EA-HS",
+      "description": "East Africa Hate Speech classifier (3-class: Normal, Abusive, Hate)",
+      "num_labels": 3,
+      "labels": ["Normal", "Abusive", "Hate"],
+      "pred_col": "EA_HS_pred",
+      "conf_col": "EA_HS_conf",
+      "score_cols": ["EA_HS_Normal", "EA_HS_Abusive", "EA_HS_Hate"],
+      "architecture": "BERT (bert-base-multilingual-cased fine-tuned)",
+      "source": "https://huggingface.co/KSvendsen/EA-HS"
+    },
+    "polarization": {
+      "hf_name": "datavaluepeople/Polarization-Kenya",
+      "description": "Kenya political polarization classifier (binary)",
+      "num_labels": 2,
+      "labels": ["not_polarization", "polarization"],
+      "pred_col": "Polarization_Kenya_pred",
+      "conf_col": "Polarization_Kenya_conf",
+      "score_cols": ["Polarization_Kenya_not_polarization", "Polarization_Kenya_polarization"],
+      "architecture": "BERT fine-tuned",
+      "source": "https://huggingface.co/datavaluepeople/Polarization-Kenya"
+    },
+    "afxumo": {
+      "hf_name": "datavaluepeople/Afxumo-toxicity-somaliland-SO",
+      "description": "Somali-language toxicity classifier (binary)",
+      "num_labels": 2,
+      "labels": ["not_afxumo", "afxumo"],
+      "pred_col": "Afxumo_Somali_pred",
+      "conf_col": "Afxumo_Somali_conf",
+      "score_cols": ["Afxumo_Somali_not_afxumo", "Afxumo_Somali_afxumo"],
+      "architecture": "BERT fine-tuned",
+      "source": "https://huggingface.co/datavaluepeople/Afxumo-toxicity-somaliland-SO"
+    },
+    "hatespeech_sudan": {
+      "hf_name": "datavaluepeople/Hate-Speech-Sudan-v2",
+      "description": "Sudan/South Sudan hate speech classifier (binary)",
+      "num_labels": 2,
+      "labels": ["not_hate_speech", "hate_speech"],
+      "pred_col": "HateSpeech_Sudan_pred",
+      "conf_col": "HateSpeech_Sudan_conf",
+      "score_cols": ["HateSpeech_Sudan_not_hate_speech", "HateSpeech_Sudan_hate_speech"],
+      "architecture": "BERT fine-tuned",
+      "source": "https://huggingface.co/datavaluepeople/Hate-Speech-Sudan-v2"
+    }
+  },
+  "text_columns": {
+    "primary": "post_text_pi",
+    "fallback": "comment_text_pi"
+  },
+  "inference_config": {
+    "batch_size": 64,
+    "max_length": 256,
+    "save_every_n_batches": 5,
+    "torch_threads": 2
+  }
+}

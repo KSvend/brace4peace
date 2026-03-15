@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Model cache (do not commit HF models)
+.cache/
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Status files (ephemeral)
+classify_status.json
+
+# Temp
+/tmp/
