@@ -1,0 +1,68 @@
+{
+  "run_timestamp_utc": "2026-03-16T06:00:00Z",
+  "run_timestamp_local": "2026-03-16T07:00:00+01:00",
+  "baseline_reference": "2026-02-26",
+  "new_items": [
+    {
+      "item_key": "south-sudan_jonglei_akobo_aid-withdrawal_mass-suffering_2026-03-13",
+      "priority": "P1",
+      "country": "South Sudan",
+      "threat_level": "CRITICAL",
+      "category": ["Displacement/Violence escalation"],
+      "narrative_family": ["Victimhood/Grievance", "Existential Threat"],
+      "protective": false,
+      "summary": "Radio Tamazuj reports escalating violence in Jonglei forced Save the Children to suspend operations and relocate staff from Akobo East after a military order for civilians/NGOs/UN to leave; the report cites 280,000+ displaced since December and warns of serious humanitarian implications.",
+      "why_new_vs_baseline": "Baseline noted Jonglei crisis and Akobo evacuation order; this adds specific humanitarian service suspension details (Save the Children) and amplification of operational impacts.",
+      "source": {
+        "publisher": "Radio Tamazuj",
+        "url": "https://www.radiotamazuj.org/en/news/article/mass-suffering-after-violence-forces-aid-agencies-to-withdraw-from-jonglei",
+        "date": "2026-03-13"
+      },
+      "notes": "Relevance: potential grievance/victimhood narratives as aid halts; monitor for ethnic targeting / incitement linked to displacement."
+    },
+    {
+      "item_key": "south-sudan_jonglei_akobo_sspdf_spla-io_battle_displacement_2026-03-10",
+      "priority": "P1",
+      "country": "South Sudan",
+      "threat_level": "CRITICAL",
+      "category": ["Armed clashes", "Displacement"],
+      "narrative_family": ["Existential Threat", "Victimhood/Grievance"],
+      "protective": false,
+      "summary": "Radio Tamazuj reports clashes in Akobo town between SSPDF and SPLA-IO, civilians fleeing toward Ethiopia after an ultimatum, and UNMISS presence despite a withdrawal order.",
+      "why_new_vs_baseline": "Baseline included evacuation order; this adds subsequent reported clashes and cross-border flight dynamics.",
+      "source": {
+        "publisher": "Radio Tamazuj",
+        "url": "https://www.radiotamazuj.org/en/news/article/sspdf-spla-io-battle-for-control-of-akobo",
+        "date": "2026-03-10"
+      },
+      "notes": "Monitor for retaliatory rhetoric and ethnic framing tied to Akobo fighting and displacement."
+    },
+    {
+      "item_key": "south-sudan_jonglei_pigi_displaced_households_32418_2026-03-11",
+      "priority": "P2",
+      "country": "South Sudan",
+      "threat_level": "HIGH",
+      "category": ["Displacement", "Humanitarian needs"],
+      "narrative_family": ["Victimhood/Grievance"],
+      "protective": false,
+      "summary": "Radio Tamazuj reports Pigi County received 5,403 households (~32,418 people) displaced from Nyirol and Uror, with reported severe shortages of shelter, food, clothing, and health services.",
+      "why_new_vs_baseline": "Baseline displacement figure was broader; this adds a localized displacement count and humanitarian needs framing.",
+      "source": {
+        "publisher": "Radio Tamazuj",
+        "url": "https://www.radiotamazuj.org/en/news/article/displaced-families-in-pigi-struggle-for-food-shelter",
+        "date": "2026-03-11"
+      },
+      "notes": "Potential grievance narratives; monitor if communities blame specific groups/forces."
+    }
+  ],
+  "no_signal": {
+    "twitter_x": "X/Twitter monitoring via search_social was not executed in this run because the connector/tool was not available in the current toolset.",
+    "web_sources": [
+      "Somalia: no clear past-day Garowe Online Al-Shabaab items found beyond older Jan-Feb items in search results.",
+      "Kenya: no past-day Capital FM/NCIC hate-speech items surfaced in searches; top results were Feb 2026."
+    ],
+    "direct_fetch_limitations": [
+      "EyeRadio and GaroweOnline headline pages did not yield clean headline+URL lists in fetch output, likely due to dynamic rendering or blocked content extraction."
+    ]
+  }
+}
