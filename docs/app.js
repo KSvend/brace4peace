@@ -404,12 +404,36 @@
   }
 
   function updateHSFilterUI() {
+    // Recount based on filtered posts
+    const fCountry = d3.rollup(filteredHSPosts, v => v.length, d => d.c);
+    const fClass = d3.rollup(filteredHSPosts, v => v.length, d => d.pr);
+    const fPlat = d3.rollup(filteredHSPosts, v => v.length, d => d.p);
+    const fTox = {};
+    const fSub = {};
+    filteredHSPosts.forEach(p => {
+      const t = normalizeToxicity(p.tx);
+      fTox[t] = (fTox[t] || 0) + 1;
+      const st = getHSSubtopic(p);
+      if (st !== 'Unclassified') fSub[st] = (fSub[st] || 0) + 1;
+    });
+
     document.querySelectorAll('#hs-filters .filter-item').forEach(item => {
       const cat = item.dataset.category;
       const val = item.dataset.value;
       if (!cat || !val) return;
       const isActive = hsFilters[cat].size === 0 || hsFilters[cat].has(val);
       item.classList.toggle('active', isActive);
+
+      // Update count to reflect filtered data
+      const countEl = item.querySelector('.filter-count');
+      if (!countEl) return;
+      let count = 0;
+      if (cat === 'country') count = fCountry.get(val) || 0;
+      else if (cat === 'classification') count = fClass.get(val) || 0;
+      else if (cat === 'platform') count = fPlat.get(val) || 0;
+      else if (cat === 'toxicity') count = fTox[val] || 0;
+      else if (cat === 'subtype') count = fSub[val] || 0;
+      countEl.textContent = count.toLocaleString();
     });
   }
 
@@ -785,7 +809,8 @@
 
     const cx = width / 2;
     const cy = height / 2;
-    const maxRadius = Math.min(cx, cy) - 40;
+    const mobilePad = window.innerWidth <= 900 ? 95 : 40;
+    const maxRadius = Math.min(cx, cy) - mobilePad;
     const innerRadius = maxRadius * 0.12;
 
     // Defs
@@ -810,11 +835,12 @@
     svg.call(wheelZoom);
     svg.call(wheelZoom.transform, d3.zoomIdentity);
     svg.append('text')
+      .attr('class', 'zoom-hint')
       .attr('x', width - 12).attr('y', height - 12)
       .attr('text-anchor', 'end')
       .style('font-family', "'IBM Plex Mono', monospace").style('font-size', '9px')
       .style('fill', '#9E9E9E').style('opacity', 0.6)
-      .text('Scroll to zoom · Drag to pan · Double-click to reset');
+      .text(window.innerWidth <= 900 ? 'Pinch to zoom · Drag to pan' : 'Scroll to zoom · Drag to pan · Double-click to reset');
     svg.on('dblclick.zoom', function() {
       svg.transition().duration(500).call(wheelZoom.transform, d3.zoomIdentity);
     });
@@ -985,7 +1011,8 @@
 
     const cx = width / 2;
     const cy = height / 2;
-    const maxRadius = Math.min(cx, cy) - 50;
+    const hsMobilePad = window.innerWidth <= 900 ? 85 : 50;
+    const maxRadius = Math.min(cx, cy) - hsMobilePad;
     const innerRadius = maxRadius * 0.10;
 
     // Defs
@@ -1005,11 +1032,12 @@
     svg.call(hsWheelZoom);
     svg.call(hsWheelZoom.transform, d3.zoomIdentity);
     svg.append('text')
+      .attr('class', 'zoom-hint')
       .attr('x', width - 12).attr('y', height - 12)
       .attr('text-anchor', 'end')
       .style('font-family', "'IBM Plex Mono', monospace").style('font-size', '9px')
       .style('fill', '#9E9E9E').style('opacity', 0.6)
-      .text('Scroll to zoom · Drag to pan · Double-click to reset');
+      .text(window.innerWidth <= 900 ? 'Pinch to zoom · Drag to pan' : 'Scroll to zoom · Drag to pan · Double-click to reset');
     svg.on('dblclick.zoom', function() {
       svg.transition().duration(500).call(hsWheelZoom.transform, d3.zoomIdentity);
     });
@@ -1959,5 +1987,166 @@
       document.body.appendChild(t);
       setTimeout(() => t.remove(), 3000);
     }
+  })();
+
+  // ═══ MOBILE ENHANCEMENTS ═══
+  (function initMobile() {
+    const isMobile = () => window.innerWidth <= 900;
+
+    // --- Mobile Filter Drawer ---
+    const filterFab = document.getElementById('mobile-filter-fab');
+    const filterDrawer = document.getElementById('mobile-filter-drawer');
+    const filterOverlay = document.getElementById('mobile-filter-overlay');
+    const filterClose = document.getElementById('mobile-filter-close');
+    const filterBody = document.getElementById('mobile-filter-body');
+    const filterBadge = document.getElementById('mobile-filter-badge');
+    const mobileResetBtn = document.getElementById('mobile-reset-filters');
+    const mobileApplyBtn = document.getElementById('mobile-apply-filters');
+
+    function openFilterDrawer() {
+      // Clone current sidebar content into the drawer
+      const sidebar = document.getElementById('sidebar');
+      if (sidebar && filterBody) {
+        filterBody.innerHTML = '';
+        // Clone the visible filter sections (not hidden ones)
+        const disinfoFilters = document.getElementById('disinfo-filters');
+        const hsFilters = document.getElementById('hs-filters');
+        if (currentView === 'wheel' && disinfoFilters) {
+          const clone = disinfoFilters.cloneNode(true);
+          clone.classList.remove('hidden');
+          clone.id = 'mobile-disinfo-filters';
+          filterBody.appendChild(clone);
+        } else if (currentView === 'hatespeech' && hsFilters) {
+          const clone = hsFilters.cloneNode(true);
+          clone.classList.remove('hidden');
+          clone.id = 'mobile-hs-filters';
+          filterBody.appendChild(clone);
+        }
+        // Re-bind click handlers on cloned filter items
+        filterBody.querySelectorAll('.filter-item').forEach(item => {
+          item.addEventListener('click', () => {
+            // Find the matching item in the real sidebar and click it
+            const filterGroup = item.closest('.filter-group');
+            const filterIdx = Array.from(filterGroup.children).indexOf(item);
+            const origGroupId = item.closest('.filter-group')?.id?.replace('mobile-', '');
+            // Match by text content
+            const itemText = item.querySelector('span:nth-child(2)')?.textContent;
+            const realItems = sidebar.querySelectorAll('.filter-item');
+            for (const ri of realItems) {
+              const riText = ri.querySelector('span:nth-child(2)')?.textContent;
+              if (riText === itemText) {
+                ri.click();
+                // Sync the active state
+                item.classList.toggle('active', ri.classList.contains('active'));
+                break;
+              }
+            }
+            updateFilterBadge();
+          });
+        });
+      }
+
+      filterOverlay?.classList.add('active');
+      filterOverlay?.classList.remove('hidden');
+      requestAnimationFrame(() => {
+        filterDrawer?.classList.add('open');
+      });
+    }
+
+    function closeFilterDrawer() {
+      filterDrawer?.classList.remove('open');
+      setTimeout(() => {
+        filterOverlay?.classList.remove('active');
+      }, 300);
+    }
+
+    function updateFilterBadge() {
+      if (!filterBadge) return;
+      let count = 0;
+      if (currentView === 'wheel') {
+        count = filters.country.size + filters.type.size + filters.subtype.size + filters.narrative.size;
+      } else {
+        count = hsFilters.country.size + hsFilters.classification.size + hsFilters.platform.size + hsFilters.toxicity.size + hsFilters.subtype.size;
+      }
+      if (count > 0) {
+        filterBadge.textContent = count;
+        filterBadge.classList.remove('hidden');
+      } else {
+        filterBadge.classList.add('hidden');
+      }
+    }
+
+    if (filterFab) filterFab.addEventListener('click', openFilterDrawer);
+    if (filterClose) filterClose.addEventListener('click', closeFilterDrawer);
+    if (filterOverlay) filterOverlay.addEventListener('click', closeFilterDrawer);
+    if (mobileApplyBtn) mobileApplyBtn.addEventListener('click', closeFilterDrawer);
+    if (mobileResetBtn) {
+      mobileResetBtn.addEventListener('click', () => {
+        document.getElementById('btn-reset')?.click();
+        closeFilterDrawer();
+        updateFilterBadge();
+      });
+    }
+
+    // --- Mobile Submit FAB ---
+    const submitFab = document.getElementById('mobile-submit-fab');
+    if (submitFab) {
+      submitFab.addEventListener('click', () => {
+        document.getElementById('btn-submit')?.click();
+      });
+    }
+
+    // --- Detail Panel swipe-to-dismiss ---
+    const detailPanel = document.getElementById('detail-panel');
+    if (detailPanel) {
+      let startY = 0;
+      let currentY = 0;
+      let isDragging = false;
+
+      detailPanel.addEventListener('touchstart', (e) => {
+        if (!isMobile()) return;
+        if (detailPanel.scrollTop > 5) return; // Only drag from top
+        startY = e.touches[0].clientY;
+        isDragging = true;
+      }, { passive: true });
+
+      detailPanel.addEventListener('touchmove', (e) => {
+        if (!isDragging || !isMobile()) return;
+        currentY = e.touches[0].clientY;
+        const diff = currentY - startY;
+        if (diff > 0) {
+          detailPanel.style.transition = 'none';
+          detailPanel.style.transform = `translateY(${diff}px)`;
+        }
+      }, { passive: true });
+
+      detailPanel.addEventListener('touchend', () => {
+        if (!isDragging || !isMobile()) return;
+        isDragging = false;
+        detailPanel.style.transition = '';
+        const diff = currentY - startY;
+        if (diff > 80) {
+          // Dismiss
+          hideDetail();
+        } else {
+          detailPanel.style.transform = '';
+          if (detailPanel.classList.contains('open')) {
+            detailPanel.style.transform = 'translateY(0)';
+          }
+        }
+      }, { passive: true });
+    }
+
+    // Update badge whenever filters change
+    const origApplyFilters = window._origApply;
+    // Use MutationObserver on sidebar to detect filter changes
+    const sidebar = document.getElementById('sidebar');
+    if (sidebar) {
+      const observer = new MutationObserver(() => updateFilterBadge());
+      observer.observe(sidebar, { subtree: true, attributes: true, attributeFilter: ['class'] });
+    }
+
+    // Initial badge update
+    updateFilterBadge();
   })();
 })();
