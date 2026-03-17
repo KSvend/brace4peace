@@ -1,0 +1,236 @@
+<!-- Created for UNDP East Africa -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MERLx — East Africa Disinfo Monitor</title>
+  <meta name="description" content="Real-time monitoring platform for disinformation tracking in East Africa — narrative-based analysis">
+
+  <!-- Fonts: Inter (headings/UI) + DM Serif Display (drama) + IBM Plex Mono (data) — Nordic Product Studio -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <div class="logo" aria-label="MERLx">
+          <img src="MERLx_icon_light.svg" alt="MERLx" width="28" height="28" class="logo-icon">
+          <span class="logo-text">MERL<span class="logo-accent">x</span></span>
+        </div>
+        <span class="header-subtitle">East Africa Disinfo Monitor</span>
+      </div>
+      <div class="header-right">
+        <div class="stat-pill">
+          <span class="stat-label">Events</span>
+          <span class="stat-value" id="stat-total">229</span>
+        </div>
+        <div class="stat-pill stat-disinfo">
+          <span class="stat-label">Disinfo</span>
+          <span class="stat-value" id="stat-disinfo">36</span>
+        </div>
+        <div class="stat-pill stat-context-pill">
+          <span class="stat-label">Context</span>
+          <span class="stat-value" id="stat-context">193</span>
+        </div>
+        <div class="view-toggle">
+          <button class="view-btn active" data-view="wheel" id="btn-wheel">Threat Wheel</button>
+          <button class="view-btn" data-view="timeline" id="btn-timeline">Timeline</button>
+          <button class="view-btn" data-view="trends" id="btn-trends">Trends</button>
+        </div>
+        <button class="submit-btn" id="btn-submit" title="Manually submit a disinfo post">
+          <svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="10" y1="4" x2="10" y2="16"/><line x1="4" y1="10" x2="16" y2="10"/></svg>
+          Submit Post
+        </button>
+      </div>
+    </header>
+
+    <!-- Main content area -->
+    <main class="main">
+      <!-- Sidebar filters -->
+      <aside class="sidebar" id="sidebar">
+        <div class="filter-section">
+          <h3 class="filter-title">Country</h3>
+          <div class="filter-group" id="filter-country"></div>
+        </div>
+        <div class="filter-section">
+          <h3 class="filter-title">Event Type</h3>
+          <div class="filter-group" id="filter-type"></div>
+        </div>
+        <div class="filter-section">
+          <h3 class="filter-title">Disinfo Subtype</h3>
+          <div class="filter-group" id="filter-subtype"></div>
+        </div>
+        <div class="filter-section">
+          <h3 class="filter-title">Threat Level</h3>
+          <div class="filter-group" id="filter-threat"></div>
+        </div>
+        <div class="filter-section">
+          <h3 class="filter-title">Narrative</h3>
+          <div class="filter-group filter-narratives" id="filter-narrative"></div>
+        </div>
+        <button class="reset-btn" id="btn-reset">Reset All Filters</button>
+      </aside>
+
+      <!-- Visualization area -->
+      <div class="viz-container">
+        <!-- Wheel view -->
+        <div class="viz-panel" id="panel-wheel">
+          <svg id="wheel-svg"></svg>
+        </div>
+        <!-- Timeline view -->
+        <div class="viz-panel hidden" id="panel-timeline">
+          <svg id="timeline-svg"></svg>
+        </div>
+        <!-- Narrative Trends view -->
+        <div class="viz-panel hidden" id="panel-trends">
+          <!-- Rendered dynamically by app.js -->
+        </div>
+
+        <!-- Playback controls -->
+        <div class="playback-bar" id="playback-bar">
+          <button class="pb-btn pb-step" id="btn-step-back" title="Step back one week">◀</button>
+          <button class="play-btn" id="btn-play" title="Play / Pause">
+            <span id="play-icon">▶</span>
+          </button>
+          <button class="pb-btn pb-step" id="btn-step-fwd" title="Step forward one week">▶</button>
+          <button class="speed-btn" id="btn-speed" title="Playback speed">1×</button>
+          <div class="playback-track" id="playback-track">
+            <div class="playback-progress" id="playback-progress"></div>
+            <div class="playback-handle" id="playback-handle"></div>
+          </div>
+          <span class="playback-stats" id="playback-stats"></span>
+          <span class="playback-date" id="playback-date"></span>
+          <button class="pb-btn pb-reset" id="btn-pb-reset" title="Reset playback">✕</button>
+        </div>
+
+        <!-- Timeline scrubber -->
+        <div class="timeline-scrubber" id="timeline-scrubber">
+          <div class="scrubber-label">
+            <span id="date-range-start">Jan 2025</span>
+            <span class="scrubber-title">Time Range</span>
+            <span id="date-range-end">Mar 2026</span>
+          </div>
+          <div class="scrubber-track" id="scrubber-track">
+            <svg id="scrubber-svg"></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detail panel -->
+      <aside class="detail-panel" id="detail-panel">
+        <div class="detail-placeholder" id="detail-placeholder">
+          <svg viewBox="0 0 48 48" width="40" height="40" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.25">
+            <circle cx="24" cy="24" r="20"/>
+            <circle cx="24" cy="24" r="10"/>
+            <circle cx="24" cy="24" r="3"/>
+          </svg>
+          <p>Select an event to view details</p>
+          <p class="detail-hint">Hover over dots on the wheel or timeline. Click to pin.</p>
+        </div>
+        <div class="detail-content hidden" id="detail-content">
+          <button class="detail-close" id="detail-close">&times;</button>
+          <div class="detail-header">
+            <span class="detail-badge" id="detail-type"></span>
+            <span class="detail-badge" id="detail-subtype"></span>
+            <span class="detail-badge" id="detail-threat"></span>
+            <span class="detail-badge" id="detail-country"></span>
+          </div>
+          <h2 class="detail-headline" id="detail-headline"></h2>
+          <time class="detail-date" id="detail-date"></time>
+          <div class="detail-section">
+            <h4>Summary</h4>
+            <p id="detail-summary"></p>
+          </div>
+          <div class="detail-section" id="detail-claims-section" style="display:none">
+            <h4>Extracted False Claims</h4>
+            <div class="detail-claims" id="detail-claims"></div>
+          </div>
+          <div class="detail-section" id="detail-reach-section" style="display:none">
+            <h4>Reach &amp; Spread</h4>
+            <div class="detail-reach" id="detail-reach"></div>
+          </div>
+          <div class="detail-section" id="detail-narratives-section">
+            <h4>Disinformation Narratives</h4>
+            <div class="detail-narratives" id="detail-narratives"></div>
+          </div>
+          <div class="detail-section">
+            <h4>Actors</h4>
+            <div class="detail-tags" id="detail-actors"></div>
+          </div>
+          <div class="detail-section">
+            <h4>Platforms</h4>
+            <div class="detail-tags" id="detail-platforms"></div>
+          </div>
+          <div class="detail-section" id="detail-related-section">
+            <h4>Linked Events</h4>
+            <div class="detail-related" id="detail-related"></div>
+          </div>
+          <div class="detail-section" id="detail-sources-section">
+            <h4>Sources</h4>
+            <div class="detail-sources" id="detail-sources"></div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <span>MERLx East Africa Disinfo Monitor</span>
+      <span>Created for UNDP East Africa</span>
+    </footer>
+  </div>
+
+  <!-- Manual Submission Modal -->
+  <div class="modal-overlay hidden" id="submit-modal">
+    <div class="modal modal-compact">
+      <div class="modal-header">
+        <h2 class="modal-title">Submit Disinfo Post</h2>
+        <p class="modal-desc">Paste a link and submit. The system handles the rest.</p>
+        <button class="modal-close" id="modal-close">&times;</button>
+      </div>
+
+      <!-- URL input + submit -->
+      <div class="modal-body" id="step-url">
+        <div class="form-group" style="margin-bottom:0">
+          <label class="form-label">Link to disinformation content</label>
+          <div class="url-input-row">
+            <input type="url" class="form-input" id="submit-url" placeholder="https://x.com/... or https://facebook.com/..." autofocus>
+          </div>
+          <span class="form-hint">Direct link to a social media post, article, or webpage</span>
+        </div>
+        <details class="submit-extra-info">
+          <summary class="submit-extra-toggle">Add optional note</summary>
+          <div class="submit-extra-fields">
+            <textarea class="form-textarea" id="submit-note" rows="2" placeholder="Any additional context about why this is disinformation..."></textarea>
+          </div>
+        </details>
+      </div>
+
+      <!-- Success confirmation -->
+      <div class="modal-body hidden" id="step-success">
+        <div class="submit-success-state">
+          <div class="success-icon">&#10003;</div>
+          <p class="success-title">Submitted for review</p>
+          <p class="success-sub">The link has been queued. The system will analyze it and add it to the timeline if relevant.</p>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-cancel" id="btn-cancel-submit">Cancel</button>
+        <button class="btn-submit-event" id="btn-submit-event">
+          <svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="10" y1="4" x2="10" y2="16"/><line x1="4" y1="10" x2="16" y2="10"/></svg>
+          Submit
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,327 @@
+{
+  "NAR-SS-001": {
+    "narrative_id": "NAR-SS-001",
+    "name": "Akobo Offensive = Ethnic Genocide Against Nuer",
+    "short_name": "Genocide Framing",
+    "description": "Claim that the SSPDF military offensive in Akobo/Jonglei is an ethnically-targeted genocide against Nuer civilians, not a counter-insurgency operation. Uses displacement testimonies, satellite imagery, and casualty reports to frame the government as conducting ethnic cleansing.",
+    "example_claims": [
+      "The government is conducting ethnic genocide against Nuer people in Jonglei",
+      "SSPDF deliberately targets Nuer civilians, not rebels",
+      "International community must act to stop Nuer genocide"
+    ],
+    "competing_narratives": [
+      "NAR-SS-002"
+    ],
+    "country": "South Sudan",
+    "status": "active",
+    "disinfo_subtype": "propaganda",
+    "color": "#CA5D0F"
+  },
+  "NAR-SS-002": {
+    "narrative_id": "NAR-SS-002",
+    "name": "Akobo Offensive = Legitimate Counter-Terrorism",
+    "short_name": "Counter-Terror Framing",
+    "description": "Government claim that the Akobo offensive is legitimate counter-terrorism against armed rebellion. Frames SPLA-IO as terrorists and insurgents, not a legitimate political opposition. 'Crush the rebellion in 7 days' rhetoric.",
+    "example_claims": [
+      "SPLA-IO are terrorists, not freedom fighters",
+      "Military operations in Jonglei target only armed rebels",
+      "The rebellion will be crushed within days"
+    ],
+    "competing_narratives": [
+      "NAR-SS-001"
+    ],
+    "country": "South Sudan",
+    "status": "active",
+    "disinfo_subtype": "propaganda",
+    "color": "#CA5D0F"
+  },
+  "NAR-SS-003": {
+    "narrative_id": "NAR-SS-003",
+    "name": "Machar = Traitor / Political Prisoner",
+    "short_name": "Machar Trial Narratives",
+    "description": "Competing false framings around Riek Machar: (a) Government media portrays him as a traitor who betrayed the peace process and deserves prosecution; (b) Opposition claims he is a political prisoner targeted for ethnic reasons. Both sides distort facts to polarize.",
+    "example_claims": [
+      "Machar personally ordered attacks on civilians (government claim)",
+      "Machar is being held without due process as political retaliation (opposition claim)",
+      "The trial is a sham designed to eliminate Nuer political power"
+    ],
+    "competing_narratives": [],
+    "country": "South Sudan",
+    "status": "active",
+    "disinfo_subtype": "biased_reporting",
+    "color": "#CA5D0F"
+  },
+  "NAR-SS-004": {
+    "narrative_id": "NAR-SS-004",
+    "name": "Dinka vs Nuer: Ethnic Blame Attribution",
+    "short_name": "Ethnic Blame",
+    "description": "Claims that one ethnic group (Dinka or Nuer) bears collective blame for violence, or that the government selectively protects Dinka while ignoring Nuer suffering. Includes 'ethnic favoritism' accusations and ethnic comparison rhetoric used to mobilize communities.",
+    "example_claims": [
+      "Government shows ethnic favoritism toward Dinka in condemning attacks",
+      "All Nuer are rebel sympathizers",
+      "Dinka dominate government to oppress other groups",
+      "Mass grave images prove deliberate ethnic targeting"
+    ],
+    "competing_narratives": [],
+    "country": "South Sudan",
+    "status": "active",
+    "disinfo_subtype": "incitement",
+    "color": "#CA5D0F"
+  },
+  "NAR-SS-005": {
+    "narrative_id": "NAR-SS-005",
+    "name": "Olony = Nuer Defender / Genocide Commander",
+    "short_name": "Olony Competing Claims",
+    "description": "Competing disinformation about General Johnson Olony: (a) Pro-Olony propaganda portrays him as defender of Nuer people against government aggression; (b) Anti-Olony content frames him as a war criminal who ordered genocide ('spare no lives, not even a chicken').",
+    "example_claims": [
+      "Olony defends Nuer people against ethnic cleansing (false glorification)",
+      "Olony ordered: 'spare no lives, not even a chicken' (authenticated genocidal incitement)",
+      "Olony's appointment proves government plans ethnic war"
+    ],
+    "competing_narratives": [],
+    "country": "South Sudan",
+    "status": "active",
+    "disinfo_subtype": "propaganda",
+    "color": "#CA5D0F"
+  },
+  "NAR-SO-001": {
+    "narrative_id": "NAR-SO-001",
+    "name": "Al-Shabaab Victory Claims & Casualty Fabrication",
+    "short_name": "AS False Victories",
+    "description": "Al-Shabaab's systematic inflation of casualty numbers, fabrication of military victories, and staged combat footage. Shahada News and Al-Kataib consistently claim 2-5x actual casualties. Includes anti-recruitment messaging ('do not serve the apostate government').",
+    "example_claims": [
+      "150+ government soldiers killed in Operation Ramadan (actual ~60)",
+      "100 soldiers killed at Damaanyo (actual ~20) — 5x inflation",
+      "Government casualties at Bariire were fabricated",
+      "Youth who join government forces will be killed"
+    ],
+    "competing_narratives": [],
+    "country": "Somalia",
+    "status": "active",
+    "disinfo_subtype": "propaganda",
+    "color": "#1A3A34"
+  },
+  "NAR-SO-002": {
+    "narrative_id": "NAR-SO-002",
+    "name": "Somaliland Recognition = Foreign Plot to Partition Somalia",
+    "short_name": "Anti-Somaliland Disinfo",
+    "description": "Multi-actor disinformation claiming Somaliland recognition is a Western/Israeli conspiracy to partition Somalia. Includes fabricated diplomatic claims, fake accounts posing as officials, and AI-generated paid articles.",
+    "example_claims": [
+      "US, UK, Israel, UAE and 17-19 others finalizing Somaliland recognition (FALSE — fake congressman account)",
+      "Israeli troops are stationed in Awdal region (FALSE)",
+      "Secret partition plots to divide Somalia exist",
+      "Israeli recognition is part of Palestinian forced relocation deal (FALSE)"
+    ],
+    "competing_narratives": [],
+    "country": "Somalia",
+    "status": "active",
+    "disinfo_subtype": "misinformation",
+    "color": "#1A3A34"
+  },
+  "NAR-SO-003": {
+    "narrative_id": "NAR-SO-003",
+    "name": "Western Military = Crusader Aggression on Muslim Lands",
+    "short_name": "Crusader Aggression",
+    "description": "ISIS-Somalia and al-Shabaab framing Western/AFRICOM military operations as 'crusader aggression against Muslim lands.' Used to recruit, radicalize, and frame the Somali government as an 'apostate puppet' of foreign invaders.",
+    "example_claims": [
+      "US airstrikes are crusader aggression on Muslim lands",
+      "Ethiopia is part of a crusader coalition invading Somalia",
+      "Somali government leaders are puppets under Trump's control",
+      "Fighting in Somalia is defensive jihad against foreign occupation"
+    ],
+    "competing_narratives": [],
+    "country": "Somalia",
+    "status": "active",
+    "disinfo_subtype": "propaganda",
+    "color": "#1A3A34"
+  },
+  "NAR-SO-004": {
+    "narrative_id": "NAR-SO-004",
+    "name": "Somalia = New Caliphate; Government Victories Are Fabricated",
+    "short_name": "ISIS Caliphate Claims",
+    "description": "ISIS central media promoting Somalia as the new frontier for caliphate building. Includes counter-narratives claiming government military victories are fabricated (e.g., Shirwac surrender was 'coerced' and staged).",
+    "example_claims": [
+      "Somalia is the new frontier for caliphate building",
+      "Shirwac surrender was fabricated/coerced to demoralize supporters (FALSE)",
+      "ISS killed 300 Puntland troops in two months (unverified, likely exaggerated)",
+      "ISS victories prove viability of East African caliphate"
+    ],
+    "competing_narratives": [],
+    "country": "Somalia",
+    "status": "active",
+    "disinfo_subtype": "propaganda",
+    "color": "#1A3A34"
+  },
+  "NAR-SO-005": {
+    "narrative_id": "NAR-SO-005",
+    "name": "Fabricated Audio/Claims to Inflame Clan Tensions",
+    "short_name": "Clan Tension Fabrication",
+    "description": "Fabricated audio, video, and text claims designed to inflame clan tensions in Somali politics. Documented examples include: (1) AI-generated deepfake of Senator Faroole 'calling for violence in Mogadishu' — reached 2 million Facebook views in 48 hours, shared by 86+ pages including blue-verified state media accounts, and repeated by the Minister of Defence in campaign speeches (Dec 2025); (2) Germany-based 'war influencers' Kabtan Ayub and Yacqwub Siyaad with combined 700K+ followers inciting Puntland-Somaliland clan violence, giving tactical combat advice, and fundraising for weapons via TikTok (DW/ARD investigation Jul 2025); (3) Exaggerated or fabricated clan attack reports spread on WhatsApp and Facebook to trigger retaliation cycles.",
+    "example_claims": [
+      "Senator Faroole called for 'violence to happen in Mogadishu' (FALSE — AI deepfake audio, 2M Facebook views, 86+ pages shared it, Dec 2025. Source: SJS investigation)",
+      "'Shoot any person on the highway' / 'shoot them on the forehead' — Kabtan Ayub (Germany-based, 100K+ TikTok/Facebook followers) inciting Puntland-Somaliland clan violence. Source: DW/ARD investigation Jul 2025",
+      "'Kill them day and night, cut off their heads' / 'dance on their corpses' — Yacqwub Siyaad (Germany-based, 500K+ Facebook, 230K TikTok) inciting clan warfare. Source: DW/ARD investigation Jul 2025",
+      "Fabricated attack reports used by diaspora 'war influencers' to trigger retaliation cycles between Puntland/SSC-Khaatumo clans. Weapons fundraising via TikTok. Source: DW/ARD + South West State govt warning Oct 2025",
+      "Government-backed elder and Minister of Defence repeated deepfake Faroole claims during election campaign speeches, amplifying fabricated incitement. Source: SJS Dec 2025"
+    ],
+    "competing_narratives": [],
+    "country": "Somalia",
+    "status": "active",
+    "disinfo_subtype": "deepfake",
+    "color": "#1A3A34"
+  },
+  "NAR-SO-007": {
+    "narrative_id": "NAR-SO-007",
+    "name": "Al-Shabaab = Legitimate Governors; Government Has Collapsed",
+    "short_name": "AS Governance Claims",
+    "description": "Al-Shabaab propaganda depicting themselves as legitimate, competent governors who engage with and protect civilians — while claiming the federal government has collapsed and cannot provide security. Moqokori images of militants 'welcomed by villagers' are the paradigm example.",
+    "example_claims": [
+      "Al-Shabaab governs better than the federal government",
+      "Villagers welcome al-Shabaab as liberators in Moqokori",
+      "Government cannot even control roads near Mogadishu",
+      "Civilian casualties from airstrikes prove government is the real danger"
+    ],
+    "competing_narratives": [],
+    "country": "Somalia",
+    "status": "active",
+    "disinfo_subtype": "propaganda",
+    "color": "#1A3A34"
+  },
+  "NAR-KE-002": {
+    "narrative_id": "NAR-KE-002",
+    "name": "Somalis in Kenya = Criminals, Fraudsters, Terrorists",
+    "short_name": "Anti-Somali Claims",
+    "description": "Political rhetoric and online campaigns falsely linking Kenya's Somali community to crime, fraud, and terrorism. Includes Gachagua's false claim about Minnesota fraud money building Eastleigh mall, and troll campaigns labeling Somali journalists as 'terrorists'.",
+    "example_claims": [
+      "Somalis in Eastleigh laundered Minnesota fraud money to build BBS Mall (FALSE — mall built 2018, fraud alleged 2022-25)",
+      "Journalist Hanifa Adan is a 'foreigner' and 'Somali terrorist'",
+      "Somali community is responsible for crime and terror in Nairobi"
+    ],
+    "competing_narratives": [],
+    "country": "Kenya",
+    "status": "active",
+    "disinfo_subtype": "incitement",
+    "color": "#6B5CA8"
+  },
+  "NAR-KE-003a": {
+    "narrative_id": "NAR-KE-003a",
+    "name": "Protesters = Foreign-Backed Agents Destabilizing Kenya",
+    "short_name": "Anti-Protest Disinfo",
+    "description": "State-coordinated disinformation claiming Gen Z protesters and civil society activists are foreign-funded agents seeking to destabilize Kenya. Spread via paid troll networks (~20 operatives at KES 25-50K/day) using coordinated hashtags.",
+    "example_claims": [
+      "Activists are 'Dogs of War' — foreign-funded agents destabilizing Kenya (#DogsOfWar, 731K views)",
+      "Protesters are driven by LGBTI interests undermining Kenyan 'family values'",
+      "Amnesty International funded protest logistics to facilitate unrest",
+      "Civil society activists deported from Tanzania were Soros-funded operatives",
+      "Gen Z protest organizers 'abducted themselves' (targeting disappearance survivors)"
+    ],
+    "competing_narratives": [],
+    "country": "Kenya",
+    "status": "active",
+    "disinfo_subtype": "coordinated_campaign",
+    "color": "#6B5CA8"
+  },
+  "NAR-KE-003b": {
+    "narrative_id": "NAR-KE-003b",
+    "name": "Government Critics Are Immoral/Criminal",
+    "short_name": "Smear Campaigns",
+    "description": "Targeted character assassination of government critics using AI-generated content, Islamophobic imagery, and fabricated accusations. Women activists targeted with AI pornographic deepfakes. Journalists smeared as terrorists.",
+    "example_claims": [
+      "Women protest organizers depicted in AI-generated pornographic content",
+      "Hanifa Adan is an Islamist threat (Islamophobic snake imagery)",
+      "Activist Rose Njeri was trained in Russian-linked cyber operations in Estonia (FALSE)",
+      "Activists like Boniface Mwangi had been re-abducted (FALSE rumor)"
+    ],
+    "competing_narratives": [],
+    "country": "Kenya",
+    "status": "active",
+    "disinfo_subtype": "coordinated_campaign",
+    "color": "#6B5CA8"
+  },
+  "NAR-KE-004": {
+    "narrative_id": "NAR-KE-004",
+    "name": "Kikuyu = Political Oppressors / Must Lead (ethnic claims)",
+    "short_name": "Ethnic Power Claims",
+    "description": "Competing ethnic claims: (a) Anti-Kikuyu campaigns claim 43 tribes are pitted against Kikuyu political capture (#43against1); (b) Pro-Kikuyu claims assert Kikuyu must lead Nairobi because of business dominance (Gachagua). Both polarize along ethnic lines.",
+    "example_claims": [
+      "#43against1: 43 tribes must unite against Kikuyu political capture",
+      "Gachagua: 'Kikuyus must lead Nairobi — the rest are just visitors'",
+      "Kikuyu privilege requires collective opposition",
+      "#SmallVotesBigDamage: minority blocs can defeat 'GEMA ghost bloc'"
+    ],
+    "competing_narratives": [],
+    "country": "Kenya",
+    "status": "active",
+    "disinfo_subtype": "incitement",
+    "color": "#6B5CA8"
+  },
+  "NAR-FP-001": {
+    "narrative_id": "NAR-FP-001",
+    "name": "Western Media = Misinformation; Russia Offers Truth to Africa",
+    "short_name": "Russian Media Claims",
+    "description": "Russian state media's core claim: Western coverage of Africa is biased and false, while Russian media provides the authentic, unfiltered African perspective. TASS director framed Western media as 'third-party misinformation.' Embedded via Sputnik (Amharic, Swahili, radio), RT, TASS bureaus across Africa.",
+    "example_claims": [
+      "TASS: 'Direct media cooperation prevents misinformation from third-party sources' (i.e., Western media = misinformation)",
+      "Sputnik offers 'accurate, in-depth coverage and a fresh perspective' vs Western bias",
+      "Russia-Africa partnership is based on mutual respect, unlike Western neo-colonialism"
+    ],
+    "competing_narratives": [],
+    "country": "Regional",
+    "status": "active",
+    "disinfo_subtype": "foreign_propaganda",
+    "color": "#4A3F6B"
+  },
+  "NAR-FP-002": {
+    "narrative_id": "NAR-FP-002",
+    "name": "Chinese Development = Win-Win; Western Aid = Neo-Colonialism",
+    "short_name": "CCP Africa Narratives",
+    "description": "CCP narrative embedded via CGTN (4.5M Facebook followers), Xinhua (37 African bureaus), China Daily: Chinese development in Africa is mutually beneficial 'win-win' partnership, while Western engagement is exploitative neo-colonialism.",
+    "example_claims": [
+      "China-Africa cooperation is 'win-win' with no political conditions",
+      "Western aid comes with strings attached / is neo-colonial interference",
+      "Western criticism of Chinese projects is driven by jealousy, not concern"
+    ],
+    "competing_narratives": [],
+    "country": "Regional",
+    "status": "active",
+    "disinfo_subtype": "foreign_propaganda",
+    "color": "#4A3F6B"
+  },
+  "NAR-SO-006": {
+    "narrative_id": "NAR-SO-006",
+    "name": "Gaza/Palestine = Jihadist Solidarity; Al-Shabaab Defends the Ummah",
+    "short_name": "Gaza Jihadist Narrative",
+    "description": "Al-Shabaab and AQAP propaganda instrumentalizing the Gaza conflict and Palestinian suffering for recruitment and legitimacy. Shahada News Agency systematically uses pro-Palestinian content since October 2023 to expand al-Shabaab's appeal beyond Somalia to a global jihadist audience. Claims al-Qaeda affiliates are the 'true defenders' of Palestinians, linking East Africa jihad to the Palestinian cause.",
+    "example_claims": [
+      "AQAP sends humanitarian aid to Gaza (framing AQ as the real defenders of Palestinians)",
+      "Fighting in Somalia is part of a global jihad defending Muslim lands including Palestine",
+      "Western-backed governments ignore Palestinian suffering; only jihadists act",
+      "Supporting al-Shabaab supports the Palestinian cause"
+    ],
+    "competing_narratives": [
+      "NAR-SO-003"
+    ],
+    "country": "Somalia",
+    "status": "active",
+    "disinfo_subtype": "propaganda",
+    "color": "#1A3A34"
+  },
+  "NAR-SO-009": {
+    "narrative_id": "NAR-SO-009",
+    "name": "False Clan Vote Rigging and Electoral Fraud Claims",
+    "short_name": "Election Fraud Claims",
+    "description": "False or fabricated claims that Somali elections are rigged along clan lines. During the December 2025 Banadir local council elections (first direct elections in Mogadishu since 1969), NUSOJ documented that misinformation/disinformation was 'moderate to high' before election day and surged sharply afterward. Opposition politicians used clan identity to undermine the electoral process. Fabricated or manipulated content was generated by multiple actors including government-aligned communicators, opposition politicians, and diaspora accounts outside Somalia. State media showed bias toward the ruling JSP party. The SSC-Khaatumo/Somaliland tensions also produced clan-framed electoral disinformation around recognition and representation claims.",
+    "example_claims": [
+      "Opposition used clan identity to undermine Banadir electoral process and increase political tension, sharing clan-framed stories without proof. Source: NUSOJ Election Report Jan 2026",
+      "Post-election disinformation surged sharply after Dec 25 Banadir polls, with 'externally managed accounts' amplifying misleading narratives about results. Source: NUSOJ Election Report Jan 2026",
+      "Fabricated or manipulated content observed throughout election period, contributing to confusion and deepening social divisions. Source: NUSOJ Election Report Jan 2026",
+      "State media prioritised JSP (ruling party) messaging while opposition boycott narrative was framed as delegitimization by private/online outlets. Source: NUSOJ Election Report Jan 2026",
+      "SSC-Khaatumo supporters spread claims of 'oppression' and 'disregard for nomadic communities' while Somaliland supporters invoked fears of 'extremism' and 'infiltration' during Somaliland elections. Source: Build Up Social Media Report 2025"
+    ],
+    "competing_narratives": [],
+    "country": "Somalia",
+    "status": "active",
+    "disinfo_subtype": "misinformation",
+    "color": "#1A3A34"
+  }
+}
