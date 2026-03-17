@@ -746,6 +746,42 @@
       stSection.style.display = 'none';
     }
 
+    // LLM Explanation
+    const expSection = document.getElementById('hs-detail-explanation-section');
+    const expDiv = document.getElementById('hs-detail-explanation');
+    if (expSection) {
+      if (post.exp && post.exp.length > 5) {
+        expSection.style.display = '';
+        expDiv.textContent = post.exp;
+      } else {
+        expSection.style.display = 'none';
+      }
+    }
+
+    // QC + Relevance badges
+    const qcSection = document.getElementById('hs-detail-qc-section');
+    if (qcSection) {
+      const hasQC = post.qc && post.qc !== 'unknown';
+      const hasRel = post.rel && post.rel !== 'unknown';
+      if (hasQC || hasRel) {
+        qcSection.style.display = '';
+        let badges = '';
+        if (hasQC) {
+          const qcColors = { correct: 'background:rgba(26,58,52,0.12);color:#1A3A34', questionable: 'background:rgba(202,93,15,0.12);color:#CA5D0F', misclassified: 'background:rgba(184,58,42,0.12);color:#B83A2A', auto_sweep: 'background:rgba(107,92,168,0.12);color:#6B5CA8' };
+          const qcLabels = { correct: 'Verified HS', questionable: 'Questionable', misclassified: 'Likely Misclassified', auto_sweep: 'Auto-detected' };
+          badges += `<span class="detail-badge" style="${qcColors[post.qc] || ''}">${qcLabels[post.qc] || post.qc}</span> `;
+        }
+        if (hasRel) {
+          const relColors = { relevant: 'background:rgba(26,58,52,0.12);color:#1A3A34', possibly_relevant: 'background:rgba(202,93,15,0.12);color:#CA5D0F', not_relevant: 'background:rgba(158,158,158,0.15);color:#757575' };
+          const relLabels = { relevant: 'Relevant', possibly_relevant: 'Possibly Relevant', not_relevant: 'Not Relevant' };
+          badges += `<span class="detail-badge" style="${relColors[post.rel] || ''}">${relLabels[post.rel] || post.rel}</span>`;
+        }
+        document.getElementById('hs-detail-qc').innerHTML = badges;
+      } else {
+        qcSection.style.display = 'none';
+      }
+    }
+
     // Model agreement
     const modelSection = document.getElementById('hs-detail-model-section');
     const modelP = document.getElementById('hs-detail-model');
