@@ -1,0 +1,511 @@
+{
+  "_meta": {
+    "description": "Disinfo-only Apify keyword strategy v2.0. Tracks FALSE CLAIMS, FABRICATED CONTENT, and PROPAGANDA OUTLET OUTPUT \u2014 not hate speech. HS tracking belongs in the separate 80K post database.",
+    "version": "2.0",
+    "created": "2026-03-16",
+    "methodology": "Every keyword targets one of three disinfo categories: (1) SPECIFIC FALSE CLAIMS that can be fact-checked, (2) NAMED PROPAGANDA OUTLETS whose output is definitionally disinfo, (3) COORDINATED INAUTHENTIC BEHAVIOR indicators (troll networks pushing fabricated narratives). Hate speech terms are excluded \u2014 they track dehumanizing language, not false information.",
+    "disinfo_vs_hs_boundary": "If a post says 'kill the Dinka' = hate speech (excluded). If a post says '500 Dinka civilians were rescued by Olony's forces' (false) = disinformation (included). The test: does the post make a FACTUAL CLAIM that is demonstrably false or fabricated?",
+    "budget": {
+      "apify_plan": "Starter ($29/mo)",
+      "actor_budget": "$20/mo",
+      "total_cap": "$49/mo",
+      "results_per_day_cap": 500,
+      "results_per_keyword_group_cap": 100
+    }
+  },
+  "keyword_groups": {
+    "AS_CASUALTY_FABRICATION": {
+      "narrative_ids": [
+        "NAR-SO-001"
+      ],
+      "disinfo_type": "Fabricated military statistics \u2014 al-Shabaab systematically inflates casualty numbers 2-5x",
+      "platforms": [
+        "x",
+        "facebook",
+        "telegram_via_web"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "\"Shahada News\" killed OR soldiers OR casualties",
+        "\"Al-Kataib\" video release attack claim",
+        "al-Shabaab claimed killed soldiers 2026",
+        "\"Shahada\" \"soldiers killed\" Somalia",
+        "\"Wakaalada Wararka\" dagaal"
+      ],
+      "what_we_find": "Posts claiming specific casualty numbers from AS attacks. Cross-reference against verified reports to identify inflation.",
+      "false_positive_filter": "Exclude: news articles reporting on AS claims with 'claimed' or 'alleged' framing. Keep: posts presenting the inflated numbers as fact."
+    },
+    "AS_GOVERNANCE_PROPAGANDA": {
+      "narrative_ids": [
+        "NAR-SO-007"
+      ],
+      "disinfo_type": "False framing \u2014 al-Shabaab as legitimate governors, federal government as collapsed",
+      "platforms": [
+        "x",
+        "facebook"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "\"Somalimemo\" OR \"Calamada\" government OR governance",
+        "al-Shabaab \"welcomed by\" OR \"villagers welcome\" OR \"civilians support\"",
+        "Somalia government \"cannot control\" OR \"collapsed\" OR \"failed\" al-Shabaab",
+        "\"al-Furqan\" OR \"al-Andulas\" radio Somalia broadcast"
+      ],
+      "what_we_find": "Propaganda framing AS as competent administrators. The Moqokori images of militants 'welcomed by villagers' are the template."
+    },
+    "AS_GAZA_RECRUITMENT": {
+      "narrative_ids": [
+        "NAR-SO-006",
+        "NAR-SO-003"
+      ],
+      "disinfo_type": "False framing \u2014 instrumentalizing Gaza conflict for recruitment, fabricating al-Qaeda as 'defenders of Palestine'",
+      "platforms": [
+        "x",
+        "facebook",
+        "tiktok"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "\"Shahada News\" Gaza OR Palestine OR jihad",
+        "\"Al-Kataib\" Palestine OR crusader OR ummah",
+        "al-Shabaab \"defending Palestine\" OR \"Muslim ummah\" OR \"war on Islam\"",
+        "Somalia mujahideen Palestine \"join the fight\" OR recruitment"
+      ],
+      "what_we_find": "Posts falsely framing AS/AQ as defenders of Palestinians, or drawing false parallels between Gaza and Somalia to recruit.",
+      "_fix_note": "v2.1: Removed generic Gaza queries that returned Palestine debate noise. Every query now requires AS/VE context."
+    },
+    "ISS_PROPAGANDA": {
+      "narrative_ids": [
+        "NAR-SO-004"
+      ],
+      "disinfo_type": "ISIS-Somalia fabricated victory claims, caliphate-building propaganda, false Puntland casualty numbers",
+      "platforms": [
+        "x",
+        "facebook"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "\"Manjaniq Media\"",
+        "\"Al Hijratain\" OR \"Al Hijraytain\" radio Somalia",
+        "\"Voice of Munasir\"",
+        "ISS OR \"Islamic State Somalia\" killed Puntland troops claim",
+        "\"Wilayah Somalia\" caliphate OR victory OR expansion",
+        "\"Abdul Qadir al-Mumin\"",
+        "Puntland \"puppet\" Trump OR Deni fabricated"
+      ],
+      "what_we_find": "ISS media output claiming inflated kills, fabricated territorial gains, and recruitment content framing Somalia as new caliphate frontier."
+    },
+    "SOMALI_DEEPFAKES_FABRICATION": {
+      "narrative_ids": [
+        "NAR-SO-005",
+        "NAR-SO-009"
+      ],
+      "disinfo_type": "Fabricated audio/video, deepfakes attributed to politicians, manufactured clan conflict triggers",
+      "platforms": [
+        "facebook",
+        "tiktok",
+        "x"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "Somalia deepfake audio politician OR senator OR leader",
+        "\"Faroole\" audio OR deepfake OR fabricated OR fake",
+        "Somalia fabricated audio OR video clan leader statement",
+        "Banadir election \"rigged\" OR \"fraud\" OR \"stolen\" clan manipulation",
+        "Somalia election \"fake results\" OR \"manipulated\" OR \"fabricated\"",
+        "\"externally managed accounts\" Somalia election"
+      ],
+      "what_we_find": "Manufactured audio/video falsely attributed to politicians to inflame clan tensions. The Faroole deepfake (2M Facebook views, 86+ pages) is the template.",
+      "special_note": "War influencers Kabtan Ayub and Yacqwub Siyaad mix HS with disinfo \u2014 track only their FALSE CLAIMS (fabricated battle reports, fake casualty numbers) not their incitement language."
+    },
+    "SOMALILAND_FALSE_CLAIMS": {
+      "narrative_ids": [
+        "NAR-SO-002"
+      ],
+      "disinfo_type": "Verifiably false claims about Somaliland recognition, fabricated diplomatic statements, conspiracy theories",
+      "platforms": [
+        "x",
+        "facebook"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "Somaliland recognition finalize OR recognized 2026",
+        "\"Israeli troops\" Somaliland OR Awdal OR Berbera",
+        "\"partition of Somalia\" conspiracy OR plot OR plan",
+        "Somaliland \"Palestinian relocation\" OR \"Israel deal\"",
+        "Somaliland fabricated OR forged document recognition"
+      ],
+      "what_we_find": "Posts presenting fabricated diplomatic recognition, fake official statements, or conspiracy theories about Somalia partition as fact.",
+      "_fix_note": "v2.1: Removed 'fake account OR congressman OR diplomat claim' which matched US politics noise. All queries now require Somaliland context."
+    },
+    "SS_FABRICATED_NARRATIVES": {
+      "narrative_ids": [
+        "NAR-SS-001",
+        "NAR-SS-002",
+        "NAR-SS-005"
+      ],
+      "disinfo_type": "Fabricated casualty claims, false military narratives, manufactured evidence in South Sudan conflict",
+      "platforms": [
+        "facebook",
+        "x"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "South Sudan \"mass grave\" fabricated OR fake OR manipulated images",
+        "SSPDF OR Olony \"civilians killed\" claim false OR exaggerated",
+        "\"South Sudan Eagle Media\" propaganda OR claim",
+        "South Sudan Akobo \"genocide\" government OR SSPDF claim",
+        "South Sudan \"crush rebellion\" OR \"7 days\" SPLA-IO claim",
+        "Olony \"rescued\" OR \"defended\" OR \"liberated\" Nuer claim"
+      ],
+      "what_we_find": "Posts making specific false claims about military operations \u2014 fabricated casualty numbers, staged images, or false attribution of atrocities. Both sides fabricate: government claims of quick victory ('crush in 7 days') and opposition claims of systematic genocide.",
+      "disinfo_test": "Does the post claim a specific event happened that didn't, or present manipulated evidence? If yes = disinfo. If it just says 'Nuer are suffering' without a false factual claim = context, not disinfo."
+    },
+    "SS_MACHAR_FABRICATION": {
+      "narrative_ids": [
+        "NAR-SS-003"
+      ],
+      "disinfo_type": "False claims about Machar trial \u2014 fabricated evidence, false legal claims, manufactured political narratives",
+      "platforms": [
+        "facebook",
+        "x"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "Machar trial fabricated OR false evidence \"South Sudan\"",
+        "Machar \"ordered attacks\" OR \"commanded attacks\" civilians",
+        "\"Riek Machar\" trial \"political retaliation\" OR \"sham\"",
+        "\"Nuer political power\" Machar trial eliminate OR target",
+        "\"South Sudan\" Machar \"due process\" OR \"political prisoner\""
+      ],
+      "what_we_find": "Both sides push disinfo: government fabricates evidence of Machar ordering attacks, opposition fabricates claims about the legal process.",
+      "_fix_note": "v2.1: Every query now requires 'Machar' or 'South Sudan' context. Previous queries like 'without due process' matched global politics."
+    },
+    "KE_COORDINATED_DISINFO": {
+      "narrative_ids": [
+        "NAR-KE-003a",
+        "NAR-KE-003b"
+      ],
+      "disinfo_type": "Coordinated troll campaigns pushing fabricated narratives \u2014 false accusations, AI-generated smear content",
+      "platforms": [
+        "x",
+        "facebook",
+        "tiktok"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "#DogsOfWar Kenya",
+        "#ChaosCartel Kenya",
+        "#ToxicActivists Kenya",
+        "Kenya activist \"foreign-funded\" OR \"Soros\" OR \"abducted themselves\"",
+        "Kenya activist deepfake AI-generated pornographic smear",
+        "\"Hanifa Adan\" terrorist OR spy OR foreign agent",
+        "Kenya \"527 bloggers\" OR \"paid bloggers\" trending",
+        "Kenya protesters \"LGBTI interests\" OR \"family values\" fabricated"
+      ],
+      "what_we_find": "Posts from coordinated troll networks pushing specific false narratives: that activists are foreign agents, that protesters are LGBTI-funded, that disappearance survivors 'abducted themselves'. These are FABRICATED CLAIMS, not opinions.",
+      "coordination_indicators": "Identical messages posted by multiple low-follower accounts within short time windows. Counter-hashtags launched in real-time against organic protest tags."
+    },
+    "KE_FALSE_ETHNIC_CLAIMS": {
+      "narrative_ids": [
+        "NAR-KE-002",
+        "NAR-KE-004"
+      ],
+      "disinfo_type": "Specific false claims used for ethnic scapegoating \u2014 fabricated statistics, false attributions",
+      "platforms": [
+        "x",
+        "facebook"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "\"Minnesota fraud\" Eastleigh OR \"BBS Mall\" Kenya",
+        "Gachagua Somali fraud OR laundering claim",
+        "Kenya Somali \"terrorism\" false claim OR scapegoat",
+        "#43against1 Kenya",
+        "\"Kikuyus must lead\" Nairobi Gachagua",
+        "Kenya election 2027 ethnic mobilization false claim fabricated"
+      ],
+      "what_we_find": "Specific verifiably false claims: 'Minnesota fraud money built Eastleigh mall' (timeline impossible \u2014 mall built 2018, fraud alleged 2022-25). Not tracking ethnic slurs \u2014 tracking the FALSE FACTUAL CLAIMS used to justify ethnic targeting."
+    },
+    "FOREIGN_DISINFO_OPERATIONS": {
+      "narrative_ids": [
+        "NAR-FP-001",
+        "NAR-FP-002"
+      ],
+      "disinfo_type": "Russian/Chinese state media false framing targeting East Africa",
+      "platforms": [
+        "x",
+        "facebook"
+      ],
+      "rotation": "daily",
+      "queries": [
+        "\"Sputnik Africa\" Somalia OR Kenya OR \"South Sudan\"",
+        "\"RT Africa\" Kenya OR Somalia neo-colonialism",
+        "CGTN Africa Kenya OR Somalia \"win-win\" OR development partnership",
+        "\"China Daily\" Africa Kenya OR Somalia OR \"South Sudan\"",
+        "\"Xinhua\" Kenya OR Somalia OR \"East Africa\" aid OR development"
+      ],
+      "what_we_find": "State media output that frames Western engagement as exploitative while presenting Russian/Chinese engagement as benevolent \u2014 a systematic false equivalence backed by state resources.",
+      "_fix_note": "v2.1: Added mandatory East Africa country names to every query. Previous queries matched global political commentary."
+    }
+  },
+  "rotation_schedule": {
+    "_description": "All groups run every day. Estimated daily cost: ~$0.25-0.50 ($7.50-15/month of the $20/month actor budget).",
+    "mode": "all_daily",
+    "day_01": [
+      "AS_CASUALTY_FABRICATION",
+      "AS_GOVERNANCE_PROPAGANDA",
+      "AS_GAZA_RECRUITMENT",
+      "ISS_PROPAGANDA",
+      "SOMALI_DEEPFAKES_FABRICATION",
+      "SOMALILAND_FALSE_CLAIMS",
+      "SS_FABRICATED_NARRATIVES",
+      "SS_MACHAR_FABRICATION",
+      "KE_COORDINATED_DISINFO",
+      "KE_FALSE_ETHNIC_CLAIMS",
+      "FOREIGN_DISINFO_OPERATIONS"
+    ]
+  },
+  "disinfo_classification_rules": {
+    "_description": "How to classify what Apify returns. Not everything matching a keyword is disinfo.",
+    "IS_DISINFO": [
+      "Post presents a specific factual claim that is demonstrably false",
+      "Post contains manipulated media (deepfake audio/video, doctored images)",
+      "Post originates from a designated propaganda outlet (Shahada, Al-Kataib, Manjaniq, etc.)",
+      "Post is part of a documented coordinated inauthentic campaign (identical messages, troll network)",
+      "Post fabricates casualty numbers, military events, or diplomatic statements"
+    ],
+    "NOT_DISINFO": [
+      "Post contains hate speech but no false factual claim \u2192 route to HS database",
+      "Post expresses a political opinion without fabricated evidence",
+      "Post is a news article REPORTING on disinfo (Method A finding, not Method B)",
+      "Post is counter-speech or fact-checking",
+      "Post contains ethnic slurs without an attached false narrative"
+    ],
+    "BORDERLINE": [
+      "Post mixes HS language with a false claim \u2192 classify as disinfo, tag HS overlap",
+      "Post uses misleading framing but no provably false fact \u2192 classify LOW confidence",
+      "Post repeats a false claim but attributes it ('they say X') \u2192 classify as amplification"
+    ]
+  },
+  "budget_math": {
+    "daily_runs": 2,
+    "queries_per_run": "5-8",
+    "results_per_query": "50-100",
+    "daily_results_total": "~300-500",
+    "monthly_results_total": "~9K-15K",
+    "x_twitter_cost": "$0.25/1K tweets \u00d7 ~5K/mo = ~$1.25",
+    "facebook_cost": "$2.00/1K posts \u00d7 ~7K/mo = ~$14",
+    "tiktok_cost": "$1.70/1K results \u00d7 ~2K/mo = ~$3.40",
+    "monthly_actor_total": "~$19",
+    "monthly_total_with_plan": "$29 + $19 = ~$48"
+  },
+  "autolearning": {
+    "_description": "The keyword list is a living system. New false claims discovered by the monitoring cron feed back into Apify keyword groups automatically. This creates a reinforcing loop: cron finds reports about disinfo (Method A) \u2192 extracts the specific false claims \u2192 adds claim-language to Apify queries \u2192 Apify finds actual posts making those claims (Method B) \u2192 those posts reveal new actors/platforms \u2192 actors added to watchlist \u2192 watchlist monitoring finds new claims \u2192 cycle repeats.",
+    "feedback_loop": {
+      "step_1_discovery": "Monitoring cron (Method A or B) identifies a NEW false claim not yet in any keyword group",
+      "step_2_extraction": "Extract the EXACT CLAIM LANGUAGE \u2014 the words used in the post, not an analyst description. Example: the claim is 'Shirwac surrender was staged by Puntland intelligence' \u2014 not 'ISS disputes government military claims'",
+      "step_3_classification": "Classify the claim into: (a) existing narrative_id if it fits, (b) new narrative proposal if it doesn't",
+      "step_4_keyword_generation": "Generate 2-4 search queries from the claim language, including: exact phrase match, key entity + claim verb, local-language equivalent if applicable",
+      "step_5_insertion": "Add to learned_keywords with metadata. The next Apify rotation picks it up automatically.",
+      "step_6_tracking": "After 3 rotation cycles, check if the new keyword produced any hits. If 0 hits after 3 cycles \u2192 demote to monthly. If hits \u2192 promote to the parent keyword group's rotation frequency."
+    },
+    "learned_keywords": {
+      "_description": "Keywords added by the autolearning loop. Each entry tracks when it was learned, from what source, and its performance. The cron APPENDS here; it never modifies the static keyword_groups above.",
+      "_schema": {
+        "claim_text": "The false claim in the language it was found",
+        "search_queries": [
+          "generated Apify queries"
+        ],
+        "narrative_id": "NAR-XX-NNN or 'NEW'",
+        "source_run_id": "which cron run discovered this",
+        "date_added": "ISO date",
+        "keyword_group": "which group it maps to",
+        "language": "en/so/ar/sw",
+        "performance": {
+          "rotations_run": 0,
+          "hits": 0,
+          "last_hit": null,
+          "status": "active|demoted|promoted"
+        }
+      },
+      "entries": [
+        {
+          "claim_text": "@NjiruAdv #RejectTribalWamunyoro\n#ResistKikuyuColonialism \n#43against1 Wakikuyu wanafikiri Kenya ni yao",
+          "search_queries": [
+            "#resistkikuyucolonialism",
+            "#rejecttribalwamunyoro"
+          ],
+          "narrative_id": "NAR-KE-002",
+          "source_run_id": "apify_classify_2026-03-16",
+          "date_added": "2026-03-16",
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "language": "en",
+          "performance": {
+            "rotations_run": 0,
+            "hits": 0,
+            "last_hit": null,
+            "status": "active"
+          }
+        },
+        {
+          "claim_text": "I agree, BBC should be banned in Kenya for fanning https://t.co/NmXk1Sg2Vn no longer serves the purpose of objective https://t.co/GeE5Q1Eqr1 is a propaganda tool out to drive foreign interests agenda ",
+          "search_queries": [
+            "#banbbc",
+            "#bbcpaidpropaganda"
+          ],
+          "narrative_id": "NAR-KE-003a",
+          "source_run_id": "apify_classify_2026-03-17",
+          "date_added": "2026-03-17",
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "language": "en",
+          "performance": {
+            "rotations_run": 0,
+            "hits": 0,
+            "last_hit": null,
+            "status": "active"
+          }
+        },
+        {
+          "claim_text": "@AlinurMohamed_ Kenya will not be a playground for BBC. The #BloodParliament documentary is a cheap hit job. BBC doesn't care bout Kenya, they care about clicks and chaos! #BBCForChaos #ToxicActivists",
+          "search_queries": [
+            "#bbcafricaeye"
+          ],
+          "narrative_id": "NAR-KE-003a",
+          "source_run_id": "apify_classify_2026-03-17",
+          "date_added": "2026-03-17",
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "language": "en",
+          "performance": {
+            "rotations_run": 0,
+            "hits": 0,
+            "last_hit": null,
+            "status": "active"
+          }
+        },
+        {
+          "claim_text": "BREAKING: four #SNA soldiers killed in an #AlShabaab ambush attack Near Halgan town in Hiiraan region. Shahada Agency\n#Somalia https://t.co/IN35BdFXun",
+          "search_queries": [
+            "\"attack Near Halgan town in Hiiraan region\""
+          ],
+          "narrative_id": "NAR-SO-001",
+          "source_run_id": "apify_classify_2026-03-17",
+          "date_added": "2026-03-17",
+          "keyword_group": "AS_CASUALTY_FABRICATION",
+          "language": "en",
+          "performance": {
+            "rotations_run": 0,
+            "hits": 0,
+            "last_hit": null,
+            "status": "active"
+          }
+        },
+        {
+          "claim_text": "Breaking News\nWhat you see on the streets is not a revolution\u2014it\u2019s a transaction. Paid goons, staged slogans, and foreign-backed media selling a lie.\nKenya is the target.\n#ChaosCartel https://t.co/R4f",
+          "search_queries": [
+            "\"staged slogans and foreignbacked media selling a lie\""
+          ],
+          "narrative_id": "NAR-KE-003a",
+          "source_run_id": "apify_classify_2026-03-17",
+          "date_added": "2026-03-17",
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "language": "en",
+          "performance": {
+            "rotations_run": 0,
+            "hits": 0,
+            "last_hit": null,
+            "status": "active"
+          }
+        },
+        {
+          "claim_text": "In public, he called them brave. In private, he planned chaos. Gachagua\u2019s project isn\u2019t reform; it\u2019s ruin. What started as solidarity now reeks of sabotage.#ChaosCartel \n\nFaith Demonstrations Karatina",
+          "search_queries": [
+            "#sirininumbers"
+          ],
+          "narrative_id": "NAR-KE-003a",
+          "source_run_id": "apify_classify_2026-03-17",
+          "date_added": "2026-03-17",
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "language": "en",
+          "performance": {
+            "rotations_run": 0,
+            "hits": 0,
+            "last_hit": null,
+            "status": "active"
+          }
+        }
+      ]
+    },
+    "narrative_spread_tracking": {
+      "_description": "When Apify finds a known false claim on a NEW platform or in a NEW language, that's narrative spread. Track it here to build spread timelines.",
+      "_schema": {
+        "claim_id": "reference to the claim in learned_keywords or static keyword_groups",
+        "narrative_id": "NAR-XX-NNN",
+        "first_seen_platform": "telegram",
+        "first_seen_date": "2026-01-15",
+        "spread_events": [
+          {
+            "platform": "facebook",
+            "date": "2026-01-18",
+            "language": "so",
+            "reach_estimate": "high/medium/low",
+            "source_run_id": "2026-01-18_morning"
+          }
+        ]
+      },
+      "tracked_claims": []
+    },
+    "new_narrative_proposals": {
+      "_description": "When a discovered false claim doesn't fit any existing NAR-XX-NNN, it goes here as a proposal. Human reviews and either creates a new narrative in narratives.json or maps it to an existing one.",
+      "_schema": {
+        "proposal_id": "PROP-YYYY-MM-DD-NNN",
+        "claim_text": "the false claim",
+        "evidence": [
+          "URLs where claim was found"
+        ],
+        "proposed_name": "short name for the narrative",
+        "country": "Somalia|South Sudan|Kenya|Regional",
+        "date_proposed": "ISO date",
+        "status": "pending_review|accepted|rejected|merged_into_NAR-XX-NNN"
+      },
+      "proposals": []
+    },
+    "performance_rules": {
+      "promotion_threshold": "3+ hits in first 3 rotations \u2192 promote to parent group rotation frequency",
+      "demotion_threshold": "0 hits after 3 rotations \u2192 demote to monthly check",
+      "retirement_threshold": "0 hits after 3 monthly checks (9+ rotations total) \u2192 retire but keep in archive",
+      "false_positive_threshold": ">60% false positive rate after 3 rotations \u2192 refine query or retire",
+      "max_learned_keywords": 50,
+      "overflow_rule": "When at 50, retire lowest-performing keyword before adding new one"
+    },
+    "cron_integration": {
+      "_description": "How the monitoring cron interacts with autolearning",
+      "on_new_finding": [
+        "1. Check if the finding contains a FALSE CLAIM (not just HS or context)",
+        "2. Extract the claim in its original language",
+        "3. Check if claim matches any existing keyword in keyword_groups OR learned_keywords",
+        "4. If NO match \u2192 run the feedback loop (steps 2-5 above)",
+        "5. If match \u2192 check if it appeared on a NEW platform \u2192 log as narrative_spread_event",
+        "6. Update signal_metrics.json with the new keyword performance data"
+      ],
+      "on_apify_results": [
+        "1. For each result, classify: IS_DISINFO / NOT_DISINFO / BORDERLINE",
+        "2. IS_DISINFO results \u2192 extract any NEW false claims not yet tracked \u2192 feed back into learned_keywords",
+        "3. IS_DISINFO results \u2192 check for new actors/handles \u2192 feed into watchlist pending_discovery",
+        "4. NOT_DISINFO results \u2192 increment false_positive counter for that keyword",
+        "5. Update keyword performance metrics"
+      ],
+      "findings_file_addition": {
+        "_note": "The daily findings file (findings_YYYY-MM-DD.json) gets a new section:",
+        "apify_keyword_updates": [
+          {
+            "action": "added|spread_logged|demoted|promoted",
+            "claim_text": "...",
+            "keyword_group": "...",
+            "reason": "why this action was taken"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "_meta": {
+    "description": "Signal quality metrics for the autoresearch loop. This is the 'val_bpb' equivalent — the evaluation metric that drives keep/discard decisions on query modifications. Updated after each monitoring run.",
+    "version": "1.0",
+    "created": "2026-03-16"
+  },
+  "metric_definitions": {
+    "hs_disinfo_hit_rate": {
+      "description": "% of findings that pass the Bridge Test as HS_DISINFO or VE_PROPAGANDA (not CONTEXT)",
+      "target": ">= 0.80",
+      "direction": "higher_is_better"
+    },
+    "new_handles_discovered": {
+      "description": "Number of new accounts/channels/websites discovered per run that produce or amplify HS/disinfo",
+      "target": ">= 1 per run average",
+      "direction": "higher_is_better"
+    },
+    "country_coverage": {
+      "description": "Number of countries (out of 3: South Sudan, Kenya, Somalia) with at least one finding per run",
+      "target": ">= 2",
+      "direction": "higher_is_better"
+    },
+    "source_diversity": {
+      "description": "Number of distinct source publishers cited per run",
+      "target": ">= 4",
+      "direction": "higher_is_better"
+    },
+    "false_positive_rate": {
+      "description": "% of findings initially logged as primary that should have been CONTEXT",
+      "target": "<= 0.15",
+      "direction": "lower_is_better"
+    },
+    "query_yield": {
+      "description": "% of query categories that return at least one new finding per run",
+      "target": ">= 0.30",
+      "direction": "higher_is_better"
+    }
+  },
+  "run_history": [
+    {
+      "run_id": "baseline_estimate",
+      "date": "2026-03-16",
+      "note": "Estimated from audit of v2 cron outputs (pre-recalibration)",
+      "metrics": {
+        "hs_disinfo_hit_rate": 0.65,
+        "new_handles_discovered": 0,
+        "country_coverage": 2.1,
+        "source_diversity": 3.5,
+        "false_positive_rate": 0.35,
+        "query_yield": 0.4
+      }
+    },
+    {
+      "run_id": "2026-03-16_v34_manual",
+      "date": "2026-03-16",
+      "note": "First v3.4 run — manual execution. 13 Method A + 3 Method B findings. 6 new sources discovered including 2 research partners and 4 HS/disinfo handles.",
+      "metrics": {
+        "hs_disinfo_hit_rate": 0.81,
+        "new_handles_discovered": 6,
+        "country_coverage": 3,
+        "source_diversity": 12,
+        "false_positive_rate": 0.0,
+        "query_yield": 0.8
+      }
+    },
+    {
+      "run_id": "2026-03-16_evening",
+      "date": "2026-03-16",
+      "note": "First automated v3.4 evening cron. 8 Method A + 2 Method B findings. 2 new sources discovered (Taageere Radio Hijratayn, Faroole deepfake amplification network). All 3 countries covered.",
+      "metrics": {
+        "hs_disinfo_hit_rate": 0.8,
+        "new_handles_discovered": 2,
+        "country_coverage": 3,
+        "source_diversity": 10,
+        "false_positive_rate": 0.0,
+        "query_yield": 0.75
+      }
+    },
+    {
+      "run_id": "2026-03-17_morning",
+      "date": "2026-03-17",
+      "metrics": {
+        "hs_disinfo_hit_rate": "0.8",
+        "new_handles_discovered": 1,
+        "country_coverage": 3,
+        "source_diversity": 1,
+        "false_positive_rate": 0.0,
+        "query_yield": "1.0"
+      }
+    }
+  ],
+  "query_performance": {
+    "_description": "Track which query categories produce signal vs noise. Used by autoresearch loop to prioritize/evolve queries.",
+    "south_sudan_hs_disinfo": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "south_sudan_media_env": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "ss_genocide_framing": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "ss_ethnic_blame": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "as_casualty_inflation": {
+      "runs": 1,
+      "hits": 0,
+      "last_hit": null
+    },
+    "as_governance_claims": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "somali_clan_fabrication": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "ke_anti_protest_disinfo": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "ke_smear_campaigns": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "ke_anti_somali": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "ke_ethnic_mobilization": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "kenya_hs_disinfo": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "kenya_platforms": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "somalia_ve_propaganda": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "al_shabaab_media_analysis": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "cross_cutting": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "russian_media_claims": {
+      "runs": 1,
+      "hits": 1,
+      "last_hit": "2026-03-16"
+    },
+    "foreign_influence": {
+      "runs": 0,
+      "hits": 0,
+      "last_hit": null
+    },
+    "institutional": {
+      "runs": 0,
+      "hits": 0,
+      "last_hit": null
+    },
+    "handle_discovery": {
+      "runs": 2,
+      "hits": 2,
+      "last_hit": "2026-03-16"
+    },
+    "website_discovery": {
+      "runs": 1,
+      "hits": 0,
+      "last_hit": null
+    },
+    "network_discovery": {
+      "runs": 2,
+      "hits": 0,
+      "last_hit": null
+    },
+    "core_queries": {
+      "runs": 1,
+      "hits": 1
+    }
+  },
+  "apify_keyword_performance": {
+    "_description": "Tracks Apify keyword group performance. Updated after each Apify sweep. Drives autolearning promotion/demotion.",
+    "AS_CASUALTY_FABRICATION": {
+      "rotations": 1,
+      "hits": 11,
+      "false_positives": 37,
+      "last_hit": "2026-03-17"
+    },
+    "AS_GOVERNANCE_PROPAGANDA": {
+      "rotations": 1,
+      "hits": 3,
+      "false_positives": 10,
+      "last_hit": "2026-03-16"
+    },
+    "AS_GAZA_RECRUITMENT": {
+      "rotations": 1,
+      "hits": 0,
+      "false_positives": 54,
+      "last_hit": null
+    },
+    "ISS_PROPAGANDA": {
+      "rotations": 1,
+      "hits": 2,
+      "false_positives": 8,
+      "last_hit": "2026-03-16"
+    },
+    "SOMALI_DEEPFAKES_FABRICATION": {
+      "rotations": 1,
+      "hits": 2,
+      "false_positives": 52,
+      "last_hit": "2026-03-17"
+    },
+    "SOMALILAND_FALSE_CLAIMS": {
+      "rotations": 1,
+      "hits": 0,
+      "false_positives": 50,
+      "last_hit": null
+    },
+    "SS_FABRICATED_NARRATIVES": {
+      "rotations": 1,
+      "hits": 4,
+      "false_positives": 15,
+      "last_hit": "2026-03-16"
+    },
+    "SS_MACHAR_FABRICATION": {
+      "rotations": 1,
+      "hits": 0,
+      "false_positives": 48,
+      "last_hit": null
+    },
+    "KE_COORDINATED_DISINFO": {
+      "rotations": 1,
+      "hits": 25,
+      "false_positives": 29,
+      "last_hit": "2026-03-17"
+    },
+    "KE_FALSE_ETHNIC_CLAIMS": {
+      "rotations": 1,
+      "hits": 5,
+      "false_positives": 20,
+      "last_hit": "2026-03-16"
+    },
+    "FOREIGN_DISINFO_OPERATIONS": {
+      "rotations": 1,
+      "hits": 0,
+      "false_positives": 46,
+      "last_hit": null
+    }
+  },
+  "autolearning_stats": {
+    "total_keywords_learned": 10,
+    "active_learned_keywords": 3,
+    "demoted_keywords": 0,
+    "promoted_keywords": 0,
+    "retired_keywords": 7,
+    "narrative_spread_events_logged": 0,
+    "new_narrative_proposals": 0
+  }
+}
