@@ -49,6 +49,7 @@ jobs:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FB_COOKIES: ${{ secrets.FB_COOKIES }}
           RUN_SWEEPS: ${{ github.event.inputs.run_sweeps || 'true' }}
           RUN_REACH: ${{ github.event.inputs.run_reach || 'true' }}
           RUN_ML: ${{ github.event.inputs.run_ml || 'true' }}
