@@ -564,7 +564,8 @@
       "https://streamlinefeed.co.ke/news/the-war-before-the-vote-inside-the-ai-disinformation-machine-targeting-2027",
       "https://nation.africa/kenya/news/deepfakes-hashtags-and-hate-the-2025-online-disinformation-threatening-kenya-s-2027-polls--5310674"
     ],
-    "event_id": "KEN-2025-002"
+    "event_id": "KEN-2025-002",
+    "status": "resolved"
   },
   {
     "id": "SSD-2025-002",
@@ -775,7 +776,8 @@
       "https://www.hiiraan.com/news4/2025/Feb/200082/puntland_confirms_46_isis_deaths_in_u_s_airstrikes_on_al_miskad_mountains.aspx",
       "https://newamerica.org/future-security/articles/africom-provides-death-tolls-for-2025-strikes/"
     ],
-    "event_id": "SOM-2025-002-DI"
+    "event_id": "SOM-2025-002-DI",
+    "status": "resolved"
   },
   {
     "id": "SOM-2025-003",
@@ -977,7 +979,8 @@
       "https://www.aljazeera.com/news/2025/2/3/senior-isil-somalia-commander-captured-in-puntland",
       "https://documents.un.org/doc/undoc/gen/n25/322/00/pdf/n2532200.pdf"
     ],
-    "event_id": "SOM-2025-003-DI"
+    "event_id": "SOM-2025-003-DI",
+    "status": "resolved"
   },
   {
     "id": "EXT-2025-026",
@@ -1567,7 +1570,8 @@
       "https://disinfo.africa/inside-al-shabaabs-digital-propaganda-machine-05cbdb04ed4f",
       "https://documents.un.org/doc/undoc/gen/n25/322/00/pdf/n2532200.pdf"
     ],
-    "event_id": "SOM-2025-005-DI"
+    "event_id": "SOM-2025-005-DI",
+    "status": "resolved"
   },
   {
     "id": "EXT-2025-004",
@@ -2074,7 +2078,8 @@
       "https://documents.un.org/doc/undoc/gen/n25/322/00/pdf/n2532200.pdf",
       "https://ctc.westpoint.edu/al-shababs-tactical-and-media-strategies-in-the-wake-of-its-battlefield-setbacks/"
     ],
-    "event_id": "SOM-2025-006-DI"
+    "event_id": "SOM-2025-006-DI",
+    "status": "resolved"
   },
   {
     "id": "SSD-2025-006",
@@ -2415,7 +2420,8 @@
       "https://en.wikipedia.org/wiki/Attempted_assassination_of_Hassan_Sheikh_Mohamud",
       "https://www.euaa.europa.eu/coi/somalia/2025/security-situation/12-armed-actors-and-relevant-developments/122-al-shabaab-control-areas-presence-and-influence"
     ],
-    "event_id": "SOM-2025-007-DI"
+    "event_id": "SOM-2025-007-DI",
+    "status": "resolved"
   },
   {
     "id": "SSD-2025-008",
@@ -2493,7 +2499,8 @@
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       }
     ],
-    "event_id": "SSD-2025-008"
+    "event_id": "SSD-2025-008",
+    "status": "resolved"
   },
   {
     "id": "KEN-2025-005",
@@ -2781,7 +2788,8 @@
       "https://en.wikipedia.org/wiki/2025_Shabelle_offensive",
       "https://www.eeas.europa.eu/eeas/somalia-statement-spokesperson-latest-terrorist-attack-presidential-convoy_en"
     ],
-    "event_id": "SOM-2025-008-DI"
+    "event_id": "SOM-2025-008-DI",
+    "status": "resolved"
   },
   {
     "id": "SOM-2025-009",
@@ -3171,7 +3179,8 @@
       "https://disinfo.africa/inside-al-shabaabs-digital-propaganda-machine-05cbdb04ed4f",
       "https://ctc.westpoint.edu/addressing-enemy-al-shabaabs-psyops-media-warfare/"
     ],
-    "event_id": "SOM-2025-011-DI"
+    "event_id": "SOM-2025-011-DI",
+    "status": "resolved"
   },
   {
     "id": "SSD-2025-010",
@@ -3459,7 +3468,8 @@
       "https://factcheck.afp.com/doc.afp.com.727J6KF",
       "https://disinfo.africa/inside-kenyas-online-war-against-activists-and-dissenters-46f817f03e93"
     ],
-    "event_id": "KEN-2025-007"
+    "event_id": "KEN-2025-007",
+    "status": "resolved"
   },
   {
     "id": "SOM-2025-039",
@@ -3622,7 +3632,8 @@
         "calibration_note": "Confirmed at 5 by LLM-as-judge calibration"
       }
     ],
-    "event_id": "EXT-2025-007"
+    "event_id": "EXT-2025-007",
+    "status": "resolved"
   },
   {
     "id": "EXT-2025-006",
@@ -4406,7 +4417,8 @@
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       }
     ],
-    "event_id": "SOM-2025-045"
+    "event_id": "SOM-2025-045",
+    "status": "resolved"
   },
   {
     "id": "SSD-2025-014",
@@ -4728,7 +4740,8 @@
       "https://en.wikipedia.org/wiki/2025_Mogadishu_military_base_bombing",
       "https://www.hiiraan.com/news4/2025/Feb/200270/telegram_shuts_down_isis_propaganda_channel_in_somalia_amid_crackdown.aspx"
     ],
-    "event_id": "SOM-2025-017-DI"
+    "event_id": "SOM-2025-017-DI",
+    "status": "resolved"
   },
   {
     "id": "SOM-2025-018",
@@ -5445,7 +5458,8 @@
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       }
     ],
-    "event_id": "EXT-2025-012"
+    "event_id": "EXT-2025-012",
+    "status": "resolved"
   },
   {
     "id": "KEN-2025-011",
@@ -5736,7 +5750,8 @@
       "https://issafrica.org/iss-today/disunity-in-somalia-is-al-shabaab-s-greatest-weapon",
       "https://t.me/s/TheSomaliDigest?before=567"
     ],
-    "event_id": "SOM-2025-022-DI"
+    "event_id": "SOM-2025-022-DI",
+    "status": "resolved"
   },
   {
     "id": "SOM-2025-038",
@@ -6451,7 +6466,8 @@
       "https://www.barrons.com/news/somali-army-and-peacekeepers-recapture-key-town-from-insurgents-b9cbccaf",
       "https://www.africanews.com/2026/01/08/somalias-national-army-brings-total-war-to-al-shabab-militants/"
     ],
-    "event_id": "SOM-2025-025-DI"
+    "event_id": "SOM-2025-025-DI",
+    "status": "resolved"
   },
   {
     "id": "EXT-2025-015",
@@ -6738,7 +6754,8 @@
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       }
     ],
-    "event_id": "SOM-2025-049"
+    "event_id": "SOM-2025-049",
+    "status": "resolved"
   },
   {
     "id": "SOM-2025-027",
@@ -7723,7 +7740,8 @@
       "https://www.bbc.com/news/articles/cp3v0px28j8o",
       "https://jamestown.org/mahad-karate-commander-behind-al-shabaabs-amniyat/"
     ],
-    "event_id": "SOM-2025-030-DI"
+    "event_id": "SOM-2025-030-DI",
+    "status": "resolved"
   },
   {
     "id": "KEN-2025-017",
@@ -8225,7 +8243,8 @@
       "followup_analysis_middleeast24": "https://marcowenjones.substack.com/p/amjad-taha-muslim-brotherhood-maxxing",
       "uae_propaganda_hornpulse": "https://hornpulse.com/2025/08/24/uaes-propaganda-machine-fake-u-s-media-accounts-pushing-somaliland-independence/"
     },
-    "event_id": "EXT-2025-019"
+    "event_id": "EXT-2025-019",
+    "status": "resolved"
   },
   {
     "id": "GAP-2025-001",
@@ -8487,7 +8506,8 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       }
     ],
-    "event_id": "KEN-2025-020"
+    "event_id": "KEN-2025-020",
+    "status": "resolved"
   },
   {
     "id": "KEN-2025-021",
@@ -9303,7 +9323,8 @@
       "https://www.standardmedia.co.ke/politics/article/2001534448/ncic-investigates-gachagua-four-governors-10-mps-over-hate-speech",
       "https://www.capitalfm.co.ke/news/2026/01/ncic-refutes-viral-claims-that-rigathi-gachagua-was-summoned-over-alleged-remarks/"
     ],
-    "event_id": "KEN-2025-026"
+    "event_id": "KEN-2025-026",
+    "status": "resolved"
   },
   {
     "id": "SSD-2025-025",
@@ -9673,7 +9694,8 @@
       "https://www.somalitimes.co.uk/a-video-of-a-ukrainian-un-pilot-asking-for-his-release-was-released-by-al-shabab/",
       "https://x.com/BaidoaOnline/status/2001008554551959909"
     ],
-    "event_id": "SOM-2025-035"
+    "event_id": "SOM-2025-035",
+    "status": "resolved"
   },
   {
     "id": "EXT-2025-030",
@@ -9890,7 +9912,8 @@
       "somali_language_debunk_facebook": "https://www.facebook.com/MunasarMohamedAbd/posts/codkii-laga-been-abuurtey-faroole-waa-laga-daba-tagey-waa-in-dadku-iska-hubiyaan/1554745219344595/",
       "linkedin_reference_1": "https://www.linkedin.com/posts/temitayoakinyemi_three-thoughts-on-fake-journalists-enhanced-activity-7396932951843848192-p8t3"
     },
-    "event_id": "EXT-2025-022"
+    "event_id": "EXT-2025-022",
+    "status": "resolved"
   },
   {
     "id": "KEN-2025-029",
@@ -10099,7 +10122,8 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       }
     ],
-    "event_id": "SOM-2025-036"
+    "event_id": "SOM-2025-036",
+    "status": "dormant"
   },
   {
     "id": "EXT-2025-023",
@@ -10182,7 +10206,8 @@
       "africa_check_fake_us_recognition": "https://africacheck.org/fact-checks/meta-programme-fact-checks/no-us-has-not-recognised-somaliland-or-signed-multi-billion",
       "trt_afrika_misinfo_somalia_turkey": "https://www.facebook.com/trtafrika/posts/misinformation-and-disinformation-by-third-countries-are-the-biggest-threat-to-t/900542459431224/"
     },
-    "event_id": "EXT-2025-023"
+    "event_id": "EXT-2025-023",
+    "status": "dormant"
   },
   {
     "id": "SSD-2025-028",
@@ -10828,7 +10853,8 @@
       "https://www.kenyans.co.ke/news/119641-ncic-denies-summoning-gachagua-over-alleged-inflammatory-remarks",
       "https://africacheck.org/fact-checks/meta-programme-fact-checks/no-kenyas-cohesion-commission-did-not-summon-ex-deputy"
     ],
-    "event_id": "KEN-2026-001"
+    "event_id": "KEN-2026-001",
+    "status": "dormant"
   },
   {
     "id": "KEN-2026-002",
@@ -11269,7 +11295,8 @@
       "un_news_mass_atrocity_risk": "https://news.un.org/en/story/2026/01/1166831",
       "chrss_warning_ohchr": "https://www.ohchr.org/en/press-releases/2026/01/south-sudan-un-commission-warns-incitement-and-command-failures-risk-mass"
     },
-    "event_id": "SSD-2026-002"
+    "event_id": "SSD-2026-002",
+    "status": "dormant"
   },
   {
     "id": "KEN-2026-003",
@@ -11339,7 +11366,8 @@
       "https://www.counterextremism.com/extremists/mahad-karate",
       "https://www.opensanctions.org/entities/Q132798321/"
     ],
-    "event_id": "KEN-2026-003"
+    "event_id": "KEN-2026-003",
+    "status": "dormant"
   },
   {
     "id": "SSD-2026-003",
@@ -11450,7 +11478,8 @@
       "un_news_unmiss_condemns": "https://news.un.org/en/story/2026/01/1166831",
       "olony_apology_radio_community": "https://theradiocommunity.org/lt-gen-olony-apologizes-for-spare-no-life-remarks-5356"
     },
-    "event_id": "SSD-2026-003"
+    "event_id": "SSD-2026-003",
+    "status": "dormant"
   },
   {
     "id": "SSD-2026-004",
@@ -11826,7 +11855,8 @@
         "intensity": 1
       }
     ],
-    "event_id": "GAP-2026-003"
+    "event_id": "GAP-2026-003",
+    "status": "dormant"
   },
   {
     "id": "SSD-2026-008",
@@ -13606,7 +13636,8 @@
       "public_warning_misinformation": "https://www.facebook.com/groups/3662574880668021/posts/4292166707708832/",
       "house_foreign_affairs_x": "https://x.com/HouseForeign/status/2029932257373196436"
     },
-    "event_id": "SSD-2026-014-DI"
+    "event_id": "SSD-2026-014-DI",
+    "status": "active"
   },
   {
     "id": "EXT-2026-005",
@@ -15017,7 +15048,8 @@
       "radio_tamazuj_about": "https://www.radiotamazuj.org/en/about-us",
       "related_rebuttal_piece": "https://www.radiotamazuj.org/en/news/article/opinion-the-folly-of-ethnic-reductionism-in-reading-the-south-sudan-conflict"
     },
-    "event_id": "MON-2026-03-16-006"
+    "event_id": "MON-2026-03-16-006",
+    "status": "active"
   },
   {
     "id": "SOM-2026-009",
@@ -15324,7 +15356,8 @@
     "data_source": "apify_sweep",
     "detected_by": "apify_sweep_2026-03-16",
     "detection_timestamp": "2026-03-16T23:34:16.806122+00:00",
-    "event_id": "MON-2026-03-16-010"
+    "event_id": "MON-2026-03-16-010",
+    "status": "resolved"
   },
   {
     "id": "APF-2026-03-16-068",
@@ -15398,7 +15431,8 @@
     "data_source": "apify_sweep",
     "detected_by": "apify_classify_2026-03-16",
     "detection_timestamp": "2026-03-16T23:41:39.220088+00:00",
-    "event_id": "APF-2026-03-16-068"
+    "event_id": "APF-2026-03-16-068",
+    "status": "active"
   },
   {
     "id": "APF-2026-03-17-153",
@@ -15462,7 +15496,8 @@
     "data_source": "social_media_monitoring",
     "detected_by": "brace4peace_classify_2026-03-17",
     "detection_timestamp": "2026-03-17T06:09:22.957725+00:00",
-    "event_id": "APF-2026-03-17-153"
+    "event_id": "APF-2026-03-17-153",
+    "status": "active"
   },
   {
     "id": "APF-2026-03-17-841",
@@ -15533,7 +15568,8 @@
     "data_source": "social_media_monitoring",
     "detected_by": "brace4peace_classify_2026-03-17",
     "detection_timestamp": "2026-03-17T14:19:21.410366+00:00",
-    "event_id": "APF-2026-03-17-AUTO-breaking-four-soldie"
+    "event_id": "APF-2026-03-17-AUTO-breaking-four-soldie",
+    "status": "active"
   },
   {
     "id": "APF-2026-03-17-895",
@@ -15590,7 +15626,8 @@
     "data_source": "social_media_monitoring",
     "detected_by": "brace4peace_classify_2026-03-17",
     "detection_timestamp": "2026-03-17T14:19:21.410366+00:00",
-    "event_id": "APF-2026-03-17-AUTO-are-pro-turkish-anal"
+    "event_id": "APF-2026-03-17-AUTO-are-pro-turkish-anal",
+    "status": "active"
   },
   {
     "id": "APF-2026-03-18-049",
@@ -15650,7 +15687,8 @@
     ],
     "data_source": "social_media_monitoring",
     "detected_by": "brace4peace_classify_2026-03-18",
-    "detection_timestamp": "2026-03-18T06:10:42.750089+00:00"
+    "detection_timestamp": "2026-03-18T06:10:42.750089+00:00",
+    "status": "active"
   },
   {
     "id": "APF-2026-03-18-987",
@@ -15720,7 +15758,8 @@
     ],
     "data_source": "social_media_monitoring",
     "detected_by": "brace4peace_classify_2026-03-18",
-    "detection_timestamp": "2026-03-18T06:10:42.750089+00:00"
+    "detection_timestamp": "2026-03-18T06:10:42.750089+00:00",
+    "status": "active"
   },
   {
     "id": "APF-2026-03-18-502",
@@ -15788,7 +15827,8 @@
     ],
     "data_source": "social_media_monitoring",
     "detected_by": "brace4peace_classify_2026-03-18",
-    "detection_timestamp": "2026-03-18T06:10:42.750089+00:00"
+    "detection_timestamp": "2026-03-18T06:10:42.750089+00:00",
+    "status": "active"
   },
   {
     "event_id": "MON-2026-03-18-A01",
@@ -15840,7 +15880,8 @@
     ],
     "data_source": "live_monitoring",
     "detected_by": "cron_a19d6655",
-    "detection_timestamp": "2026-03-18T13:35:00Z"
+    "detection_timestamp": "2026-03-18T13:35:00Z",
+    "status": "active"
   },
   {
     "event_id": "MON-2026-03-18-A02",
@@ -15890,7 +15931,8 @@
     ],
     "data_source": "live_monitoring",
     "detected_by": "cron_a19d6655",
-    "detection_timestamp": "2026-03-18T13:35:00Z"
+    "detection_timestamp": "2026-03-18T13:35:00Z",
+    "status": "active"
   },
   {
     "event_id": "MON-2026-03-18-A03",
@@ -15942,7 +15984,8 @@
     ],
     "data_source": "live_monitoring",
     "detected_by": "cron_a19d6655",
-    "detection_timestamp": "2026-03-18T13:35:00Z"
+    "detection_timestamp": "2026-03-18T13:35:00Z",
+    "status": "active"
   },
   {
     "event_id": "MON-2026-03-18-B01",
@@ -15995,7 +16038,8 @@
     ],
     "data_source": "live_monitoring",
     "detected_by": "cron_a19d6655",
-    "detection_timestamp": "2026-03-18T13:35:00Z"
+    "detection_timestamp": "2026-03-18T13:35:00Z",
+    "status": "active"
   },
   {
     "event_id": "MON-2026-03-18-B02",
@@ -16049,6 +16093,7 @@
     ],
     "data_source": "live_monitoring",
     "detected_by": "cron_a19d6655",
-    "detection_timestamp": "2026-03-18T13:35:00Z"
+    "detection_timestamp": "2026-03-18T13:35:00Z",
+    "status": "active"
   }
 ]

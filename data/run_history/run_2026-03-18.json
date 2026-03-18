@@ -1,0 +1,48 @@
+{
+  "date": "2026-03-18",
+  "timestamp": "2026-03-18T12:00:17.346439+00:00",
+  "config": {
+    "run_sweeps": false,
+    "run_ml": true,
+    "run_reach": false
+  },
+  "results": {
+    "1c_disinfo_classify": {
+      "error": "No items files found",
+      "events_added": 0
+    },
+    "1d_event_lifecycle": {
+      "to_dormant": 7,
+      "to_resolved": 24,
+      "still_active": 14
+    },
+    "2b_hs_classify": {
+      "total_items": 0,
+      "noise_filtered": 0,
+      "ea_rejected": 0,
+      "no_indicators": 0,
+      "hs_confirmed": 0,
+      "hs_high": 0,
+      "hs_medium": 0,
+      "hs_low": 0,
+      "duplicates_skipped": 0,
+      "posts_appended": 0,
+      "autolearning": {},
+      "subtype_proposals": [],
+      "subtype_distribution": {},
+      "country_distribution": {}
+    },
+    "2c_ml_enrich": {
+      "classified": 72,
+      "total": 14754
+    },
+    "2d_llm_qa": {
+      "explained": 0,
+      "total": 72
+    },
+    "2e_quality_gate": {
+      "removed": 0,
+      "remaining": 14754
+    }
+  }
+}
