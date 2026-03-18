@@ -43,11 +43,11 @@ MAX_ITEMS_PER_QUERY = {
     "tiktok": 5  # TikTok is expensive (~$0.02/item) — keep volume low
 }
 
-# Paths
-WORKSPACE = Path("/home/user/workspace")
-STRATEGY_PATH = WORKSPACE / "brace4peace/monitoring/apify_keyword_strategy.json"
-RESULTS_DIR = WORKSPACE / "brace4peace/monitoring/apify_results"
-COST_LOG = WORKSPACE / "brace4peace/monitoring/apify_cost_log.json"
+# Paths (relative to repo root, works locally and in GitHub Actions)
+REPO_ROOT = Path(__file__).resolve().parent.parent
+RESULTS_DIR = REPO_ROOT / "monitoring" / "apify_results"
+STRATEGY_PATH = REPO_ROOT / "monitoring" / "config" / "apify_keyword_strategy.json"
+COST_LOG = REPO_ROOT / "monitoring" / "apify_cost_log.json"
 
 # ─── HTTP helpers (using urllib to avoid dependency) ─────────────────────────
 

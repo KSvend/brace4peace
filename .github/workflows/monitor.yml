@@ -1,0 +1,68 @@
+name: BRACE4PEACE Monitor
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_sweeps:
+        description: 'Run Apify sweeps (costs ~$1.75)'
+        type: boolean
+        default: true
+      run_reach:
+        description: 'Run reach tracking (costs ~$0.25)'
+        type: boolean
+        default: true
+      run_ml:
+        description: 'Run ML classification + explanations'
+        type: boolean
+        default: true
+
+  schedule:
+    - cron: '0 6 * * 1-5'
+    - cron: '0 14 * * 1-5'
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install minimal dependencies
+        run: pip install requests
+
+      - name: Run monitoring pipeline
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RUN_SWEEPS: ${{ github.event.inputs.run_sweeps || 'true' }}
+          RUN_REACH: ${{ github.event.inputs.run_reach || 'true' }}
+          RUN_ML: ${{ github.event.inputs.run_ml || 'true' }}
+        run: python monitoring/run_pipeline.py
+
+      - name: Commit and push data
+        run: |
+          git config user.name "BRACE4PEACE Bot"
+          git config user.email "krdasv@me.com"
+
+          git add docs/data/ monitoring/autolearn/ monitoring/config/ data/ || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            EVENT_COUNT=$(python3 -c "import json; d=json.load(open('docs/data/events.json')); print(len(d))")
+            HS_COUNT=$(python3 -c "import json; d=json.load(open('docs/data/hate_speech_posts.json')); print(len(d))")
+
+            git commit -m "Auto-update: ${EVENT_COUNT} events, ${HS_COUNT} HS posts — ${TIMESTAMP}"
+            git push
+          fi

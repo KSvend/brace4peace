@@ -7,16 +7,9 @@
 
 set -e
 
-WORKSPACE="/home/user/workspace"
-REPO_DIR="$WORKSPACE/brace4peace-repo"
-PLATFORM_DIR="$WORKSPACE/brace4peace-platform"
-REPO_URL="https://github.com/KSvend/brace4peace.git"
-
-# Ensure repo is cloned
-if [ ! -d "$REPO_DIR/.git" ]; then
-  echo "Cloning repo..."
-  git clone "$REPO_URL" "$REPO_DIR"
-fi
+# Resolve paths relative to this script's location
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+REPO_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
 
 # Configure git
 cd "$REPO_DIR"
@@ -25,10 +18,6 @@ git config user.name "KSvend"
 
 # Pull latest to avoid conflicts
 git pull origin main --rebase 2>/dev/null || true
-
-# Copy updated data files
-cp "$PLATFORM_DIR/data/events.json" "$REPO_DIR/docs/data/events.json"
-cp "$PLATFORM_DIR/data/narratives.json" "$REPO_DIR/docs/data/narratives.json"
 
 # Check if anything changed
 if git diff --quiet docs/data/; then

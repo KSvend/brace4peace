@@ -29,15 +29,20 @@ from collections import Counter, defaultdict
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
 
-WORKSPACE = Path("/home/user/workspace")
-RESULTS_DIR = WORKSPACE / "brace4peace/monitoring/apify_results"
-STRATEGY_PATH = WORKSPACE / "brace4peace/monitoring/apify_keyword_strategy.json"
-NARRATIVES_PATH = WORKSPACE / "brace4peace-platform/data/narratives.json"
-WATCHLIST_PATH = WORKSPACE / "brace4peace/monitoring/watchlist.json"
-WEIGHTS_PATH = WORKSPACE / "narrative_family_weights.json"
-TIMELINE_PATH = WORKSPACE / "brace4peace_timeline.json"
-EVENTS_PATH = WORKSPACE / "brace4peace-platform/data/events.json"
-SIGNAL_METRICS_PATH = WORKSPACE / "brace4peace/monitoring/signal_metrics.json"
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+# Data paths
+EVENTS_PATH = REPO_ROOT / "docs" / "data" / "events.json"
+HS_DATA_PATH = REPO_ROOT / "docs" / "data" / "hate_speech_posts.json"
+TIMELINE_PATH = REPO_ROOT / "monitoring" / "brace4peace_timeline.json"
+
+# Config paths (moved to config/ subdirectory)
+STRATEGY_PATH = REPO_ROOT / "monitoring" / "config" / "apify_keyword_strategy.json"
+NARRATIVES_PATH = REPO_ROOT / "docs" / "data" / "narratives.json"
+WEIGHTS_PATH = REPO_ROOT / "monitoring" / "config" / "narrative_family_weights.json"
+WATCHLIST_PATH = REPO_ROOT / "monitoring" / "config" / "watchlist.json"
+RESULTS_DIR = REPO_ROOT / "monitoring" / "apify_results"
+SIGNAL_METRICS_PATH = REPO_ROOT / "monitoring" / "config" / "signal_metrics.json"
 
 
 # ─── Classification Rules ────────────────────────────────────────────────────
