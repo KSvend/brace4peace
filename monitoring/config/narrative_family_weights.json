@@ -1,0 +1,54 @@
+{
+  "families": {
+    "Ethnic Incitement": {
+      "severity_weight": 0.9,
+      "description": "Content targeting specific ethnic groups",
+      "narrative_ids": ["NAR-SS-001", "NAR-SS-003", "NAR-KE-004"]
+    },
+    "Attack Claim": {
+      "severity_weight": 0.8,
+      "description": "Fabricated or inflated military casualty/attack claims",
+      "narrative_ids": ["NAR-SOM-001", "NAR-SOM-002"]
+    },
+    "Delegitimization": {
+      "severity_weight": 0.7,
+      "description": "Undermining legitimacy of governments or institutions",
+      "narrative_ids": ["NAR-SOM-003", "NAR-SS-002", "NAR-KE-001"]
+    },
+    "Misinformation/Disinformation": {
+      "severity_weight": 0.7,
+      "description": "Spreading verifiably false claims",
+      "narrative_ids": ["NAR-SOM-004", "NAR-SS-004", "NAR-KE-002"]
+    },
+    "VE Propaganda": {
+      "severity_weight": 1.0,
+      "description": "Content from designated VE organizations",
+      "narrative_ids": ["NAR-SOM-005", "NAR-SOM-006"]
+    },
+    "Foreign Influence Operation": {
+      "severity_weight": 0.8,
+      "description": "State-backed disinformation campaigns",
+      "narrative_ids": ["NAR-REG-001"]
+    },
+    "Coordinated Campaign": {
+      "severity_weight": 0.8,
+      "description": "Organized troll campaigns and coordinated inauthentic behavior",
+      "narrative_ids": ["NAR-KE-003", "NAR-KE-003a"]
+    },
+    "Recruitment": {
+      "severity_weight": 0.9,
+      "description": "VE recruitment and radicalization content",
+      "narrative_ids": ["NAR-SOM-007"]
+    },
+    "Counter-Narrative Response": {
+      "severity_weight": 0.3,
+      "description": "Responses to disinformation (positive)",
+      "narrative_ids": []
+    },
+    "Social Media Expansion": {
+      "severity_weight": 0.5,
+      "description": "VE groups expanding to new platforms",
+      "narrative_ids": []
+    }
+  }
+}

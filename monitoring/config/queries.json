@@ -1,0 +1,180 @@
+{
+  "categories": [
+    {
+      "id": "Q-SOM-VE",
+      "name": "Somalia VE Activity",
+      "queries": [
+        "al-Shabaab attack claim 2026",
+        "al-Shabaab propaganda video",
+        "Somalia ISIS claim attack"
+      ],
+      "country": "Somalia",
+      "frequency": "daily"
+    },
+    {
+      "id": "Q-SOM-DISINFO",
+      "name": "Somalia Disinformation",
+      "queries": [
+        "Somalia disinformation campaign",
+        "Somalia fake news social media",
+        "Somali deepfake fabricated"
+      ],
+      "country": "Somalia",
+      "frequency": "daily"
+    },
+    {
+      "id": "Q-SOM-HS",
+      "name": "Somalia Hate Speech",
+      "queries": [
+        "Somalia hate speech clan",
+        "Somali online harassment"
+      ],
+      "country": "Somalia",
+      "frequency": "daily"
+    },
+    {
+      "id": "Q-SS-VE",
+      "name": "South Sudan VE/Conflict",
+      "queries": [
+        "South Sudan armed group attack",
+        "South Sudan militia mobilisation"
+      ],
+      "country": "South Sudan",
+      "frequency": "daily"
+    },
+    {
+      "id": "Q-SS-DISINFO",
+      "name": "South Sudan Disinformation",
+      "queries": [
+        "South Sudan disinformation",
+        "South Sudan fake news propaganda"
+      ],
+      "country": "South Sudan",
+      "frequency": "daily"
+    },
+    {
+      "id": "Q-SS-HS",
+      "name": "South Sudan Hate Speech",
+      "queries": [
+        "South Sudan hate speech ethnic",
+        "South Sudan online incitement"
+      ],
+      "country": "South Sudan",
+      "frequency": "daily"
+    },
+    {
+      "id": "Q-KE-DISINFO",
+      "name": "Kenya Disinformation",
+      "queries": [
+        "Kenya disinformation campaign social media",
+        "Kenya troll campaign coordinated",
+        "Kenya fake news political"
+      ],
+      "country": "Kenya",
+      "frequency": "daily"
+    },
+    {
+      "id": "Q-KE-HS",
+      "name": "Kenya Hate Speech",
+      "queries": [
+        "Kenya hate speech tribal",
+        "Kenya ethnic incitement online"
+      ],
+      "country": "Kenya",
+      "frequency": "daily"
+    },
+    {
+      "id": "Q-KE-PROTESTS",
+      "name": "Kenya Protest Disinfo",
+      "queries": [
+        "Kenya protest disinformation",
+        "Kenya activist troll attack"
+      ],
+      "country": "Kenya",
+      "frequency": "daily"
+    },
+    {
+      "id": "Q-FOREIGN-OPS",
+      "name": "Foreign Influence Operations",
+      "queries": [
+        "Russia Africa disinformation",
+        "China Africa influence operation",
+        "RT Africa propaganda"
+      ],
+      "country": "Regional",
+      "frequency": "weekly"
+    },
+    {
+      "id": "Q-DEEPFAKES",
+      "name": "Deepfakes East Africa",
+      "queries": [
+        "deepfake Somalia Kenya South Sudan",
+        "AI generated political content East Africa"
+      ],
+      "country": "Regional",
+      "frequency": "weekly"
+    },
+    {
+      "id": "Q-GENDER-HS",
+      "name": "Gender-Based Hate Speech",
+      "queries": [
+        "gender hate speech East Africa online",
+        "misogynistic content Somalia Kenya"
+      ],
+      "country": "Regional",
+      "frequency": "weekly"
+    },
+    {
+      "id": "Q-SOMALILAND",
+      "name": "Somaliland Recognition Disinfo",
+      "queries": [
+        "Somaliland recognition disinformation",
+        "Somaliland fake news"
+      ],
+      "country": "Somalia",
+      "frequency": "weekly"
+    },
+    {
+      "id": "Q-RECRUITMENT",
+      "name": "VE Recruitment Online",
+      "queries": [
+        "al-Shabaab recruitment social media",
+        "ISIS Somalia recruitment online"
+      ],
+      "country": "Somalia",
+      "frequency": "weekly"
+    },
+    {
+      "id": "Q-MACHAR",
+      "name": "Machar Trial Narratives",
+      "queries": [
+        "Riek Machar trial disinformation",
+        "Machar ICC fabricated"
+      ],
+      "country": "South Sudan",
+      "frequency": "weekly"
+    },
+    {
+      "id": "Q-ELECTIONS",
+      "name": "Elections Disinfo",
+      "queries": [
+        "Kenya election disinformation 2027",
+        "Somalia election manipulation",
+        "South Sudan elections postponed disinformation"
+      ],
+      "country": "Regional",
+      "frequency": "weekly"
+    },
+    {
+      "id": "Q-PLATFORM-RESPONSE",
+      "name": "Platform Response Monitoring",
+      "queries": [
+        "Facebook hate speech Africa takedown",
+        "TikTok content moderation East Africa",
+        "X Twitter hate speech Africa policy"
+      ],
+      "country": "Regional",
+      "frequency": "weekly"
+    }
+  ]
+}

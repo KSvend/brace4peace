@@ -1,0 +1,106 @@
+{
+  "mode": "all_daily",
+  "budget_cap_usd": 0.50,
+  "groups": {
+    "HS_DEHUMANISE_SOM": {
+      "hs_subtype": "HS-DEHUMANISE",
+      "country": "Somalia",
+      "platforms": ["x", "tiktok"],
+      "queries": [
+        "xayawaan somali", "jareer somali", "cayaanka somali",
+        "qashin bani adam somali", "xoolo somali"
+      ]
+    },
+    "HS_DEHUMANISE_KE": {
+      "hs_subtype": "HS-DEHUMANISE",
+      "country": "Kenya",
+      "platforms": ["x"],
+      "queries": [
+        "madoadoa Kenya", "kwekwe Kenya", "cockroach Kenya tribe"
+      ]
+    },
+    "HS_DEHUMANISE_SS": {
+      "hs_subtype": "HS-DEHUMANISE",
+      "country": "South Sudan",
+      "platforms": ["x"],
+      "queries": [
+        "nyam nyam South Sudan", "nyor South Sudan"
+      ]
+    },
+    "HS_CLAN_SOM": {
+      "hs_subtype": "HS-CLAN",
+      "country": "Somalia",
+      "platforms": ["x", "tiktok"],
+      "queries": [
+        "mooryaan somali", "faqash somali", "laangaab somali",
+        "idoor somali", "qabiil dagaal"
+      ]
+    },
+    "HS_ETHNIC_KE": {
+      "hs_subtype": "HS-ETHNIC",
+      "country": "Kenya",
+      "platforms": ["x"],
+      "queries": [
+        "kihii Kenya", "conoka Kikuyu", "muhoi Kenya",
+        "madoadoa Kikuyu", "mungiki Kenya"
+      ]
+    },
+    "HS_ETHNIC_SS": {
+      "hs_subtype": "HS-ETHNIC",
+      "country": "South Sudan",
+      "platforms": ["x"],
+      "queries": [
+        "kokora South Sudan", "dinkocracy", "jiengism",
+        "jenge South Sudan", "mathiang anyor"
+      ]
+    },
+    "HS_RELIGIOUS_SOM": {
+      "hs_subtype": "HS-RELIGIOUS",
+      "country": "Somalia",
+      "platforms": ["x", "tiktok"],
+      "queries": [
+        "kaafir somali", "gaal somali", "murtad somali",
+        "takfir somali"
+      ]
+    },
+    "HS_POLITICAL_KE": {
+      "hs_subtype": "HS-POLITICAL",
+      "country": "Kenya",
+      "platforms": ["x"],
+      "queries": [
+        "kura au risasi Kenya", "mungiki threat Kenya"
+      ]
+    },
+    "HS_POLITICAL_SS": {
+      "hs_subtype": "HS-POLITICAL",
+      "country": "South Sudan",
+      "platforms": ["x"],
+      "queries": [
+        "konyo konyo regime South Sudan", "tabanists South Sudan"
+      ]
+    },
+    "HS_ANTI_FOREIGN_KE": {
+      "hs_subtype": "HS-ANTI-FOREIGN",
+      "country": "Kenya",
+      "platforms": ["x"],
+      "queries": [
+        "wakuja Kenya", "wageni Kenya foreigners"
+      ]
+    },
+    "HS_GENDER_SOM": {
+      "hs_subtype": "HS-GENDER",
+      "country": "Somalia",
+      "platforms": ["x"],
+      "queries": [
+        "qaniis somali", "gabadh sharaf somali"
+      ]
+    }
+  },
+  "autolearning": {
+    "learned_keywords": {
+      "max_total": 50,
+      "max_per_run": 5,
+      "entries": []
+    }
+  }
+}

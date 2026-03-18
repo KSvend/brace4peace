@@ -1,0 +1,253 @@
+{
+  "hs_disinfo_sources": {
+    "ve_propaganda_producers": [
+      {
+        "id": "W-VE-001",
+        "name": "Shahada News",
+        "platform": "Multiple",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "Shahada News al-Shabaab",
+        "source_basis": "designated_organization",
+        "disinfo_confidence_floor": "HIGH",
+        "status": "active"
+      },
+      {
+        "id": "W-VE-002",
+        "name": "Al-Kataib Media",
+        "platform": "Multiple",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "Al-Kataib al-Shabaab media",
+        "source_basis": "designated_organization",
+        "disinfo_confidence_floor": "HIGH",
+        "status": "active"
+      },
+      {
+        "id": "W-VE-003",
+        "name": "Manjaniq Media",
+        "platform": "Multiple",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "Manjaniq Media al-Shabaab",
+        "source_basis": "designated_organization",
+        "disinfo_confidence_floor": "HIGH",
+        "status": "active",
+        "notes": "Also an Indonesian publisher — filter for East Africa context"
+      },
+      {
+        "id": "W-VE-004",
+        "name": "Somalimemo",
+        "platform": "Web",
+        "url": "https://somalimemo.info",
+        "check_method": "fetch_url",
+        "source_basis": "designated_organization",
+        "disinfo_confidence_floor": "HIGH",
+        "status": "active"
+      },
+      {
+        "id": "W-VE-005",
+        "name": "Calamada",
+        "platform": "Web",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "Calamada al-Shabaab",
+        "source_basis": "designated_organization",
+        "disinfo_confidence_floor": "HIGH",
+        "status": "active"
+      },
+      {
+        "id": "W-VE-006",
+        "name": "Radio Andalus",
+        "platform": "Multiple",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "Radio Andalus al-Shabaab",
+        "source_basis": "designated_organization",
+        "disinfo_confidence_floor": "HIGH",
+        "status": "active"
+      },
+      {
+        "id": "W-VE-007",
+        "name": "Voice of Munasir",
+        "platform": "Multiple",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "Voice of Munasir al-Shabaab",
+        "source_basis": "designated_organization",
+        "disinfo_confidence_floor": "HIGH",
+        "status": "active"
+      },
+      {
+        "id": "W-VE-008",
+        "name": "Al Hijratain Media",
+        "platform": "Multiple",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "Al Hijratain al-Shabaab",
+        "source_basis": "designated_organization",
+        "disinfo_confidence_floor": "HIGH",
+        "status": "active"
+      },
+      {
+        "id": "W-VE-009",
+        "name": "Voice of Khorasan",
+        "platform": "Multiple",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "Voice of Khorasan ISIS East Africa",
+        "source_basis": "designated_organization",
+        "disinfo_confidence_floor": "HIGH",
+        "status": "active"
+      }
+    ],
+    "hs_disinfo_producers": [
+      {
+        "id": "W-HS-001",
+        "name": "Lich Broadcast",
+        "platform": "Facebook",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "Lich Broadcast South Sudan",
+        "source_basis": "pattern_observed",
+        "disinfo_confidence_floor": "MEDIUM",
+        "status": "active"
+      },
+      {
+        "id": "W-HS-002",
+        "name": "SSEM TV",
+        "platform": "Facebook",
+        "url": null,
+        "check_method": "search_web",
+        "check_query": "SSEM TV South Sudan",
+        "source_basis": "pattern_observed",
+        "disinfo_confidence_floor": "MEDIUM",
+        "status": "active"
+      },
+      {
+        "id": "W-HS-003",
+        "name": "Dahir Alasow / Waagacusub",
+        "platform": "X",
+        "url": "https://x.com/waaboraal",
+        "check_method": "search_web",
+        "check_query": "Waagacusub Somalia disinformation",
+        "source_basis": "pattern_observed",
+        "disinfo_confidence_floor": "MEDIUM",
+        "status": "active"
+      },
+      {
+        "id": "W-HS-004",
+        "name": "UmmaSoldiers",
+        "platform": "X",
+        "url": "https://x.com/UmmaSoldiers",
+        "check_method": "search_web",
+        "check_query": "UmmaSoldiers Somalia",
+        "source_basis": "pattern_observed",
+        "disinfo_confidence_floor": "MEDIUM",
+        "status": "active"
+      }
+    ],
+    "pending_discovery": []
+  },
+  "research_partners": [
+    {
+      "id": "RP-T1-001",
+      "name": "Digital Rights Frontlines",
+      "tier": 1,
+      "url": "https://digitalrightsfrontlines.org",
+      "check_method": "fetch_url",
+      "focus": "East Africa hate speech and disinformation",
+      "status": "active"
+    },
+    {
+      "id": "RP-T1-002",
+      "name": "NCIC Kenya",
+      "tier": 1,
+      "url": "https://cohesion.or.ke",
+      "check_method": "fetch_url",
+      "focus": "Kenya hate speech monitoring",
+      "status": "active"
+    },
+    {
+      "id": "RP-T1-003",
+      "name": "Tech Against Terrorism",
+      "tier": 1,
+      "url": "https://techagainstterrorism.org",
+      "check_method": "fetch_url",
+      "focus": "VE content online, al-Shabaab specifically",
+      "status": "active"
+    },
+    {
+      "id": "RP-T1-004",
+      "name": "Africa Check",
+      "tier": 1,
+      "url": "https://africacheck.org",
+      "check_method": "fetch_url",
+      "focus": "Fact-checking disinformation in Africa",
+      "status": "active"
+    },
+    {
+      "id": "RP-T1-005",
+      "name": "PesaCheck",
+      "tier": 1,
+      "url": "https://pesacheck.org",
+      "check_method": "fetch_url",
+      "focus": "East Africa fact-checking",
+      "status": "active"
+    },
+    {
+      "id": "RP-T1-006",
+      "name": "GNET (Global Network on Extremism & Technology)",
+      "tier": 1,
+      "url": "https://gnet-research.org",
+      "check_method": "fetch_url",
+      "focus": "Terrorism and technology research",
+      "status": "active"
+    },
+    {
+      "id": "RP-T2-001",
+      "name": "CTC West Point",
+      "tier": 2,
+      "url": "https://ctc.westpoint.edu",
+      "check_method": "fetch_url",
+      "focus": "Counterterrorism research",
+      "status": "active"
+    },
+    {
+      "id": "RP-T2-002",
+      "name": "Long War Journal",
+      "tier": 2,
+      "url": "https://www.longwarjournal.org",
+      "check_method": "fetch_url",
+      "focus": "al-Shabaab and VE tracking",
+      "status": "active"
+    },
+    {
+      "id": "RP-T3-001",
+      "name": "Radio Tamazuj",
+      "tier": 3,
+      "url": "https://radiotamazuj.org",
+      "check_method": "fetch_url",
+      "focus": "South Sudan news and reporting",
+      "status": "active"
+    },
+    {
+      "id": "RP-T3-002",
+      "name": "Eye Radio",
+      "tier": 3,
+      "url": "https://eyeradio.org",
+      "check_method": "fetch_url",
+      "focus": "South Sudan news",
+      "status": "active"
+    },
+    {
+      "id": "RP-T3-003",
+      "name": "Garowe Online",
+      "tier": 3,
+      "url": "https://www.garoweonline.com",
+      "check_method": "fetch_url",
+      "focus": "Somalia/Puntland news",
+      "status": "active"
+    }
+  ]
+}
