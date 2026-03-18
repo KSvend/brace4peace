@@ -40,7 +40,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests torch --index-url https://download.pytorch.org/whl/cpu transformers scipy numpy
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install requests transformers scipy numpy
 
       - name: Run monitoring pipeline
         env:
