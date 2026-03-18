@@ -20,6 +20,9 @@ on:
     - cron: '0 6 * * 1-5'
     - cron: '0 14 * * 1-5'
 
+permissions:
+  contents: write
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
