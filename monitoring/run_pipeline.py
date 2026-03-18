@@ -109,9 +109,9 @@ def phase_2b_hs_classify():
 
 
 def phase_2c_ml_enrich():
-    """ML enrichment: HF API zero-shot subtopics + toxicity scoring."""
+    """ML enrichment: local HF models + optional zero-shot subtopics."""
     from ml_classify import classify_posts
-    return classify_posts()
+    return classify_posts(skip_zero_shot=True)
 
 
 def phase_2d_llm_qa():

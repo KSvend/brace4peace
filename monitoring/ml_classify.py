@@ -232,10 +232,33 @@ def _tox_level(score):
 # Main pipeline
 # ---------------------------------------------------------------------------
 
-def classify_posts():
+def _save_posts(posts):
+    """Save posts to disk."""
+    with open(HS_DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(posts, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def _needs_ml(post):
+    """Check if a post needs ML classification."""
+    # New sweep posts not yet ML-classified
+    if post.get("qc") == "auto_sweep":
+        return True
+    # Posts where API failed (co=0 with a prediction of Normal)
+    if post.get("co", 0) == 0 and post.get("pr") == "Normal":
+        return True
+    # Posts from Apify sweep missing proper toxicity dimensions
+    if str(post.get("i", "")).startswith("apify-"):
+        txd = post.get("txd") or {}
+        if not txd or txd == {"sev": "medium", "ins": "medium", "idt": "medium", "thr": "low"}:
+            return True
+    return False
+
+
+def classify_posts(skip_zero_shot=False):
     """
-    Classify posts with qc='auto_sweep' or qc='ml_classified' with pr='Normal' and co=0.
-    Uses local transformers models + API for zero-shot.
+    Classify posts needing ML enrichment.
+    Uses local transformers models + optional API for zero-shot.
+    Saves after each model pass for resilience.
     """
     hf_token = os.environ.get("HF_TOKEN", "")
     torch.set_num_threads(2)
@@ -249,14 +272,8 @@ def classify_posts():
 
     total = len(posts)
 
-    # Find posts needing classification:
-    # - qc=auto_sweep (new from sweep, never ML-classified)
-    # - qc=ml_classified with co=0 (API failed silently last time)
-    indices = [
-        i for i, p in enumerate(posts)
-        if p.get("qc") == "auto_sweep"
-        or (p.get("qc") == "ml_classified" and p.get("co", 0) == 0)
-    ]
+    # Find posts needing classification
+    indices = [i for i, p in enumerate(posts) if _needs_ml(p)]
 
     if not indices:
         print(f"No posts need ML classification. Total: {total}")
@@ -264,7 +281,6 @@ def classify_posts():
 
     print(f"Found {len(indices)} posts to classify out of {total} total.", flush=True)
 
-    # Batch classify with EA-HS first (most important)
     texts = [(posts[i].get("t") or "")[:MAX_LEN] for i in indices]
     non_empty = [(i, t) for i, t in zip(indices, texts) if t.strip()]
 
@@ -284,6 +300,9 @@ def classify_posts():
     for idx, (label, score) in zip(batch_indices, ea_results):
         posts[idx]["pr"] = label
         posts[idx]["co"] = score
+    _save_posts(posts)
+    _loaded_models.pop("ea_hs", None)
+    print(f"  EA-HS done. Saved.", flush=True)
 
     # 2. Toxicity
     print(f"  Running toxicity classifier...", flush=True)
@@ -291,12 +310,16 @@ def classify_posts():
     for start in range(0, len(batch_texts), BATCH_SIZE):
         batch = batch_texts[start:start + BATCH_SIZE]
         tox_results.extend(_classify_batch("toxicity", batch))
+    tox_scores = {}
     for idx, (label, score) in zip(batch_indices, tox_results):
         tox_score = score if label == "toxic" else 1 - score
         posts[idx]["tx"] = _tox_level(tox_score)
-        posts[idx]["_tox_score"] = round(tox_score, 4)
+        tox_scores[idx] = round(tox_score, 4)
+    _save_posts(posts)
+    _loaded_models.pop("toxicity", None)
+    print(f"  Toxicity done. Saved.", flush=True)
 
-    # 3. Country-specific models
+    # 3. Country-specific models (one at a time to save memory)
     for country, model_key in COUNTRY_MODEL_MAP.items():
         country_indices = [i for i in batch_indices if posts[i].get("c") == country]
         if not country_indices:
@@ -309,9 +332,12 @@ def classify_posts():
             results.extend(_classify_batch(model_key, batch))
         for idx, (label, score) in zip(country_indices, results):
             posts[idx]["_country_model"] = {"label": label, "score": score}
+        _loaded_models.pop(model_key, None)
+    _save_posts(posts)
+    print(f"  Country models done. Saved.", flush=True)
 
-    # 4. Zero-shot subtopics (API-based, rate limited)
-    if hf_token:
+    # 4. Zero-shot subtopics (API-based, rate limited — skip if told to)
+    if not skip_zero_shot and hf_token:
         print(f"  Running zero-shot subtopics on {len(batch_indices)} posts...", flush=True)
         for count, idx in enumerate(batch_indices):
             text = (posts[idx].get("t") or "")[:256]
@@ -319,38 +345,39 @@ def classify_posts():
                 subtopics = _zero_shot_api(text, hf_token)
                 if subtopics:
                     posts[idx]["st"] = subtopics
-                time.sleep(0.5)  # Rate limit
+                time.sleep(0.5)
             if (count + 1) % 20 == 0:
                 print(f"    Subtopics: {count + 1}/{len(batch_indices)}", flush=True)
+                _save_posts(posts)
+    elif skip_zero_shot:
+        print("  Skipping zero-shot (--skip-zero-shot flag).", flush=True)
     else:
-        print("  Skipping zero-shot (no HF_TOKEN).")
+        print("  Skipping zero-shot (no HF_TOKEN).", flush=True)
 
-    # 5. Estimate toxicity dimensions
+    # 5. Estimate toxicity dimensions from subtopics + toxicity score
     for idx in batch_indices:
-        tox_score = posts[idx].get("_tox_score", 0.5)
+        ts = tox_scores.get(idx, 0.5)
         subtopics = posts[idx].get("st", [])
-        posts[idx]["txd"] = _estimate_txd(subtopics, tox_score)
-        # Clean up internal field
-        posts[idx].pop("_tox_score", None)
+        posts[idx]["txd"] = _estimate_txd(subtopics, ts)
 
-    # 6. Mark as classified
+    # 6. Mark as ml_classified (only for auto_sweep posts, preserve QC labels from LLM QA)
     classified = 0
     for idx in batch_indices:
-        posts[idx]["qc"] = "ml_classified"
+        if posts[idx].get("qc") == "auto_sweep":
+            posts[idx]["qc"] = "ml_classified"
         classified += 1
 
-    # Save
-    with open(HS_DATA_PATH, "w", encoding="utf-8") as f:
-        json.dump(posts, f, ensure_ascii=False, separators=(",", ":"))
-
-    # Free model memory
+    _save_posts(posts)
     _loaded_models.clear()
-    torch.cuda.empty_cache() if torch.cuda.is_available() else None
 
     print(f"Done. Classified {classified}/{len(indices)} posts.", flush=True)
     return {"classified": classified, "total": total}
 
 
 if __name__ == "__main__":
-    stats = classify_posts()
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--skip-zero-shot", action="store_true", help="Skip slow zero-shot API calls")
+    args = parser.parse_args()
+    stats = classify_posts(skip_zero_shot=args.skip_zero_shot)
     print(json.dumps(stats, indent=2))
