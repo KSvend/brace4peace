@@ -154,6 +154,18 @@
     allHSPosts = await hsRes.json();
     filteredEvents = [...allEvents];
     filteredHSPosts = [...allHSPosts];
+
+    // Show last updated date from most recent data
+    const allDates = [
+      ...allEvents.map(e => e.last_seen || e.date),
+      ...allHSPosts.map(p => p.d)
+    ].filter(Boolean).sort();
+    const lastDate = allDates[allDates.length - 1];
+    if (lastDate) {
+      const el = document.getElementById('last-updated');
+      if (el) el.textContent = `Updated ${lastDate}`;
+    }
+
     return true;
   }
 
