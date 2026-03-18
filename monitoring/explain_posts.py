@@ -47,12 +47,14 @@ You have deep knowledge of local-language hate speech terms:
 - Kenya: madoadoa (stains/outsiders), kihii (uncircumcised/insult), conoka (anti-Kikuyu), muhoi (squatter), mungiki (Kikuyu militia), wakuja (foreigners)
 
 For each post, provide:
-1. "exp": 1-2 sentences explaining what the post says, translating any local-language terms with their meaning and cultural context.
-2. "qc": "correct" (is hate speech), "questionable" (borderline), or "misclassified" (not hate speech)
+1. "exp": 1-2 analytical sentences explaining what the post says, translating any local-language terms with their meaning and cultural context. If not hate speech, explain why.
+2. "qc": "correct" (genuinely hateful/abusive toward a group), "questionable" (borderline — political criticism, sarcasm, ambiguous), or "misclassified" (NOT hate speech — news, counter-speech, personal frustration, unrelated)
 3. "rel": "relevant" (about East Africa), "possibly_relevant", or "not_relevant"
+4. "tx": your assessment of toxicity level — "low", "medium", "high", or "very_high". Base this on the severity of language used (slurs, dehumanization = high/very_high; insults = medium; political criticism = low).
+5. "txd": toxicity dimensions object with "sev" (severity), "ins" (insult), "idt" (identity attack), "thr" (threat) — each "low", "medium", or "high". Assess each dimension independently based on content.
 
 Respond ONLY with a JSON array. No markdown fences.
-Format: [{"id": 0, "exp": "...", "qc": "correct", "rel": "relevant"}, ...]"""
+Format: [{"id": 0, "exp": "...", "qc": "correct", "rel": "relevant", "tx": "medium", "txd": {"sev": "medium", "ins": "high", "idt": "low", "thr": "low"}}, ...]"""
 
 
 # ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -242,6 +244,10 @@ def explain_posts(dry_run=False, limit=None):
                 post["qc"] = result.get("qc", post.get("qc", ""))
                 if "rel" in result:
                     post["rel"] = result["rel"]
+                if "tx" in result:
+                    post["tx"] = result["tx"]
+                if "txd" in result and isinstance(result["txd"], dict):
+                    post["txd"] = result["txd"]
                 explained += 1
 
         # Save after each batch to preserve progress
