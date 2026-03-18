@@ -306,15 +306,22 @@
   <div class="modal-overlay hidden" id="submit-modal">
     <div class="modal modal-compact">
       <div class="modal-header">
-        <h2 class="modal-title">Submit Disinfo Post</h2>
-        <p class="modal-desc">Paste a link and submit. The system handles the rest.</p>
+        <h2 class="modal-title">Submit Post</h2>
+        <p class="modal-desc">Paste a link and select the type. The system handles the rest.</p>
         <button class="modal-close" id="modal-close">&times;</button>
       </div>
 
       <!-- URL input + submit -->
       <div class="modal-body" id="step-url">
+        <div class="form-group" style="margin-bottom:12px">
+          <label class="form-label">Type</label>
+          <div class="submit-type-toggle" style="display:flex;gap:8px">
+            <button class="btn-type active" id="submit-type-disinfo" data-type="disinfo" style="flex:1;padding:8px 12px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:rgba(184,58,42,0.15);color:#B83A2A;cursor:pointer;font-size:13px">Disinformation</button>
+            <button class="btn-type" id="submit-type-hs" data-type="hatespeech" style="flex:1;padding:8px 12px;border:1px solid rgba(255,255,255,0.15);border-radius:6px;background:transparent;color:#9E9E9E;cursor:pointer;font-size:13px">Hate Speech</button>
+          </div>
+        </div>
         <div class="form-group" style="margin-bottom:0">
-          <label class="form-label">Link to disinformation content</label>
+          <label class="form-label">Link to content</label>
           <div class="url-input-row">
             <input type="url" class="form-input" id="submit-url" placeholder="https://x.com/... or https://facebook.com/..." autofocus>
           </div>
@@ -323,7 +330,7 @@
         <details class="submit-extra-info">
           <summary class="submit-extra-toggle">Add optional note</summary>
           <div class="submit-extra-fields">
-            <textarea class="form-textarea" id="submit-note" rows="2" placeholder="Any additional context about why this is disinformation..."></textarea>
+            <textarea class="form-textarea" id="submit-note" rows="2" placeholder="Any additional context..."></textarea>
           </div>
         </details>
       </div>

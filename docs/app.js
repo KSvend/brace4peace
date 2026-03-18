@@ -2034,6 +2034,24 @@
       if (e.key === 'Escape' && !overlay.classList.contains('hidden')) closeModal();
     });
 
+    // Type toggle buttons
+    let submitType = 'disinfo';
+    const btnTypeDisinfo = document.getElementById('submit-type-disinfo');
+    const btnTypeHS = document.getElementById('submit-type-hs');
+    if (btnTypeDisinfo && btnTypeHS) {
+      [btnTypeDisinfo, btnTypeHS].forEach(btn => {
+        btn.addEventListener('click', () => {
+          submitType = btn.dataset.type;
+          btnTypeDisinfo.classList.toggle('active', submitType === 'disinfo');
+          btnTypeHS.classList.toggle('active', submitType === 'hatespeech');
+          btnTypeDisinfo.style.background = submitType === 'disinfo' ? 'rgba(184,58,42,0.15)' : 'transparent';
+          btnTypeDisinfo.style.color = submitType === 'disinfo' ? '#B83A2A' : '#9E9E9E';
+          btnTypeHS.style.background = submitType === 'hatespeech' ? 'rgba(128,113,188,0.15)' : 'transparent';
+          btnTypeHS.style.color = submitType === 'hatespeech' ? '#8071BC' : '#9E9E9E';
+        });
+      });
+    }
+
     if (btnSubmit) {
       btnSubmit.addEventListener('click', () => {
         const url = document.getElementById('submit-url')?.value?.trim();
@@ -2044,42 +2062,68 @@
         const platform = detectPlatform(url);
         const country = detectCountry(url);
         const date = new Date().toISOString().split('T')[0];
-        const eventId = `SUB-${date}-${String(allEvents.length + 1).padStart(3, '0')}`;
 
-        const newEvent = {
-          id: eventId,
-          date: date,
-          country: country,
-          event_type: 'DISINFO',
-          disinfo_subtype: 'pending_classification',
-          threat_level: 'P3 MODERATE',
-          headline: `Submitted link — pending analysis`,
-          summary: note || `Link submitted for automated review.`,
-          actors: [],
-          platforms: [platform],
-          sources: [{ publisher: 'User submission', url: url, date: date }],
-          spread: 1,
-          disinfo_narratives: [],
-          related_events: [],
-          disinfo_confidence: 'PENDING',
-          disinfo_justification: 'Submitted by user — awaiting automated analysis',
-          detection_method: 'manual_submission',
-          content_observed: false,
-          source_basis: 'user_submission',
-          verification_status: 'pending_review',
-          narrative_families: [],
-          ve_related: false,
-          al_shabaab_related: false,
-          tags: ['user_submission', 'pending_analysis'],
-          data_source: 'manual',
-          detected_by: 'user',
-          detection_timestamp: new Date().toISOString()
-        };
-
-        allEvents.push(newEvent);
-        applyFilters();
-        showStep(stepSuccess);
-        showToast('Link submitted for review');
+        if (submitType === 'hatespeech') {
+          // HS submission
+          const postId = `sub-${Date.now().toString(36)}`;
+          const newPost = {
+            i: postId,
+            t: note || 'Submitted link — pending analysis',
+            d: date,
+            c: country,
+            p: platform === 'X (Twitter)' ? 'x' : platform === 'Facebook' ? 'facebook' : platform === 'TikTok' ? 'tiktok' : 'web',
+            a: 'submitted',
+            l: url,
+            pr: 'Hate',
+            co: 0,
+            tx: 'medium',
+            st: [],
+            txd: { sev: 'medium', ins: 'medium', idt: 'medium', thr: 'medium' },
+            en: { l: 0, s: 0, c: 0 },
+            qc: 'auto_sweep',
+            _source: 'user_submission'
+          };
+          allHSPosts.push(newPost);
+          filteredHSPosts = [...allHSPosts];
+          showStep(stepSuccess);
+          showToast('Hate speech post submitted for review');
+        } else {
+          // Disinfo submission
+          const eventId = `SUB-${date}-${String(allEvents.length + 1).padStart(3, '0')}`;
+          const newEvent = {
+            id: eventId,
+            date: date,
+            country: country,
+            event_type: 'DISINFO',
+            disinfo_subtype: 'pending_classification',
+            threat_level: 'P3 MODERATE',
+            headline: `Submitted link — pending analysis`,
+            summary: note || `Link submitted for automated review.`,
+            actors: [],
+            platforms: [platform],
+            sources: [{ publisher: 'User submission', url: url, date: date }],
+            spread: 1,
+            disinfo_narratives: [],
+            related_events: [],
+            disinfo_confidence: 'PENDING',
+            disinfo_justification: 'Submitted by user — awaiting automated analysis',
+            detection_method: 'manual_submission',
+            content_observed: false,
+            source_basis: 'user_submission',
+            verification_status: 'pending_review',
+            narrative_families: [],
+            ve_related: false,
+            al_shabaab_related: false,
+            tags: ['user_submission', 'pending_analysis'],
+            data_source: 'manual',
+            detected_by: 'user',
+            detection_timestamp: new Date().toISOString()
+          };
+          allEvents.push(newEvent);
+          applyFilters();
+          showStep(stepSuccess);
+          showToast('Disinfo post submitted for review');
+        }
       });
 
       const urlInput = document.getElementById('submit-url');
