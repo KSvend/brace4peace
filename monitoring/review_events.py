@@ -59,10 +59,13 @@ For each event, provide:
 8. "proposed_keywords": New search keywords extracted from this event that should be added to the monitoring sweep. Only propose terms specific to East African disinformation — not generic words. Max 5.
    Format: [{"keyword": "...", "country": "...", "reason": "..."}]
 
-9. "notes": Brief analytical note (1-2 sentences) about this event's significance.
+9. "summary_ok": true if summary is accurate and analytical. false if it's generic, mechanical, or needs improvement.
+10. "suggested_summary": improved summary if summary_ok is false, otherwise null. Should be 2-3 sentences describing what happened, who is involved, and why it matters.
+
+11. "notes": Brief analytical note (1-2 sentences) about this event's significance.
 
 Respond ONLY with a JSON array. No markdown fences.
-Format: [{"id": 0, "classification_correct": true, "suggested_type": "DISINFO", "headline_ok": true, "suggested_headline": null, "threat_ok": true, "suggested_threat": null, "extracted_claims": [...], "proposed_keywords": [...], "notes": "..."}, ...]"""
+Format: [{"id": 0, "classification_correct": true, "suggested_type": "DISINFO", "headline_ok": true, "suggested_headline": null, "threat_ok": true, "suggested_threat": null, "summary_ok": true, "suggested_summary": null, "extracted_claims": [...], "proposed_keywords": [...], "notes": "..."}, ...]"""
 
 
 def call_anthropic(batch_text):
@@ -206,6 +209,11 @@ def main(dry_run=False, review_all=False):
             if not item.get("headline_ok", True) and item.get("suggested_headline"):
                 event["_original_headline"] = event.get("headline")
                 event["headline"] = item["suggested_headline"]
+
+            # Apply summary fix
+            if not item.get("summary_ok", True) and item.get("suggested_summary"):
+                event["_original_summary"] = event.get("summary")
+                event["summary"] = item["suggested_summary"]
 
             # Apply threat fix
             if not item.get("threat_ok", True) and item.get("suggested_threat"):
