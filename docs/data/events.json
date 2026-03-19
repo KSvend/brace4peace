@@ -427,7 +427,8 @@
       "South Sudanese civilians killed by Sudanese Armed Forces and allied militias in Wad Madani"
     ],
     "_review_notes": "This appears to be disinformation content (unverified videos) directly causing real-world violence, not just reporting about disinformation activities.",
-    "_reviewed": "2026-03-19T07:54:03.400303+00:00"
+    "_reviewed": "2026-03-19T07:54:03.400303+00:00",
+    "status": "resolved"
   },
   {
     "id": "SOM-2025-042",
@@ -3398,7 +3399,8 @@
       "Riek Machar placed under house arrest by South Sudan security forces"
     ],
     "_review_notes": "This appears to be fabricated news designed to destabilize South Sudan's peace process through false arrest claims.",
-    "_reviewed": "2026-03-19T07:56:54.820489+00:00"
+    "_reviewed": "2026-03-19T07:56:54.820489+00:00",
+    "status": "resolved"
   },
   {
     "id": "SOM-2025-012",
@@ -6165,7 +6167,8 @@
       "Deepfake face-swaps used to discredit opposition leaders"
     ],
     "_review_notes": "Contains actual disinformation campaigns (fabricated imagery, deepfakes) being deployed, not just reports about them - should be DISINFO.",
-    "_reviewed": "2026-03-19T07:59:17.482844+00:00"
+    "_reviewed": "2026-03-19T07:59:17.482844+00:00",
+    "status": "resolved"
   },
   {
     "id": "KEN-2025-013",
@@ -7936,7 +7939,8 @@
       "Somali government is an apostate state oppressing Muslims"
     ],
     "_review_notes": "This is disinformation as Al-Shabaab is spreading false religious framing to justify terrorism, not a news report about their activities.",
-    "_reviewed": "2026-03-19T08:01:11.837813+00:00"
+    "_reviewed": "2026-03-19T08:01:11.837813+00:00",
+    "status": "resolved"
   },
   {
     "id": "SOM-2025-031",
@@ -16156,7 +16160,12 @@
       "@BigstarKe",
       "@bonsoul_ke",
       "@Merc13Nyambura",
-      "@hezwachira"
+      "@hezwachira",
+      "@anode09",
+      "@theboyfk",
+      "@DreamBoy254",
+      "@ngetichkhillar1",
+      "@EveryAcreKenya"
     ],
     "platforms": [
       "X (Twitter)"
@@ -16175,6 +16184,11 @@
       {
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/Yasirarafat2520/status/1916831359156334618",
+        "date": "2026-03-19"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/BigstarKe/status/1925839711282634759",
         "date": "2026-03-19"
       }
     ],
@@ -16268,11 +16282,21 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-19",
+        "url": "https://x.com/BigstarKe/status/1925839711282634759",
+        "summary": "#DogsOfWar: When \"activists\" travel first-class and stay at 5-star hotels on foreign NGO money, their mission isn’t justice it’s",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 6,
+    "observation_count": 7,
     "last_seen": "2026-03-19",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -16310,7 +16334,9 @@
       "@grok",
       "@thepushpesh",
       "@Ovox_007",
-      "@ZMiST_Ua"
+      "@ZMiST_Ua",
+      "@bboblloyd",
+      "@RichardREB4"
     ],
     "platforms": [
       "X (Twitter)"
@@ -16395,11 +16421,21 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-19",
+        "url": "https://x.com/Halgamaassc99/status/1934568198529028527",
+        "summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 3,
+    "observation_count": 4,
     "last_seen": "2026-03-19",
     "intensity_trend": [
+      3,
       3,
       3
     ],
@@ -17128,7 +17164,8 @@
       "@ToonchiArts",
       "@Mastermastin_GO",
       "@OjiamboRashid",
-      "@D_KKinuthia"
+      "@D_KKinuthia",
+      "@grok"
     ],
     "platforms": [
       "X (Twitter)"
@@ -17199,10 +17236,20 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-19",
+        "url": "https://x.com/Lyre__Bird/status/2033881544545169885",
+        "summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 2,
+    "observation_count": 3,
     "intensity_trend": [
+      3,
       3
     ],
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",

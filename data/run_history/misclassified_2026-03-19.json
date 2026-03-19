@@ -963,5 +963,2545 @@
     },
     "exp": "Empty post with no content to analyze.",
     "rel": "not_relevant"
+  },
+  {
+    "i": "apify-719899b0d416",
+    "t": "@DLSVPP @_markusking he\u2019s not somali jareer",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@user1087923",
+    "l": "https://x.com/user1087923/status/2034348416088838261",
+    "pr": "Hate",
+    "co": 0.9842,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9523
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-2b26965cd366",
+    "t": "@TheSullis @ceaserparanoid you dirty Irish tramps, one fact i'd tell you is that Somali people absolutely detest these Nigerian apes (Jareer SIaves) \ud83d\ude02\ud83d\ude02",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@TheDream101_",
+    "l": "https://x.com/TheDream101_/status/2034171333563593066",
+    "pr": "Hate",
+    "co": 0.9231,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9685
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-9e5b12139f69",
+    "t": "@Abtilibaan That's a jareer with his Somali \"queen \"\ud83d\ude02\ud83d\ude02\ud83d\ude02",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@husseinguerilla",
+    "l": "https://x.com/husseinguerilla/status/2034061678380220759",
+    "pr": "Abusive",
+    "co": 0.9879,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9337
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-752d9df287b9",
+    "t": "CALANKA \ud83c\uddf8\ud83c\uddf4 #Somali #somalitiktok #somaligirls #foryoupage",
+    "d": "2025-06-27",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@niikoshow",
+    "l": "https://www.tiktok.com/@niikoshow/video/7520434785693551878",
+    "pr": "Normal",
+    "co": 0.998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.978
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-3db5d6978322",
+    "t": "Calanka #somalitiktok2025 #heestacalanka #somaliai #somalia",
+    "d": "2025-02-25",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@aishactiro",
+    "l": "https://www.tiktok.com/@aishactiro/video/7475402288606055702",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9762
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-2d2e4ff1196e",
+    "t": "#somalitiktok #somalifyp\u30b7\u309aviral\ud83d\udda4tiktok\u2606\u2661\ud83e\udd8b #xybca #somalitiktok12 #somalifypppppppp",
+    "d": "2025-12-26",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@somaliwrld",
+    "l": "https://www.tiktok.com/@somaliwrld/video/7587960733002943766",
+    "pr": "Normal",
+    "co": 0.9931,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9786
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-a43b2b8c2938",
+    "t": "Caanka D/holwadaag #3copylinkplease\ud83d\udc97 #somalitiktok12 #foryoupage #fyp",
+    "d": "2026-03-07",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@hanadow190",
+    "l": "https://www.tiktok.com/@hanadow190/video/7614523699311660296",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9794
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-adb6dd1bcca0",
+    "t": "\ud83d\udea8\ud83c\udf27\ufe0f HEAVY RAINFALL ADVISORY \u2013 No. 3 of 2026\nUPDATE No. 1\nIssued by the @MeteoKenya (KMD)\n\nHeavy rainfall exceeding 20mm in 24 hours is expected from 19th to 24th March 2026 across several parts of the country.\n\n\ud83d\udd3a Rainfall is likely to intensify and peak between 20th and 23rd March 2026\n\ud83d\udd3b A decrease ",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MeteoKenya",
+    "l": "https://x.com/MeteoKenya/status/2034340271689793595",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-9c0dc2a60acc",
+    "t": "@jennykanyiri @philipmathekaj @RChemutai @Davidwaflower9 @ItsOnesmus254 @PatrickRudiger2 @WMatamano @sylviepaloma @helenMaIgnatius @CessNdiritu @Josephkihiu12 @MudasiaEvans @elijahsumbeiywo @wambokamaa @GidaLangat @WamahigaN @ItsDrMutwiri @MichukiGavana @petermutie380 @JohnMusang7262 @Annmitchel5 @s",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GOVERNORKAHUHO1",
+    "l": "https://x.com/GOVERNORKAHUHO1/status/2034140377586843866",
+    "pr": "Normal",
+    "co": 0.9987,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9988
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-287e731efc93",
+    "t": "\u26a0\ufe0f\u26c8\ufe0fHeavy Rainfall\n\nThe rainfall being experienced over several parts of the country is expected to intensify to more than 20mm in 24 hours from March 19th to 24th March 2026. The intensity is expected to peak between 20th and 23rd March 2026, before decreasing in intensity on 24th March 2026. Altho",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Koecheruiyot",
+    "l": "https://x.com/Koecheruiyot/status/2034319912546484260",
+    "pr": "Normal",
+    "co": 0.9973,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This appears to be an empty or null post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-57b675b1858b",
+    "t": "Kenya Meteorological Department warns of rainfall across several parts of the country expected to intensify to more than 20mm in 24 hours from March 19 to March 24, 2026 https://t.co/1t6EMLxY3k",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ViralTeaKe",
+    "l": "https://x.com/ViralTeaKe/status/2034337497346363660",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-d04d35a04298",
+    "t": "@Annmitchel5 @Davidwaflower9 @jennykanyiri @eminen_official @philipmathekaj @RChemutai @ItsOnesmus254 @PatrickRudiger2 @WMatamano @sylviepaloma @helenMaIgnatius @CessNdiritu @Josephkihiu12 @MudasiaEvans @elijahsumbeiywo @wambokamaa @GidaLangat @WamahigaN @ItsDrMutwiri @MichukiGavana @petermutie380 @",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GOVERNORKAHUHO1",
+    "l": "https://x.com/GOVERNORKAHUHO1/status/2034145840743211337",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9985
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-9bd3b4a1ea9b",
+    "t": "The Kenya Meteorological Department (Kenya Met) has issued a heavy rainfall advisory on March 18, 2026, warning that several counties, including Nairobi, should prepare for increased rainfall in the coming days\n\nRainfall is forecast to peak between March 20 and 23, before gradually easing from March",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JamiiForums_KE",
+    "l": "https://x.com/JamiiForums_KE/status/2034367630606569725",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-a24191d36e6a",
+    "t": "This week, government authorities in South Sudan issued an evacuation order for civilians and aid workers in opposition held areas of Mandeng and Nasir in Upper Nile State. \n\nThis followed a similar evacuation order issued for Akobo, a key opposition stronghold. \n\nAs South Sudan\u2019s conflict expands, ",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@hrw",
+    "l": "https://x.com/hrw/status/2034166920379814092",
+    "pr": "Normal",
+    "co": 0.9985,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-d66507f0eee1",
+    "t": "\u5357\u30b9\u30fc\u30c0\u30f3\u3001\u5185\u6226\u518d\u71c3\u6050\u308c\u3000\u4e2d\u6771\u60c5\u52e2\u3067\u63f4\u52a9\u306b\u652f\u969c\u3082(\u5171\u540c\u901a\u4fe1)\n#Yahoo\u30cb\u30e5\u30fc\u30b9\nhttps://t.co/zOxQTt9IMg  \n'Fire came from the sky and burned them' - life on the brink of civil war in South Sudan https://t.co/7NnOSoSlYq",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@sndwky",
+    "l": "https://x.com/sndwky/status/2034321390309179556",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-f8a0a2f5b077",
+    "t": "March 17, 2026 \u2013 South Sudan stands on the precipice of a return to full-scale civil war as intensified military clashes displace hundreds of thousands of civilians.\nhttps://t.co/llIktjbyFe https://t.co/tr0JYqAtJA",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@itsCrunchupdate",
+    "l": "https://x.com/itsCrunchupdate/status/2034087577880240395",
+    "pr": "Normal",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-a1c475da4e81",
+    "t": "\ud83d\udd34 BREAKING NEWS\n\nVice President Rebecca Nyandeng De Mabior has called for urgent, open dialogue between leaders and citizens, warning that it is the \u201ckey to stability\u201d ahead of South Sudan\u2019s 2026 elections.\n\nSpeaking on March 18 at a high-level stakeholder meeting, Nyandeng urged officials to \u201cliste",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SouthSudan24_",
+    "l": "https://x.com/SouthSudan24_/status/2034538110868918425",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-4f19593d42a1",
+    "t": "@Kigeziteensmg @yagga08 South Sudan \ud83c\uddf8\ud83c\uddf8  ( Juba) not Sudan  \ud83c\uddf8\ud83c\udde9 ( Khartoum )",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@mamoz_1997",
+    "l": "https://x.com/mamoz_1997/status/2034441623975727615",
+    "pr": "Normal",
+    "co": 0.9926,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9744
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-0f3a15a54824",
+    "t": "@never99happy @UserFrom1998 @sinbaed7 ur not somali, stop claiming us. ur idoor aka miniature indians",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@rightupsteady",
+    "l": "https://x.com/rightupsteady/status/2034397020132352051",
+    "pr": "Abusive",
+    "co": 0.9802,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Clan Targeting",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9574
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-83dfa4ad86ca",
+    "t": "@HeadGarad @SomHoncho That's what we want tho, you guys already ruined the somali name. We need to make idoor an ethnicity. No more 67iq dumb pirate stereotypes. We tired of your shenanigans",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@emzraw_",
+    "l": "https://x.com/emzraw_/status/2034076954106728858",
+    "pr": "Hate",
+    "co": 0.5087,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Clan Targeting",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9812
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-4e27174decbd",
+    "t": "@KagnewBat @mimsahinsari Idoor! You are an enemy of Allah and the Somali people",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@closurered1",
+    "l": "https://x.com/closurered1/status/2034059208220422300",
+    "pr": "Abusive",
+    "co": 0.9979,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Clan Targeting",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9537
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-21d42218db3a",
+    "t": "@Jesusmoses1992 @HornAfricaFirst typical idoor, your also somali stop using our name oromo animals",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@JohnnyLaw1967",
+    "l": "https://x.com/JohnnyLaw1967/status/2034299516892147919",
+    "pr": "Normal",
+    "co": 0.8686,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Clan Targeting",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9871
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-1ce8768b3847",
+    "t": "Jaceylki baaba raagey \ud83e\udd70\ud83d\udcaf#somalitiktok #somalinimo #qabiil #fyp adey kuu taalaa\ud83d\ude00",
+    "d": "2023-10-09",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@qasaaro_4ever",
+    "l": "https://www.tiktok.com/@qasaaro_4ever/video/7288064606558227717",
+    "pr": "Abusive",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9805
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-2bf86c6a4c42",
+    "t": "Qabiil dartiis baan 2025 meel banaan iskugu dilaynaa Soomaaliyeey \ud83d\ude2d#fyp #somalitiktok #trendingtiktok #trendingvideo #video #follow #somali #Qabiil #qabyaaladuwaaqurun #dagaal #lafoole #hees #lyric #song #creatorsearchinsights",
+    "d": "2024-12-31",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@jamaal_114",
+    "l": "https://www.tiktok.com/@jamaal_114/video/7454619660101684485",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9825
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-889746f346e5",
+    "t": "#somalitiktok #puntand\ud83c\uddfa\ud83c\uddff #marexanimo\ud83c\uddf1\ud83c\uddfa\u2764 #marexaanpower\ud83c\uddf1\ud83c\uddfa\ud83d\udc51 #ogadeen\ud83c\uddec\ud83c\uddf2\ud83d\udc96tolkey #khaatumostate\ud83d\udc0e\ud83c\uddf8\ud83c\uddf4",
+    "d": "2022-08-10",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@professor_runta",
+    "l": "https://www.tiktok.com/@professor_runta/video/7130202232183655686",
+    "pr": "Normal",
+    "co": 0.5738,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9809
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-55e9745b8ebf",
+    "t": "@Josephkihiu12 @jennykanyiri @vimatosh @RChemutai @philipmathekaj @Janetmw25 @DenooPogba1 @itsjohnndaiga @MichukiGavana @emily_akoko @MaggieNdumia @WamahigaN @maureennzau @EvangelineAdisa @helenMaIgnatius @Annmitchel5 @ItsOnesmus254 @MwangangiNelly @CessNdiritu @gmukavana @WMatamano @njoro78 @Jullie",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kibe_tz",
+    "l": "https://x.com/kibe_tz/status/2034478009860681756",
+    "pr": "Normal",
+    "co": 0.9412,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-e6ef40044a7f",
+    "t": "Kenya Met Department warns of heavy rainfall across several parts of the country from Wednesday night, with the intensity likely to peak between March 20 and 23, 2026, before decreasing in intensity on March 24, 2026.",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Marc_Macuda",
+    "l": "https://x.com/Marc_Macuda/status/2034353042774950291",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-c40794c08fe7",
+    "t": "The Kenya Meteorological Department has issued a heavy rainfall advisory for several parts of the country, which may receive more than 20mm of rain within 24 hours between March 19 and 24, 2026.\n\nhttps://t.co/HEvACGOKsh",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TheStarKenya",
+    "l": "https://x.com/TheStarKenya/status/2034336235460624498",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-74f4d02e940f",
+    "t": "Kenya Meteorological Department warns of heavy rainfall across several parts of the country from Wednesday night, with the intensity likely to peak between March 20 and 23, 2026, before decreasing in intensity on March 24, 2026.https://t.co/ew9sOMPdJ0",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@wfayzah",
+    "l": "https://x.com/wfayzah/status/2034330037718253830",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-59a6109ddda1",
+    "t": "@HerbMcGrufmy @Yutuber740851Yu @BoomThatsGenius This cope is getting old, people gotta stop pinning everything on Ethiopians. This gaal is a Somali unfortunately.",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@abdiqani1998",
+    "l": "https://x.com/abdiqani1998/status/2034366128449802251",
+    "pr": "Abusive",
+    "co": 0.9686,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9778
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-91b6899f1332",
+    "t": "@Almonyum @Leenay65i Waan kugu raacsanahay sxb, balse dhibaatada ugu weyn waa gaalnimada ay dadkaas haystaan. inshaAllah caruurtayda waxaan u bixin doonaa magacyo somali ah, lkn gaal diinteena neceb nala mid ma aha",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@RunEmDownDizz",
+    "l": "https://x.com/RunEmDownDizz/status/2034233204165529862",
+    "pr": "Normal",
+    "co": 0.9975,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9809
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-46d271dab256",
+    "t": "@NomadSecular I slightly agree with u even tho ur a kaffir murtad may allah have no mercy on u\ud83e\udd23\n\nDo you know how unmanly you are being a atheist? Dat shi gay af and you betrayed your whole ethnicity by leaving the religion. Your excommunicated. You can\u2019t be Somali and non Muslim.",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@HeadGarad",
+    "l": "https://x.com/HeadGarad/status/2034349298301935908",
+    "pr": "Abusive",
+    "co": 0.9939,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9818
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-fd2c48159e18",
+    "t": "@befirmondeen @he4rtgoId You can cope all you want but you\u2019ll always be leagues closer to a Somali murtad than any anjabi, especially if they\u2019re the same clan or immediate family \ud83d\ude2d",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Ogolow1",
+    "l": "https://x.com/Ogolow1/status/2034150251154616668",
+    "pr": "Abusive",
+    "co": 0.9927,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9807
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-1834d6699dcb",
+    "t": "@he4rtgoId An Arab Muslim is closer to me than a Somali murtad",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@befirmondeen",
+    "l": "https://x.com/befirmondeen/status/2034063660117586030",
+    "pr": "Abusive",
+    "co": 0.5771,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9655
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-ce9d6deed8e6",
+    "t": "@A_Biil @synszo Yes he helped them by answering the call to Jihad and fighting the soviets. What betrayal is there? Meanwhile a gaal like you is sitting in the country that colonized us jacking off to Nami hentai.\n\nYou dont have to be concerned about somali affairs sxb",
+    "d": "2026-03-19",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@RunEmDownDizz",
+    "l": "https://x.com/RunEmDownDizz/status/2034257685227376921",
+    "pr": "Abusive",
+    "co": 0.742,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9841
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-2a34d98696a3",
+    "t": "dont follow them like sheep \n\n#marduuf #somalitiktok #takfiri #gang #somalia #yemen #fyp #fyppppppppp #fypppppppppppppp",
+    "d": "2025-05-26",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@sh..hilibiyobariis",
+    "l": "https://www.tiktok.com/@sh..hilibiyobariis/video/7508883218548985090",
+    "pr": "Hate",
+    "co": 0.8251,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9808
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-5c528062fe66",
+    "t": "Takfiri Xassan Xuseen and his claim that it is permissible to trick, deceive, and steal the wealth of disbelievers who have granted you safety and allowed you to settle in their lands#salafi#deen#Dawah#somalitiktok",
+    "d": "2025-08-09",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@somalischolarseng_",
+    "l": "https://www.tiktok.com/@somalischolarseng_/video/7536630379290037526",
+    "pr": "Normal",
+    "co": 0.9971,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.8351
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-46a4771ef524",
+    "t": "The Kenya Meteorological Department has issued a warning of intensified rainfall across several parts of the country, with precipitation expected to exceed 20 millimeters within a 24-hour period from March 19 to 24, 2026. #starkenyanews https://t.co/bZchr95lr0",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TheStarKenya",
+    "l": "https://x.com/TheStarKenya/status/2034313352525062324",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-e7ce51ee1722",
+    "t": "Incoming, Mungiki and Chinkororo resistance in Kenya",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WhatEHappened",
+    "l": "https://x.com/WhatEHappened/status/2034501276759670962",
+    "pr": "Hate",
+    "co": 0.9106,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9991
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-7f423f5ab560",
+    "t": "Security & Disaster Highlights:\n1. Mandera Attack: An IED struck a police vehicle on the Elwak-Wargadud Road, injuring six officers. Security teams, including the Kenya Defence Forces, have launched pursuit operations.\n2. Severe Flooding: Heavy rains have claimed at least 62 lives across Kenya. Nair",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@SecurexEA",
+    "l": "https://x.com/SecurexEA/status/2034164238319550502",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "The post appears to be empty or contains no visible text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-db366853999f",
+    "t": "Kenya Met Department has issued a heavy rainfall advisory from March 19\u201324, 2026, with peak conditions between March 20\u201323. Areas affected include the Lake Victoria Basin, Rift Valley, and Highlands East and West, including Nairobi. https://t.co/vdHQtPx6XQ",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@cbs_ke",
+    "l": "https://x.com/cbs_ke/status/2034564287889313994",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-058f9d0f307d",
+    "t": "Kenya Warns of Heavy Rainfall, Flood Risks Through March 24 - #ChimpReportsNews\nhttps://t.co/rem1SCsoIj https://t.co/wWnKkbL2eO",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ChimpReports",
+    "l": "https://x.com/ChimpReports/status/2034500098080518456",
+    "pr": "Normal",
+    "co": 0.9964,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-a5339aa5fca0",
+    "t": "The Kenya Meteorological Department forecasts continued rainfall across several parts of the country between March 17 and 23, 2026, with intensity expected to increase from Thursday via @TheStarKenya \nhttps://t.co/TvWzTrNfBK",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MzalendoWatch",
+    "l": "https://x.com/MzalendoWatch/status/2034155025140777254",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-7507b8a61742",
+    "t": "4PM NEWS WRAP-UP \u2013 18TH MARCH 2026\n\n\ud83d\udc49 More than 20 pupils in Mbarara City( Bugashe One and Bugashe Two Primary Schools) face an uncertain future are stranded after Uganda National Examinations Board withheld their 2025 PLE results over suspected malpractice.\n\n\ud83d\udc49 Livestock farmers in Ntungamo District",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@912CroozeFM",
+    "l": "https://x.com/912CroozeFM/status/2034258766741328128",
+    "pr": "Normal",
+    "co": 0.9984,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-b7d3911cb5e6",
+    "t": "@mulanda_boaz @KiprutToo Conveniently evading the fact that mungiki butchered non kikuyus in Naivasha &amp; Nairobi coupled with police doing so on instructions of Kikuyu leadership that had stolen elections. \nSame standards should apply to Kikuyu murderers. The non Kikuyu killed were not lesser bei",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Kadasia99",
+    "l": "https://x.com/Kadasia99/status/2034216269570863427",
+    "pr": "Hate",
+    "co": 0.9987,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "polarization",
+      "score": 0.9114
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-93c773dc4564",
+    "t": "\u26a0\ufe0f HEAVY RAINS ALERT: Downpours to Intensify Across Kenya from March 19\u201324",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@cbs_ke",
+    "l": "https://x.com/cbs_ke/status/2034306560776679597",
+    "pr": "Normal",
+    "co": 0.9957,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-c190128aa0dd",
+    "t": "Heavy rains expected across Kenya (18\u201324 March)\n\nRisk of flash floods &amp; landslides.\n\nStay safe. @MeteoKenya https://t.co/Y7oui1Jx6v",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KenyaRedCross",
+    "l": "https://x.com/KenyaRedCross/status/2034303173133767093",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-495949d8682b",
+    "t": "Heavy Rains to Intensify Across Kenya From March 19\u201324\nhttps://t.co/l8whxh6PLt",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MrMuraya",
+    "l": "https://x.com/MrMuraya/status/2034331987448615245",
+    "pr": "Normal",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-d0b39afa78ec",
+    "t": "Starting today to 24th March plan your movements accordingly. The Kenya Meteorological Department has warned of heavy rainfall expected in several parts of the country.",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@iamjoseh_",
+    "l": "https://x.com/iamjoseh_/status/2034495141734424681",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-cff827327df7",
+    "t": "Kenya is set for intensified rainfall exceeding 20mm in 24 hours from March 19\u201324, 2026, peaking between March 20\u201323. Affected regions include the Lake Victoria Basin, Rift Valley, and central highlands including Nairobi. https://t.co/Kk8O5QnwJV",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@cbs_ke",
+    "l": "https://x.com/cbs_ke/status/2034306573846130968",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post is empty with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-2a74047efd52",
+    "t": "Heavy rains expected across Kenya (18\u201324 March)\n\nkaa rada",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@OfficialRanaso",
+    "l": "https://x.com/OfficialRanaso/status/2034358061788192806",
+    "pr": "Normal",
+    "co": 0.9981,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-b8b7185787b9",
+    "t": "The 29th Ramadan 1447 AH.\n\n\ud83c\udf19 Shawwal Crescent Moon sighting in Nairobi,Kenya : March 19\u201320, 2026.\n\nEid al-Fitr is expected to be observed on March 20, 2026.\n\nAt the same time, Met Kenya has warned of heavy rains and expected flooding March 18-20,2026. https://t.co/9HaLlVEc0i",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ContinuityGK",
+    "l": "https://x.com/ContinuityGK/status/2034150580298326186",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-52189d43f4b0",
+    "t": "The Kenya Meteorological Department has issued a heavy rainfall advisory warning of intense rains expected across the country from March 18 to March 24, 2026. https://t.co/SXFVRvTe3E",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@rbdtv_ke",
+    "l": "https://x.com/rbdtv_ke/status/2034489578577387925",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-e8a8527407bf",
+    "t": "Sudanese Armed Forces Recapture Jar\u1e6d West Station in Blue Nile Region After Fierce Battle with UAE-backed Rapid Support Militia (Janjaweed)\n\nThe 4th Infantry Division, represented by the 16th Infantry Brigade in Kurmuk, supported by allied forces, successfully regained control of Jar\u1e6d West Station i",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SudaneseEcho",
+    "l": "https://x.com/SudaneseEcho/status/2034349088355852487",
+    "pr": "Normal",
+    "co": 0.9978,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-c3a4f9923f99",
+    "t": "The South Sudanese government on Tuesday defended its ongoing military operations and rejected calls for the release of political figures, including opposition leader Dr. Riek Mac... https://t.co/HMxcMzjj2r",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@RadioTamazuj",
+    "l": "https://x.com/RadioTamazuj/status/2034215475194859619",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-42c9a7dcb5c2",
+    "t": "Exclusive to Brown Land\n\nSouth Sudan has shifted its immediate focus toward preparations for the December 2026 general elections and strengthening internal political dialogue, placing less emphasis on the Kenya-led Tumaini Initiative, according to government officials.\n\nThe Tumaini Initiative (\u201chope",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@brownlandnews",
+    "l": "https://x.com/brownlandnews/status/2034355584862925234",
+    "pr": "Normal",
+    "co": 0.9985,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-3b79170ead36",
+    "t": "The South Sudanese government on Tuesday defended its ongoing military operations and rejected calls for the release of political figures, including opposition leader Dr. Riek Machar, \n\nMore details here\n\nhttps://t.co/mxjogROnLK https://t.co/6RsddXI7VD",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@RadioPacisnews",
+    "l": "https://x.com/RadioPacisnews/status/2034559477467238765",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-a89e23ea1c1d",
+    "t": "In a statement released by the Ministry of Interior, Federalism and Reconciliation, federal authorities said they are \u201cclosely monitoring\u201d developments in South West, where instability has intensified in recent weeks. However, the government did not directly address the origins of the allegations or",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@IwereNews",
+    "l": "https://x.com/IwereNews/status/2034343737535709258",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-ff4ecb0b46f9",
+    "t": "**As of 19 March 2026 \u2013 Somalia's Federal Crisis Has Escalated Sharply**\n\n- Southwest State formally severed all ties with the federal government on **17 March**, accusing Mogadishu of arming local militias, direct interference, and plots to unseat President **Abdiaziz Hassan Mohamed Laftagareen** (",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Somalimois1",
+    "l": "https://x.com/Somalimois1/status/2034427157838012663",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-2dcd06a0b15b",
+    "t": "@grok\n\nGrok, my points from 2025-2026 has played out almost exactly as I predicted\u2014thank you for validating it. The March 5 constitutional amendments triggered everything, just like I said. Southwest State severed ties on March 17, Laftagareen resigned from JSP today on the 18th along with multiple ",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Somalimois1",
+    "l": "https://x.com/Somalimois1/status/2034244693039436199",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9986
+    },
+    "exp": "The post appears to be empty or contains no readable text content.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-d7d49dbad2e4",
+    "t": "Your points on covenant-breaking and amanah in leadership reference the documented January 2024 statement by HSM deferring major constitutional work to the next term (Puntland inauguration, per Horseed Media) versus the March 5, 2026 amendments (term extensions to 5 years, provisional constitution e",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@grok",
+    "l": "https://x.com/grok/status/2034367769437680034",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-2d1d437ea033",
+    "t": "Civil Alliance in South Sudan: President Kiir Must Be Physically and Mentally Checked ...https://t.co/pTEDKrjzIo \n\n#PachodoNews #SSOX #SSOT #Salva_Kiir #SouthSudan #South_Sudan #SouthSudanese #SouthSudanNews #Sudan #\u062c\u0646\u0648\u0628_\u0627\u0644\u0633\u0648\u062f\u0627\u0646\n#\u0627\u0644\u0633\u0648\u062f\u0627\u0646 https://t.co/DpfuS24fWJ",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PachodoOrg",
+    "l": "https://x.com/PachodoOrg/status/2034350895903695041",
+    "pr": "Normal",
+    "co": 0.9949,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-895b5fe9f2e3",
+    "t": "Got it \u2014 firm reset, no endless talks. Set the election date and mechanisms **now**, give HSM exactly **12 weeks** to deliver credible progress or face coordinated pressure for transition.\n\nAs of 19 March 2026 the crisis has escalated sharply:\n\n- Southwest State formally severed all ties with the fe",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Somalimois1",
+    "l": "https://x.com/Somalimois1/status/2034426249389490470",
+    "pr": "Normal",
+    "co": 0.998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9981
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-58dbbce6c562",
+    "t": "@grok\n@AbdirizakOm\nThanks @grok for the accurate, real-time analysis on Southwest State President Abdiaziz Hassan Mohamed Laftagareen's resignation from JSP deputy chairmanship (effective today, 18 March 2026). Spot-on linking it to opposition against the controversial 5 March 2026 constitutional am",
+    "d": "2026-03-19",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Somalimois1",
+    "l": "https://x.com/Somalimois1/status/2034242262347952543",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-d966f1906e40",
+    "t": "@JohnMusang7262 @Davidwaflower9 @DungaBeach_ @AAkiyao @RChemutai @jennykanyiri @philipmathekaj @WMatamano @itsjohnndaiga @Josephkihiu12 @CessNdiritu @WamahigaN @Ronokibet11 @PindiweLily12 @raphn @kibe_tz @eminen_official @ItsDrMutwiri @helenMaIgnatius @elijahsumbeiywo @sylviepaloma @GidaLangat @Mich",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GOVERNORKAHUHO1",
+    "l": "https://x.com/GOVERNORKAHUHO1/status/2034508581710541190",
+    "pr": "Normal",
+    "co": 0.65,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-8070b8d5f970",
+    "t": "@MichukiGavana @itsjohnndaiga @philipmathekaj @jennykanyiri @Josephkihiu12 @CessNdiritu @Ronokibet11 @PindiweLily12 @RChemutai @raphn @kibe_tz @eminen_official @ItsDrMutwiri @helenMaIgnatius @elijahsumbeiywo @sylviepaloma @GidaLangat @petermutie380 @JohnMusang7262 @Annmitchel5 @simba_sheldon @AAkiya",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2034489766918439024",
+    "pr": "Normal",
+    "co": 0.9988,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.999
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-508a8ee1c468",
+    "t": "@Josephkihiu12 @MichukiGavana @emily_akoko @MaggieNdumia @philipmathekaj @RChemutai @WamahigaN @jennykanyiri @maureennzau @EvangelineAdisa @helenMaIgnatius @Annmitchel5 @ItsOnesmus254 @MwangangiNelly @CessNdiritu @vimatosh @gmukavana @WMatamano @njoro78 @JullietteJ50569 @taptap82898185 @kibe_tz @kun",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@moses_kaigi",
+    "l": "https://x.com/moses_kaigi/status/2034121508629401762",
+    "pr": "Normal",
+    "co": 0.9941,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-4fad6606cdbd",
+    "t": "@Lucypau43921191 @CBaragu39172 @ItsMainaKageni @Classic105Kenya @GOVERNORKAHUHO1 @HeleniqueYuniq @JamesVungo @kibe_tz @TheAfrican_M @Itsryckieh @Solderwamundoro @Clyde_Makomere @MakangMacdonald @_mkenyaDaima @Vian_nyamu @AnundaOgega @ItsKipleting NIKO Tokonyo Tokonyoko Ahsante  #MainaAndKingangi",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@moses_kaigi",
+    "l": "https://x.com/moses_kaigi/status/2034123162556792963",
+    "pr": "Normal",
+    "co": 0.4831,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-6758e7e32326",
+    "t": "Economy & Trade\n1. IMF Shift: Kenya will forgo new IMF loans through June 2026 after raising KSh 588.5 billion from asset sales and Eurobond proceeds. This allows the country to sidestep conditions like tax hikes.\n2. Fuel Prices: EPRA announced that fuel prices will remain unchanged for the March 15",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@SecurexEA",
+    "l": "https://x.com/SecurexEA/status/2034164240890654795",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
+  },
+  {
+    "i": "apify-15783f7e2670",
+    "t": "@KokoMukoya13895 @MichukiGavana @jennykanyiri @philipmathekaj @Josephkihiu12 @emily_akoko @MaggieNdumia @RChemutai @WamahigaN @maureennzau @EvangelineAdisa @helenMaIgnatius @Annmitchel5 @ItsOnesmus254 @MwangangiNelly @CessNdiritu @vimatosh @gmukavana @WMatamano @njoro78 @JullietteJ50569 @taptap82898",
+    "d": "2026-03-19",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@moses_kaigi",
+    "l": "https://x.com/moses_kaigi/status/2034126070484766791",
+    "pr": "Normal",
+    "co": 0.9862,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-19",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "Empty post with no content to analyze.",
+    "rel": "not_relevant"
   }
 ]
