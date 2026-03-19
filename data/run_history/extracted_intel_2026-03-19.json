@@ -1,0 +1,3626 @@
+{
+  "date": "2026-03-19",
+  "extracted_claims": [
+    {
+      "claim": "Government troll network manufactures pro-government trends",
+      "country": "Kenya",
+      "actors": [
+        "Kenya government troll network"
+      ],
+      "keywords": [
+        "paid bloggers",
+        "manufactured trends"
+      ]
+    },
+    {
+      "claim": "Network earns KES 25,000-50,000 per day for manipulation operations",
+      "country": "Kenya",
+      "actors": [
+        "Individual paid operators"
+      ],
+      "keywords": [
+        "troll payments",
+        "social media manipulation"
+      ]
+    },
+    {
+      "claim": "South Sudanese civilians killed by Sudanese Armed Forces and allied militias in Wad Madani",
+      "country": "South Sudan",
+      "actors": [
+        "South Sudanese youth/mobs"
+      ],
+      "keywords": [
+        "Wad Madani",
+        "Sudanese Armed Forces",
+        "El Gezira"
+      ]
+    },
+    {
+      "claim": "Kikuyu community complicit in political capture under President Ruto",
+      "country": "Kenya",
+      "actors": [
+        "Political operatives",
+        "Opposition-aligned influencers"
+      ],
+      "keywords": [
+        "#43against1",
+        "Kikuyu",
+        "political capture"
+      ]
+    },
+    {
+      "claim": "US airstrikes in Somalia constitute foreign aggression on Muslim lands",
+      "country": "Somalia",
+      "actors": [
+        "ISIS-Somalia"
+      ],
+      "keywords": [
+        "foreign aggression",
+        "Muslim lands",
+        "US airstrike",
+        "AFRICOM"
+      ]
+    },
+    {
+      "claim": "Abdirahman Shirwac's surrender was fabricated by Puntland authorities",
+      "country": "Somalia",
+      "actors": [
+        "ISIS-Somalia"
+      ],
+      "keywords": [
+        "Shirwac surrender",
+        "fabricated",
+        "Puntland authorities"
+      ]
+    },
+    {
+      "claim": "Shirwac's surrender was coerced rather than voluntary",
+      "country": "Somalia",
+      "actors": [
+        "ISIS-Somalia"
+      ],
+      "keywords": [
+        "coerced surrender",
+        "Shirwac",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "AI-generated images depicting President Ruto in a coffin",
+      "country": "Kenya",
+      "actors": [
+        "Gideon Kibet",
+        "Billy Mwangi"
+      ],
+      "keywords": [
+        "AI-generated",
+        "President Ruto",
+        "coffin"
+      ]
+    },
+    {
+      "claim": "Hate speech targeting ethnic communities",
+      "country": "South Sudan",
+      "actors": [
+        "Political figures",
+        "Ethnic community networks"
+      ],
+      "keywords": [
+        "hate speech",
+        "ethnic",
+        "communities"
+      ]
+    },
+    {
+      "claim": "SSPDF claims SPLA-IO launched large-scale offensive justifying airstrikes",
+      "country": "South Sudan",
+      "actors": [
+        "SSPDF"
+      ],
+      "keywords": [
+        "SSPDF",
+        "SPLA-IO",
+        "offensive",
+        "airstrikes"
+      ]
+    },
+    {
+      "claim": "ISIS-Somalia battlefield victories and territorial control",
+      "country": "Somalia",
+      "actors": [
+        "Islamic State Somalia"
+      ],
+      "keywords": [
+        "ISIS-Somalia",
+        "battlefield",
+        "victories",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Recruitment messaging targeting Puntland audiences",
+      "country": "Somalia",
+      "actors": [
+        "Islamic State Somalia"
+      ],
+      "keywords": [
+        "recruitment",
+        "Puntland",
+        "ISIS"
+      ]
+    },
+    {
+      "claim": "Russian media expansion serves Ethiopian and Russian national interests",
+      "country": "Regional",
+      "actors": [
+        "Sputnik Africa",
+        "Russian Embassy Kenya"
+      ],
+      "keywords": [
+        "Russian media",
+        "Ethiopian interests",
+        "national interests"
+      ]
+    },
+    {
+      "claim": "150+ government casualties during Operation Ramadan",
+      "country": "Somalia",
+      "actors": [
+        "Shahada News Agency"
+      ],
+      "keywords": [
+        "Operation Ramadan",
+        "government casualties",
+        "Shahada News"
+      ]
+    },
+    {
+      "claim": "Somalia is a viable territory for Islamic State territorial consolidation",
+      "country": "Somalia",
+      "actors": [
+        "IS-Somalia Province",
+        "Islamic State Central Media"
+      ],
+      "keywords": [
+        "ISIS Somalia",
+        "tamkin",
+        "jihadist sanctuary"
+      ]
+    },
+    {
+      "claim": "Somalia offers opportunity for hijra (migration to jihad territory)",
+      "country": "Somalia",
+      "actors": [
+        "IS-Somalia Province"
+      ],
+      "keywords": [
+        "hijra",
+        "ISIS Somalia",
+        "foreign fighters"
+      ]
+    },
+    {
+      "claim": "President Ruto is planning to remove the Chief Justice ahead of 2027 elections due to her ethnicity",
+      "country": "Kenya",
+      "actors": [
+        "Rigathi Gachagua"
+      ],
+      "keywords": [
+        "Chief Justice",
+        "ethnicity",
+        "2027 elections"
+      ]
+    },
+    {
+      "claim": "Ethiopian airstrikes killed civilians including mothers and children in El Ba'ad",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab",
+        "Shahada News Agency"
+      ],
+      "keywords": [
+        "Ethiopian airstrikes",
+        "civilian casualties",
+        "El Ba'ad"
+      ]
+    },
+    {
+      "claim": "Ethiopian strikes constitute foreign aggression against Muslims",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab sympathizers"
+      ],
+      "keywords": [
+        "foreign aggression",
+        "Muslims",
+        "Ethiopian strikes"
+      ]
+    },
+    {
+      "claim": "Al-Shabaab can penetrate any soft target and eliminate anti-AS community leaders",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab",
+        "Shahada News Agency"
+      ],
+      "keywords": [
+        "Cairo Hotel",
+        "clan elders",
+        "soft targets"
+      ]
+    },
+    {
+      "claim": "Civilians in military zones can be lawfully targeted by government forces",
+      "country": "South Sudan",
+      "actors": [
+        "Information Minister Michael Makuei Lueth",
+        "SSPDF"
+      ],
+      "keywords": [
+        "military zone",
+        "civilian targeting",
+        "Nasir",
+        "Longechuk",
+        "Ulang"
+      ]
+    },
+    {
+      "claim": "Government aerial attacks using incendiary weapons are justified military operations",
+      "country": "South Sudan",
+      "actors": [
+        "SSPDF",
+        "UPDF"
+      ],
+      "keywords": [
+        "incendiary weapons",
+        "aerial attacks"
+      ]
+    },
+    {
+      "claim": "Presidential assassination attempt marks 'new phase of urban warfare'",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "urban warfare",
+        "presidential assassination",
+        "Mogadishu"
+      ]
+    },
+    {
+      "claim": "Somali government is collapsing due to Al-Shabaab territorial gains",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab",
+        "Al-Kataib Media Foundation"
+      ],
+      "keywords": [
+        "government collapse",
+        "Al-Shabaab control",
+        "Mogadishu"
+      ]
+    },
+    {
+      "claim": "Riek Machar placed under house arrest by South Sudan security forces",
+      "country": "South Sudan",
+      "actors": [
+        "NSS",
+        "SPLM-IO"
+      ],
+      "keywords": [
+        "house arrest",
+        "Machar",
+        "peace agreement collapsed"
+      ]
+    },
+    {
+      "claim": "Hanifa Adan is a foreigner",
+      "country": "Kenya",
+      "actors": [
+        "State-aligned trolls"
+      ],
+      "keywords": [
+        "ToxicActivists",
+        "foreigner"
+      ]
+    },
+    {
+      "claim": "Hanifa Adan is a Somali terrorist",
+      "country": "Kenya",
+      "actors": [
+        "State-aligned trolls"
+      ],
+      "keywords": [
+        "ToxicActivists",
+        "terrorist",
+        "Somali"
+      ]
+    },
+    {
+      "claim": "Somalia is the new ideal sanctuary and destination for foreign jihadi fighters",
+      "country": "Somalia",
+      "actors": [
+        "Islamic State Central Media",
+        "IS-Somalia Province"
+      ],
+      "keywords": [
+        "hijra",
+        "foreign fighters",
+        "sanctuary",
+        "jihad frontline"
+      ]
+    },
+    {
+      "claim": "ISIS territorial gains in Puntland and central Somalia represent divine validation of tamkin consolidation strategy",
+      "country": "Somalia",
+      "actors": [
+        "IS-Somalia Province"
+      ],
+      "keywords": [
+        "tamkin",
+        "divine validation",
+        "territorial gains",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "Houthis have capability to strike US military base Camp Lemonnier in Djibouti",
+      "country": "Regional",
+      "actors": [
+        "IRGC (Iran)",
+        "Houthis"
+      ],
+      "keywords": [
+        "Camp Lemonnier",
+        "Djibouti",
+        "strike capability"
+      ]
+    },
+    {
+      "claim": "Gen Z protests are foreign-funded and illegitimate",
+      "country": "Kenya",
+      "actors": [
+        "527 bloggers network",
+        "State House Kenya"
+      ],
+      "keywords": [
+        "Gen Z protests",
+        "foreign funding",
+        "illegitimate protests"
+      ]
+    },
+    {
+      "claim": "State-sponsored social media manipulation to discredit youth movements",
+      "country": "Kenya",
+      "actors": [
+        "Kenyan government",
+        "527 bloggers"
+      ],
+      "keywords": [
+        "state trolls",
+        "social media manipulation",
+        "youth discrediting"
+      ]
+    },
+    {
+      "claim": "Al-Shabaab operates legitimate Islamic governance and judicial system",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab",
+        "Shahada News Agency"
+      ],
+      "keywords": [
+        "Islamic governance",
+        "Sharia court",
+        "legitimate authority"
+      ]
+    },
+    {
+      "claim": "ISIS-Somalia recruitment propaganda targeting Ethiopian and Kenyan audiences",
+      "country": "Somalia",
+      "actors": [
+        "ISIS-Somalia",
+        "Manjaniq Media"
+      ],
+      "keywords": [
+        "ISIS-Somalia",
+        "Manjaniq Media",
+        "recruitment",
+        "Ethiopia",
+        "Kenya"
+      ]
+    },
+    {
+      "claim": "Russian-backed Pravda Network contaminating Wikipedia articles with false information",
+      "country": "Regional",
+      "actors": [
+        "Pravda Network",
+        "TigerWeb",
+        "Russian-backed operatives"
+      ],
+      "keywords": [
+        "Pravda Network",
+        "Wikipedia contamination",
+        "Russian disinformation"
+      ]
+    },
+    {
+      "claim": "Fake news domains being cited as legitimate sources in AI chatbot responses",
+      "country": "Regional",
+      "actors": [
+        "Pravda Network",
+        "Russian-backed operatives"
+      ],
+      "keywords": [
+        "AI chatbot manipulation",
+        "fake news domains",
+        "knowledge contamination"
+      ]
+    },
+    {
+      "claim": "Al-Shabaab killed 100 soldiers in Damaanyo base bombing",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "Damaanyo",
+        "casualty inflation",
+        "Telegram"
+      ]
+    },
+    {
+      "claim": "Al-Shabaab killed 100 soldiers in Damaanyo bombing (actual ~20)",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "casualty inflation",
+        "Telegram",
+        "recruitment"
+      ]
+    },
+    {
+      "claim": "Wagner Group achieved 70-80% mission success rate in Africa operations",
+      "country": "Regional",
+      "actors": [
+        "Wagner Group",
+        "Africa Corps"
+      ],
+      "keywords": [
+        "Wagner success rate",
+        "Africa operations"
+      ]
+    },
+    {
+      "claim": "Syrian chemical weapons attacks are fake news",
+      "country": "Regional",
+      "actors": [
+        "RT",
+        "Sputnik Africa",
+        "Russian government"
+      ],
+      "keywords": [
+        "Syrian chemical weapons",
+        "fake news",
+        "Russian training"
+      ]
+    },
+    {
+      "claim": "Ukrainian war crimes reports are fabricated",
+      "country": "Regional",
+      "actors": [
+        "RT",
+        "Sputnik Africa",
+        "Russian government"
+      ],
+      "keywords": [
+        "Ukrainian war crimes",
+        "fake news",
+        "Russian media"
+      ]
+    },
+    {
+      "claim": "Al-Shabaab killed 47 government soldiers and militiamen in Moqokori attack",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab",
+        "Shahada News Agency"
+      ],
+      "keywords": [
+        "Moqokori",
+        "casualty claims",
+        "SVBIED"
+      ]
+    },
+    {
+      "claim": "Fabricated protest imagery showing foreign flags during July 2025 protests",
+      "country": "Kenya",
+      "actors": [
+        "Pro-government troll networks"
+      ],
+      "keywords": [
+        "deepfakes",
+        "foreign flags",
+        "protests"
+      ]
+    },
+    {
+      "claim": "Deepfake face-swaps used to discredit opposition leaders",
+      "country": "Kenya",
+      "actors": [
+        "State-aligned propaganda operatives"
+      ],
+      "keywords": [
+        "deepfake",
+        "opposition leaders",
+        "face-swap"
+      ]
+    },
+    {
+      "claim": "African Stream operates as independent pan-African media",
+      "country": "Regional",
+      "actors": [
+        "African Stream",
+        "RT",
+        "Ahmed Kaballo"
+      ],
+      "keywords": [
+        "African Stream",
+        "pan-African media",
+        "RT covert operation"
+      ]
+    },
+    {
+      "claim": "Luo communities are politically unreliable",
+      "country": "Kenya",
+      "actors": [
+        "Political leaders",
+        "Ethnic community networks"
+      ],
+      "keywords": [
+        "Luo-Kikuyu",
+        "ethnic profiling"
+      ]
+    },
+    {
+      "claim": "Kikuyu political dominance narratives",
+      "country": "Kenya",
+      "actors": [
+        "Political leaders",
+        "Online influencers"
+      ],
+      "keywords": [
+        "Kikuyu dominance",
+        "political control"
+      ]
+    },
+    {
+      "claim": "Bariire casualty figures are fabricated by government/AUSSOM",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "Bariire",
+        "casualty figures",
+        "fabricated"
+      ]
+    },
+    {
+      "claim": "Major military victory at Bariire with 100+ militants killed",
+      "country": "Somalia",
+      "actors": [
+        "Somali National Army",
+        "AUSSOM"
+      ],
+      "keywords": [
+        "Bariire victory",
+        "militant casualties"
+      ]
+    },
+    {
+      "claim": "AQAP providing humanitarian aid to Gaza residents",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab",
+        "AQAP",
+        "Shahada News Agency"
+      ],
+      "keywords": [
+        "AQAP",
+        "Gaza aid",
+        "jihadist narrative"
+      ]
+    },
+    {
+      "claim": "NISA prison held Muslim prisoners unjustly",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "Muslim prisoners",
+        "apostate state",
+        "NISA prison"
+      ]
+    },
+    {
+      "claim": "Somali government is an apostate state oppressing Muslims",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "apostate state",
+        "oppression",
+        "Muslim"
+      ]
+    },
+    {
+      "claim": "NISA holds Muslim prisoners unjustly as political prisoners",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "Muslim prisoners",
+        "NISA",
+        "political prisoners"
+      ]
+    },
+    {
+      "claim": "Somali government is an apostate state oppressing true Muslims",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "apostate state",
+        "oppression",
+        "true Muslims"
+      ]
+    },
+    {
+      "claim": "US, UK, Israel, UAE and 17-19 other countries finalizing Somaliland recognition to be announced November 2025",
+      "country": "Somalia",
+      "actors": [
+        "AI-generated accounts",
+        "MiddleEast24",
+        "Visegrad24 network"
+      ],
+      "keywords": [
+        "Somaliland recognition",
+        "fake congressman",
+        "James O'Keefe"
+      ]
+    },
+    {
+      "claim": "Raila Odinga died",
+      "country": "Kenya",
+      "actors": [
+        "Nyeri Governor Mutahi Kahiga"
+      ],
+      "keywords": [
+        "Raila Odinga death",
+        "ethnic violence",
+        "2007 post-election"
+      ]
+    },
+    {
+      "claim": "Civil society activists are foreign agents",
+      "country": "Kenya",
+      "actors": [
+        "Pro-government coordinated accounts"
+      ],
+      "keywords": [
+        "DogsOfWar",
+        "foreign agents",
+        "civil society"
+      ]
+    },
+    {
+      "claim": "Open Society Foundation funding civil society as foreign interference",
+      "country": "Kenya",
+      "actors": [
+        "Pro-government coordinated accounts"
+      ],
+      "keywords": [
+        "Open Society",
+        "foreign funding",
+        "civil society"
+      ]
+    },
+    {
+      "claim": "AI-generated pornographic images targeting women activists",
+      "country": "Kenya",
+      "actors": [
+        "State trolls"
+      ],
+      "keywords": [
+        "AI-generated",
+        "women activists",
+        "deepfakes"
+      ]
+    },
+    {
+      "claim": "Islamophobic imagery targeting Somali-Kenyan journalists",
+      "country": "Kenya",
+      "actors": [
+        "State trolls"
+      ],
+      "keywords": [
+        "Islamophobic",
+        "Somali-Kenyan",
+        "journalists"
+      ]
+    },
+    {
+      "claim": "AI-generated pornographic deepfakes used by government against women protesters",
+      "country": "Kenya",
+      "actors": [
+        "Kenyan State House",
+        "527 bloggers"
+      ],
+      "keywords": [
+        "deepfakes",
+        "AI pornography",
+        "Gen Z protests"
+      ]
+    },
+    {
+      "claim": "Kikuyu community should hold leadership in Nairobi based on their business dominance",
+      "country": "Kenya",
+      "actors": [
+        "Rigathi Gachagua"
+      ],
+      "keywords": [
+        "tribal incitement",
+        "Kikuyu leadership",
+        "Nairobi politics"
+      ]
+    },
+    {
+      "claim": "Ukrainian UN pilot is a prisoner of war rather than hostage",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab"
+      ],
+      "keywords": [
+        "prisoner of war",
+        "Ukrainian pilot",
+        "UN hostage"
+      ]
+    },
+    {
+      "claim": "Senator Faroole called for violence to happen in Mogadishu",
+      "country": "Somalia",
+      "actors": [
+        "Unknown political actor",
+        "Somali Federal Government officials"
+      ],
+      "keywords": [
+        "Faroole",
+        "Mogadishu violence",
+        "deepfake",
+        "Kismayo conference"
+      ]
+    },
+    {
+      "claim": "Senator Faroole invoked clan hostilities",
+      "country": "Somalia",
+      "actors": [
+        "Unknown political actor",
+        "State-aligned media"
+      ],
+      "keywords": [
+        "clan hostilities",
+        "Faroole",
+        "Puntland opposition"
+      ]
+    },
+    {
+      "claim": "Various misleading narratives about Banadir elections",
+      "country": "Somalia",
+      "actors": [
+        "Opposition politicians",
+        "Diaspora-based accounts"
+      ],
+      "keywords": [
+        "Banadir elections",
+        "Mogadishu elections",
+        "election misinformation"
+      ]
+    },
+    {
+      "claim": "Israel planning to use Somaliland for Palestinian displacement",
+      "country": "Somalia",
+      "actors": [
+        "Somalia Federal Government"
+      ],
+      "keywords": [
+        "Palestinian displacement",
+        "Somaliland",
+        "Israel"
+      ]
+    },
+    {
+      "claim": "Israel seeking Red Sea military position through Somaliland recognition",
+      "country": "Somalia",
+      "actors": [
+        "Somalia Federal Government"
+      ],
+      "keywords": [
+        "Red Sea",
+        "military position",
+        "Israel",
+        "Somaliland"
+      ]
+    },
+    {
+      "claim": "Israeli troops deployed in Awdal region of Somaliland",
+      "country": "Somalia",
+      "actors": [
+        "TRT Afrika",
+        "Al Jazeera",
+        "Al Arabiya"
+      ],
+      "keywords": [
+        "Israeli troops",
+        "Awdal region",
+        "military deployment"
+      ]
+    },
+    {
+      "claim": "Secret partition plots between Israel and Somaliland",
+      "country": "Somalia",
+      "actors": [
+        "Pro-Somalia state media"
+      ],
+      "keywords": [
+        "partition plots",
+        "secret agreement",
+        "Israel Somaliland"
+      ]
+    },
+    {
+      "claim": "AI-generated ethnic content targeting political figures",
+      "country": "Kenya",
+      "actors": [
+        "Coordinated troll networks"
+      ],
+      "keywords": [
+        "deepfakes",
+        "AI-generated",
+        "ethnic content"
+      ]
+    },
+    {
+      "claim": "Coordinated hashtag weaponization including #43against1",
+      "country": "Kenya",
+      "actors": [
+        "Political operatives"
+      ],
+      "keywords": [
+        "#43against1",
+        "hashtag weaponization",
+        "coordinated networks"
+      ]
+    },
+    {
+      "claim": "AI-generated deepfake videos showing political leaders making false statements",
+      "country": "Kenya",
+      "actors": [
+        "Unknown political operators"
+      ],
+      "keywords": [
+        "deepfakes",
+        "AI-generated",
+        "political leaders"
+      ]
+    },
+    {
+      "claim": "Coordinated hashtag manipulation campaigns targeting 2027 elections",
+      "country": "Kenya",
+      "actors": [
+        "State-affiliated networks",
+        "Opposition-aligned networks"
+      ],
+      "keywords": [
+        "hashtag manipulation",
+        "2027 elections",
+        "coordinated campaigns"
+      ]
+    },
+    {
+      "claim": "Funds stolen in Minnesota fraud scandal were used to build BBS Mall in Eastleigh by Somali community",
+      "country": "Kenya",
+      "actors": [
+        "Rigathi Gachagua"
+      ],
+      "keywords": [
+        "BBS Mall",
+        "Eastleigh",
+        "Minnesota fraud",
+        "Somali community"
+      ]
+    },
+    {
+      "claim": "AI-generated images depicting President Ruto as dead",
+      "country": "Kenya",
+      "actors": [
+        "Harrison Mumia"
+      ],
+      "keywords": [
+        "AI-generated",
+        "President Ruto",
+        "death imagery"
+      ]
+    },
+    {
+      "claim": "UAE facilitating Israel's Somaliland recognition as hostile act against Somalia",
+      "country": "Somalia",
+      "actors": [
+        "UAE",
+        "Gulf states"
+      ],
+      "keywords": [
+        "UAE Somalia",
+        "Somaliland recognition",
+        "Israel Somaliland"
+      ]
+    },
+    {
+      "claim": "Various clan-based manipulation and disinformation targeting Mogadishu local elections",
+      "country": "Somalia",
+      "actors": [
+        "Government-aligned communicators",
+        "Opposition politicians"
+      ],
+      "keywords": [
+        "Mogadishu elections",
+        "clan manipulation",
+        "Banadir council"
+      ]
+    },
+    {
+      "claim": "SPLA-IO troops instructed to advance to Juba and dismantle anti-peace regime",
+      "country": "South Sudan",
+      "actors": [
+        "SPLA-IO",
+        "Wisley Welebe Samson"
+      ],
+      "keywords": [
+        "march on Juba",
+        "dismantle regime"
+      ]
+    },
+    {
+      "claim": "SSPDF given seven days to crush the rebellion in Jonglei",
+      "country": "South Sudan",
+      "actors": [
+        "SSPDF",
+        "Paul Nang Majok"
+      ],
+      "keywords": [
+        "crush rebellion",
+        "seven days"
+      ]
+    },
+    {
+      "claim": "Al-Shabaab propaganda praising attacks on Somali intelligence",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab",
+        "Mahad Karate"
+      ],
+      "keywords": [
+        "intelligence attacks",
+        "propaganda speech"
+      ]
+    },
+    {
+      "claim": "Urging young Somalis to join al-Shabaab",
+      "country": "Somalia",
+      "actors": [
+        "Al-Shabaab",
+        "Mahad Karate"
+      ],
+      "keywords": [
+        "recruitment",
+        "young Somalis"
+      ]
+    },
+    {
+      "claim": "Military orders to spare no civilian lives including elderly and children",
+      "country": "South Sudan",
+      "actors": [
+        "Johnson Olony",
+        "SSPDF"
+      ],
+      "keywords": [
+        "spare no lives",
+        "civilian targeting"
+      ]
+    },
+    {
+      "claim": "Orders to destroy civilian homes, livestock, and property",
+      "country": "South Sudan",
+      "actors": [
+        "Johnson Olony"
+      ],
+      "keywords": [
+        "destroy homes",
+        "civilian property"
+      ]
+    },
+    {
+      "claim": "Gen. Johnson Olony issued 'spare no lives' statement targeting civilians",
+      "country": "South Sudan",
+      "actors": [
+        "Gen. Johnson Olony",
+        "SSPDF"
+      ],
+      "keywords": [
+        "Olony",
+        "spare no lives",
+        "atrocities"
+      ]
+    },
+    {
+      "claim": "MP Salasya made inflammatory remarks on social media targeting specific communities",
+      "country": "Kenya",
+      "actors": [
+        "Peter Salasya"
+      ],
+      "keywords": [
+        "Salasya",
+        "hate speech",
+        "inflammatory remarks"
+      ]
+    },
+    {
+      "claim": "US pressured Kenya to halt trade talks with China",
+      "country": "Kenya",
+      "actors": [
+        "Unknown social media actors"
+      ],
+      "keywords": [
+        "Kenya China trade talks",
+        "US pressure Kenya",
+        "misrepresented Standard report"
+      ]
+    },
+    {
+      "claim": "Anti-Somali hate speech by Deputy President Gachagua in church settings",
+      "country": "Kenya",
+      "actors": [
+        "Rigathi Gachagua"
+      ],
+      "keywords": [
+        "anti-Somali",
+        "hate speech",
+        "church remarks",
+        "Gachagua"
+      ]
+    },
+    {
+      "claim": "South Sudan government shows ethnic favoritism to Dinka in condemning civilian attacks",
+      "country": "South Sudan",
+      "actors": [
+        "South Sudan government"
+      ],
+      "keywords": [
+        "ethnic favoritism",
+        "Dinka bias",
+        "government response",
+        "civilian attacks"
+      ]
+    },
+    {
+      "claim": "Disputed ethnic attribution of Ruweng massacre perpetrators",
+      "country": "South Sudan",
+      "actors": [
+        "Unidentified armed men"
+      ],
+      "keywords": [
+        "Ruweng massacre",
+        "ethnic attribution",
+        "Nuer group",
+        "retaliation"
+      ]
+    },
+    {
+      "claim": "Russian-sponsored content targeting East African countries through Portal Kombat network",
+      "country": "Regional",
+      "actors": [
+        "Pravda Network",
+        "TigerWeb",
+        "Russia-linked editors"
+      ],
+      "keywords": [
+        "Portal Kombat",
+        "Russian disinformation",
+        "Africa targeting",
+        "Pravda Network"
+      ]
+    },
+    {
+      "claim": "AI-generated deepfake content targeting Kenya's 2027 elections",
+      "country": "Kenya",
+      "actors": [
+        "Unknown AI disinformation actors"
+      ],
+      "keywords": [
+        "deepfake",
+        "2027 elections",
+        "AI-generated",
+        "Kenya elections"
+      ]
+    },
+    {
+      "claim": "Forged IFES documents circulating in Kenya",
+      "country": "Kenya",
+      "actors": [
+        "Unknown AI disinformation actors"
+      ],
+      "keywords": [
+        "IFES impersonation",
+        "forged documents",
+        "electoral disinformation"
+      ]
+    },
+    {
+      "claim": "Government's 10-Point reform agenda is a 'shameful charade'",
+      "country": "Kenya",
+      "actors": [
+        "Linda Mwananchi faction",
+        "Edwin Sifuna",
+        "Godfrey Osotsi"
+      ],
+      "keywords": [
+        "10-Point Agenda",
+        "reform charade",
+        "Zani Committee"
+      ]
+    },
+    {
+      "claim": "BBC Africa Eye deliberately plots to destabilize Kenya and 'set Kenya on fire'",
+      "country": "Kenya",
+      "actors": [
+        "@AminaTisha94086",
+        "@DreamBoy254",
+        "@GabrielKim254"
+      ],
+      "keywords": [
+        "BBC Africa Eye",
+        "foreign plot",
+        "destabilize Kenya"
+      ]
+    },
+    {
+      "claim": "Civil society activists Boniface Mwangi and Hanifa Adan are foreign-funded paid agents working against national interests",
+      "country": "Kenya",
+      "actors": [
+        "coordinated troll network"
+      ],
+      "keywords": [
+        "Boniface Mwangi",
+        "Hanifa Adan",
+        "paid agents",
+        "foreign-funded"
+      ]
+    },
+    {
+      "claim": "Kikuyu leadership is tribalist and divisive",
+      "country": "Kenya",
+      "actors": [
+        "Kenya troll network"
+      ],
+      "keywords": [
+        "#43Against1",
+        "tribalist",
+        "Kikuyu",
+        "Gachagua"
+      ]
+    },
+    {
+      "claim": "Ruto government represents unity of 43 tribes against Kikuyu divisiveness",
+      "country": "Kenya",
+      "actors": [
+        "Kenya troll network"
+      ],
+      "keywords": [
+        "43 tribes",
+        "unity",
+        "Ruto",
+        "unifying"
+      ]
+    },
+    {
+      "claim": "Kenya street protests are not genuine but paid transactions with goons",
+      "country": "Kenya",
+      "actors": [
+        "coordinated X accounts"
+      ],
+      "keywords": [
+        "paid goons",
+        "ChaosCartel",
+        "staged protests"
+      ]
+    },
+    {
+      "claim": "Protests are foreign-backed media operations selling lies",
+      "country": "Kenya",
+      "actors": [
+        "coordinated X accounts"
+      ],
+      "keywords": [
+        "foreign-backed",
+        "media lies",
+        "destabilization"
+      ]
+    },
+    {
+      "claim": "Gachagua secretly planning destabilization while publicly supporting protesters",
+      "country": "Kenya",
+      "actors": [
+        "coordinated X accounts"
+      ],
+      "keywords": [
+        "Gachagua",
+        "secret planning",
+        "destabilization"
+      ]
+    },
+    {
+      "claim": "Four soldiers killed in ambush attack near Halgan town in Hiiraan region",
+      "country": "Somalia",
+      "actors": [
+        "coordinated X accounts",
+        "Shahada Agency"
+      ],
+      "keywords": [
+        "Halgan",
+        "Hiiraan",
+        "ambush",
+        "soldiers killed"
+      ]
+    },
+    {
+      "claim": "Turkish analyst Umut \u00c7a\u011fr\u0131 Sar\u0131 echoes ISIS propaganda",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "ISIS propaganda",
+        "Turkish analyst"
+      ]
+    },
+    {
+      "claim": "Similarities between Turkish analyst and Manjaniq Media (ISIS-linked)",
+      "country": "Somalia",
+      "actors": [
+        "@CirkaNews"
+      ],
+      "keywords": [
+        "Manjaniq Media",
+        "Turkish",
+        "ISIS",
+        "Puntland"
+      ]
+    },
+    {
+      "claim": "BBC documentary on Kenya is a cheap hit job for clicks and chaos",
+      "country": "Kenya",
+      "actors": [
+        "@Yasirarafat2520",
+        "@GabrielKim254"
+      ],
+      "keywords": [
+        "BBC",
+        "cheap hit job",
+        "clicks",
+        "chaos"
+      ]
+    },
+    {
+      "claim": "BBC doesn't care about Kenya, only wants to create chaos",
+      "country": "Kenya",
+      "actors": [
+        "@Yasirarafat2520",
+        "@GabrielKim254"
+      ],
+      "keywords": [
+        "BBC",
+        "chaos",
+        "foreign media"
+      ]
+    },
+    {
+      "claim": "Al-Shabaab bombed a hotel in Kismayo killing at least 3 people, as reported by Reuters",
+      "country": "Somalia",
+      "actors": [
+        "@grok",
+        "@hirad63",
+        "@Sooreyare",
+        "@war_doon",
+        "@Warfidiye"
+      ],
+      "keywords": [
+        "Kismayo",
+        "hotel bombing",
+        "Al-Shabaab",
+        "Reuters"
+      ]
+    },
+    {
+      "claim": "The West is using BBC and domestic sell-outs to weaken Kenya because Ruto is successful with China",
+      "country": "Kenya",
+      "actors": [
+        "@AminaTisha94086",
+        "@mzeemzima100",
+        "@miss_tokyo3",
+        "@bonsoul_ke",
+        "@WilliamKiptoo25"
+      ],
+      "keywords": [
+        "BBC",
+        "chaos",
+        "Ruto",
+        "China",
+        "sell-outs"
+      ]
+    },
+    {
+      "claim": "BBC is orchestrating chaos in Kenya",
+      "country": "Kenya",
+      "actors": [
+        "@AminaTisha94086",
+        "@mzeemzima100",
+        "@miss_tokyo3",
+        "@bonsoul_ke",
+        "@WilliamKiptoo25"
+      ],
+      "keywords": [
+        "BBCForChaos",
+        "BBC",
+        "chaos cartel"
+      ]
+    },
+    {
+      "claim": "President Kiir showed cognitive decline during South Africa visit requiring constitutional removal",
+      "country": "South Sudan",
+      "actors": [
+        "People's Coalition for Civil Action (PCCA)"
+      ],
+      "keywords": [
+        "Kiir",
+        "cognitive decline",
+        "constitutional incapacity",
+        "South Africa visit"
+      ]
+    },
+    {
+      "claim": "Al-Shabaab conducted successful mortar attacks on Xalane military compound in Mogadishu",
+      "country": "Somalia",
+      "actors": [
+        "Calamada",
+        "al-Shabaab"
+      ],
+      "keywords": [
+        "Xalane",
+        "mortar attack",
+        "Mogadishu",
+        "Calamada"
+      ]
+    },
+    {
+      "claim": "Al-Shabaab conducted attacks near Dhuusamareeb and other locations in Galgaduud, Gedo, and Middle Shabelle",
+      "country": "Somalia",
+      "actors": [
+        "Somalimemo",
+        "al-Shabaab",
+        "Abu-Muscab"
+      ],
+      "keywords": [
+        "Dhuusamareeb",
+        "Galgaduud",
+        "Gedo",
+        "Middle Shabelle",
+        "Somalimemo"
+      ]
+    },
+    {
+      "claim": "Deepfakes could swing close UK elections or referendums",
+      "country": "Regional",
+      "actors": [
+        "@london.live.news"
+      ],
+      "keywords": [
+        "deepfakes",
+        "UK election",
+        "Sadiq Khan",
+        "AI recording"
+      ]
+    },
+    {
+      "claim": "Former Deputy President Gachagua involved in BBS Mall fraud",
+      "country": "Kenya",
+      "actors": [
+        "@Lyre__Bird",
+        "@_Shekhe",
+        "@kenyamzeesiraj",
+        "@Bish311437",
+        "@MohamedAbuno"
+      ],
+      "keywords": [
+        "Gachagua",
+        "BBS Mall",
+        "NCIC",
+        "fraud",
+        "Deputy President"
+      ]
+    },
+    {
+      "claim": "BBS Mall owners petition NCIC over Gachagua's fraud claims",
+      "country": "Kenya",
+      "actors": [
+        "@Lyre__Bird",
+        "@_Shekhe",
+        "@kenyamzeesiraj",
+        "@Bish311437",
+        "@MohamedAbuno"
+      ],
+      "keywords": [
+        "BBS Mall",
+        "NCIC",
+        "petition",
+        "Gachagua"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "terrorist-operated websites",
+      "country": "Somalia",
+      "reason": "Specific focus on al-Shabaab's web presence"
+    },
+    {
+      "keyword": "al-Shabaab online content",
+      "country": "Somalia",
+      "reason": "Direct reference to group's digital operations"
+    },
+    {
+      "keyword": "Community Notes Africa",
+      "country": "Regional",
+      "reason": "New fact-checking mechanism affecting East African information space"
+    },
+    {
+      "keyword": "third-party fact-checking elimination",
+      "country": "Regional",
+      "reason": "Major platform policy change impacting disinformation monitoring"
+    },
+    {
+      "keyword": "Operation Hilaac",
+      "country": "Somalia",
+      "reason": "Military operation likely to generate propaganda narratives"
+    },
+    {
+      "keyword": "ISIS drone strikes Puntland",
+      "country": "Somalia",
+      "reason": "New capability that may be subject to disinformation"
+    },
+    {
+      "keyword": "AI-generated political satire",
+      "country": "Kenya",
+      "reason": "New form of digital dissent triggering government response"
+    },
+    {
+      "keyword": "Gideon Kibet Bull",
+      "country": "Kenya",
+      "reason": "High-profile case of digital repression"
+    },
+    {
+      "keyword": "#ToxicActivists",
+      "country": "Kenya",
+      "reason": "Government hashtag campaign to discredit activists"
+    },
+    {
+      "keyword": "KES troll payments",
+      "country": "Kenya",
+      "reason": "Specific payment structure for government information operations"
+    },
+    {
+      "keyword": "Wad Madani killings",
+      "country": "South Sudan",
+      "reason": "Specific incident triggering cross-border disinformation violence"
+    },
+    {
+      "keyword": "anti-Sudanese riots",
+      "country": "South Sudan",
+      "reason": "Pattern of ethnically-targeted violence driven by social media content"
+    },
+    {
+      "keyword": "Project 2025 Somaliland",
+      "country": "Somalia",
+      "reason": "Key policy document driving recognition tensions and disinformation narratives"
+    },
+    {
+      "keyword": "Trump Somaliland recognition",
+      "country": "Somalia",
+      "reason": "Major geopolitical issue generating competing narratives online"
+    },
+    {
+      "keyword": "#43against1",
+      "country": "Kenya",
+      "reason": "Specific hashtag campaign targeting ethnic divisions"
+    },
+    {
+      "keyword": "Luo-Kikuyu fault lines",
+      "country": "Kenya",
+      "reason": "Historical ethnic tension being reactivated in 2027 mobilization"
+    },
+    {
+      "keyword": "social media ban South Sudan",
+      "country": "South Sudan",
+      "reason": "Government censorship response to violent content circulation"
+    },
+    {
+      "keyword": "ISIS-Somalia Golis Mountains",
+      "country": "Somalia",
+      "reason": "Specific operational area for terrorist group likely to generate propaganda responses"
+    },
+    {
+      "keyword": "foreign aggression Muslim lands",
+      "country": "Somalia",
+      "reason": "Core ISIS-Somalia narrative frame against US operations"
+    },
+    {
+      "keyword": "Abdirahman Shirwac",
+      "country": "Somalia",
+      "reason": "High-value ISIS-Somalia target whose capture generates disinformation"
+    },
+    {
+      "keyword": "RT South Africa media center",
+      "country": "Regional",
+      "reason": "Specific Russian disinformation infrastructure in Africa"
+    },
+    {
+      "keyword": "fabricated surrender",
+      "country": "Somalia",
+      "reason": "ISIS-Somalia tactic to dispute operational losses"
+    },
+    {
+      "keyword": "United Front Work Department Africa",
+      "country": "Regional",
+      "reason": "Chinese influence operations targeting African media landscape"
+    },
+    {
+      "keyword": "AI-generated images",
+      "country": "Kenya",
+      "reason": "Specific technology being targeted in Kenyan crackdowns"
+    },
+    {
+      "keyword": "Gideon Kibet",
+      "country": "Kenya",
+      "reason": "Targeted cartoonist in AI content case"
+    },
+    {
+      "keyword": "Billy Mwangi",
+      "country": "Kenya",
+      "reason": "Student targeted for AI content"
+    },
+    {
+      "keyword": "KNCHR abductions",
+      "country": "Kenya",
+      "reason": "Human rights commission tracking digital rights violations"
+    },
+    {
+      "keyword": "DefyHateNow",
+      "country": "South Sudan",
+      "reason": "Key monitoring organization for hate speech"
+    },
+    {
+      "keyword": "CIPESA report",
+      "country": "Regional",
+      "reason": "Important research organization tracking disinformation"
+    },
+    {
+      "keyword": "algorithmic amplification",
+      "country": "Regional",
+      "reason": "Technical mechanism spreading divisive content"
+    },
+    {
+      "keyword": "Nasir marketplace",
+      "country": "South Sudan",
+      "reason": "Specific location of disputed military action"
+    },
+    {
+      "keyword": "White Army",
+      "country": "South Sudan",
+      "reason": "Local militia involved in conflicting narratives"
+    },
+    {
+      "keyword": "Iclaam channel",
+      "country": "Somalia",
+      "reason": "Specific ISIS propaganda platform"
+    },
+    {
+      "keyword": "Taageere Radio Hijratayn",
+      "country": "Somalia",
+      "reason": "Alternative ISIS propaganda outlet on Facebook"
+    },
+    {
+      "keyword": "Sputnik Amharic",
+      "country": "Regional",
+      "reason": "New Russian media service targeting Horn of Africa"
+    },
+    {
+      "keyword": "Addis Ababa bureau",
+      "country": "Regional",
+      "reason": "Strategic Russian media expansion location"
+    },
+    {
+      "keyword": "Operation Ramadan",
+      "country": "Somalia",
+      "reason": "Al-Shabaab's major 2025 offensive codename"
+    },
+    {
+      "keyword": "Hawlgalka Ramadaanka",
+      "country": "Somalia",
+      "reason": "Somali language name for the operation"
+    },
+    {
+      "keyword": "2025 Shabelle offensive",
+      "country": "Somalia",
+      "reason": "Geographic descriptor of major al-Shabaab operation"
+    },
+    {
+      "keyword": "Shahada News Agency",
+      "country": "Somalia",
+      "reason": "Al-Shabaab-affiliated media outlet spreading casualty disinformation"
+    },
+    {
+      "keyword": "Al-Kataib Media Foundation",
+      "country": "Somalia",
+      "reason": "Primary al-Shabaab propaganda outlet producing real-time content"
+    },
+    {
+      "keyword": "Houthi-Al-Shabaab cooperation",
+      "country": "Somalia",
+      "reason": "Cross-regional terrorist collaboration involving weapons transfers"
+    },
+    {
+      "keyword": "IS-Somalia Province",
+      "country": "Somalia",
+      "reason": "Local ISIS affiliate promoting Somalia as jihadist destination"
+    },
+    {
+      "keyword": "tamkin",
+      "country": "Somalia",
+      "reason": "ISIS territorial consolidation concept being applied to Somalia"
+    },
+    {
+      "keyword": "TASS Africa expansion",
+      "country": "Regional",
+      "reason": "Russian state media expansion targeting African information space"
+    },
+    {
+      "keyword": "Bear and the Bot Farm",
+      "country": "Regional",
+      "reason": "ECFR report documenting Russian information operations in Africa"
+    },
+    {
+      "keyword": "White Army Nasir",
+      "country": "South Sudan",
+      "reason": "Specific militia group and location involved in major incident"
+    },
+    {
+      "keyword": "UNMISS helicopter attack",
+      "country": "South Sudan",
+      "reason": "Attack on UN peacekeeping forces generates disinformation"
+    },
+    {
+      "keyword": "David Majur Dak",
+      "country": "South Sudan",
+      "reason": "High-profile military casualty likely to generate false narratives"
+    },
+    {
+      "keyword": "Gachagua ethnic incitement",
+      "country": "Kenya",
+      "reason": "Former Deputy President making inflammatory ethnic claims"
+    },
+    {
+      "keyword": "Chief Justice removal plot",
+      "country": "Kenya",
+      "reason": "Specific false claim about judicial manipulation"
+    },
+    {
+      "keyword": "Ethiopian airstrikes Somalia 2025",
+      "country": "Somalia",
+      "reason": "First Ethiopian aerial operation since 2006 likely to generate false narratives"
+    },
+    {
+      "keyword": "Shabelle offensive",
+      "country": "Somalia",
+      "reason": "Major military operation generating competing claims"
+    },
+    {
+      "keyword": "barrel bombs Jilib",
+      "country": "Somalia",
+      "reason": "Specific weapon/location claims in ongoing conflict"
+    },
+    {
+      "keyword": "Shahada News Agency",
+      "country": "Somalia",
+      "reason": "Al-Shabaab media outlet spreading unverified civilian casualty claims"
+    },
+    {
+      "keyword": "El Ba'ad airstrike",
+      "country": "Somalia",
+      "reason": "Specific location of disputed civilian casualty claims"
+    },
+    {
+      "keyword": "Puot Kang Chol arrest",
+      "country": "South Sudan",
+      "reason": "High-profile SPLM-IO minister arrest likely to generate false narratives"
+    },
+    {
+      "keyword": "Gabriel Duop Lam detention",
+      "country": "South Sudan",
+      "reason": "Senior military figure arrest in peace agreement context"
+    },
+    {
+      "keyword": "UPDF deployment",
+      "country": "South Sudan",
+      "reason": "Military intervention narrative"
+    },
+    {
+      "keyword": "UN arms embargo violation",
+      "country": "South Sudan",
+      "reason": "Sanctions circumvention claims"
+    },
+    {
+      "keyword": "Cairo Hotel Beledweyne",
+      "country": "Somalia",
+      "reason": "Specific attack location for monitoring narratives"
+    },
+    {
+      "keyword": "clan elders targeting",
+      "country": "Somalia",
+      "reason": "Al-Shabaab strategy against traditional leadership"
+    },
+    {
+      "keyword": "Resolution 630/2025",
+      "country": "Regional",
+      "reason": "Official AU response to content moderation changes"
+    },
+    {
+      "keyword": "Meta fact-checker elimination",
+      "country": "Regional",
+      "reason": "Platform policy change affecting disinformation landscape"
+    },
+    {
+      "keyword": "Shahada News Agency",
+      "country": "Somalia",
+      "reason": "Al-Shabaab propaganda outlet spreading attack claims"
+    },
+    {
+      "keyword": "Al-Kataib Media Foundation",
+      "country": "Somalia",
+      "reason": "Terrorist media wing distributing attack videos"
+    },
+    {
+      "keyword": "Michael Makuei Lueth",
+      "country": "South Sudan",
+      "reason": "Government official making inflammatory civilian targeting statements"
+    },
+    {
+      "keyword": "incendiary weapons SSPDF",
+      "country": "South Sudan",
+      "reason": "Specific weapon type in government operations"
+    },
+    {
+      "keyword": "Iresuki village",
+      "country": "Kenya",
+      "reason": "Specific location of Al-Shabaab cross-border raid"
+    },
+    {
+      "keyword": "public sermon",
+      "country": "Kenya",
+      "reason": "Al-Shabaab propaganda tactic in Kenyan territory"
+    },
+    {
+      "keyword": "Nasir conflict",
+      "country": "South Sudan",
+      "reason": "Specific conflict driving hate speech and misinformation"
+    },
+    {
+      "keyword": "ethnic polarization",
+      "country": "South Sudan",
+      "reason": "Key impact of disinformation campaigns"
+    },
+    {
+      "keyword": "Ceel-gaabta junction",
+      "country": "Somalia",
+      "reason": "Specific location of presidential assassination attempt"
+    },
+    {
+      "keyword": "Xamar-Jajab district",
+      "country": "Somalia",
+      "reason": "District where attack occurred"
+    },
+    {
+      "keyword": "new phase urban warfare",
+      "country": "Somalia",
+      "reason": "Al-Shabaab propaganda narrative about escalation"
+    },
+    {
+      "keyword": "journalist intimidation",
+      "country": "Somalia",
+      "reason": "Tactic to suppress media coverage"
+    },
+    {
+      "keyword": "Halane compound",
+      "country": "Somalia",
+      "reason": "Key target housing UN and diplomatic facilities"
+    },
+    {
+      "keyword": "flight cancellations",
+      "country": "Somalia",
+      "reason": "Impact of security deterioration"
+    },
+    {
+      "keyword": "inter-clan violence",
+      "country": "Somalia",
+      "reason": "Key conflict driver generating disinformation narratives"
+    },
+    {
+      "keyword": "ACAPS Somalia",
+      "country": "Somalia",
+      "reason": "Credible reporting source on conflict dynamics"
+    },
+    {
+      "keyword": "Abdullahi Ahmed Mohamed",
+      "country": "Somalia",
+      "reason": "Identified Al-Shabaab media operative"
+    },
+    {
+      "keyword": "Al-Kataib filming",
+      "country": "Somalia",
+      "reason": "Al-Shabaab's real-time propaganda production methods"
+    },
+    {
+      "keyword": "Fafi police attack",
+      "country": "Kenya",
+      "reason": "Specific cross-border terrorism incident"
+    },
+    {
+      "keyword": "Garissa reservist camp",
+      "country": "Kenya",
+      "reason": "Target of Al-Shabaab cross-border operations"
+    },
+    {
+      "keyword": "Mogadishu-Bal'ad road",
+      "country": "Somalia",
+      "reason": "Critical infrastructure seized by Al-Shabaab"
+    },
+    {
+      "keyword": "Hareri Aalde ambush",
+      "country": "Somalia",
+      "reason": "Specific military engagement location"
+    },
+    {
+      "keyword": "government collapse narrative",
+      "country": "Somalia",
+      "reason": "Core disinformation theme being pushed"
+    },
+    {
+      "keyword": "convoy ambush video",
+      "country": "Somalia",
+      "reason": "Specific propaganda content being distributed"
+    },
+    {
+      "keyword": "Machar arrest",
+      "country": "South Sudan",
+      "reason": "Core false claim about VP arrest"
+    },
+    {
+      "keyword": "peace agreement collapsed",
+      "country": "South Sudan",
+      "reason": "Key destabilizing narrative"
+    },
+    {
+      "keyword": "Masajid Ali Gaduud",
+      "country": "Somalia",
+      "reason": "Strategic location in Al-Shabaab operations"
+    },
+    {
+      "keyword": "Oromo fighters",
+      "country": "Somalia",
+      "reason": "Transnational recruitment narrative"
+    },
+    {
+      "keyword": "Eid military parade cancelled",
+      "country": "Somalia",
+      "reason": "Disruption to Al-Shabaab propaganda operations"
+    },
+    {
+      "keyword": "voice messages only",
+      "country": "Somalia",
+      "reason": "Indicator of operational pressure on Al-Shabaab"
+    },
+    {
+      "keyword": "ToxicActivists",
+      "country": "Kenya",
+      "reason": "Coordinated disinformation campaign hashtag"
+    },
+    {
+      "keyword": "Blood Parliament",
+      "country": "Kenya",
+      "reason": "Target of state disinformation response"
+    },
+    {
+      "keyword": "pseudo-civilian profiles",
+      "country": "Somalia",
+      "reason": "Al-Shabaab tactical evolution in propaganda"
+    },
+    {
+      "keyword": "AI-generated content",
+      "country": "Somalia",
+      "reason": "New technological capability in terrorist propaganda"
+    },
+    {
+      "keyword": "tamkin",
+      "country": "Somalia",
+      "reason": "ISIS-specific term for territorial consolidation strategy being promoted in Somalia propaganda"
+    },
+    {
+      "keyword": "hijra Somalia",
+      "country": "Somalia",
+      "reason": "Religious migration narrative being used to recruit foreign fighters to Somalia"
+    },
+    {
+      "keyword": "Camp Lemonnier",
+      "country": "Regional",
+      "reason": "Key US military target being highlighted in Iran-Houthi threat narratives to East Africa"
+    },
+    {
+      "keyword": "Ulang hospital attack",
+      "country": "South Sudan",
+      "reason": "Significant humanitarian incident that could be exploited in disinformation narratives about aid organizations"
+    },
+    {
+      "keyword": "TFTC sanctions",
+      "country": "Somalia",
+      "reason": "Joint US-Gulf counterterrorism action that Al-Shabaab may respond to with disinformation campaigns"
+    },
+    {
+      "keyword": "Hisbah enforcement",
+      "country": "Somalia",
+      "reason": "Al-Shabaab's religious police system being targeted in sanctions, likely to generate defensive narratives"
+    },
+    {
+      "keyword": "527 bloggers",
+      "country": "Kenya",
+      "reason": "Specific network name for Kenyan state-sponsored trolls"
+    },
+    {
+      "keyword": "Gen Z protests Kenya",
+      "country": "Kenya",
+      "reason": "Target of documented disinformation campaigns"
+    },
+    {
+      "keyword": "Houthi-al-Shabaab weapons",
+      "country": "Somalia",
+      "reason": "Documented weapons transfer network that could spawn disinformation"
+    },
+    {
+      "keyword": "White Army tactical withdrawal",
+      "country": "South Sudan",
+      "reason": "Military terminology that could be misrepresented in disinformation"
+    },
+    {
+      "keyword": "Shahada News Agency",
+      "country": "Somalia",
+      "reason": "Al-Shabaab propaganda outlet spreading legitimacy narratives"
+    },
+    {
+      "keyword": "al-Shabaab Sharia court",
+      "country": "Somalia",
+      "reason": "Governance legitimacy claims by terrorist organization"
+    },
+    {
+      "keyword": "Halane compound attack",
+      "country": "Somalia",
+      "reason": "High-profile target that generates conflicting narratives"
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Somalia",
+      "reason": "ISIS-Somalia's primary propaganda outlet on Telegram"
+    },
+    {
+      "keyword": "Al Hijraytain Radio",
+      "country": "Somalia",
+      "reason": "ISIS media platform mentioned in recruitment network"
+    },
+    {
+      "keyword": "Pravda Network",
+      "country": "Regional",
+      "reason": "Russian disinformation network targeting African information ecosystem"
+    },
+    {
+      "keyword": "TigerWeb",
+      "country": "Regional",
+      "reason": "Crimean IT firm linked to Russian information operations"
+    },
+    {
+      "keyword": "Billy Mwangi",
+      "country": "Kenya",
+      "reason": "High-profile abduction case involving AI-generated content"
+    },
+    {
+      "keyword": "AI satirical images",
+      "country": "Kenya",
+      "reason": "Emerging trend of AI-generated political satire triggering state response"
+    },
+    {
+      "keyword": "Damaanyo base",
+      "country": "Somalia",
+      "reason": "Site of major attack with inflated casualty claims"
+    },
+    {
+      "keyword": "army recruitment bombing",
+      "country": "Somalia",
+      "reason": "Specific attack type being propagandized"
+    },
+    {
+      "keyword": "apostate government",
+      "country": "Somalia",
+      "reason": "Al-Shabaab's standard framing of Somali federal government"
+    },
+    {
+      "keyword": "casualty inflation",
+      "country": "Somalia",
+      "reason": "Systematic propaganda tactic by armed groups"
+    },
+    {
+      "keyword": "Halane Base Camp",
+      "country": "Somalia",
+      "reason": "High-value target frequently mentioned in Al-Shabaab messaging"
+    },
+    {
+      "keyword": "mortar attack Mogadishu",
+      "country": "Somalia",
+      "reason": "Common Al-Shabaab tactic likely to generate propaganda claims"
+    },
+    {
+      "keyword": "Al-Shabaab Houthi cooperation",
+      "country": "Regional",
+      "reason": "Emerging transnational armed group alliance with propaganda implications"
+    },
+    {
+      "keyword": "drone technology training",
+      "country": "Somalia",
+      "reason": "New capability transfer likely to feature in propaganda messaging"
+    },
+    {
+      "keyword": "Jilib drone training",
+      "country": "Somalia",
+      "reason": "Specific location of Houthi-Al-Shabaab UAV training cooperation"
+    },
+    {
+      "keyword": "Shabelle offensive 2025",
+      "country": "Somalia",
+      "reason": "Al-Shabaab's major military campaign using new drone capabilities"
+    },
+    {
+      "keyword": "SSPDF mass arrests",
+      "country": "South Sudan",
+      "reason": "Specific military action generating potential disinformation narratives"
+    },
+    {
+      "keyword": "forced conscription Nuer",
+      "country": "South Sudan",
+      "reason": "Ethnic targeting component that could fuel disinformation campaigns"
+    },
+    {
+      "keyword": "Sabiid Anole attack",
+      "country": "Somalia",
+      "reason": "Specific locations of major Al-Shabaab attacks on peacekeepers"
+    },
+    {
+      "keyword": "Uganda AUSSOM withdrawal",
+      "country": "Somalia",
+      "reason": "Major strategic development in peacekeeping operations"
+    },
+    {
+      "keyword": "China-Kenya joint statement",
+      "country": "Kenya",
+      "reason": "Bilateral agreement that could generate competing narratives"
+    },
+    {
+      "keyword": "BRI Kenya narratives",
+      "country": "Kenya",
+      "reason": "Belt and Road Initiative framing in bilateral relations"
+    },
+    {
+      "keyword": "Africa Corps Mali transition",
+      "country": "Regional",
+      "reason": "Major shift in Russian military contractor operations"
+    },
+    {
+      "keyword": "Wagner withdrawal Mali 2025",
+      "country": "Regional",
+      "reason": "Specific timeline of Russian paramilitary restructuring"
+    },
+    {
+      "keyword": "Cal Miskaad",
+      "country": "Somalia",
+      "reason": "Location of significant ISIS operations and counter-terrorism activities"
+    },
+    {
+      "keyword": "Operation Hilaac",
+      "country": "Somalia",
+      "reason": "Major Puntland counter-ISIS military operation name"
+    },
+    {
+      "keyword": "Turkish ISIS fighter",
+      "country": "Somalia",
+      "reason": "New foreign fighter demographic in ISIS-Somalia"
+    },
+    {
+      "keyword": "#SiriNiNumbers",
+      "country": "Kenya",
+      "reason": "New protest hashtag from Gen-Z anniversary demonstrations"
+    },
+    {
+      "keyword": "#OccupyStateHouse",
+      "country": "Kenya",
+      "reason": "Escalated protest hashtag targeting government buildings"
+    },
+    {
+      "keyword": "state trolls Kenya",
+      "country": "Kenya",
+      "reason": "Government disinformation operations against protesters"
+    },
+    {
+      "keyword": "Sputnik Africa training",
+      "country": "Regional",
+      "reason": "Russian media training programs spreading disinformation narratives"
+    },
+    {
+      "keyword": "RT Africa bureaus",
+      "country": "Regional",
+      "reason": "Russian state media expansion across African continent"
+    },
+    {
+      "keyword": "Kabtan Ayub",
+      "country": "Somalia",
+      "reason": "Key war influencer inciting clan violence from Germany"
+    },
+    {
+      "keyword": "war influencers Somalia",
+      "country": "Somalia",
+      "reason": "Diaspora-based actors promoting violence in Somalia"
+    },
+    {
+      "keyword": "clan violence funding",
+      "country": "Somalia",
+      "reason": "Fundraising for weapons and conflict escalation"
+    },
+    {
+      "keyword": "July 7 Kenya protests",
+      "country": "Kenya",
+      "reason": "Specific date of deadliest protest crackdown"
+    },
+    {
+      "keyword": "Kenya goons collaboration",
+      "country": "Kenya",
+      "reason": "State-criminal gang cooperation against protesters"
+    },
+    {
+      "keyword": "Cal Miskaad",
+      "country": "Somalia",
+      "reason": "Specific geographic location of ISIS operations mentioned in AFRICOM strikes"
+    },
+    {
+      "keyword": "ISIS-Somalia",
+      "country": "Somalia",
+      "reason": "Distinct terrorist group operating in Somalia, different from al-Shabaab"
+    },
+    {
+      "keyword": "Moqokori",
+      "country": "Somalia",
+      "reason": "Strategic town captured by al-Shabaab, likely target for disinformation narratives"
+    },
+    {
+      "keyword": "Macawiisley",
+      "country": "Somalia",
+      "reason": "Somali militia group frequently mentioned in conflict reporting and potential disinfo"
+    },
+    {
+      "keyword": "legitimization propaganda",
+      "country": "Somalia",
+      "reason": "Al-Shabaab's strategic shift to governance narrative rather than pure insurgency"
+    },
+    {
+      "keyword": "RocketChat",
+      "country": "Somalia",
+      "reason": "Encrypted platform used by Shahada News Agency for terrorist content distribution"
+    },
+    {
+      "keyword": "Chirpwire",
+      "country": "Somalia",
+      "reason": "Encrypted platform used by al-Shabaab media operations"
+    },
+    {
+      "keyword": "Finance Bill deepfakes",
+      "country": "Kenya",
+      "reason": "Specific AI manipulation targeting Kenya's contentious Finance Bill protests"
+    },
+    {
+      "keyword": "Baraza Media Lab",
+      "country": "Kenya",
+      "reason": "Key monitoring organization for Kenyan disinformation detection"
+    },
+    {
+      "keyword": "African Stream",
+      "country": "Regional",
+      "reason": "RT's covert pan-African influence operation targeting African audiences"
+    },
+    {
+      "keyword": "Ahmed Kaballo",
+      "country": "Regional",
+      "reason": "CEO of African Stream, key figure in RT's African operations"
+    },
+    {
+      "keyword": "youth goons",
+      "country": "Kenya",
+      "reason": "Term used to describe hired assailants targeting protesters in Kenya"
+    },
+    {
+      "keyword": "protest suppression",
+      "country": "Kenya",
+      "reason": "Documented tactics of political operatives against Gen-Z protesters"
+    },
+    {
+      "keyword": "ethnic hate speech",
+      "country": "South Sudan",
+      "reason": "Core element of documented harmful content"
+    },
+    {
+      "keyword": "JHR monitoring",
+      "country": "South Sudan",
+      "reason": "Specific monitoring source for disinformation tracking"
+    },
+    {
+      "keyword": "Luo-Kikuyu polarization",
+      "country": "Kenya",
+      "reason": "Key ethnic division narrative identified in report"
+    },
+    {
+      "keyword": "IFIT narrative assessment",
+      "country": "Kenya",
+      "reason": "Important monitoring source for ethnic tensions"
+    },
+    {
+      "keyword": "Operation Silent Storm",
+      "country": "Somalia",
+      "reason": "Military operation name that may generate propaganda"
+    },
+    {
+      "keyword": "Bariire recapture",
+      "country": "Somalia",
+      "reason": "Specific military event subject to competing narratives"
+    },
+    {
+      "keyword": "NISA coordinated communication",
+      "country": "Somalia",
+      "reason": "Government propaganda coordination mechanism"
+    },
+    {
+      "keyword": "al-Shabaab counter-narrative",
+      "country": "Somalia",
+      "reason": "Systematic disinformation response pattern"
+    },
+    {
+      "keyword": "African Initiative Agency",
+      "country": "Regional",
+      "reason": "Key Russian influence operation targeting Africa"
+    },
+    {
+      "keyword": "Afrique Ressemble \u00e0 la Russie",
+      "country": "Regional",
+      "reason": "Specific Russian propaganda Facebook page"
+    },
+    {
+      "keyword": "Wagner media teams",
+      "country": "Regional",
+      "reason": "Russian disinformation apparatus in Africa"
+    },
+    {
+      "keyword": "Sputnik Africa",
+      "country": "Regional",
+      "reason": "New Russian media expansion in Horn of Africa"
+    },
+    {
+      "keyword": "Amharic content",
+      "country": "Regional",
+      "reason": "Language-specific Russian influence operations"
+    },
+    {
+      "keyword": "Shahada News Agency",
+      "country": "Somalia",
+      "reason": "Al-Shabaab propaganda outlet spreading false narratives"
+    },
+    {
+      "keyword": "Ahrar Beit al-Maqdis",
+      "country": "Somalia",
+      "reason": "Obscure group used in jihadist propaganda narratives"
+    },
+    {
+      "keyword": "Harardhere",
+      "country": "Somalia",
+      "reason": "Strategic coastal district under Al-Shabaab threat"
+    },
+    {
+      "keyword": "Houthi piracy",
+      "country": "Somalia",
+      "reason": "Potential Al-Shabaab-Houthi maritime cooperation"
+    },
+    {
+      "keyword": "Ateny Wek Ateny",
+      "country": "South Sudan",
+      "reason": "Key government official addressing disinformation concerns"
+    },
+    {
+      "keyword": "ethnic mobilization",
+      "country": "South Sudan",
+      "reason": "Specific type of harmful online content in South Sudan context"
+    },
+    {
+      "keyword": "Africa Corps",
+      "country": "Regional",
+      "reason": "Russian military unit conducting information operations in Africa"
+    },
+    {
+      "keyword": "Alliance of Sahel States",
+      "country": "Regional",
+      "reason": "Regional bloc potentially coordinating with Russian disinformation efforts"
+    },
+    {
+      "keyword": "Boni Forest",
+      "country": "Kenya",
+      "reason": "Specific operational area for Al-Shabaab activities and potential disinformation"
+    },
+    {
+      "keyword": "Lacta Mangai",
+      "country": "Kenya",
+      "reason": "Specific location of security operations that could be subject to disinformation"
+    },
+    {
+      "keyword": "Radio Andalus",
+      "country": "Somalia",
+      "reason": "Al-Shabaab propaganda radio station used for recruitment messaging"
+    },
+    {
+      "keyword": "Koranic schools recruitment",
+      "country": "Somalia",
+      "reason": "Specific recruitment method that could be subject to disinformation narratives"
+    },
+    {
+      "keyword": "Mohamed Abdi Dhiblawe Afrax",
+      "country": "Somalia",
+      "reason": "High-profile Al-Shabaab figure whose elimination could spark disinformation"
+    },
+    {
+      "keyword": "Khalid Dheere",
+      "country": "Somalia",
+      "reason": "Alias of eliminated Al-Shabaab commander"
+    },
+    {
+      "keyword": "Ugunji operation",
+      "country": "Somalia",
+      "reason": "Specific NISA operation location that could be subject to disinformation"
+    },
+    {
+      "keyword": "Nasir attack March 2025",
+      "country": "South Sudan",
+      "reason": "Major incident likely to generate competing disinformation narratives"
+    },
+    {
+      "keyword": "Joseph Geng Akech",
+      "country": "South Sudan",
+      "reason": "Justice Minister making high-profile charges that could spark disinformation"
+    },
+    {
+      "keyword": "SPLM-IO Puok Both Baluang",
+      "country": "South Sudan",
+      "reason": "Opposition spokesperson likely to generate counter-narratives"
+    },
+    {
+      "keyword": "Special Court National Crimes",
+      "country": "South Sudan",
+      "reason": "New judicial body conducting high-profile political trial"
+    },
+    {
+      "keyword": "SSBC exclusive access",
+      "country": "South Sudan",
+      "reason": "State media monopolization pattern"
+    },
+    {
+      "keyword": "Warta Nabadda jailbreak",
+      "country": "Somalia",
+      "reason": "Major security incident likely to generate disinformation"
+    },
+    {
+      "keyword": "Abdi Hiiray",
+      "country": "Somalia",
+      "reason": "Senior Al-Shabaab commander death may trigger propaganda responses"
+    },
+    {
+      "keyword": "UNMISS Q2 2025",
+      "country": "South Sudan",
+      "reason": "UN reports often contested by governments"
+    },
+    {
+      "keyword": "CRSV increase 85%",
+      "country": "South Sudan",
+      "reason": "Sensitive statistics prone to challenge or manipulation"
+    },
+    {
+      "keyword": "Kenya 2027 elections deepfakes",
+      "country": "Kenya",
+      "reason": "Pre-election disinformation preparation"
+    },
+    {
+      "keyword": "TikTok political manipulation Kenya",
+      "country": "Kenya",
+      "reason": "Platform-specific disinformation concerns"
+    },
+    {
+      "keyword": "UNMISS force reduction 70%",
+      "country": "South Sudan",
+      "reason": "Major policy demand likely to generate information campaigns"
+    },
+    {
+      "keyword": "Wau Bentiu base closure",
+      "country": "South Sudan",
+      "reason": "Specific military site closures may trigger local narratives"
+    },
+    {
+      "keyword": "Godka Jilaow",
+      "country": "Somalia",
+      "reason": "High-security prison targeted in major Al-Shabaab attack"
+    },
+    {
+      "keyword": "Operation Support for the Oppressed",
+      "country": "Somalia",
+      "reason": "Al-Shabaab's propaganda name for prison attack"
+    },
+    {
+      "keyword": "Operation Silent Storm",
+      "country": "Somalia",
+      "reason": "Major counter-terrorism operation name"
+    },
+    {
+      "keyword": "Awdheegle",
+      "country": "Somalia",
+      "reason": "Strategic district recaptured from Al-Shabaab"
+    },
+    {
+      "keyword": "NC4 Committee",
+      "country": "Kenya",
+      "reason": "New cyber enforcement body with blocking powers"
+    },
+    {
+      "keyword": "Cybercrimes Amendment Act",
+      "country": "Kenya",
+      "reason": "Controversial law expanding government digital censorship powers"
+    },
+    {
+      "keyword": "political transition falling apart",
+      "country": "South Sudan",
+      "reason": "UN assessment phrase that could be weaponized in disinformation"
+    },
+    {
+      "keyword": "Sputnik Swahili",
+      "country": "Regional",
+      "reason": "New Russian media outlet targeting East Africa"
+    },
+    {
+      "keyword": "Russia Houses",
+      "country": "Regional",
+      "reason": "Russian cultural centers mentioned as influence infrastructure"
+    },
+    {
+      "keyword": "Russian Orthodox Church Kenya",
+      "country": "Kenya",
+      "reason": "Religious influence operations documented"
+    },
+    {
+      "keyword": "Houthi-al-Shabaab cooperation",
+      "country": "Somalia",
+      "reason": "New axis of cooperation with disinformation implications"
+    },
+    {
+      "keyword": "drone technology transfer",
+      "country": "Somalia",
+      "reason": "Technical capability sharing between groups"
+    },
+    {
+      "keyword": "Computer Misuse Cybercrimes Amendment Act",
+      "country": "Kenya",
+      "reason": "Legislation affecting digital rights and information environment"
+    },
+    {
+      "keyword": "cyber harassment definitions",
+      "country": "Kenya",
+      "reason": "Regulatory changes impacting online discourse"
+    },
+    {
+      "keyword": "AI-enhanced bot farms",
+      "country": "Regional",
+      "reason": "Sophisticated disinformation delivery mechanism documented"
+    },
+    {
+      "keyword": "content hijacking",
+      "country": "Regional",
+      "reason": "Russian information manipulation tactic identified"
+    },
+    {
+      "keyword": "paid African influencers",
+      "country": "Regional",
+      "reason": "Local proxy networks for influence operations"
+    },
+    {
+      "keyword": "Machar trial",
+      "country": "South Sudan",
+      "reason": "Political crisis generating information environment instability"
+    },
+    {
+      "keyword": "media literacy campaign",
+      "country": "South Sudan",
+      "reason": "Counter-disinformation initiative worth monitoring"
+    },
+    {
+      "keyword": "Somaliland recognition",
+      "country": "Somalia",
+      "reason": "Core narrative target for geopolitical disinformation"
+    },
+    {
+      "keyword": "MiddleEast24",
+      "country": "Regional",
+      "reason": "Identified amplifier network spreading false claims"
+    },
+    {
+      "keyword": "Kefaya Misinformation",
+      "country": "South Sudan",
+      "reason": "JHR campaign name for counter-narrative efforts"
+    },
+    {
+      "keyword": "Baraza Media Lab",
+      "country": "Kenya",
+      "reason": "Civil society organization monitoring hate speech"
+    },
+    {
+      "keyword": "South West State",
+      "country": "Somalia",
+      "reason": "Regional authority taking action against clan incitement"
+    },
+    {
+      "keyword": "Mutahi Kahiga",
+      "country": "Kenya",
+      "reason": "Governor spreading ethnic incitement content"
+    },
+    {
+      "keyword": "NCIC inaction",
+      "country": "Kenya",
+      "reason": "Institutional failure in hate speech enforcement"
+    },
+    {
+      "keyword": "tribal coalitions",
+      "country": "Kenya",
+      "reason": "Specific political mobilization strategy documented"
+    },
+    {
+      "keyword": "ethnic entrepreneurs",
+      "country": "Kenya",
+      "reason": "Key actors in tribal rhetoric resurgence"
+    },
+    {
+      "keyword": "DogsOfWar",
+      "country": "Kenya",
+      "reason": "Documented coordinated disinformation campaign hashtag"
+    },
+    {
+      "keyword": "SmallVotesBigDamage",
+      "country": "Kenya",
+      "reason": "Second documented coordinated campaign hashtag"
+    },
+    {
+      "keyword": "TASS Africa expansion",
+      "country": "Regional",
+      "reason": "Russian state media expansion across East Africa"
+    },
+    {
+      "keyword": "third-party misinformation",
+      "country": "Regional",
+      "reason": "Russian framing of Western media as misinformation"
+    },
+    {
+      "keyword": "state trolls Kenya",
+      "country": "Kenya",
+      "reason": "Documented government-paid disinformation operators"
+    },
+    {
+      "keyword": "AI-generated disinformation Kenya",
+      "country": "Kenya",
+      "reason": "Use of AI for synthetic media attacks on activists"
+    },
+    {
+      "keyword": "deepfakes",
+      "country": "Kenya",
+      "reason": "AI-generated false content targeting activists"
+    },
+    {
+      "keyword": "527 bloggers",
+      "country": "Kenya",
+      "reason": "Government-linked troll network identifier"
+    },
+    {
+      "keyword": "Cybercrime Bill",
+      "country": "South Sudan",
+      "reason": "Legislative tool potentially targeting disinformation"
+    },
+    {
+      "keyword": "false information publication",
+      "country": "South Sudan",
+      "reason": "Legal framework criminalizing information sharing"
+    },
+    {
+      "keyword": "Houthi-Al-Shabaab cooperation",
+      "country": "Somalia",
+      "reason": "Regional terror network coordination relevant to propaganda operations"
+    },
+    {
+      "keyword": "strategic coordination",
+      "country": "Somalia",
+      "reason": "Intelligence sharing potentially including disinformation tactics"
+    },
+    {
+      "keyword": "Al-Watan newspaper",
+      "country": "South Sudan",
+      "reason": "Major Arabic media outlet targeted by authorities"
+    },
+    {
+      "keyword": "Blue House detention",
+      "country": "South Sudan",
+      "reason": "NSS detention facility mentioned in context"
+    },
+    {
+      "keyword": "by-elections violence",
+      "country": "Kenya",
+      "reason": "Electoral violence context for potential disinformation"
+    },
+    {
+      "keyword": "2027 ethnic mobilization",
+      "country": "Kenya",
+      "reason": "Early warning indicator for ethnic-based disinformation"
+    },
+    {
+      "keyword": "Kikuyu language speech",
+      "country": "Kenya",
+      "reason": "Ethnic mobilization tactic using vernacular for targeted messaging"
+    },
+    {
+      "keyword": "business dominance narrative",
+      "country": "Kenya",
+      "reason": "Economic justification for ethnic political claims"
+    },
+    {
+      "keyword": "Machar trial",
+      "country": "South Sudan",
+      "reason": "High-profile political trial generating media restrictions"
+    },
+    {
+      "keyword": "Presidential Guards arrest",
+      "country": "South Sudan",
+      "reason": "Security forces targeting journalists"
+    },
+    {
+      "keyword": "SSPDF helicopter gunship",
+      "country": "South Sudan",
+      "reason": "Military escalation affecting civilian infrastructure"
+    },
+    {
+      "keyword": "Pieri MSF facility",
+      "country": "South Sudan",
+      "reason": "Humanitarian target with potential for disinformation about responsibility"
+    },
+    {
+      "keyword": "Turkey-Somalia defense",
+      "country": "Somalia",
+      "reason": "Key partnership being targeted by disinformation campaigns"
+    },
+    {
+      "keyword": "MIT intelligence",
+      "country": "Somalia",
+      "reason": "Turkish intelligence source documenting disinformation threats"
+    },
+    {
+      "keyword": "tugeges",
+      "country": "Kenya",
+      "reason": "Contested political term with ethnic dimensions affecting content moderation"
+    },
+    {
+      "keyword": "Al-Kataib Media",
+      "country": "Somalia",
+      "reason": "Al-Shabaab's primary propaganda outlet"
+    },
+    {
+      "keyword": "Oleynik Aleksandr",
+      "country": "Somalia",
+      "reason": "Specific hostage being used for propaganda purposes"
+    },
+    {
+      "keyword": "IRGC East Africa",
+      "country": "Regional",
+      "reason": "Iranian Revolutionary Guard operations across the region"
+    },
+    {
+      "keyword": "Qods Force diplomatic",
+      "country": "Regional",
+      "reason": "Iranian special operations unit using diplomatic cover"
+    },
+    {
+      "keyword": "hate speech conference",
+      "country": "South Sudan",
+      "reason": "Government initiative term for information integrity efforts"
+    },
+    {
+      "keyword": "social cohesion",
+      "country": "South Sudan",
+      "reason": "Policy framework term used in counter-disinformation messaging"
+    },
+    {
+      "keyword": "ethnic minorities policy",
+      "country": "Kenya",
+      "reason": "Government response to ethnic polarization narratives"
+    },
+    {
+      "keyword": "Gachagua impeachment",
+      "country": "Kenya",
+      "reason": "Political event driving ethnic disinformation"
+    },
+    {
+      "keyword": "Faroole deepfake",
+      "country": "Somalia",
+      "reason": "Specific AI manipulation targeting key political figure"
+    },
+    {
+      "keyword": "Kismayo conference",
+      "country": "Somalia",
+      "reason": "Political event being weaponized in disinformation"
+    },
+    {
+      "keyword": "Banadir elections",
+      "country": "Somalia",
+      "reason": "Electoral event generating significant disinformation activity"
+    },
+    {
+      "keyword": "NUSOJ monitoring",
+      "country": "Somalia",
+      "reason": "Key source for election disinformation tracking"
+    },
+    {
+      "keyword": "Somaliland recognition",
+      "country": "Somalia",
+      "reason": "Central to emerging sovereignty disinformation narratives"
+    },
+    {
+      "keyword": "Palestinian displacement Somaliland",
+      "country": "Somalia",
+      "reason": "Specific false claim being spread about Israeli intentions"
+    },
+    {
+      "keyword": "Awdal region Israeli",
+      "country": "Somalia",
+      "reason": "Specific false claim about military presence being actively spread"
+    },
+    {
+      "keyword": "partition plots Somaliland",
+      "country": "Somalia",
+      "reason": "Fabricated narrative about territorial division"
+    },
+    {
+      "keyword": "#43against1",
+      "country": "Kenya",
+      "reason": "Specific coordinated hashtag campaign identified in 2027 election disinformation"
+    },
+    {
+      "keyword": "deepfake Kenya politics",
+      "country": "Kenya",
+      "reason": "AI-generated content being used to target political figures"
+    },
+    {
+      "keyword": "deepfakes Kenya",
+      "country": "Kenya",
+      "reason": "Emerging threat for 2027 elections documented in major investigation"
+    },
+    {
+      "keyword": "2027 Kenya elections disinformation",
+      "country": "Kenya",
+      "reason": "Early electoral manipulation campaigns already active"
+    },
+    {
+      "keyword": "Opera News Africa",
+      "country": "Regional",
+      "reason": "Chinese-owned platform with significant African reach for influence operations"
+    },
+    {
+      "keyword": "TikTok Africa expansion",
+      "country": "Regional",
+      "reason": "Documented growth vector for Chinese influence in African markets"
+    },
+    {
+      "keyword": "BBS Mall Eastleigh",
+      "country": "Kenya",
+      "reason": "Specific target of fraud allegations by Gachagua"
+    },
+    {
+      "keyword": "Minnesota fraud Somalia",
+      "country": "Kenya",
+      "reason": "International fraud narrative targeting Somali diaspora"
+    },
+    {
+      "keyword": "AI-generated Ruto death",
+      "country": "Kenya",
+      "reason": "Specific deepfake threat targeting head of state"
+    },
+    {
+      "keyword": "Harrison Mumia deepfake",
+      "country": "Kenya",
+      "reason": "Individual involved in AI-generated disinformation case"
+    },
+    {
+      "keyword": "UAE Somalia sovereignty",
+      "country": "Somalia",
+      "reason": "Core narrative in Gulf information war over Somalia"
+    },
+    {
+      "keyword": "Israel Somaliland UAE",
+      "country": "Somalia",
+      "reason": "Multi-state diplomatic disinformation campaign"
+    },
+    {
+      "keyword": "Mogadishu elections disinformation",
+      "country": "Somalia",
+      "reason": "First local elections in decades, major disinformation target"
+    },
+    {
+      "keyword": "Banadir clan manipulation",
+      "country": "Somalia",
+      "reason": "Specific electoral manipulation tactics in Somalia"
+    },
+    {
+      "keyword": "Bulunagaad Base",
+      "country": "Somalia",
+      "reason": "Specific operational location mentioned in military operations"
+    },
+    {
+      "keyword": "Lower Juba River Valley",
+      "country": "Somalia",
+      "reason": "Geographic location of military operations"
+    },
+    {
+      "keyword": "Wisley Welebe Samson",
+      "country": "South Sudan",
+      "reason": "Key SPLA-IO figure making inflammatory statements"
+    },
+    {
+      "keyword": "Paul Nang Majok",
+      "country": "South Sudan",
+      "reason": "SSPDF commander issuing escalatory orders"
+    },
+    {
+      "keyword": "Mahad Karate",
+      "country": "Somalia",
+      "reason": "High-value Al-Shabaab deputy emir with $10M bounty"
+    },
+    {
+      "keyword": "Abdirahman Mohamed Warsame",
+      "country": "Somalia",
+      "reason": "Real name of Mahad Karate"
+    },
+    {
+      "keyword": "Johnson Olony",
+      "country": "South Sudan",
+      "reason": "SSPDF general issuing inflammatory military orders"
+    },
+    {
+      "keyword": "Agwelek",
+      "country": "South Sudan",
+      "reason": "Military unit associated with controversial orders"
+    },
+    {
+      "keyword": "Operation Enduring Peace",
+      "country": "South Sudan",
+      "reason": "New military operation name being used in official communications"
+    },
+    {
+      "keyword": "Lul Ruai Koang",
+      "country": "South Sudan",
+      "reason": "SSPDF spokesperson issuing official statements"
+    },
+    {
+      "keyword": "Ateny Wek Ateny",
+      "country": "South Sudan",
+      "reason": "Information Minister making policy announcements about online monitoring"
+    },
+    {
+      "keyword": "hate speech device",
+      "country": "South Sudan",
+      "reason": "Government claims about surveillance technology capabilities"
+    },
+    {
+      "keyword": "Johnson Olony",
+      "country": "South Sudan",
+      "reason": "Military commander linked to documented inflammatory statements"
+    },
+    {
+      "keyword": "spare no lives",
+      "country": "South Sudan",
+      "reason": "Specific inflammatory rhetoric documented by OHCHR"
+    },
+    {
+      "keyword": "Paul Nang Majok",
+      "country": "South Sudan",
+      "reason": "SSPDF official announcing major military operations"
+    },
+    {
+      "keyword": "Agwelek militia",
+      "country": "South Sudan",
+      "reason": "Armed group involved in Jonglei conflict dynamics"
+    },
+    {
+      "keyword": "Peter Salasya",
+      "country": "Kenya",
+      "reason": "MP previously charged with hate speech, indicates pattern of concerning rhetoric"
+    },
+    {
+      "keyword": "Kenya China trade talks",
+      "country": "Kenya",
+      "reason": "Specific geopolitical narrative being falsely claimed"
+    },
+    {
+      "keyword": "Standard Kenya misrepresentation",
+      "country": "Kenya",
+      "reason": "Pattern of misusing legitimate news sources for false claims"
+    },
+    {
+      "keyword": "MSF Lankien hospital",
+      "country": "South Sudan",
+      "reason": "Specific target of SSPDF airstrike that could be subject to disinformation"
+    },
+    {
+      "keyword": "SSPDF airstrike civilian",
+      "country": "South Sudan",
+      "reason": "Military action against civilians likely to generate disinformation narratives"
+    },
+    {
+      "keyword": "Johnson Olony spare no lives",
+      "country": "South Sudan",
+      "reason": "Inflammatory military rhetoric likely to be quoted in disinformation"
+    },
+    {
+      "keyword": "Agwelek forces disarmament",
+      "country": "South Sudan",
+      "reason": "Military policy change that could be misrepresented"
+    },
+    {
+      "keyword": "Somali military court executions",
+      "country": "Somalia",
+      "reason": "Judicial counter-terrorism actions often subject to disinformation narratives"
+    },
+    {
+      "keyword": "al-Shabaab firing squad",
+      "country": "Somalia",
+      "reason": "Death penalty cases frequently generate false claims and conspiracy theories"
+    },
+    {
+      "keyword": "UN war crimes accountability South Sudan",
+      "country": "South Sudan",
+      "reason": "International accountability warnings often disputed in disinformation campaigns"
+    },
+    {
+      "keyword": "Jonglei aerial bombardment",
+      "country": "South Sudan",
+      "reason": "Specific military tactic referenced by UN that could be subject to false claims"
+    },
+    {
+      "keyword": "Linda Mwananchi",
+      "country": "Kenya",
+      "reason": "Opposition political movement that could generate disinformation"
+    },
+    {
+      "keyword": "Edwin Sifuna",
+      "country": "Kenya",
+      "reason": "Key opposition figure likely to be target of disinformation campaigns"
+    },
+    {
+      "keyword": "Dadaab refugee complex",
+      "country": "Kenya",
+      "reason": "Security-sensitive location that could be subject to disinformation"
+    },
+    {
+      "keyword": "Kajiado County",
+      "country": "Kenya",
+      "reason": "Location of security operations that may generate false narratives"
+    },
+    {
+      "keyword": "Lower Shabelle",
+      "country": "Somalia",
+      "reason": "Key battleground region frequently subject to conflicting narratives"
+    },
+    {
+      "keyword": "AFRICOM airstrikes",
+      "country": "Regional",
+      "reason": "Military operations often targeted by disinformation campaigns"
+    },
+    {
+      "keyword": "Cyber Crime Act 2026",
+      "country": "South Sudan",
+      "reason": "New legislation that will impact disinformation regulation"
+    },
+    {
+      "keyword": "false information criminalization",
+      "country": "South Sudan",
+      "reason": "Legal framework change affecting information environment"
+    },
+    {
+      "keyword": "TikTok regulation Kenya",
+      "country": "Kenya",
+      "reason": "Platform regulation discussions relevant to disinformation control"
+    },
+    {
+      "keyword": "Gen-Z protests 2024",
+      "country": "Kenya",
+      "reason": "Historical context for platform usage in political mobilization"
+    },
+    {
+      "keyword": "Africa Corps",
+      "country": "Regional",
+      "reason": "New Russian military entity replacing Wagner in Africa operations"
+    },
+    {
+      "keyword": "gray-zone influence",
+      "country": "Regional",
+      "reason": "Specific warfare methodology being institutionalized by Russia"
+    },
+    {
+      "keyword": "AI-generated content prosecution",
+      "country": "Kenya",
+      "reason": "Legal precedent regarding AI-generated political content in Kenya"
+    },
+    {
+      "keyword": "David Mokaya",
+      "country": "Kenya",
+      "reason": "Individual case establishing AI content legal precedent"
+    },
+    {
+      "keyword": "Africa Politology",
+      "country": "Regional",
+      "reason": "SVR front organization running influence operations across Africa"
+    },
+    {
+      "keyword": "The Company",
+      "country": "Regional",
+      "reason": "Alternative name for Africa Politology SVR operation"
+    },
+    {
+      "keyword": "Forbidden Stories Wagner",
+      "country": "Regional",
+      "reason": "Major investigative project exposing Russian operations"
+    },
+    {
+      "keyword": "Pankor massacre",
+      "country": "South Sudan",
+      "reason": "Specific atrocity event likely to generate disinformation narratives"
+    },
+    {
+      "keyword": "Ayod County violence",
+      "country": "South Sudan",
+      "reason": "Geographic location of significant security incident"
+    },
+    {
+      "keyword": "Linda Ground faction",
+      "country": "Kenya",
+      "reason": "Counter-faction within ODM political movement generating conflict narratives"
+    },
+    {
+      "keyword": "George Olande killing",
+      "country": "Kenya",
+      "reason": "Specific violent incident likely to generate disinformation"
+    },
+    {
+      "keyword": "Kenya National Action Plan",
+      "country": "Kenya",
+      "reason": "New policy framework for hate speech monitoring"
+    },
+    {
+      "keyword": "Social Media Monitoring Guidelines",
+      "country": "Kenya",
+      "reason": "NCIC policy tool for platform oversight"
+    },
+    {
+      "keyword": "cyber harassment",
+      "country": "Kenya",
+      "reason": "Specific category in NPS-NCIC investigations"
+    },
+    {
+      "keyword": "inflammatory content",
+      "country": "Kenya",
+      "reason": "Term used in official hate speech investigations"
+    },
+    {
+      "keyword": "political gangs",
+      "country": "Kenya",
+      "reason": "CS Murkomen's specific term for politician-armed groups"
+    },
+    {
+      "keyword": "mob justice",
+      "country": "Kenya",
+      "reason": "Major violence category with 579 deaths cited"
+    },
+    {
+      "keyword": "Turkish-Somali cooperation",
+      "country": "Somalia",
+      "reason": "Key target of bilateral disinformation campaigns"
+    },
+    {
+      "keyword": "TRT Afrika",
+      "country": "Somalia",
+      "reason": "Turkish state media outlet involved in counter-narrative operations"
+    },
+    {
+      "keyword": "third country disinformation",
+      "country": "Somalia",
+      "reason": "Specific framing used by Somalia-Turkey partnership"
+    },
+    {
+      "keyword": "Peter Maseke Mwita",
+      "country": "Kenya",
+      "reason": "Journalist case highlighting press freedom issues related to information control"
+    },
+    {
+      "keyword": "Cybercrimes Act Kenya",
+      "country": "Kenya",
+      "reason": "Key legislation being used to prosecute information-related cases"
+    },
+    {
+      "keyword": "Operation No Bell",
+      "country": "Kenya",
+      "reason": "Specific Russian disinformation operation targeting Kenya"
+    },
+    {
+      "keyword": "Rybar ChatGPT",
+      "country": "Regional",
+      "reason": "AI-powered Russian content generation targeting Africa"
+    },
+    {
+      "keyword": "Operation Fish Food",
+      "country": "Regional",
+      "reason": "Russian disinformation campaign using AI tools"
+    },
+    {
+      "keyword": "South Sudan hate speech",
+      "country": "South Sudan",
+      "reason": "Key driver of violence according to UN documentation"
+    },
+    {
+      "keyword": "SSPDF incitement",
+      "country": "South Sudan",
+      "reason": "Military officials documented inciting violence against civilians"
+    },
+    {
+      "keyword": "NCIC investigation",
+      "country": "Kenya",
+      "reason": "Key institutional mechanism for addressing hate speech in Kenya"
+    },
+    {
+      "keyword": "politically sponsored gangs",
+      "country": "Kenya",
+      "reason": "Emerging concern about organized political violence"
+    },
+    {
+      "keyword": "Abiemnom County massacre",
+      "country": "South Sudan",
+      "reason": "Specific violent incident likely to generate disinformation narratives"
+    },
+    {
+      "keyword": "Ruweng Administrative Area",
+      "country": "South Sudan",
+      "reason": "Geographic location of major violent incident prone to ethnic attribution disputes"
+    },
+    {
+      "keyword": "mass grave imagery",
+      "country": "South Sudan",
+      "reason": "Emotionally charged content often manipulated in disinformation campaigns"
+    },
+    {
+      "keyword": "ethnic attribution disputes",
+      "country": "South Sudan",
+      "reason": "Core mechanism of conflict-related disinformation in South Sudan"
+    },
+    {
+      "keyword": "Portal Kombat",
+      "country": "Regional",
+      "reason": "Specific Russian disinformation network infrastructure targeting Africa"
+    },
+    {
+      "keyword": "TigerWeb Crimea",
+      "country": "Regional",
+      "reason": "Technical infrastructure behind Russian disinformation operations in Africa"
+    },
+    {
+      "keyword": "Kenya 2027 elections",
+      "country": "Kenya",
+      "reason": "Upcoming electoral period likely to be major disinformation target"
+    },
+    {
+      "keyword": "AI deepfake Kenya",
+      "country": "Kenya",
+      "reason": "Emerging technology-enabled disinformation threat specific to Kenya"
+    },
+    {
+      "keyword": "IFES impersonation",
+      "country": "Kenya",
+      "reason": "Specific institutional impersonation technique in Kenyan context"
+    },
+    {
+      "keyword": "Iran IRGC Horn of Africa",
+      "country": "Regional",
+      "reason": "Specific threat actor expanding operations in region"
+    },
+    {
+      "keyword": "Houthis East Africa",
+      "country": "Regional",
+      "reason": "New geographic expansion of Houthi operations"
+    },
+    {
+      "keyword": "UAE Somalia agreements",
+      "country": "Somalia",
+      "reason": "Key diplomatic development affecting regional security"
+    },
+    {
+      "keyword": "ISIS AI propaganda",
+      "country": "Regional",
+      "reason": "New terrorist propaganda methodology affecting East Africa"
+    },
+    {
+      "keyword": "Voice of Khorasan",
+      "country": "Regional",
+      "reason": "ISIS-K publication with African recruitment focus"
+    },
+    {
+      "keyword": "IS Somalia Province",
+      "country": "Somalia",
+      "reason": "Local ISIS affiliate adopting new techniques"
+    },
+    {
+      "keyword": "SSPDF Akobo offensive",
+      "country": "South Sudan",
+      "reason": "Major military operation with humanitarian implications"
+    },
+    {
+      "keyword": "SPLM-IO stronghold",
+      "country": "South Sudan",
+      "reason": "Opposition territory under military threat"
+    },
+    {
+      "keyword": "Cybercrimes Act Kenya",
+      "country": "Kenya",
+      "reason": "Key legislation affecting digital rights and misinformation"
+    },
+    {
+      "keyword": "BAKE petition",
+      "country": "Kenya",
+      "reason": "Significant legal challenge to false news provisions"
+    },
+    {
+      "keyword": "MSF Akobo evacuation",
+      "country": "South Sudan",
+      "reason": "Humanitarian crisis affecting medical access"
+    },
+    {
+      "keyword": "Akobo hospital looted",
+      "country": "South Sudan",
+      "reason": "Critical infrastructure destruction during conflict"
+    },
+    {
+      "keyword": "Akobo base closure",
+      "country": "South Sudan",
+      "reason": "Key flashpoint in UNMISS-government tensions"
+    },
+    {
+      "keyword": "UNMISS civilian protection mandate",
+      "country": "South Sudan",
+      "reason": "Core dispute over peacekeeping authority"
+    },
+    {
+      "keyword": "South Sudan genocide risk",
+      "country": "South Sudan",
+      "reason": "Analysis framework being widely shared"
+    },
+    {
+      "keyword": "ethnic mobilization South Sudan",
+      "country": "South Sudan",
+      "reason": "Key dynamic in current crisis"
+    },
+    {
+      "keyword": "Cyber Crime Computer Misuse Act South Sudan",
+      "country": "South Sudan",
+      "reason": "New law affecting online speech dynamics"
+    },
+    {
+      "keyword": "South Sudan diaspora amplification",
+      "country": "South Sudan",
+      "reason": "Key vector for narrative spread"
+    },
+    {
+      "keyword": "Kenya AI deepfake legislation",
+      "country": "Kenya",
+      "reason": "New regulatory framework targeting synthetic media"
+    },
+    {
+      "keyword": "KSh 5 million disinformation fine",
+      "country": "Kenya",
+      "reason": "Specific penalty amount in proposed law"
+    },
+    {
+      "keyword": "TikTok Safer Internet Summit",
+      "country": "Regional",
+      "reason": "Major platform initiative addressing disinformation in East Africa"
+    },
+    {
+      "keyword": "AI media literacy",
+      "country": "Regional",
+      "reason": "Emerging counter-disinformation technology approach"
+    },
+    {
+      "keyword": "William Kabogo",
+      "country": "Kenya",
+      "reason": "Key government figure addressing platform misinformation policies"
+    },
+    {
+      "keyword": "2027 elections misinformation",
+      "country": "Kenya",
+      "reason": "Specific electoral disinformation concern mentioned by officials"
+    },
+    {
+      "keyword": "Linda Mwananchi faction",
+      "country": "Kenya",
+      "reason": "Political faction making counter-narrative claims about government reforms"
+    },
+    {
+      "keyword": "10-Point Agenda charade",
+      "country": "Kenya",
+      "reason": "Specific political disinformation narrative being promoted"
+    },
+    {
+      "keyword": "power-sharing collapse",
+      "country": "South Sudan",
+      "reason": "Key political narrative driving conflict analysis"
+    },
+    {
+      "keyword": "Kiir unilateral actions",
+      "country": "South Sudan",
+      "reason": "Specific political accusation mentioned in reporting"
+    },
+    {
+      "keyword": "Save the Children suspension",
+      "country": "South Sudan",
+      "reason": "Major humanitarian development that could generate misinformation"
+    },
+    {
+      "keyword": "Akobo East evacuation",
+      "country": "South Sudan",
+      "reason": "Specific location of humanitarian crisis prone to disinfo"
+    },
+    {
+      "keyword": "humanitarian access denial",
+      "country": "South Sudan",
+      "reason": "Systematic issue that generates competing narratives"
+    },
+    {
+      "keyword": "Walgang PHCC airstrike",
+      "country": "South Sudan",
+      "reason": "Specific incident prone to disinformation about targeting"
+    },
+    {
+      "keyword": "Dinka Kon Koch",
+      "country": "South Sudan",
+      "reason": "Ethnic cultural concept used in potentially inflammatory content"
+    },
+    {
+      "keyword": "Nuer Wanathin",
+      "country": "South Sudan",
+      "reason": "Ethnic cultural concept used in potentially inflammatory content"
+    },
+    {
+      "keyword": "Akobo County",
+      "country": "South Sudan",
+      "reason": "Key conflict zone with first government deployment since 2013"
+    },
+    {
+      "keyword": "PCCA",
+      "country": "South Sudan",
+      "reason": "Political opposition group making unprecedented demands against president"
+    },
+    {
+      "keyword": "#BBCForChaos",
+      "country": "Kenya",
+      "reason": "Campaign hashtag targeting BBC journalism"
+    },
+    {
+      "keyword": "#ToxicActivists",
+      "country": "Kenya",
+      "reason": "Hashtag targeting civil society activists"
+    },
+    {
+      "keyword": "Hanifa Adan",
+      "country": "Kenya",
+      "reason": "Civil society figure being targeted with false claims"
+    },
+    {
+      "keyword": "#43Against1",
+      "country": "Kenya",
+      "reason": "Active hashtag campaign targeting ethnic divisions"
+    },
+    {
+      "keyword": "tribalist Gachagua",
+      "country": "Kenya",
+      "reason": "Specific attack narrative against Deputy President"
+    },
+    {
+      "keyword": "#ChaosCartel",
+      "country": "Kenya",
+      "reason": "New hashtag delegitimizing protests as organized chaos"
+    },
+    {
+      "keyword": "paid goons",
+      "country": "Kenya",
+      "reason": "Core narrative undermining protest legitimacy"
+    },
+    {
+      "keyword": "Shahada Agency",
+      "country": "Somalia",
+      "reason": "Potential disinformation source for security incidents"
+    },
+    {
+      "keyword": "Halgan ambush",
+      "country": "Somalia",
+      "reason": "Specific unverified security claim being amplified"
+    },
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Somalia",
+      "reason": "Specific Turkish analyst being targeted with ISIS association claims"
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Somalia",
+      "reason": "Alleged ISIS-linked media outlet in comparison claims"
+    },
+    {
+      "keyword": "#BBCForChaos",
+      "country": "Kenya",
+      "reason": "Active hashtag campaign against BBC reporting on Kenya"
+    },
+    {
+      "keyword": "#BloodParliament",
+      "country": "Kenya",
+      "reason": "Hashtag likely related to BBC documentary content"
+    },
+    {
+      "keyword": "Kismayo hotel",
+      "country": "Somalia",
+      "reason": "Specific location target of false bombing claim"
+    },
+    {
+      "keyword": "qarax Kismaayo",
+      "country": "Somalia",
+      "reason": "Somali language term for Kismayo explosion used in false claims"
+    },
+    {
+      "keyword": "BBCForChaos",
+      "country": "Kenya",
+      "reason": "Hashtag used in anti-BBC disinformation campaign"
+    },
+    {
+      "keyword": "BloodParliament",
+      "country": "Kenya",
+      "reason": "Campaign hashtag suggesting violent parliamentary imagery"
+    },
+    {
+      "keyword": "ChaosCartel",
+      "country": "Kenya",
+      "reason": "Conspiracy term used to frame media as organized destabilization effort"
+    },
+    {
+      "keyword": "Shahada News Agency",
+      "country": "Somalia",
+      "reason": "Al-Shabaab's primary propaganda outlet for attack claims"
+    },
+    {
+      "keyword": "Abu Abdur-Rahman Warsame",
+      "country": "Somalia",
+      "reason": "Al-Shabaab spokesperson releasing propaganda content"
+    },
+    {
+      "keyword": "PCCA South Sudan",
+      "country": "South Sudan",
+      "reason": "Diaspora group spreading false claims about presidential incapacity"
+    },
+    {
+      "keyword": "Article 102(d)",
+      "country": "South Sudan",
+      "reason": "Constitutional provision being falsely invoked for presidential removal"
+    },
+    {
+      "keyword": "AI voice cloning Somalia",
+      "country": "Somalia",
+      "reason": "Emerging AI-based harassment technique targeting journalists"
+    },
+    {
+      "keyword": "deepfake journalists",
+      "country": "Somalia",
+      "reason": "AI-generated fake content used to silence media"
+    },
+    {
+      "keyword": "Xalane compound",
+      "country": "Somalia",
+      "reason": "Major military target frequently claimed in al-Shabaab propaganda"
+    },
+    {
+      "keyword": "Calamada",
+      "country": "Somalia",
+      "reason": "Key extremist media outlet for al-Shabaab propaganda distribution"
+    },
+    {
+      "keyword": "Somalimemo",
+      "country": "Somalia",
+      "reason": "Key extremist media outlet publishing al-Shabaab propaganda"
+    },
+    {
+      "keyword": "Abu-Muscab",
+      "country": "Somalia",
+      "reason": "Al-Shabaab spokesperson featured in propaganda content"
+    },
+    {
+      "keyword": "deepfakes",
+      "country": "Regional",
+      "reason": "Emerging disinformation technique with potential regional applications"
+    },
+    {
+      "keyword": "BBS Mall",
+      "country": "Kenya",
+      "reason": "Specific target in coordinated disinformation campaign against Gachagua"
+    },
+    {
+      "keyword": "NCIC petition",
+      "country": "Kenya",
+      "reason": "False institutional action claim in anti-Gachagua campaign"
+    }
+  ],
+  "events_reviewed": 244,
+  "events_reclassified": 13
+}

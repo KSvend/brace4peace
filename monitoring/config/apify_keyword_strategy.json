@@ -433,6 +433,56 @@
             "last_hit": null,
             "status": "active"
           }
+        },
+        {
+          "keyword": "terrorist-operated websites",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Specific focus on al-Shabaab's web presence",
+          "date_added": "2026-03-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "al-shabaab online content",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Direct reference to group's digital operations",
+          "date_added": "2026-03-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "community notes africa",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "New fact-checking mechanism affecting East African information space",
+          "date_added": "2026-03-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "third-party fact-checking elimination",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Major platform policy change impacting disinformation monitoring",
+          "date_added": "2026-03-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "operation hilaac",
+          "country": "Somalia",
+          "source": "event_review_extraction",
+          "reason": "Military operation likely to generate propaganda narratives",
+          "date_added": "2026-03-19",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
