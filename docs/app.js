@@ -1793,21 +1793,26 @@
     const dateExtent = d3.extent(allEvents, d => new Date(d.date));
     if (!dateExtent[0]) return;
 
-    const xScale = d3.scaleTime().domain(dateExtent).range([0, width]);
+    const xFull = d3.scaleTime().domain(dateExtent).range([0, width]);
+    let xCurrent = xFull.copy();
     const barsGroup = svg.append('g').attr('class', 'scrubber-bars');
 
     function drawBars() {
       barsGroup.selectAll('*').remove();
-      const domain = xScale.domain();
+      const domain = xCurrent.domain();
+      const visibleEvents = allEvents.filter(e => {
+        const d = new Date(e.date);
+        return d >= domain[0] && d <= domain[1];
+      });
       const bins = d3.bin().domain(domain)
         .thresholds(d3.timeWeek.range(domain[0], domain[1]))
-        .value(d => new Date(d.date))(allEvents);
+        .value(d => new Date(d.date))(visibleEvents);
       const yMax = d3.max(bins, b => b.length) || 1;
       const barH = d3.scaleLinear().domain([0, yMax]).range([0, height - 6]);
 
       bins.forEach(bin => {
-        const bx = xScale(bin.x0);
-        const bw = Math.max(1, xScale(bin.x1) - xScale(bin.x0) - 1);
+        const bx = xCurrent(bin.x0);
+        const bw = Math.max(1, xCurrent(bin.x1) - xCurrent(bin.x0) - 1);
         const bh = barH(bin.length);
         const disinfoCount = bin.filter(e => e.event_type === 'DISINFO').length;
         const disinfoBh = bh * (disinfoCount / (bin.length || 1));
@@ -1825,10 +1830,15 @@
       });
     }
 
+    function updateDateLabels() {
+      const domain = xCurrent.domain();
+      const fmt = scrubberDateFmt(domain);
+      document.getElementById('date-range-start').textContent = fmt(domain[0]);
+      document.getElementById('date-range-end').textContent = fmt(domain[1]);
+    }
+
     drawBars();
-    const fmt = scrubberDateFmt(dateExtent);
-    document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
-    document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+    updateDateLabels();
 
     // ── d3.brushX: drag to select a date range ──
     const brush = d3.brushX()
@@ -1836,8 +1846,8 @@
       .on('brush', function(event) {
         if (!event.selection || !event.sourceEvent) return;
         const [x0, x1] = event.selection;
-        const d0 = xScale.invert(x0);
-        const d1 = xScale.invert(x1);
+        const d0 = xCurrent.invert(x0);
+        const d1 = xCurrent.invert(x1);
         const fmt = scrubberDateFmt([d0, d1]);
         document.getElementById('date-range-start').textContent = fmt(d0);
         document.getElementById('date-range-end').textContent = fmt(d1);
@@ -1846,41 +1856,65 @@
         if (!event.sourceEvent) return;
         if (!event.selection) {
           brushExtent = null;
-          const fmt = scrubberDateFmt(dateExtent);
-          document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
-          document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+          updateDateLabels();
         } else {
           const [x0, x1] = event.selection;
-          brushExtent = [xScale.invert(x0), xScale.invert(x1)];
+          brushExtent = [xCurrent.invert(x0), xCurrent.invert(x1)];
         }
         applyFilters();
       });
 
     const brushG = svg.append('g').attr('class', 'scrubber-brush').call(brush);
 
-    // Style the brush selection
+    // Style the brush
     brushG.select('.selection')
       .attr('fill', 'var(--iris, #8071BC)').attr('fill-opacity', 0.12)
       .attr('stroke', 'var(--iris, #8071BC)').attr('stroke-opacity', 0.3)
       .attr('stroke-width', 1).attr('rx', 2);
-    // Minimal handles
     brushG.selectAll('.handle')
       .attr('fill', 'var(--iris, #8071BC)').attr('fill-opacity', 0.4)
       .attr('width', 3).attr('rx', 1.5);
-    // Remove default overlay cursor
     brushG.select('.overlay').style('cursor', 'default');
     brushG.select('.selection').style('cursor', 'default');
     brushG.selectAll('.handle').style('cursor', 'ew-resize');
 
-    // Restore previous brush state
-    if (scrubberZoomState) {
-      brushG.call(brush.move, scrubberZoomState);
-    }
+    // ── Scroll-to-zoom: wheel zooms the x axis ──
+    const zoom = d3.zoom()
+      .scaleExtent([1, 20])
+      .translateExtent([[0, 0], [width, height]])
+      .extent([[0, 0], [width, height]])
+      .filter(event => event.type === 'wheel' || event.type === 'dblclick')
+      .on('zoom', function(event) {
+        xCurrent = event.transform.rescaleX(xFull);
+        drawBars();
+        // Remap brush selection to new scale
+        if (brushExtent) {
+          const newX0 = xCurrent(brushExtent[0]);
+          const newX1 = xCurrent(brushExtent[1]);
+          if (newX0 >= 0 && newX1 <= width) {
+            brushG.call(brush.move, [newX0, newX1]);
+          } else {
+            brushG.call(brush.move, null);
+            brushExtent = null;
+            applyFilters();
+          }
+        }
+        updateDateLabels();
+        scrubberZoomState = event.transform;
+      });
 
-    // Save brush state for re-render
-    brush.on('end.save', function(event) {
-      scrubberZoomState = event.selection;
+    svg.call(zoom);
+    svg.on('dblclick.zoom', function() {
+      svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
+      brushG.call(brush.move, null);
+      brushExtent = null;
+      applyFilters();
     });
+
+    // Restore previous zoom state
+    if (scrubberZoomState) {
+      svg.call(zoom.transform, scrubberZoomState);
+    }
   }
 
   let hsScrubberZoomState = null;
@@ -1895,23 +1929,28 @@
     const dateExtent = d3.extent(allHSPosts, d => new Date(d.d));
     if (!dateExtent[0]) return;
 
-    const xScale = d3.scaleTime().domain(dateExtent).range([0, width]);
+    const xFull = d3.scaleTime().domain(dateExtent).range([0, width]);
+    let xCurrent = xFull.copy();
     const barsGroup = svg.append('g').attr('class', 'scrubber-bars');
 
     function drawBars() {
       barsGroup.selectAll('*').remove();
-      const domain = xScale.domain();
+      const domain = xCurrent.domain();
+      const visiblePosts = allHSPosts.filter(p => {
+        const d = new Date(p.d);
+        return d >= domain[0] && d <= domain[1];
+      });
       const weekRange = d3.timeWeek.range(domain[0], domain[1]);
       if (weekRange.length === 0) return;
       const bins = d3.bin().domain(domain)
         .thresholds(weekRange)
-        .value(d => new Date(d.d))(allHSPosts);
+        .value(d => new Date(d.d))(visiblePosts);
       const yMax = d3.max(bins, b => b.length) || 1;
       const barH = d3.scaleLinear().domain([0, yMax]).range([0, height - 6]);
 
       bins.forEach(bin => {
-        const bx = xScale(bin.x0);
-        const bw = Math.max(1, xScale(bin.x1) - xScale(bin.x0) - 1);
+        const bx = xCurrent(bin.x0);
+        const bw = Math.max(1, xCurrent(bin.x1) - xCurrent(bin.x0) - 1);
         const bh = barH(bin.length);
         const hateCount = bin.filter(p => p.pr === 'Hate').length;
         const hateBh = bh * (hateCount / (bin.length || 1));
@@ -1929,10 +1968,15 @@
       });
     }
 
+    function updateDateLabels() {
+      const domain = xCurrent.domain();
+      const fmt = scrubberDateFmt(domain);
+      document.getElementById('date-range-start').textContent = fmt(domain[0]);
+      document.getElementById('date-range-end').textContent = fmt(domain[1]);
+    }
+
     drawBars();
-    const fmt = scrubberDateFmt(dateExtent);
-    document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
-    document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+    updateDateLabels();
 
     // ── d3.brushX: drag to select a date range ──
     const brush = d3.brushX()
@@ -1940,8 +1984,8 @@
       .on('brush', function(event) {
         if (!event.selection || !event.sourceEvent) return;
         const [x0, x1] = event.selection;
-        const d0 = xScale.invert(x0);
-        const d1 = xScale.invert(x1);
+        const d0 = xCurrent.invert(x0);
+        const d1 = xCurrent.invert(x1);
         const fmt = scrubberDateFmt([d0, d1]);
         document.getElementById('date-range-start').textContent = fmt(d0);
         document.getElementById('date-range-end').textContent = fmt(d1);
@@ -1950,19 +1994,17 @@
         if (!event.sourceEvent) return;
         if (!event.selection) {
           hsBrushExtent = null;
-          const fmt = scrubberDateFmt(dateExtent);
-          document.getElementById('date-range-start').textContent = fmt(dateExtent[0]);
-          document.getElementById('date-range-end').textContent = fmt(dateExtent[1]);
+          updateDateLabels();
         } else {
           const [x0, x1] = event.selection;
-          hsBrushExtent = [xScale.invert(x0), xScale.invert(x1)];
+          hsBrushExtent = [xCurrent.invert(x0), xCurrent.invert(x1)];
         }
         applyHSFilters();
       });
 
     const brushG = svg.append('g').attr('class', 'scrubber-brush').call(brush);
 
-    // Style the brush selection
+    // Style the brush
     brushG.select('.selection')
       .attr('fill', 'var(--iris, #8071BC)').attr('fill-opacity', 0.12)
       .attr('stroke', 'var(--iris, #8071BC)').attr('stroke-opacity', 0.3)
@@ -1974,14 +2016,42 @@
     brushG.select('.selection').style('cursor', 'default');
     brushG.selectAll('.handle').style('cursor', 'ew-resize');
 
-    // Restore previous brush state
-    if (hsScrubberZoomState) {
-      brushG.call(brush.move, hsScrubberZoomState);
-    }
+    // ── Scroll-to-zoom: wheel zooms the x axis ──
+    const zoom = d3.zoom()
+      .scaleExtent([1, 20])
+      .translateExtent([[0, 0], [width, height]])
+      .extent([[0, 0], [width, height]])
+      .filter(event => event.type === 'wheel' || event.type === 'dblclick')
+      .on('zoom', function(event) {
+        xCurrent = event.transform.rescaleX(xFull);
+        drawBars();
+        if (hsBrushExtent) {
+          const newX0 = xCurrent(hsBrushExtent[0]);
+          const newX1 = xCurrent(hsBrushExtent[1]);
+          if (newX0 >= 0 && newX1 <= width) {
+            brushG.call(brush.move, [newX0, newX1]);
+          } else {
+            brushG.call(brush.move, null);
+            hsBrushExtent = null;
+            applyHSFilters();
+          }
+        }
+        updateDateLabels();
+        hsScrubberZoomState = event.transform;
+      });
 
-    brush.on('end.save', function(event) {
-      hsScrubberZoomState = event.selection;
+    svg.call(zoom);
+    svg.on('dblclick.zoom', function() {
+      svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
+      brushG.call(brush.move, null);
+      hsBrushExtent = null;
+      applyHSFilters();
     });
+
+    // Restore previous zoom state
+    if (hsScrubberZoomState) {
+      svg.call(zoom.transform, hsScrubberZoomState);
+    }
   }
 
   // ─── View Toggle ────────────────────────────────────────────────
