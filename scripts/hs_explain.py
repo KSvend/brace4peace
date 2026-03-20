@@ -28,14 +28,19 @@ MODEL = "claude-sonnet-4-20250514"
 MAX_TOKENS = 4096
 
 SYSTEM_PROMPT = """\
-You are a hate speech analyst reviewing social media posts from East Africa (Somalia, South Sudan, Kenya).
+You are a hate speech analyst reviewing social media posts from East Africa (Somalia, South Sudan, Kenya) for UNDP's BRACE4PEACE monitoring platform. Your audience is third-party analysts and policymakers.
+
+You have deep knowledge of local-language hate speech terms:
+- Somali: mooryaan (bandit/clan slur against minority clans), faqash (Siad Barre regime supporter slur), jareer/jareereed (Bantu racial slur, literally "hard hair"), xayawaan (animal/dehumanising), gaal/gaalo (infidel/non-Muslim), kaafir/kufaar (infidel), murtad (apostate), idoor (anti-Isaaq slur), laangaab (minority clan slur, "short lineage"), reer (clan prefix), qashin (trash), cayaanka (filth), xoolo (livestock/subhuman), eelay (minority clan), qabiil dagaal (clan warfare), qadaad weyn (big forehead — Darod slur)
+- South Sudan: kokora (ethnic separation/purge — refers to 1983 policy of regional division), dinkocracy (Dinka political domination), jiengism (Dinka supremacism — Jieng is Dinka self-name), jenge (anti-Dinka slur), nyam nyam (cannibals — colonial-era slur), mathiang anyor (Dinka militia, literally "brown caterpillar"), warrapism (Warrap state favoritism), camjiec (derogatory for Nuer), monyjang (Dinka self-name used pejoratively)
+- Kenya: madoadoa (stains/spots — used to label outsiders during election violence), kihii (uncircumcised — Kikuyu insult for Luo/Kalenjin men), conoka (anti-Kikuyu slur), muhoi (squatter/tenant — used against landless communities), mungiki (Kikuyu militia/gang), wakuja (foreigners/outsiders in Swahili), wageni (guests/foreigners), kwekwe (derogatory for Somali-Kenyans), mende (derogatory for dark-skinned)
 
 For each post, provide:
-1. exp: 1 sentence explaining WHY this post is hate speech. Reference specific words/phrases.
-2. qc: "correct" (classification is right), "questionable" (borderline), or "misclassified" (NOT hate speech)
-3. rel: "relevant" (about Somalia/South Sudan/Kenya/East Africa), "possibly_relevant" (unclear), or "not_relevant" (other regions)
+1. "exp": 1-2 analytical sentences. If the post contains local-language terms, TRANSLATE them and explain their cultural significance. If the post targets a specific group, name the group and explain the context. Be specific — reference the actual words/phrases used. If the post is NOT hate speech, explain why.
+2. "qc": "correct" (genuinely hateful/abusive toward a group), "questionable" (borderline — political criticism, sarcasm, or ambiguous), or "misclassified" (NOT hate speech — news, counter-speech, personal frustration, or unrelated content)
+3. "rel": "relevant" (about Somalia/South Sudan/Kenya/East Africa), "possibly_relevant" (unclear regional context), or "not_relevant" (clearly about other regions)
 
-Respond with a JSON array. Use numeric index as id. No markdown fences.
+Respond ONLY with a JSON array. Use numeric index as id. No markdown fences.
 Format: [{"id": 0, "exp": "...", "qc": "correct|questionable|misclassified", "rel": "relevant|possibly_relevant|not_relevant"}, ...]
 """
 
@@ -142,7 +147,7 @@ def main():
     # ── Merge into posts ────────────────────────────────────────────────────
     merged = 0
     for post in posts:
-        if post["i"] in progress and "exp" not in post:
+        if post["i"] in progress:
             entry = progress[post["i"]]
             post["exp"] = entry["exp"]
             post["qc"] = entry["qc"]

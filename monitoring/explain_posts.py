@@ -95,10 +95,14 @@ def build_batch_prompt(batch):
     """Build the user prompt for a batch of posts."""
     lines = []
     for idx, post in batch:
-        country = post.get("country", "Unknown")
-        subtopic = post.get("subtopic", "Unknown")
-        toxicity = post.get("toxicity", "Unknown")
-        text = post.get("text", "")
+        country = post.get("c") or post.get("country", "Unknown")
+        subtypes = post.get("st") or post.get("subtypes", [])
+        if subtypes and isinstance(subtypes[0], dict):
+            subtopic = subtypes[0].get("n", "Unknown")
+        else:
+            subtopic = post.get("subtopic", "Unknown")
+        toxicity = post.get("tx") or post.get("toxicity", "Unknown")
+        text = post.get("t") or post.get("text", "")
         if len(text) > TEXT_TRUNCATE_LEN:
             text = text[:TEXT_TRUNCATE_LEN] + "..."
         lines.append(f"[{idx}] Country:{country} | Class:{subtopic} | Tox:{toxicity}")
