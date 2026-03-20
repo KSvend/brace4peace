@@ -283,11 +283,6 @@ body {
 }
 .scrubber-track { flex: 1; overflow: hidden; cursor: default; }
 .scrubber-track svg { width: 100%; height: 100%; }
-.scrubber-brush-rect {
-  fill: var(--iris, #8071BC); opacity: 0.15;
-  stroke: var(--iris, #8071BC); stroke-width: 1; stroke-opacity: 0.4;
-  rx: 2;
-}
 
 /* ═══ DETAIL PANEL ═══ */
 .detail-panel {
