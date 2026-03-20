@@ -1878,23 +1878,13 @@
     brushG.select('.selection').style('cursor', 'default');
     brushG.selectAll('.handle').style('cursor', 'ew-resize');
 
-    // ── Scroll-to-zoom: wheel zooms the x axis ──
+    // ── Scroll: vertical=zoom, horizontal=pan ──
     const zoom = d3.zoom()
       .scaleExtent([1, 20])
       .translateExtent([[0, 0], [width, height]])
       .extent([[0, 0], [width, height]])
-      .filter(event => event.type === 'wheel' || event.type === 'dblclick')
+      .filter(event => (event.type === 'wheel' && Math.abs(event.deltaY) >= Math.abs(event.deltaX)) || event.type === 'dblclick')
       .on('zoom', function(event) {
-        // Horizontal scroll → pan only (don't zoom)
-        if (event.sourceEvent && event.sourceEvent.type === 'wheel'
-            && Math.abs(event.sourceEvent.deltaX) > Math.abs(event.sourceEvent.deltaY)) {
-          const t = event.transform;
-          const panOnly = d3.zoomIdentity.translate(t.x, 0).scale(t.k);
-          if (panOnly.x !== t.x || panOnly.k !== t.k) {
-            svg.call(zoom.transform, panOnly);
-            return;
-          }
-        }
         xCurrent = event.transform.rescaleX(xFull);
         drawBars();
         if (brushExtent) {
@@ -1913,6 +1903,17 @@
       });
 
     svg.call(zoom);
+
+    // Horizontal scroll → pan
+    svg.node().addEventListener('wheel', function(event) {
+      if (Math.abs(event.deltaX) <= Math.abs(event.deltaY)) return;
+      event.preventDefault();
+      const t = d3.zoomTransform(svg.node());
+      const newTx = t.x - event.deltaX;
+      const newT = d3.zoomIdentity.translate(newTx, 0).scale(t.k);
+      svg.call(zoom.transform, newT);
+    }, { passive: false });
+
     svg.on('dblclick.zoom', function() {
       svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
       brushG.call(brush.move, null);
@@ -2030,17 +2031,8 @@
       .scaleExtent([1, 20])
       .translateExtent([[0, 0], [width, height]])
       .extent([[0, 0], [width, height]])
-      .filter(event => event.type === 'wheel' || event.type === 'dblclick')
+      .filter(event => (event.type === 'wheel' && Math.abs(event.deltaY) >= Math.abs(event.deltaX)) || event.type === 'dblclick')
       .on('zoom', function(event) {
-        if (event.sourceEvent && event.sourceEvent.type === 'wheel'
-            && Math.abs(event.sourceEvent.deltaX) > Math.abs(event.sourceEvent.deltaY)) {
-          const t = event.transform;
-          const panOnly = d3.zoomIdentity.translate(t.x, 0).scale(t.k);
-          if (panOnly.x !== t.x || panOnly.k !== t.k) {
-            svg.call(zoom.transform, panOnly);
-            return;
-          }
-        }
         xCurrent = event.transform.rescaleX(xFull);
         drawBars();
         if (hsBrushExtent) {
@@ -2059,6 +2051,17 @@
       });
 
     svg.call(zoom);
+
+    // Horizontal scroll → pan
+    svg.node().addEventListener('wheel', function(event) {
+      if (Math.abs(event.deltaX) <= Math.abs(event.deltaY)) return;
+      event.preventDefault();
+      const t = d3.zoomTransform(svg.node());
+      const newTx = t.x - event.deltaX;
+      const newT = d3.zoomIdentity.translate(newTx, 0).scale(t.k);
+      svg.call(zoom.transform, newT);
+    }, { passive: false });
+
     svg.on('dblclick.zoom', function() {
       svg.transition().duration(400).call(zoom.transform, d3.zoomIdentity);
       brushG.call(brush.move, null);
