@@ -1,0 +1,44 @@
+name: Seed Knowledge Base
+on:
+  workflow_dispatch:
+    inputs:
+      seed_type:
+        description: 'What to seed'
+        required: true
+        default: 'all'
+        type: choice
+        options: [all, desk_review, events, stats]
+      dry_run:
+        description: 'Dry run'
+        type: boolean
+        default: false
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r backend/requirements.txt
+      - name: Seed desk review
+        if: inputs.seed_type == 'all' || inputs.seed_type == 'desk_review'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m backend.ingest.seed_desk_review ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: Seed events
+        if: inputs.seed_type == 'all' || inputs.seed_type == 'events'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python -m backend.ingest.seed_events ${{ inputs.dry_run && '--dry-run' || '' }}
+      - name: Compute stats
+        if: inputs.seed_type == 'all' || inputs.seed_type == 'stats'
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: python -m backend.ingest.compute_stats ${{ inputs.dry_run && '--dry-run' || '' }}
