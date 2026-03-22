@@ -79,7 +79,9 @@ def _get_hs_posts():
 
 async def verify_api_key(request: Request):
     """Validate X-API-Key header and enforce daily rate limit."""
-    key = (request.headers.get("x-b4p-key") or request.headers.get("x-api-key") or "").strip()
+    # Use Authorization: Bearer to avoid HF Spaces proxy intercepting custom headers
+    auth = (request.headers.get("authorization") or "").strip()
+    key = auth.removeprefix("Bearer ").strip() if auth.startswith("Bearer ") else ""
     expected = (API_KEY or "").strip()
     if not key or (expected and key != expected):
         raise HTTPException(status_code=401, detail="Missing or invalid API key")

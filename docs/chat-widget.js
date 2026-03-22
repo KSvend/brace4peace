@@ -216,7 +216,7 @@
   function callApi(query) {
     var headers = {
       'Content-Type': 'application/json',
-      'X-B4P-Key': localStorage.getItem(LS_KEY)
+      'Authorization': 'Bearer ' + localStorage.getItem(LS_KEY)
     };
     var body = {
       query: query,
@@ -353,7 +353,7 @@
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'X-B4P-Key': localStorage.getItem(LS_KEY)
+        'Authorization': 'Bearer ' + localStorage.getItem(LS_KEY)
       },
       body: JSON.stringify({
         message_id: messageId,
