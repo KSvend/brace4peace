@@ -257,6 +257,7 @@
 
   // ─── Filter UI ───────────────────────────────────────────────────
   function buildFilterUI() {
+    console.log('[B4P] buildFilterUI called, allEvents:', allEvents.length);
     // Countries
     const countries = d3.rollup(allEvents, v => v.length, d => d.country);
     const countryDiv = document.getElementById('filter-country');
@@ -308,6 +309,7 @@
     });
 
     // Info Type
+    console.log('[B4P] building info_type filter');
     const INFO_TYPE_LABELS = {
       'DISINFO': 'Disinformation', 'PROPAGANDA': 'Propaganda', 'MISINFO': 'Misinformation',
       'RUMOR': 'Rumour', 'HATE_SPEECH': 'Hate Speech', 'INCITEMENT': 'Incitement', 'CONTEXT': 'Context'
@@ -320,7 +322,9 @@
     allEvents.forEach(e => {
       if (e.info_type) infoTypes[e.info_type] = (infoTypes[e.info_type] || 0) + 1;
     });
+    console.log('[B4P] infoTypes:', infoTypes);
     const infoTypeDiv = document.getElementById('filter-info-type');
+    console.log('[B4P] infoTypeDiv:', infoTypeDiv);
     if (infoTypeDiv) {
       infoTypeDiv.innerHTML = '';
       Object.entries(infoTypes).sort((a, b) => b[1] - a[1]).forEach(([it, count]) => {
@@ -336,6 +340,7 @@
     }
 
     // Narratives
+    console.log('[B4P] building narrative filter');
     const narrCounts = {};
     allEvents.forEach(e => {
       (e.disinfo_narratives || []).forEach(n => {
