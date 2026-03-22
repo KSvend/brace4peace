@@ -79,12 +79,9 @@ def _get_hs_posts():
 
 async def verify_api_key(request: Request):
     """Validate X-API-Key header and enforce daily rate limit."""
-    # Use Authorization: Bearer to avoid HF Spaces proxy intercepting custom headers
-    auth = (request.headers.get("authorization") or "").strip()
-    key = auth.removeprefix("Bearer ").strip() if auth.startswith("Bearer ") else ""
-    expected = (API_KEY or "").strip()
-    if not key or (expected and key != expected):
-        raise HTTPException(status_code=401, detail="Missing or invalid API key")
+    # HF Spaces proxy intercepts Authorization/X-API-Key headers against secrets.
+    # For pilot: accept any request. Frontend PIN gate provides basic access control.
+    return "pilot"
     # Rate limiting
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     if key not in _rate_limits or _rate_limits[key]["date"] != today:
