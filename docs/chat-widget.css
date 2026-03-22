@@ -36,6 +36,39 @@
   background: #244a42;
   width: 38px;
 }
+/* Admin tab — below the chat tab */
+.admin-toggle-btn {
+  position: fixed;
+  right: 0;
+  top: calc(70% + 60px);
+  transform: translateY(-50%);
+  width: 34px;
+  height: auto;
+  padding: 16px 7px;
+  border-radius: 8px 0 0 8px;
+  background: #8071BC;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: background 200ms ease-out, width 200ms ease-out;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-style: italic;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+.admin-toggle-btn:hover {
+  background: #635499;
+  width: 38px;
+}
+
 .chat-toggle-btn svg {
   display: none;
 }
