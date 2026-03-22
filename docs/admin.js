@@ -266,13 +266,19 @@
 
     reviewData.forEach(function (post, idx) {
       var tr = el('tr', '');
-      var labelClass = (post.label || 'normal').toLowerCase();
+      /* Map abbreviated API fields to readable names */
+      var date = post.date || post.d || '-';
+      var country = post.country || post.c || '-';
+      var text = post.text || post.t || '-';
+      var label = post.label || post.pr || post.eaHsPred || '-';
+      var subtypes = post.subtype || (post.st && post.st.length ? post.st.map(function(s) { return s.n || s; }).join(', ') : '-');
+      var labelClass = (label || 'normal').toLowerCase();
       tr.innerHTML =
-        '<td>' + esc(post.date || '-') + '</td>' +
-        '<td>' + esc(post.country || '-') + '</td>' +
-        '<td class="text-col">' + esc(post.text || '-') + '</td>' +
-        '<td><span class="status-badge ' + labelClass + '">' + esc(post.label || '-') + '</span></td>' +
-        '<td>' + esc(post.subtype || '-') + '</td>' +
+        '<td>' + esc(date) + '</td>' +
+        '<td>' + esc(country) + '</td>' +
+        '<td class="text-col">' + esc(text) + '</td>' +
+        '<td><span class="status-badge ' + labelClass + '">' + esc(label) + '</span></td>' +
+        '<td>' + esc(subtypes) + '</td>' +
         '<td><div id="review-actions-' + idx + '"></div></td>';
       tbody.appendChild(tr);
     });
@@ -327,7 +333,7 @@
 
   function annotatePost(post, action, correctedLabel, correctedSubtype, idx) {
     var body = {
-      post_id: post.id || post.post_id,
+      post_id: post.id || post.i || post.post_id,
       action: action,
       analyst_name: localStorage.getItem(LS_NAME)
     };
