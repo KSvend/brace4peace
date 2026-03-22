@@ -385,6 +385,12 @@
   /* ── Toggle panel ── */
   function togglePanel(open) {
     panelOpen = open;
+    // Push dashboard content to the left instead of overlaying
+    if (open) {
+      document.body.classList.add('chat-open');
+    } else {
+      document.body.classList.remove('chat-open');
+    }
     render();
     if (open) {
       setTimeout(function () {

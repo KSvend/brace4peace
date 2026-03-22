@@ -512,15 +512,18 @@
 }
 
 /* Overlay for mobile */
+/* Overlay disabled — dashboard stays interactive when chat is open */
 .chat-overlay {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 9998;
+  display: none !important;
 }
-.chat-overlay.visible {
-  display: block;
+
+/* Push page content left when chat panel is open */
+body.chat-open {
+  margin-right: 420px;
+  transition: margin-right 200ms ease-out;
+}
+body {
+  transition: margin-right 200ms ease-out;
 }
 
 /* Responsive */
