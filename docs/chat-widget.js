@@ -319,9 +319,9 @@
       var srcWrap = el('div', { className: 'chat-sources' });
       m.sources.forEach(function (s) {
         var card = el('div', { className: 'chat-source-card' });
-        var title = s.title || s.doc_id || 'Source';
+        var title = s.title || s.source_name || s.doc_id || 'Source';
         var snippet = s.snippet || s.text || '';
-        var url = s.url || s.link || '';
+        var url = s.source_url || s.url || s.link || '';
         card.innerHTML =
           '<div class="source-title">' + esc(title) + '</div>' +
           (snippet ? '<div class="source-snippet">' + esc(snippet.substring(0, 120)) + (snippet.length > 120 ? '...' : '') + '</div>' : '') +
