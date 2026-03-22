@@ -9,7 +9,7 @@
 .chat-toggle-btn {
   position: fixed;
   right: 0;
-  top: 50%;
+  top: 70%;
   transform: translateY(-50%);
   width: 34px;
   height: auto;
