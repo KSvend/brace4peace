@@ -40,7 +40,7 @@
 .admin-toggle-btn {
   position: fixed;
   right: 0;
-  top: calc(70% + 60px);
+  top: calc(70% + 100px);
   transform: translateY(-50%);
   width: 34px;
   height: auto;
