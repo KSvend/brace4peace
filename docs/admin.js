@@ -117,6 +117,10 @@
       localStorage.removeItem(LS_NAME);
       render();
     };
+    var backBtn = el('a', 'admin-back-btn');
+    backBtn.href = 'index.html';
+    backBtn.textContent = '\u2190 Dashboard';
+    right.appendChild(backBtn);
     right.appendChild(user);
     right.appendChild(logout);
     hdr.appendChild(left);

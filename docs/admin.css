@@ -54,6 +54,22 @@ body {
 .admin-user strong {
   font-weight: 600;
 }
+.admin-back-btn {
+  background: none;
+  border: 1px solid #D5D0C7;
+  border-radius: 6px;
+  padding: 5px 14px;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  color: #6B6B6B;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 200ms ease-out;
+}
+.admin-back-btn:hover {
+  border-color: #1A3A34;
+  color: #1A3A34;
+}
 .admin-logout {
   background: none;
   border: 1px solid #D5D0C7;
