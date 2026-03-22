@@ -133,11 +133,13 @@ class AnnotationRequest(BaseModel):
 async def health():
     """System status check -- no auth required."""
     import os
+    from backend.config import SUPABASE_URL, SUPABASE_KEY
     return {
         "status": "healthy",
         "api_key_len": len(API_KEY) if API_KEY else 0,
-        "api_key_preview": API_KEY[:5] + "..." if API_KEY else "",
-        "supabase_configured": bool(os.environ.get("SUPABASE_URL")),
+        "supabase_url": SUPABASE_URL[:30] + "..." if SUPABASE_URL else "",
+        "supabase_key_len": len(SUPABASE_KEY) if SUPABASE_KEY else 0,
+        "supabase_key_prefix": SUPABASE_KEY[:15] + "..." if SUPABASE_KEY else "",
     }
 
 
