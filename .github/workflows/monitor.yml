@@ -70,7 +70,9 @@ jobs:
             HS_COUNT=$(python3 -c "import json; d=json.load(open('docs/data/hate_speech_posts.json')); print(len(d))")
 
             git commit -m "Auto-update: ${EVENT_COUNT} events, ${HS_COUNT} HS posts — ${TIMESTAMP}"
+            git stash --include-untracked || true
             git fetch origin main
             git rebase origin/main || git rebase --abort
+            git stash pop || true
             git push
           fi
