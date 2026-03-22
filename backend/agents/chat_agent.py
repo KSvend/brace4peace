@@ -11,22 +11,27 @@ SYSTEM_PROMPT = """You are an analyst assistant for the BRACE4PEACE programme,
 specialising in hate speech and disinformation monitoring in East Africa
 (Kenya, Somalia, South Sudan).
 
-RULES:
-1. Every factual statement must cite its source using [Source Name](URL).
-   Never fabricate sources.
-2. If retrieved evidence is insufficient, say "I don't have enough information
-   on this topic." Indicate confidence level (HIGH / MEDIUM / LOW).
-3. Do not take sides in conflicts. Present verified findings from multiple
-   perspectives where available.
-4. You answer questions about HS/disinfo dynamics in Kenya, Somalia, and
-   South Sudan. Redirect out-of-scope queries politely.
-5. When using statistical data, state the time period covered.
-6. End every response with a line: "Confidence: HIGH/MEDIUM/LOW"
+CRITICAL RULES:
+1. ONLY use information from the RETRIEVED FINDINGS and STATISTICAL DATA below.
+   Do NOT use your own knowledge or training data. If it's not in the context, you don't know it.
+2. Every factual statement MUST cite its source using [Source Name](URL) from the retrieved context.
+   Never fabricate or infer sources. If a finding has no URL, say "source not linked."
+3. If retrieved evidence is insufficient, say "The knowledge base has limited information on this
+   specific topic." Then list what IS available from the retrieved context.
+4. Do not take sides in conflicts. Present findings neutrally.
+5. You answer questions about HS/disinfo dynamics in Kenya, Somalia, and South Sudan only.
+6. When the context includes STATISTICAL DATA, use the exact numbers provided.
+7. When the context includes EVENTS, present them chronologically with dates and sources.
+8. End every response with: "Confidence: HIGH/MEDIUM/LOW"
 
 CONFIDENCE LEVELS:
-- HIGH: 3+ corroborating sources, verified findings
-- MEDIUM: 1-2 sources, or mix of verified and unverified
-- LOW: Limited data, data gaps identified"""
+- HIGH: 3+ retrieved sources directly address the question
+- MEDIUM: 1-2 retrieved sources address the question
+- LOW: Retrieved sources are tangential or sparse
+
+The knowledge base contains: 261 desk review findings, 245 monitored events,
+and aggregated hate speech statistics from ~6,000 classified social media posts
+across Kenya, Somalia, and South Sudan (Oct 2025 - Mar 2026)."""
 
 
 class ChatState(TypedDict):
@@ -51,6 +56,24 @@ def _get_llm():
     return _llm
 
 
+def _expand_query(query: str) -> list[str]:
+    """Generate additional search queries to improve recall."""
+    queries = [query]
+    # Expand abbreviations common in the domain
+    expansions = {
+        "ss": "South Sudan", "ke": "Kenya", "so": "Somalia",
+        "disinfo": "disinformation", "hs": "hate speech",
+        "ve": "violent extremism", "ogbv": "online gender-based violence",
+    }
+    expanded = query
+    for abbr, full in expansions.items():
+        if abbr in query.lower().split():
+            expanded = query.lower().replace(abbr, full)
+    if expanded != query:
+        queries.append(expanded)
+    return queries[:3]
+
+
 def analyze_and_retrieve(state: ChatState) -> ChatState:
     query = state["query"]
     filters = state.get("filters", {})
@@ -59,7 +82,20 @@ def analyze_and_retrieve(state: ChatState) -> ChatState:
                       "prevalence", "trend", "percentage"]
     is_stats = any(kw in query.lower() for kw in stats_keywords)
 
-    chunks = vector_search(query, filters=filters, top_k=10)
+    # Search with expanded queries for better recall
+    all_chunks = []
+    seen_ids = set()
+    for q in _expand_query(query):
+        results = vector_search(q, filters=filters, top_k=10)
+        for chunk in results:
+            cid = chunk.get("id")
+            if cid not in seen_ids:
+                seen_ids.add(cid)
+                all_chunks.append(chunk)
+
+    # Sort by similarity and take top 15
+    all_chunks.sort(key=lambda c: c.get("similarity", 0), reverse=True)
+    chunks = all_chunks[:15]
 
     stats = None
     if is_stats:
