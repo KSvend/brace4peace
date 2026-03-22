@@ -1,8 +1,8 @@
 /* ── Chat Widget — MERLx Design System ── */
 
-/* Reserve space so the tab never overlaps dashboard content */
-body {
-  padding-right: 36px;
+/* Reserve space so the tab never overlaps detail panel content */
+.detail-panel {
+  padding-right: 48px;
 }
 
 /* Toggle tab — vertical flag on right edge */
