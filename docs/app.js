@@ -92,7 +92,8 @@
     country: new Set(),
     type: new Set(),
     subtype: new Set(),
-    narrative: new Set()
+    narrative: new Set(),
+    info_type: new Set()
   };
 
   // HS Filters
@@ -179,6 +180,9 @@
       if (filters.type.size && !filters.type.has(e.event_type)) return false;
       if (filters.subtype.size) {
         if (!e.disinfo_subtype || !filters.subtype.has(e.disinfo_subtype)) return false;
+      }
+      if (filters.info_type && filters.info_type.size) {
+        if (!e.info_type || !filters.info_type.has(e.info_type)) return false;
       }
       if (filters.narrative.size) {
         const narrs = e.disinfo_narratives || [];
@@ -302,6 +306,34 @@
       subtypeDiv.appendChild(item);
     });
 
+    // Info Type
+    const INFO_TYPE_LABELS = {
+      'DISINFO': 'Disinformation', 'PROPAGANDA': 'Propaganda', 'MISINFO': 'Misinformation',
+      'RUMOR': 'Rumour', 'HATE_SPEECH': 'Hate Speech', 'INCITEMENT': 'Incitement', 'CONTEXT': 'Context'
+    };
+    const INFO_TYPE_COLORS = {
+      'DISINFO': '#B83A2A', 'PROPAGANDA': '#CA5D0F', 'MISINFO': '#D9936A',
+      'RUMOR': '#9E9E9E', 'HATE_SPEECH': '#6B5CA8', 'INCITEMENT': '#A84B0C', 'CONTEXT': '#C8C3BA'
+    };
+    const infoTypes = {};
+    allEvents.forEach(e => {
+      if (e.info_type) infoTypes[e.info_type] = (infoTypes[e.info_type] || 0) + 1;
+    });
+    const infoTypeDiv = document.getElementById('filter-info-type');
+    if (infoTypeDiv) {
+      infoTypeDiv.innerHTML = '';
+      Object.entries(infoTypes).sort((a, b) => b[1] - a[1]).forEach(([it, count]) => {
+        const item = document.createElement('div');
+        item.className = 'filter-item active';
+        item.innerHTML = `<span class="filter-dot" style="background:${INFO_TYPE_COLORS[it] || '#9E9E9E'}"></span>
+          <span>${INFO_TYPE_LABELS[it] || it}</span><span class="filter-count">${count}</span>`;
+        item.addEventListener('click', () => toggleFilter('info_type', it));
+        item.dataset.value = it;
+        item.dataset.category = 'info_type';
+        infoTypeDiv.appendChild(item);
+      });
+    }
+
     // Narratives
     const narrCounts = {};
     allEvents.forEach(e => {
@@ -419,8 +451,10 @@
     const fType = d3.rollup(filteredEvents, v => v.length, d => d.event_type);
     const fSubtype = {};
     const fNarr = {};
+    const fInfoType = {};
     filteredEvents.forEach(e => {
       if (e.disinfo_subtype) fSubtype[e.disinfo_subtype] = (fSubtype[e.disinfo_subtype] || 0) + 1;
+      if (e.info_type) fInfoType[e.info_type] = (fInfoType[e.info_type] || 0) + 1;
       (e.disinfo_narratives || []).forEach(n => {
         fNarr[n] = (fNarr[n] || 0) + 1;
       });
@@ -440,6 +474,7 @@
       if (cat === 'country') count = fCountry.get(val) || 0;
       else if (cat === 'type') count = fType.get(val) || 0;
       else if (cat === 'subtype') count = fSubtype[val] || 0;
+      else if (cat === 'info_type') count = fInfoType[val] || 0;
       else if (cat === 'narrative') count = fNarr[val] || 0;
       countEl.textContent = count;
     });
