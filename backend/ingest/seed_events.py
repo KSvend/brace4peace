@@ -19,7 +19,10 @@ def seed(dry_run: bool = False):
         if not text.strip():
             continue
         country = [event.get("country", "Regional")]
-        classification = event.get("event_type", "CONTEXT")
+        # Map event_type to schema values (events.json uses "DISINFO" not "HS_DISINFO")
+        raw_type = event.get("event_type", "CONTEXT")
+        type_map = {"DISINFO": "HS_DISINFO", "CONTEXT": "CONTEXT", "VE_PROPAGANDA": "VE_PROPAGANDA"}
+        classification = type_map.get(raw_type, "CONTEXT")
         # NOTE: field is "narrative_family" (list) in events.json
         themes = event.get("narrative_family", [])
         if isinstance(themes, str):

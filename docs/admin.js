@@ -3,7 +3,7 @@
   'use strict';
 
   /* ── Config ── */
-  var API_BASE = 'https://YOUR-HF-SPACE.hf.space';
+  var API_BASE = 'https://ksvendsen-brace4peace-chat.hf.space';
   var PIN_CODE = '2025';
   var LS_PIN   = 'b4p_pin_ok';
   var LS_KEY   = 'b4p_api_key';

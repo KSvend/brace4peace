@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Orchestrate knowledge base seeding from desk review."""
 import logging
+import re
 import sys
 from pathlib import Path
 from backend.ingest.parse_desk_review import parse_desk_review
@@ -23,6 +24,15 @@ SOURCE_TYPE_MAP = {
     "DRF": "NGO_CSO", "211Check": "FACT_CHECKER", "Africa Check": "FACT_CHECKER",
     "PesaCheck": "FACT_CHECKER",
 }
+
+
+def _valid_date(date_str: str | None) -> str | None:
+    """Return date only if it looks like YYYY-MM-DD, else None."""
+    if not date_str:
+        return None
+    if re.match(r"^\d{4}-\d{2}-\d{2}$", date_str):
+        return date_str
+    return None
 
 
 def _infer_source_type(source_name: str) -> str:
@@ -49,7 +59,7 @@ def seed(dry_run: bool = False, limit: int | None = None):
             "source_name": entry.get("source_name", ""),
             "source_url": entry.get("source_url", ""),
             "source_type": source_type,
-            "date_published": entry.get("date") or None,
+            "date_published": _valid_date(entry.get("date")),
             "country": entry.get("country", []),
             "theme": entry.get("theme", []),
             "summary": entry.get("summary", ""),
@@ -80,7 +90,7 @@ def seed(dry_run: bool = False, limit: int | None = None):
             "chunk_index": 0, "embedding": embedding,
             "country": entry.get("country", []), "theme": entry.get("theme", []),
             "classification": classification["classification"],
-            "date_published": entry.get("date") or None, "verified": True,
+            "date_published": _valid_date(entry.get("date")), "verified": True,
         }).execute()
 
         # Tier 1: fetch full text
@@ -96,7 +106,7 @@ def seed(dry_run: bool = False, limit: int | None = None):
                     "source_id": source_id, "tier": "full_text",
                     "country": entry.get("country", []), "theme": entry.get("theme", []),
                     "classification": classification["classification"],
-                    "date_published": entry.get("date") or None, "verified": True,
+                    "date_published": _valid_date(entry.get("date")), "verified": True,
                 }, client=client)
                 stats["embedded"] += 1
             else:
