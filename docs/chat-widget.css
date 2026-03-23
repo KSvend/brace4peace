@@ -9,8 +9,7 @@
 .chat-toggle-btn {
   position: fixed;
   right: 0;
-  top: 70%;
-  transform: translateY(-50%);
+  bottom: 220px;
   width: 34px;
   height: auto;
   padding: 16px 7px;
@@ -40,7 +39,7 @@
 .admin-toggle-btn {
   position: fixed;
   right: 0;
-  top: calc(70% + 55px);
+  bottom: 130px;
   width: 34px;
   height: auto;
   padding: 16px 7px;
@@ -72,7 +71,7 @@
 .guide-toggle-btn {
   position: fixed;
   right: 0;
-  top: calc(70% + 130px);
+  bottom: 50px;
   width: 34px;
   height: auto;
   padding: 16px 7px;
