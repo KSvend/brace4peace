@@ -69,6 +69,165 @@
   width: 38px;
 }
 
+/* Guide tab — above Annotate */
+.guide-toggle-btn {
+  position: fixed;
+  right: 0;
+  top: calc(70% + 30px);
+  transform: translateY(-50%);
+  width: 34px;
+  height: auto;
+  padding: 16px 7px;
+  border-radius: 8px 0 0 8px;
+  background: #1A3A34;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: background 200ms ease-out, width 200ms ease-out;
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-style: italic;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+.guide-toggle-btn:hover {
+  background: #2E5E54;
+  width: 38px;
+}
+
+/* Guide Modal */
+.guide-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+}
+.guide-overlay.visible { display: flex; }
+
+.guide-modal {
+  background: #FAFAF8;
+  border-radius: 12px;
+  max-width: 680px;
+  width: 90vw;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 32px 36px;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+  font-family: 'Inter', sans-serif;
+}
+.guide-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+  line-height: 1;
+}
+.guide-close:hover { color: #333; }
+
+.guide-modal h2 {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 22px;
+  margin: 0 0 6px;
+  color: #111;
+}
+.guide-intro {
+  color: #666;
+  font-size: 13.5px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.guide-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #E8E4DD;
+  padding-bottom: 8px;
+}
+.guide-tab {
+  background: none;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #888;
+  transition: all 150ms;
+}
+.guide-tab:hover { color: #555; background: #F0EDE8; }
+.guide-tab.active { color: #111; background: #E8E4DD; }
+
+.guide-content { animation: guideFadeIn 200ms ease; }
+.guide-content.hidden { display: none; }
+@keyframes guideFadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+.guide-content h3 {
+  font-family: 'DM Serif Display', Georgia, serif;
+  font-size: 17px;
+  margin: 20px 0 8px;
+  color: #222;
+}
+.guide-content h3:first-child { margin-top: 0; }
+.guide-content h4 {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 16px 0 6px;
+  color: #444;
+}
+.guide-content p, .guide-content li {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #555;
+  margin: 0 0 8px;
+}
+.guide-content ul { padding-left: 18px; margin: 4px 0 8px; }
+
+.guide-table {
+  width: 100%;
+  font-size: 12.5px;
+  border-collapse: collapse;
+  margin: 6px 0 12px;
+}
+.guide-table td {
+  padding: 6px 10px;
+  border-bottom: 1px solid #F0EDE8;
+  color: #555;
+  vertical-align: top;
+}
+.guide-table td:first-child {
+  white-space: nowrap;
+  color: #333;
+  font-weight: 500;
+  width: 180px;
+}
+
+.guide-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.guide-dot.bright { background: #555; opacity: 0.9; box-shadow: 0 0 6px rgba(85,85,85,0.5); }
+.guide-dot.medium { background: #555; opacity: 0.55; }
+.guide-dot.faint { background: #555; opacity: 0.25; }
+
 .chat-toggle-btn svg {
   display: none;
 }

@@ -365,10 +365,129 @@
 
   <script src="app.js"></script>
 
+  <!-- Guide Modal JS -->
+  <script>
+  (function() {
+    const btn = document.getElementById('btn-guide');
+    const overlay = document.getElementById('guide-overlay');
+    const close = document.getElementById('guide-close');
+    if (!btn || !overlay) return;
+    btn.onclick = () => overlay.classList.add('visible');
+    close.onclick = () => overlay.classList.remove('visible');
+    overlay.onclick = (e) => { if (e.target === overlay) overlay.classList.remove('visible'); };
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') overlay.classList.remove('visible'); });
+    // Tab switching
+    overlay.querySelectorAll('.guide-tab').forEach(tab => {
+      tab.onclick = () => {
+        overlay.querySelectorAll('.guide-tab').forEach(t => t.classList.remove('active'));
+        overlay.querySelectorAll('.guide-content').forEach(c => c.classList.add('hidden'));
+        tab.classList.add('active');
+        document.getElementById('guide-' + tab.dataset.tab).classList.remove('hidden');
+      };
+    });
+  })();
+  </script>
+
   <!-- Chat Widget -->
   <link rel="stylesheet" href="chat-widget.css">
   <div id="chat-widget-container"></div>
+  <button class="guide-toggle-btn" id="btn-guide" title="How to read the dashboard">Guide</button>
   <a href="admin.html" class="admin-toggle-btn" title="Annotate posts">Annotate</a>
+
+  <!-- Guide Modal -->
+  <div class="guide-overlay" id="guide-overlay">
+    <div class="guide-modal" id="guide-modal">
+      <button class="guide-close" id="guide-close">&times;</button>
+      <h2>How to Read the Dashboard</h2>
+      <p class="guide-intro">MERLx IRIS monitors disorder events and hate speech across East Africa. The dashboard has two modes — switch between them using the buttons at the top.</p>
+
+      <div class="guide-tabs">
+        <button class="guide-tab active" data-tab="disorder">Disorder Events</button>
+        <button class="guide-tab" data-tab="hatespeech">Hate Speech Posts</button>
+        <button class="guide-tab" data-tab="general">General</button>
+      </div>
+
+      <div class="guide-content" id="guide-disorder">
+        <h3>The Disorder Events Wheel</h3>
+        <p>Each <strong>dot</strong> on the wheel is a disorder event — a disinformation campaign, propaganda operation, hate speech incident, or other narrative that creates societal disruption.</p>
+
+        <h4>How to read the dots</h4>
+        <table class="guide-table">
+          <tr><td><span class="guide-dot bright"></span> Bright with glow</td><td><strong>Confirmed</strong> — verified disorder event</td></tr>
+          <tr><td><span class="guide-dot medium"></span> Medium opacity</td><td><strong>Potential</strong> — likely but not yet confirmed</td></tr>
+          <tr><td><span class="guide-dot faint"></span> Faint</td><td><strong>Context</strong> — background reporting, not necessarily disorder</td></tr>
+        </table>
+
+        <h4>Threat rings (distance from centre)</h4>
+        <p>The wheel has three concentric rings. An event's position tells you how severe the threat is:</p>
+        <table class="guide-table">
+          <tr><td><strong>Inner ring</strong></td><td><strong>P1 CRITICAL</strong> — confirmed, high-weight narrative family, multiple escalation signals (high spread, coordinated campaign, VE-linked). Requires immediate attention.</td></tr>
+          <tr><td><strong>Middle ring</strong></td><td><strong>P2 HIGH</strong> — confirmed with serious narrative family, or coordinated campaign. Should be monitored closely.</td></tr>
+          <tr><td><strong>Outer ring</strong></td><td><strong>P3 MODERATE</strong> — potential events, context reports, or lower-severity confirmed events.</td></tr>
+        </table>
+
+        <h4>Wheel segments</h4>
+        <p>The wheel is divided into <strong>narrative families</strong> — high-level categories like "Ethnic Incitement", "Delegitimization", or "Foreign Influence". Each segment groups events that share the same type of disorder narrative.</p>
+
+        <h4>Dot size</h4>
+        <p>Larger dots indicate higher <strong>spread</strong> (how widely the event has been reproduced across platforms) and more <strong>observations</strong> (how many times the pipeline has detected it).</p>
+
+        <h4>Connecting lines</h4>
+        <p>Click or hover on a dot to see <strong>lines connecting related events</strong>. Events are linked automatically based on shared narratives, actors, country, and timing. Unrelated dots dim so you can focus on the cluster.</p>
+
+        <h4>Dot colours</h4>
+        <table class="guide-table">
+          <tr><td><span class="guide-dot" style="background:#1A3A34"></span> Teal</td><td>Somalia</td></tr>
+          <tr><td><span class="guide-dot" style="background:#CA5D0F"></span> Ember</td><td>South Sudan</td></tr>
+          <tr><td><span class="guide-dot" style="background:#6B5CA8"></span> Purple</td><td>Kenya</td></tr>
+          <tr><td><span class="guide-dot" style="background:#8B7355"></span> Sand</td><td>Regional / Cross-border</td></tr>
+        </table>
+
+        <h4>Event types</h4>
+        <p>Events are classified by <strong>information type</strong>: Disinformation (deliberately false), Misinformation (unintentionally false), Propaganda (coordinated opinion-shaping), Hate Speech (targeted group hostility), Incitement (calls to violence), or Context (background reporting).</p>
+      </div>
+
+      <div class="guide-content hidden" id="guide-hatespeech">
+        <h3>The Hate Speech Posts Wheel</h3>
+        <p>Each dot is a <strong>single social media post or comment</strong> classified by our ML model. This mode shows what types of hate speech are being used online — it's a monitoring feed, not event tracking.</p>
+
+        <h4>Wheel axes</h4>
+        <p>Posts are arranged by <strong>HS subtype</strong> — the specific form of hate speech detected:</p>
+        <ul>
+          <li>Ethnic Targeting, Clan Targeting, Anti-Foreign</li>
+          <li>Political Incitement, Religious Incitement</li>
+          <li>Dehumanisation, Gendered Violence, General Abuse</li>
+        </ul>
+
+        <h4>Dot colour</h4>
+        <table class="guide-table">
+          <tr><td><span class="guide-dot" style="background:#B83A2A"></span> Red</td><td><strong>Hate</strong> — classified as hate speech</td></tr>
+          <tr><td><span class="guide-dot" style="background:#CA5D0F"></span> Orange</td><td><strong>Abusive</strong> — hostile but not hate speech</td></tr>
+          <tr><td><span class="guide-dot" style="background:#9E9E9E"></span> Grey</td><td><strong>Normal / Questionable</strong></td></tr>
+        </table>
+
+        <h4>Distance from centre</h4>
+        <p>Posts closer to the centre have <strong>higher toxicity scores</strong> — they are more severe. Posts near the edge are lower severity.</p>
+
+        <h4>How posts are classified</h4>
+        <p>Each post goes through: (1) keyword sweep on social media, (2) ML classification by the EA-HS BERT model, (3) LLM quality check that assigns the subtype, generates an explanation, and flags false positives.</p>
+      </div>
+
+      <div class="guide-content hidden" id="guide-general">
+        <h3>Filters</h3>
+        <p>Use the sidebar on the left to filter by <strong>country</strong>, <strong>event type</strong>, <strong>information type</strong>, or <strong>narrative family</strong>. Click a filter item to toggle it. Active items have a count showing how many events match.</p>
+
+        <h3>Timeline</h3>
+        <p>Drag the timeline scrubber at the bottom to filter events by date range. Use the playback controls to watch how the landscape evolved week by week.</p>
+
+        <h3>Detail panel</h3>
+        <p>Click any dot to see the full detail panel on the right — summary, actors, platforms, linked events, sources, and (for HS posts) the original text with an explanation of why it was classified as hate speech.</p>
+
+        <h3>Submit</h3>
+        <p>Use the <strong>+ Submit Post</strong> button to manually add a disorder event or hate speech post you've found. It will be processed on the next pipeline run.</p>
+      </div>
+    </div>
+  </div>
   <script src="chat-widget.js"></script>
 </body>
 </html>
