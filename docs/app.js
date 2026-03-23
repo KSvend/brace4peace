@@ -60,12 +60,14 @@
     return (COUNTRY_COLORS[country] || COUNTRY_COLORS['Regional']).light;
   }
 
-  // HS Color: dark = Hate, light = Abusive (per country)
+  // HS Color: grey with opacity matching classification severity
   function hsPostColor(post) {
-    const cc = COUNTRY_COLORS[post.c] || COUNTRY_COLORS['Regional'];
-    if (post.pr === 'Hate') return cc.dark;
-    if (post.pr === 'Questionable') return cc.mid || '#9E9E9E';
-    return cc.light;  // Abusive
+    return '#555';
+  }
+  function hsPostOpacity(post) {
+    if (post.pr === 'Hate') return 0.9;
+    if (post.pr === 'Abusive') return 0.5;
+    return 0.2;  // Questionable / Normal
   }
 
   const SUBTYPE_COLORS = {
@@ -363,7 +365,8 @@
     classDiv.innerHTML = '';
     ['Hate', 'Abusive', 'Questionable'].forEach(cls => {
       const count = classes.get(cls) || 0;
-      const color = cls === 'Hate' ? '#B83A2A' : cls === 'Questionable' ? '#9E9E9E' : '#8071BC';
+      const opacity = cls === 'Hate' ? 0.9 : cls === 'Abusive' ? 0.5 : 0.2;
+      const color = `rgba(85,85,85,${opacity})`;
       const item = document.createElement('div');
       item.className = 'filter-item active';
       item.innerHTML = `<span class="filter-dot" style="background:${color}"></span>
@@ -800,9 +803,9 @@
 
     // Header badges
     const header = document.getElementById('hs-detail-header');
-    const badgeColor = post.pr === 'Hate' ? 'background:rgba(184,58,42,0.1);color:#B83A2A'
-      : post.pr === 'Questionable' ? 'background:rgba(158,158,158,0.12);color:#9E9E9E'
-      : 'background:rgba(128,113,188,0.12);color:#8071BC';
+    const badgeColor = post.pr === 'Hate' ? 'background:rgba(85,85,85,0.15);color:#333'
+      : post.pr === 'Questionable' ? 'background:rgba(85,85,85,0.06);color:#999'
+      : 'background:rgba(85,85,85,0.10);color:#666';
     const confPct = Math.round(post.co * 100);
     const toxLabel = normalizeToxicity(post.tx);
     const toxColors = { very_high: 'background:rgba(122,26,26,0.12);color:#7A1A1A', high: 'background:rgba(184,58,42,0.1);color:#B83A2A', medium: 'background:rgba(202,93,15,0.1);color:#CA5D0F', low: 'background:rgba(26,58,52,0.1);color:#1A3A34' };
@@ -1351,7 +1354,7 @@
         g.append('circle').attr('class', 'hs-dot')
           .attr('cx', Math.cos(angle) * r).attr('cy', Math.sin(angle) * r).attr('r', size)
           .attr('fill', color)
-          .attr('fill-opacity', p.pr === 'Hate' ? 0.9 : p.pr === 'Abusive' ? 0.55 : 0.2)
+          .attr('fill-opacity', hsPostOpacity(p))
           .attr('filter', p.pr === 'Hate' ? 'url(#hs-glow)' : null)
           .datum(p)
           .on('mouseenter', function(event) {
@@ -2059,12 +2062,12 @@
         if (abusiveBh > 0) {
           barsGroup.append('rect').attr('class', 'scrubber-bar')
             .attr('x', bx).attr('y', height - bh - 2).attr('width', bw).attr('height', abusiveBh)
-            .attr('fill', '#C4BBE0').attr('opacity', 0.5).attr('rx', 1);
+            .attr('fill', '#555').attr('opacity', 0.3).attr('rx', 1);
         }
         if (hateBh > 0) {
           barsGroup.append('rect').attr('class', 'scrubber-bar')
             .attr('x', bx).attr('y', height - hateBh - 2).attr('width', bw).attr('height', hateBh)
-            .attr('fill', '#B83A2A').attr('opacity', 0.65).attr('rx', 1);
+            .attr('fill', '#555').attr('opacity', 0.7).attr('rx', 1);
         }
       });
     }

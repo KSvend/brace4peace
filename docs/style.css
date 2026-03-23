@@ -165,15 +165,15 @@ body {
 .stat-label { color: var(--color-text-muted); font-weight: 400; }
 .stat-value { color: var(--color-text); font-weight: 600; }
 .stat-disinfo .stat-value { color: var(--ember); }
-.stat-confirmed .stat-value { color: #B83A2A; }
-.stat-potential .stat-value { color: var(--ember); }
-.stat-context-pill .stat-value { color: var(--color-context); }
+.stat-confirmed .stat-value { color: #333; }
+.stat-potential .stat-value { color: #777; }
+.stat-context-pill .stat-value { color: #bbb; }
 
 .stat-pills-disinfo, .stat-pills-hs { display: flex; align-items: center; gap: 10px; }
 .stat-pills-disinfo.hidden, .stat-pills-hs.hidden { display: none; }
-.stat-hs-hate .stat-value { color: var(--color-critical); }
-.stat-hs-abusive .stat-value { color: var(--iris); }
-.stat-hs-questionable .stat-value { color: #9E9E9E; }
+.stat-hs-hate .stat-value { color: #333; }
+.stat-hs-abusive .stat-value { color: #777; }
+.stat-hs-questionable .stat-value { color: #bbb; }
 
 .view-toggle {
   display: flex; gap: 0;
