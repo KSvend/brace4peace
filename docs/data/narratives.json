@@ -15,7 +15,8 @@
     "country": "South Sudan",
     "status": "active",
     "disinfo_subtype": "propaganda",
-    "color": "#CA5D0F"
+    "color": "#CA5D0F",
+    "family": "Ethnic Incitement"
   },
   "NAR-SS-002": {
     "narrative_id": "NAR-SS-002",
@@ -33,7 +34,8 @@
     "country": "South Sudan",
     "status": "active",
     "disinfo_subtype": "propaganda",
-    "color": "#CA5D0F"
+    "color": "#CA5D0F",
+    "family": "Delegitimization"
   },
   "NAR-SS-003": {
     "narrative_id": "NAR-SS-003",
@@ -49,7 +51,8 @@
     "country": "South Sudan",
     "status": "active",
     "disinfo_subtype": "biased_reporting",
-    "color": "#CA5D0F"
+    "color": "#CA5D0F",
+    "family": "Delegitimization"
   },
   "NAR-SS-004": {
     "narrative_id": "NAR-SS-004",
@@ -66,7 +69,8 @@
     "country": "South Sudan",
     "status": "active",
     "disinfo_subtype": "incitement",
-    "color": "#CA5D0F"
+    "color": "#CA5D0F",
+    "family": "Ethnic Incitement"
   },
   "NAR-SS-005": {
     "narrative_id": "NAR-SS-005",
@@ -82,7 +86,8 @@
     "country": "South Sudan",
     "status": "active",
     "disinfo_subtype": "propaganda",
-    "color": "#CA5D0F"
+    "color": "#CA5D0F",
+    "family": "Revenge/Retribution"
   },
   "NAR-SO-001": {
     "narrative_id": "NAR-SO-001",
@@ -99,7 +104,8 @@
     "country": "Somalia",
     "status": "active",
     "disinfo_subtype": "propaganda",
-    "color": "#1A3A34"
+    "color": "#1A3A34",
+    "family": "Misinformation/Disinformation"
   },
   "NAR-SO-002": {
     "narrative_id": "NAR-SO-002",
@@ -116,7 +122,8 @@
     "country": "Somalia",
     "status": "active",
     "disinfo_subtype": "misinformation",
-    "color": "#1A3A34"
+    "color": "#1A3A34",
+    "family": "Misinformation/Disinformation"
   },
   "NAR-SO-003": {
     "narrative_id": "NAR-SO-003",
@@ -133,7 +140,8 @@
     "country": "Somalia",
     "status": "active",
     "disinfo_subtype": "propaganda",
-    "color": "#1A3A34"
+    "color": "#1A3A34",
+    "family": "Religious Distortion"
   },
   "NAR-SO-004": {
     "narrative_id": "NAR-SO-004",
@@ -150,7 +158,8 @@
     "country": "Somalia",
     "status": "active",
     "disinfo_subtype": "propaganda",
-    "color": "#1A3A34"
+    "color": "#1A3A34",
+    "family": "Existential Threat"
   },
   "NAR-SO-005": {
     "narrative_id": "NAR-SO-005",
@@ -168,7 +177,8 @@
     "country": "Somalia",
     "status": "active",
     "disinfo_subtype": "deepfake",
-    "color": "#1A3A34"
+    "color": "#1A3A34",
+    "family": "Ethnic Incitement"
   },
   "NAR-SO-007": {
     "narrative_id": "NAR-SO-007",
@@ -185,7 +195,8 @@
     "country": "Somalia",
     "status": "active",
     "disinfo_subtype": "propaganda",
-    "color": "#1A3A34"
+    "color": "#1A3A34",
+    "family": "Delegitimization"
   },
   "NAR-KE-002": {
     "narrative_id": "NAR-KE-002",
@@ -201,7 +212,8 @@
     "country": "Kenya",
     "status": "active",
     "disinfo_subtype": "incitement",
-    "color": "#6B5CA8"
+    "color": "#6B5CA8",
+    "family": "Collective Blame"
   },
   "NAR-KE-003a": {
     "narrative_id": "NAR-KE-003a",
@@ -219,7 +231,8 @@
     "country": "Kenya",
     "status": "active",
     "disinfo_subtype": "coordinated_campaign",
-    "color": "#6B5CA8"
+    "color": "#6B5CA8",
+    "family": "Delegitimization"
   },
   "NAR-KE-003b": {
     "narrative_id": "NAR-KE-003b",
@@ -236,7 +249,8 @@
     "country": "Kenya",
     "status": "active",
     "disinfo_subtype": "coordinated_campaign",
-    "color": "#6B5CA8"
+    "color": "#6B5CA8",
+    "family": "Delegitimization"
   },
   "NAR-KE-004": {
     "narrative_id": "NAR-KE-004",
@@ -253,7 +267,8 @@
     "country": "Kenya",
     "status": "active",
     "disinfo_subtype": "incitement",
-    "color": "#6B5CA8"
+    "color": "#6B5CA8",
+    "family": "Ethnic Incitement"
   },
   "NAR-FP-001": {
     "narrative_id": "NAR-FP-001",
@@ -269,7 +284,8 @@
     "country": "Regional",
     "status": "active",
     "disinfo_subtype": "foreign_propaganda",
-    "color": "#4A3F6B"
+    "color": "#4A3F6B",
+    "family": "Foreign Influence"
   },
   "NAR-FP-002": {
     "narrative_id": "NAR-FP-002",
@@ -285,7 +301,8 @@
     "country": "Regional",
     "status": "active",
     "disinfo_subtype": "foreign_propaganda",
-    "color": "#4A3F6B"
+    "color": "#4A3F6B",
+    "family": "Foreign Influence"
   },
   "NAR-SO-006": {
     "narrative_id": "NAR-SO-006",
@@ -304,7 +321,8 @@
     "country": "Somalia",
     "status": "active",
     "disinfo_subtype": "propaganda",
-    "color": "#1A3A34"
+    "color": "#1A3A34",
+    "family": "Religious Distortion"
   },
   "NAR-SO-009": {
     "narrative_id": "NAR-SO-009",
@@ -322,6 +340,7 @@
     "country": "Somalia",
     "status": "active",
     "disinfo_subtype": "misinformation",
-    "color": "#1A3A34"
+    "color": "#1A3A34",
+    "family": "Misinformation/Disinformation"
   }
 }

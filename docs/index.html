@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MERLx — East Africa Disinfo Monitor</title>
-  <meta name="description" content="Real-time monitoring platform for disinformation tracking in East Africa — narrative-based analysis">
+  <title>MERLx IRIS — East Africa Disorder & Hate Speech Monitor</title>
+  <meta name="description" content="Real-time monitoring platform for disorder events and hate speech tracking in East Africa — narrative-based analysis">
 
   <!-- Fonts: Inter (headings/UI) + DM Serif Display (drama) + IBM Plex Mono (data) — Nordic Product Studio -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
           <img src="MERLx_icon_light.svg" alt="MERLx" width="28" height="28" class="logo-icon">
           <span class="logo-text">MERL<span class="logo-accent">x</span></span>
         </div>
-        <span class="header-subtitle">East Africa Disinfo Monitor</span>
+        <span class="header-subtitle">East Africa Disorder & Hate Speech Monitor</span>
         <span class="header-updated" id="last-updated" style="font-size:10px;color:#666;margin-left:8px"></span>
       </div>
       <div class="header-right">
@@ -67,10 +67,10 @@
           </div>
         </div>
         <div class="view-toggle">
-          <button class="view-btn active" data-view="wheel" id="btn-wheel">Disinfo Wheel</button>
+          <button class="view-btn active" data-view="wheel" id="btn-wheel">Disorder Events</button>
           <button class="view-btn" data-view="hatespeech" id="btn-hatespeech">Hate Speech</button>
         </div>
-        <button class="submit-btn" id="btn-submit" title="Manually submit a disinfo post">
+        <button class="submit-btn" id="btn-submit" title="Manually submit a post">
           <svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="10" y1="4" x2="10" y2="16"/><line x1="4" y1="10" x2="16" y2="10"/></svg>
           Submit Post
         </button>
@@ -81,7 +81,7 @@
     <main class="main">
       <!-- Sidebar filters -->
       <aside class="sidebar" id="sidebar">
-        <!-- Disinfo filters -->
+        <!-- Disorder event filters -->
         <div id="disinfo-filters">
           <div class="filter-section">
             <h3 class="filter-title">Country</h3>
@@ -129,7 +129,7 @@
 
       <!-- Visualization area -->
       <div class="viz-container">
-        <!-- Disinfo Wheel view -->
+        <!-- Disorder Events view -->
         <div class="viz-panel" id="panel-wheel">
           <svg id="wheel-svg"></svg>
         </div>
@@ -208,7 +208,7 @@
             <div class="detail-reach" id="detail-reach"></div>
           </div>
           <div class="detail-section" id="detail-narratives-section">
-            <h4>Disinformation Narratives</h4>
+            <h4>Disorder Narratives</h4>
             <div class="detail-narratives" id="detail-narratives"></div>
           </div>
           <div class="detail-section">
@@ -275,7 +275,7 @@
     </main>
 
     <footer class="footer">
-      <span>MERLx East Africa Disinfo Monitor</span>
+      <span>MERLx IRIS — East Africa Disorder & Hate Speech Monitor</span>
       <span>Created for UNDP East Africa</span>
     </footer>
   </div>
@@ -325,7 +325,7 @@
         <div class="form-group" style="margin-bottom:12px">
           <label class="form-label">Type</label>
           <div class="submit-type-toggle" style="display:flex;gap:8px">
-            <button class="btn-type active" id="submit-type-disinfo" data-type="disinfo">Disinformation</button>
+            <button class="btn-type active" id="submit-type-disinfo" data-type="disinfo">Disorder Event</button>
             <button class="btn-type" id="submit-type-hs" data-type="hatespeech">Hate Speech</button>
           </div>
         </div>

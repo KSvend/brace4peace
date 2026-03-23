@@ -1,5 +1,5 @@
-// MERLx — East Africa Disinfo Monitor v5.0
-// Narrative-Based Disinformation Tracking + Hate Speech Wheel
+// MERLx IRIS — East Africa Disorder & Hate Speech Monitor v6.0
+// Disorder Events Wheel (narrative families) + Hate Speech Posts Wheel
 // D3.js Radial Threat Wheel + Hate Speech Radial Wheel
 
 (function() {
@@ -939,50 +939,43 @@
   }
 
   // ─── Get narrative list for wheel segments ──────────────────────
-  // HS family colors (warm tones to distinguish from disinfo narrative segments)
-  const HS_FAMILY_COLORS = {
+  // Family-level colors for the wheel segments
+  const FAMILY_COLORS = {
     'Ethnic Incitement': '#A84B0C', 'Victimhood/Grievance': '#B85C3A',
     'Collective Blame': '#8B3A62', 'Existential Threat': '#6B2D2D',
     'Revenge/Retribution': '#C0392B', 'Religious Distortion': '#7D5BA6',
     'Delegitimization': '#6B5CA8', 'Misinformation/Disinformation': '#9E9E9E',
-    'Peace/Counter-Narratives': '#2E7D60'
+    'Peace/Counter-Narratives': '#2E7D60', 'Foreign Influence': '#1A3A34'
   };
 
-  /** Map each event to its effective wheel segment ID(s).
-   *  - Disinfo events: use disinfo_narratives (NAR-* IDs)
-   *  - HS/Incitement events without disinfo_narratives: use narrative_families (HS-FAM-* virtual IDs) */
-  function getEventSegments(e) {
+  /** Get the family for a given event — resolves both disinfo_narratives and narrative_families */
+  function getEventFamily(e) {
+    // 1. Try disinfo_narratives → look up family via narrativeRef
     const narrs = (e.disinfo_narratives || []).filter(n => narrativeRef[n]);
-    if (narrs.length > 0) return narrs;
-    // Fall back to narrative_families for HS events
-    const families = (e.narrative_families || []).map(f => f.family).filter(Boolean);
-    return families.map(f => 'HS-FAM-' + f);
+    for (const nid of narrs) {
+      const fam = narrativeRef[nid].family;
+      if (fam) return fam;
+    }
+    // 2. Try narrative_families (used by HS events)
+    const families = (e.narrative_families || []);
+    if (families.length > 0) {
+      // Pick the highest-intensity family
+      const sorted = [...families].sort((a, b) => (b.intensity || 0) - (a.intensity || 0));
+      if (sorted[0].family) return sorted[0].family;
+    }
+    return null;
   }
 
-  function getUsedNarratives() {
-    const narrCounts = {};
+  function getUsedFamilies() {
+    const familyCounts = {};
     filteredEvents.forEach(e => {
-      getEventSegments(e).forEach(n => {
-        narrCounts[n] = (narrCounts[n] || 0) + 1;
-      });
+      const fam = getEventFamily(e);
+      if (fam) familyCounts[fam] = (familyCounts[fam] || 0) + 1;
     });
-    // Ensure HS family virtual entries exist in narrativeRef
-    Object.keys(narrCounts).forEach(nid => {
-      if (nid.startsWith('HS-FAM-') && !narrativeRef[nid]) {
-        const family = nid.replace('HS-FAM-', '');
-        narrativeRef[nid] = {
-          short_name: family,
-          name: family,
-          color: HS_FAMILY_COLORS[family] || '#9E9E9E'
-        };
-      }
-    });
-    return Object.entries(narrCounts)
-      .sort((a, b) => b[1] - a[1])
-      .filter(([nid]) => narrativeRef[nid]);
+    return Object.entries(familyCounts).sort((a, b) => b[1] - a[1]);
   }
   function getUsedNarrativeIds() {
-    return getUsedNarratives().map(d => d[0]);
+    return getUsedFamilies().map(d => d[0]);
   }
 
   // ─── RADIAL THREAT WHEEL (DISINFO) ──────────────────────────────
@@ -1045,45 +1038,44 @@
         .style('fill', ring.color).style('opacity', 0.6).text(ring.label);
     });
 
-    // Narrative segments (disinfo NAR-* IDs + HS-FAM-* families + catch-all)
-    const usedNarrativesWithCounts = getUsedNarratives();
-    if (usedNarrativesWithCounts.length === 0) return;
-    const unnarrated = filteredEvents.filter(e => getEventSegments(e).length === 0);
+    // Family-level segments (hierarchy above individual narratives)
+    const usedFamiliesWithCounts = getUsedFamilies();
+    if (usedFamiliesWithCounts.length === 0) return;
+    const unnarrated = filteredEvents.filter(e => !getEventFamily(e));
     if (unnarrated.length > 0) {
-      usedNarrativesWithCounts.push(['_UNCLASSIFIED', unnarrated.length]);
-      narrativeRef['_UNCLASSIFIED'] = { short_name: 'Unclassified', name: 'Unclassified Events', color: '#9E9E9E' };
+      usedFamiliesWithCounts.push(['Unclassified', unnarrated.length]);
     }
-    const usedNarratives = usedNarrativesWithCounts.map(d => d[0]);
-    const narrWeights = new Map(usedNarrativesWithCounts);
-    const totalWeight = usedNarrativesWithCounts.reduce((s, d) => s + d[1], 0);
+    const usedFamilies = usedFamiliesWithCounts.map(d => d[0]);
+    const familyWeights = new Map(usedFamiliesWithCounts);
+    const totalWeight = usedFamiliesWithCounts.reduce((s, d) => s + d[1], 0);
     const segmentPad = 0.02;
-    const MIN_ANGLE = 0.12;
-    const totalPad = segmentPad * 2 * usedNarratives.length;
-    const totalMinAngle = MIN_ANGLE * usedNarratives.length;
+    const MIN_ANGLE = 0.20;
+    const totalPad = segmentPad * 2 * usedFamilies.length;
+    const totalMinAngle = MIN_ANGLE * usedFamilies.length;
     const availAngle = 2 * Math.PI - totalPad;
     const useMin = totalMinAngle >= availAngle;
-    const narrAngles = [];
+    const famAngles = [];
     let cumAngle = -Math.PI / 2;
-    usedNarrativesWithCounts.forEach(([nid, count]) => {
+    usedFamiliesWithCounts.forEach(([fam, count]) => {
       let segAngle;
       if (useMin) {
-        segAngle = (2 * Math.PI) / usedNarratives.length;
+        segAngle = (2 * Math.PI) / usedFamilies.length;
       } else {
         const extraAngle = availAngle - totalMinAngle;
         segAngle = MIN_ANGLE + (count / totalWeight) * extraAngle + segmentPad * 2;
       }
-      narrAngles.push({ nid, start: cumAngle + segmentPad, end: cumAngle + segAngle - segmentPad, count });
+      famAngles.push({ fam, start: cumAngle + segmentPad, end: cumAngle + segAngle - segmentPad, count });
       cumAngle += segAngle;
     });
 
-    narrAngles.forEach(({ nid, start: startAngle, end: endAngle }) => {
-      const narr = narrativeRef[nid];
+    famAngles.forEach(({ fam, start: startAngle, end: endAngle }) => {
+      const color = FAMILY_COLORS[fam] || '#9E9E9E';
       const x1 = Math.cos(startAngle) * innerRadius;
       const y1 = Math.sin(startAngle) * innerRadius;
       const x2 = Math.cos(startAngle) * maxRadius;
       const y2 = Math.sin(startAngle) * maxRadius;
       g.append('line').attr('x1', x1).attr('y1', y1).attr('x2', x2).attr('y2', y2)
-        .style('stroke', '#D5D0C7').style('opacity', 0.35);
+        .style('stroke', color).style('opacity', 0.35);
 
       const midAngle = (startAngle + endAngle) / 2;
       const labelR = maxRadius + 16;
@@ -1093,28 +1085,27 @@
       const flip = degAngle > 90 || degAngle < -90;
       const textAnchor = flip ? 'end' : 'start';
       const rotation = flip ? degAngle + 180 : degAngle;
-      const shortName = narr.short_name || narr.name;
-      const displayName = shortName.length > 20 ? shortName.substring(0, 18) + '...' : shortName;
+      const displayName = fam.length > 24 ? fam.substring(0, 22) + '...' : fam;
       g.append('text').attr('class', 'wheel-segment-label')
         .attr('transform', `translate(${lx},${ly}) rotate(${rotation})`)
         .attr('text-anchor', textAnchor).attr('dominant-baseline', 'middle')
+        .style('fill', color)
         .text(displayName);
     });
 
-    // Map events to positions
+    // Map events to positions by family
     const positions = new Map();
-    const eventsByNarr = new Map();
+    const eventsByFamily = new Map();
     filteredEvents.forEach(e => {
-      const segs = getEventSegments(e).filter(n => usedNarratives.includes(n));
-      const bestNarr = segs[0] || (usedNarratives.includes('_UNCLASSIFIED') ? '_UNCLASSIFIED' : null);
-      if (bestNarr) {
-        if (!eventsByNarr.has(bestNarr)) eventsByNarr.set(bestNarr, []);
-        eventsByNarr.get(bestNarr).push(e);
+      const fam = getEventFamily(e) || (usedFamilies.includes('Unclassified') ? 'Unclassified' : null);
+      if (fam) {
+        if (!eventsByFamily.has(fam)) eventsByFamily.set(fam, []);
+        eventsByFamily.get(fam).push(e);
       }
     });
 
-    narrAngles.forEach(({ nid, start, end }) => {
-      const events = eventsByNarr.get(nid) || [];
+    famAngles.forEach(({ fam, start, end }) => {
+      const events = eventsByFamily.get(fam) || [];
       const startAngle = start + 0.03;
       const endAngle = end - 0.03;
       events.forEach((e, j) => {
@@ -2461,7 +2452,7 @@
           allEvents.push(newEvent);
           applyFilters();
           showStep(stepSuccess);
-          showToast('Disinfo post submitted — will be processed on next pipeline run');
+          showToast('Disorder event submitted — will be processed on next pipeline run');
         }
       });
 
