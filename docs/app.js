@@ -296,8 +296,8 @@
       'RUMOR': 'Rumour', 'HATE_SPEECH': 'Hate Speech', 'INCITEMENT': 'Incitement', 'CONTEXT': 'Context'
     };
     const INFO_TYPE_COLORS = {
-      'DISINFO': '#B83A2A', 'PROPAGANDA': '#CA5D0F', 'MISINFO': '#D9936A',
-      'RUMOR': '#9E9E9E', 'HATE_SPEECH': '#6B5CA8', 'INCITEMENT': '#A84B0C', 'CONTEXT': '#C8C3BA'
+      'DISINFO': '#555', 'PROPAGANDA': '#555', 'MISINFO': '#555',
+      'RUMOR': '#555', 'HATE_SPEECH': '#555', 'INCITEMENT': '#555', 'CONTEXT': '#555'
     };
     const infoTypes = {};
     allEvents.forEach(e => {
@@ -942,11 +942,11 @@
   // ─── Get narrative list for wheel segments ──────────────────────
   // Family-level colors for the wheel segments
   const FAMILY_COLORS = {
-    'Ethnic Incitement': '#A84B0C', 'Victimhood/Grievance': '#B85C3A',
-    'Collective Blame': '#8B3A62', 'Existential Threat': '#6B2D2D',
-    'Revenge/Retribution': '#C0392B', 'Religious Distortion': '#7D5BA6',
-    'Delegitimization': '#6B5CA8', 'Misinformation/Disinformation': '#9E9E9E',
-    'Peace/Counter-Narratives': '#2E7D60', 'Foreign Influence': '#1A3A34'
+    'Ethnic Incitement': '#555', 'Victimhood/Grievance': '#555',
+    'Collective Blame': '#555', 'Existential Threat': '#555',
+    'Revenge/Retribution': '#555', 'Religious Distortion': '#555',
+    'Delegitimization': '#555', 'Misinformation/Disinformation': '#555',
+    'Peace/Counter-Narratives': '#555', 'Foreign Influence': '#555'
   };
 
   /** Get the family for a given event — resolves both disinfo_narratives and narrative_families */
