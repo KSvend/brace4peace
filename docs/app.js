@@ -44,7 +44,7 @@
     'Somalia':     { dark: '#1A3A34', light: '#A8C5BC', mid: '#4A7A6E' },
     'South Sudan': { dark: '#CA5D0F', light: '#E8C4A8', mid: '#D9936A' },
     'Kenya':       { dark: '#6B5CA8', light: '#C4BBE0', mid: '#9A8DC8' },
-    'Regional':    { dark: '#4A3F6B', light: '#B8B3CC', mid: '#7E76A0' }
+    'Regional':    { dark: '#8B7355', light: '#D5CBBA', mid: '#B09A7A' }
   };
 
   function eventColor(e) {
