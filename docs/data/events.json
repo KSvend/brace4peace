@@ -324,13 +324,13 @@
     "spread": 5.0,
     "narrative_families": [
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
@@ -596,13 +596,13 @@
     "spread": 5.0,
     "narrative_families": [
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
@@ -683,13 +683,13 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
@@ -988,7 +988,7 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -1053,13 +1053,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -1642,13 +1642,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -1791,7 +1791,7 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "Platform Governance",
+        "family": "Misinformation/Disinformation",
         "intensity": 3
       },
       {
@@ -1799,11 +1799,11 @@
         "intensity": 2
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 1
       },
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 2
       }
     ],
@@ -1915,13 +1915,13 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "TikTok Africa Media Literacy Gap",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
       },
       {
-        "family": "Platform Governance",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
@@ -2371,7 +2371,7 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -2740,7 +2740,7 @@
     "spread": 5.0,
     "narrative_families": [
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -2752,7 +2752,7 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -2814,13 +2814,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Iran East Africa Proxy Expansion",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Red Sea Disruption Framing",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -2880,7 +2880,7 @@
         "intensity": 3
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3
       },
       {
@@ -2892,7 +2892,7 @@
         "intensity": 2
       },
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 2
       }
     ],
@@ -2952,13 +2952,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Pravda Network Africa Expansion",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -3094,7 +3094,7 @@
         "intensity": 3
       },
       {
-        "family": "Competing Claims / Selective Condemnation",
+        "family": "Misinformation/Disinformation",
         "intensity": 3
       }
     ],
@@ -3494,13 +3494,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Rybar AI Content Farm Africa Operations",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -3724,13 +3724,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Turkey-Somalia Media Alliance",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Third-Country Disinformation Framing",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -3802,7 +3802,7 @@
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 2 (delta -2) by LLM-as-judge calibration"
@@ -3880,15 +3880,15 @@
         "intensity": 2
       },
       {
-        "family": "Platform Governance",
+        "family": "Misinformation/Disinformation",
         "intensity": 3
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 3
       },
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 2
       }
     ],
@@ -3949,13 +3949,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 2 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -4011,7 +4011,7 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -4268,13 +4268,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "SVR Africa Politology Influence Architecture",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -4516,13 +4516,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Africa Corps Gray Zone Institutionalization",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -4748,13 +4748,13 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -5022,7 +5022,7 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 2 (delta -2) by LLM-as-judge calibration"
@@ -5034,7 +5034,7 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -5263,7 +5263,7 @@
         "intensity": 2
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 2
       },
       {
@@ -5271,7 +5271,7 @@
         "intensity": 2
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 1
       }
     ],
@@ -5330,7 +5330,7 @@
         "intensity": 2
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2
       },
       {
@@ -6256,7 +6256,7 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 1,
         "calibrated": true,
         "calibration_note": "Confirmed at 1 by LLM-as-judge calibration"
@@ -6330,7 +6330,7 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 2 (delta -2) by LLM-as-judge calibration"
@@ -6459,7 +6459,7 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -6543,13 +6543,13 @@
     "spread": 5.0,
     "narrative_families": [
       {
-        "family": "Somalia UAE Sovereignty Narrative War",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "UAE-Israel-Somaliland Axis Framing",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -7289,7 +7289,7 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -7307,7 +7307,7 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -7381,13 +7381,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Platform Governance",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
       },
       {
-        "family": "ByteDance/TikTok African Narrative Shaping",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
@@ -7515,13 +7515,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Kenya 2027 Election Pre-Positioning",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "AI Deepfakes in African Elections",
+        "family": "Misinformation/Disinformation",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -7665,13 +7665,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -7999,13 +7999,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Israel-Somaliland Recognition Information War",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Somalia Territorial Integrity Narratives",
+        "family": "Misinformation/Disinformation",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -8182,13 +8182,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Somalia Electoral Disinformation",
+        "family": "Misinformation/Disinformation",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Diaspora-Amplified Clan Electoral Manipulation",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -8320,13 +8320,13 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "AI Deepfake Political Violence Incitement",
+        "family": "Misinformation/Disinformation",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Clan Identity Weaponization",
+        "family": "Ethnic Incitement",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
@@ -8515,13 +8515,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Iran East Africa Diplomatic Expansion",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Iran Global South Solidarity Narratives",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -8580,13 +8580,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -8598,7 +8598,7 @@
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -8669,7 +8669,7 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -8805,7 +8805,7 @@
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -9491,7 +9491,7 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -9575,13 +9575,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Houthi-Al-Shabaab Intelligence Sharing",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -9857,13 +9857,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Kenya State Digital Repression",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Protest AI-Generated Harassment",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -9998,13 +9998,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "TASS Africa Media Expansion",
+        "family": "Foreign Influence",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
@@ -10064,7 +10064,7 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3
       },
       {
@@ -10080,7 +10080,7 @@
         "intensity": 2
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2
       }
     ],
@@ -10620,13 +10620,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Somaliland Recognition Pre-emptive Disinformation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Pro-Israel Abraham Accords Narrative Engineering",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -10699,7 +10699,7 @@
         "intensity": 3
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2
       },
       {
@@ -10899,13 +10899,13 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Bot Farms and AI-Enhanced Propaganda",
+        "family": "Misinformation/Disinformation",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -11043,13 +11043,13 @@
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -11106,13 +11106,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -11352,7 +11352,7 @@
         "intensity": 3
       },
       {
-        "family": "VE Propaganda",
+        "family": "Existential Threat",
         "intensity": 3
       }
     ],
@@ -11434,19 +11434,19 @@
     "spread": 5.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -11518,7 +11518,7 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -11697,13 +11697,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "TikTok AI Content Kenya Political Amplification",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Platform Governance",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -11832,7 +11832,7 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -11844,7 +11844,7 @@
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -12147,7 +12147,7 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -12215,13 +12215,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -12362,13 +12362,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Africa Corps AES Cooperation Legitimacy",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Russia Africa Strategic Partnership",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -12519,7 +12519,7 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -12531,7 +12531,7 @@
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -12591,7 +12591,7 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -12603,13 +12603,13 @@
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -12679,13 +12679,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -12854,7 +12854,7 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -12924,13 +12924,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "African Initiative Agency Operations",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Colonial/Multipolar Sovereignty Narratives",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -13056,7 +13056,7 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Competing Claims / Inflated Casualties",
+        "family": "Misinformation/Disinformation",
         "intensity": 3
       }
     ],
@@ -13198,7 +13198,7 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -13262,13 +13262,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "South Sudan Ethnic Disinformation",
+        "family": "Ethnic Incitement",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Riek Machar/Salva Kiir Political Polarization",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -13407,7 +13407,7 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -13419,7 +13419,7 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -13482,13 +13482,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -13638,13 +13638,13 @@
     "spread": 6.0,
     "narrative_families": [
       {
-        "family": "RT Covert Africa Influence Pipeline",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
@@ -13807,25 +13807,25 @@
     "spread": 6.0,
     "narrative_families": [
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -13896,11 +13896,11 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "VE Propaganda",
+        "family": "Existential Threat",
         "intensity": 4
       },
       {
-        "family": "Legitimization / Governance Narrative",
+        "family": "Delegitimization",
         "intensity": 4
       }
     ],
@@ -14058,7 +14058,7 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -14143,13 +14143,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -14161,7 +14161,7 @@
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -14223,13 +14223,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Somali Clan War Influencer Networks",
+        "family": "Ethnic Incitement",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Diaspora Fundraising for Arms",
+        "family": "Revenge/Retribution",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -14351,13 +14351,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "RT Global State Media Expansion",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
@@ -14523,19 +14523,19 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -14612,13 +14612,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Wagner-Africa Corps Transition",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Russia Africa Presence Legitimacy",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -14703,13 +14703,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "BRI Win-Win Cooperation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Chinese Security Partnership Soft Power",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -15545,19 +15545,19 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -15690,13 +15690,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -15768,13 +15768,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Houthi-Al-Shabaab Technology Alliance",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
@@ -15879,13 +15879,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -15954,11 +15954,11 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "VE Propaganda",
+        "family": "Existential Threat",
         "intensity": 4
       },
       {
-        "family": "Competing Claims / Inflated Casualties",
+        "family": "Misinformation/Disinformation",
         "intensity": 5
       }
     ],
@@ -16029,19 +16029,19 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 5,
         "calibrated": true,
         "calibration_note": "Confirmed at 5 by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 5,
         "calibrated": true,
         "calibration_note": "Confirmed at 5 by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -16174,13 +16174,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Knowledge Ecosystem Poisoning",
+        "family": "Misinformation/Disinformation",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -16333,25 +16333,25 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 5,
         "calibrated": true,
         "calibration_note": "Confirmed at 5 by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
@@ -16774,13 +16774,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -16843,13 +16843,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
@@ -17008,13 +17008,13 @@
         "calibration_note": "Adjusted from 4 to 2 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 1,
         "calibrated": true,
         "calibration_note": "Adjusted from 2 to 1 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 1,
         "calibrated": true,
         "calibration_note": "Adjusted from 2 to 1 (delta -1) by LLM-as-judge calibration"
@@ -17077,13 +17077,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Anti-Protest Disinformation",
+        "family": "Delegitimization",
         "intensity": 5,
         "calibrated": true,
         "calibration_note": "Confirmed at 5 by LLM-as-judge calibration"
       },
       {
-        "family": "State Weaponization of Social Media",
+        "family": "Misinformation/Disinformation",
         "intensity": 5,
         "calibrated": true,
         "calibration_note": "Confirmed at 5 by LLM-as-judge calibration"
@@ -17150,13 +17150,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 2 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -17304,13 +17304,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -17377,13 +17377,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Iran Expanding East Africa Presence",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
@@ -17463,13 +17463,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "ISIS Somalia Expansion Narrative",
+        "family": "Existential Threat",
         "intensity": 5,
         "calibrated": true,
         "calibration_note": "Confirmed at 5 by LLM-as-judge calibration"
       },
       {
-        "family": "Tamkin (Territorial Consolidation) Framing",
+        "family": "Existential Threat",
         "intensity": 5,
         "calibrated": true,
         "calibration_note": "Confirmed at 5 by LLM-as-judge calibration"
@@ -17704,25 +17704,25 @@
     "spread": 6.0,
     "narrative_families": [
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -17792,19 +17792,19 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 1,
         "calibrated": true,
         "calibration_note": "Adjusted from 2 to 1 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -17952,13 +17952,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -18020,11 +18020,11 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "VE Propaganda",
+        "family": "Existential Threat",
         "intensity": 4
       },
       {
-        "family": "Territorial Control Narrative",
+        "family": "Existential Threat",
         "intensity": 4
       }
     ],
@@ -18163,13 +18163,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -18181,7 +18181,7 @@
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -18245,19 +18245,19 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 2 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
@@ -18398,13 +18398,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
@@ -18416,7 +18416,7 @@
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -18476,11 +18476,11 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "VE Propaganda",
+        "family": "Existential Threat",
         "intensity": 4
       },
       {
-        "family": "Intimidation / Urban Warfare Narrative",
+        "family": "Existential Threat",
         "intensity": 3
       }
     ],
@@ -18551,19 +18551,19 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -18959,11 +18959,11 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "VE Propaganda",
+        "family": "Existential Threat",
         "intensity": 4
       },
       {
-        "family": "Intimidation / Deterrence",
+        "family": "Existential Threat",
         "intensity": 3
       }
     ],
@@ -19029,13 +19029,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Platform Governance",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Platform Governance",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -19100,19 +19100,19 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -19340,11 +19340,11 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "VE Propaganda",
+        "family": "Existential Threat",
         "intensity": 3
       },
       {
-        "family": "Foreign Aggression Narrative",
+        "family": "Foreign Influence",
         "intensity": 3
       }
     ],
@@ -19510,7 +19510,7 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -19886,13 +19886,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "TASS 6 New African Bureau Announcement",
+        "family": "Foreign Influence",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
@@ -19967,13 +19967,13 @@
     "spread": 4.0,
     "narrative_families": [
       {
-        "family": "ISIS Somalia New Caliphate Frontier",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "IS Multi-Language East Africa Recruitment",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -20056,13 +20056,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Houthi-Al-Shabaab Operational Nexus",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Iran Proxy Network Expansion",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -20126,11 +20126,11 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "VE Propaganda",
+        "family": "Existential Threat",
         "intensity": 4
       },
       {
-        "family": "Competing Claims / Inflated Casualties",
+        "family": "Misinformation/Disinformation",
         "intensity": 4
       }
     ],
@@ -20256,19 +20256,19 @@
     "spread": 5.0,
     "narrative_families": [
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 3 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 4 (delta -1) by LLM-as-judge calibration"
@@ -20351,13 +20351,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
@@ -20431,13 +20431,13 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 4 to 2 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -20757,13 +20757,13 @@
     "spread": 5.0,
     "narrative_families": [
       {
-        "family": "CCP United Front Work Africa Narratives",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Democracy/Multipolar Framing",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -20821,7 +20821,7 @@
     "spread": 1.0,
     "narrative_families": [
       {
-        "family": "VE Counter-Narrative",
+        "family": "Peace/Counter-Narratives",
         "intensity": 3
       }
     ],
@@ -20932,13 +20932,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
       },
       {
-        "family": "Foreign Influence Operation",
+        "family": "Foreign Influence",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 3 (delta -2) by LLM-as-judge calibration"
@@ -21019,13 +21019,13 @@
         "calibration_note": "Adjusted from 3 to 2 (delta -1) by LLM-as-judge calibration"
       },
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 1,
         "calibrated": true,
         "calibration_note": "Adjusted from 2 to 1 (delta -1) by LLM-as-judge calibration"
@@ -21356,11 +21356,11 @@
     "spread": 2.0,
     "narrative_families": [
       {
-        "family": "Foreign Aggression Narrative",
+        "family": "Foreign Influence",
         "intensity": 3
       },
       {
-        "family": "VE Recruitment",
+        "family": "Existential Threat",
         "intensity": 3
       }
     ],
@@ -21690,7 +21690,7 @@
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -22320,13 +22320,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Kenya Pro-Government Troll Infrastructure",
+        "family": "Misinformation/Disinformation",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Activist Islamophobic Narratives",
+        "family": "Delegitimization",
         "intensity": 4,
         "calibrated": true,
         "calibration_note": "Confirmed at 4 by LLM-as-judge calibration"
@@ -22469,19 +22469,19 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Religious Justification",
+        "family": "Religious Distortion",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Anti-Government Narrative",
+        "family": "Delegitimization",
         "intensity": 3,
         "calibrated": true,
         "calibration_note": "Confirmed at 3 by LLM-as-judge calibration"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -22569,13 +22569,13 @@
     "spread": 3.0,
     "narrative_families": [
       {
-        "family": "Platform Governance",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
       },
       {
-        "family": "Platform Governance",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Adjusted from 5 to 2 (delta -3) by LLM-as-judge calibration"
@@ -22643,13 +22643,13 @@
     "spread": 6.0,
     "narrative_families": [
       {
-        "family": "Counter-Narrative Response",
+        "family": "Peace/Counter-Narratives",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
       },
       {
-        "family": "Social Media Expansion",
+        "family": "Misinformation/Disinformation",
         "intensity": 2,
         "calibrated": true,
         "calibration_note": "Confirmed at 2 by LLM-as-judge calibration"
@@ -27765,13 +27765,13 @@
     "verification_status": "confirmed",
     "narrative_families": [
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
@@ -27848,13 +27848,13 @@
     "verification_status": "confirmed",
     "narrative_families": [
       {
-        "family": "Attack Claim",
+        "family": "Existential Threat",
         "intensity": 3,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
       },
       {
-        "family": "Recruitment",
+        "family": "Existential Threat",
         "intensity": 2,
         "calibrated": false,
         "calibration_note": "Auto-classified by apify_classify.py"
