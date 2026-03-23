@@ -40,7 +40,7 @@
 .admin-toggle-btn {
   position: fixed;
   right: 0;
-  top: calc(70% + 120px);
+  top: calc(70% + 55px);
   width: 34px;
   height: auto;
   padding: 16px 7px;
@@ -72,13 +72,15 @@
 .guide-toggle-btn {
   position: fixed;
   right: 0;
-  top: calc(70% + 170px);
+  top: calc(70% + 130px);
   width: 34px;
   height: auto;
   padding: 16px 7px;
   border-radius: 8px 0 0 8px;
-  background: #888;
-  color: #FFFFFF;
+  background: #F5F3EE;
+  color: #888;
+  border: 1px solid #D5D0C7;
+  border-right: none;
   border: none;
   cursor: pointer;
   display: flex;
@@ -95,7 +97,8 @@
   text-transform: uppercase;
 }
 .guide-toggle-btn:hover {
-  background: #666;
+  background: #E8E4DD;
+  color: #555;
   width: 38px;
 }
 
