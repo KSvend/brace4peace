@@ -187,8 +187,8 @@
         if (!e.info_type || !filters.info_type.has(e.info_type)) return false;
       }
       if (filters.narrative.size) {
-        const narrs = e.disinfo_narratives || [];
-        if (!narrs.some(n => filters.narrative.has(n))) return false;
+        const fam = getEventFamily(e);
+        if (!fam || !filters.narrative.has(fam)) return false;
       }
       if (brushExtent) {
         const d = new Date(e.date);
@@ -318,23 +318,22 @@
       });
     }
 
-    // Narratives
-    const narrCounts = {};
+    // Narrative families (grouped from individual narratives + HS families)
+    const famCounts = {};
     allEvents.forEach(e => {
-      (e.disinfo_narratives || []).forEach(n => {
-        narrCounts[n] = (narrCounts[n] || 0) + 1;
-      });
+      const fam = getEventFamily(e);
+      if (fam) famCounts[fam] = (famCounts[fam] || 0) + 1;
     });
     const narrDiv = document.getElementById('filter-narrative');
     narrDiv.innerHTML = '';
-    Object.entries(narrCounts).sort((a, b) => b[1] - a[1]).forEach(([nid, count]) => {
-      const narr = narrativeRef[nid];
-      if (!narr) return;
+    Object.entries(famCounts).sort((a, b) => b[1] - a[1]).forEach(([fam, count]) => {
+      const color = FAMILY_COLORS[fam] || '#9E9E9E';
       const item = document.createElement('div');
       item.className = 'filter-item active';
-      item.innerHTML = `<span>${narr.short_name || narr.name}</span><span class="filter-count">${count}</span>`;
-      item.addEventListener('click', () => toggleFilter('narrative', nid));
-      item.dataset.value = nid;
+      item.innerHTML = `<span class="filter-dot" style="background:${color}"></span>
+        <span>${fam}</span><span class="filter-count">${count}</span>`;
+      item.addEventListener('click', () => toggleFilter('narrative', fam));
+      item.dataset.value = fam;
       item.dataset.category = 'narrative';
       narrDiv.appendChild(item);
     });
@@ -439,9 +438,8 @@
     filteredEvents.forEach(e => {
       if (e.disinfo_subtype) fSubtype[e.disinfo_subtype] = (fSubtype[e.disinfo_subtype] || 0) + 1;
       if (e.info_type) fInfoType[e.info_type] = (fInfoType[e.info_type] || 0) + 1;
-      (e.disinfo_narratives || []).forEach(n => {
-        fNarr[n] = (fNarr[n] || 0) + 1;
-      });
+      const fam = getEventFamily(e);
+      if (fam) fNarr[fam] = (fNarr[fam] || 0) + 1;
     });
 
     document.querySelectorAll('#disinfo-filters .filter-item').forEach(item => {
@@ -728,10 +726,13 @@
         ${claimsHtml}
         ${narr.competing_narratives?.length ? `<div class="narrative-card-competing">Competing: ${narr.competing_narratives.map(cn => narrativeRef[cn]?.short_name || cn).join(', ')}</div>` : ''}`;
         card.addEventListener('click', () => {
-          filters.narrative.clear();
-          filters.narrative.add(nid);
-          applyFilters();
-          updateFilterUI();
+          const fam = narrativeRef[nid]?.family;
+          if (fam) {
+            filters.narrative.clear();
+            filters.narrative.add(fam);
+            applyFilters();
+            updateFilterUI();
+          }
         });
         narrDiv.appendChild(card);
       });
