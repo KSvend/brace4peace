@@ -98,6 +98,12 @@ def phase_1d_event_lifecycle():
     return changes
 
 
+def phase_1f_event_enrich():
+    """Auto-link related events + smart threat level assignment."""
+    from event_enrich import main as enrich_main
+    return enrich_main()
+
+
 # ---------------------------------------------------------------------------
 # Pipeline 2: Hate Speech
 # ---------------------------------------------------------------------------
@@ -334,6 +340,8 @@ def main():
         "1C — Disinfo Classification + Event Dedup", phase_1c_disinfo_classify)
     results["1d_event_lifecycle"] = run_phase(
         "1D — Event Lifecycle Updates", phase_1d_event_lifecycle)
+    results["1f_event_enrich"] = run_phase(
+        "1F — Auto-Link Related Events + Threat Levels", phase_1f_event_enrich)
 
     if run_ml:
         results["1e_event_review"] = run_phase(
