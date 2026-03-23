@@ -228,26 +228,30 @@ def compute_threat_level(event, narratives):
     max_weight = max((FAMILY_WEIGHTS.get(f, 0) for f in families), default=0)
 
     # ── P1 CRITICAL ──
-    # Reserved for the most urgent events requiring immediate attention.
-    # Needs CRITICAL-weight family + multiple escalation signals.
+    # Confirmed + CRITICAL-weight family + high spread OR other escalation.
     if is_confirmed and max_weight >= 5:  # Ethnic Incitement or Revenge/Retribution
+        if spread >= 5:
+            return "P1 CRITICAL"
         escalation_signals = sum([
-            spread >= 4,
+            spread >= 3,
             is_coordinated,
             is_ve,
-            event.get("observation_count", 0) >= 5,
+            event.get("observation_count", 0) >= 3,
         ])
         if escalation_signals >= 2:
             return "P1 CRITICAL"
 
-    if is_confirmed and is_ve and is_coordinated and spread >= 4:
+    if is_confirmed and is_ve and spread >= 4:
         return "P1 CRITICAL"
 
     # ── P2 HIGH ──
     if is_confirmed and max_weight >= 5:
-        return "P2 HIGH"  # CRITICAL-weight family but didn't meet P1 escalation bar
+        return "P2 HIGH"  # CRITICAL-weight family but didn't meet P1 bar
 
     if is_confirmed and max_weight >= 4 and spread >= 2:
+        return "P2 HIGH"
+
+    if is_confirmed and spread >= 4:
         return "P2 HIGH"
 
     if is_confirmed and is_coordinated:
