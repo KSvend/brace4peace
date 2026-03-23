@@ -78,9 +78,9 @@
     'incitement': '#A84B0C'
   };
   const TYPE_COLORS = {
-    'CONFIRMED': '#B83A2A',
-    'POTENTIAL': '#CA5D0F',
-    'CONTEXT': '#C8C3BA'
+    'CONFIRMED': 'rgba(85,85,85,0.9)',
+    'POTENTIAL': 'rgba(85,85,85,0.55)',
+    'CONTEXT': 'rgba(85,85,85,0.25)'
   };
   const THREAT_COLORS = {
     'P1 CRITICAL': '#B83A2A',
