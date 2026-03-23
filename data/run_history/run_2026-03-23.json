@@ -1,6 +1,6 @@
 {
   "date": "2026-03-23",
-  "timestamp": "2026-03-23T08:06:32.770355+00:00",
+  "timestamp": "2026-03-23T15:10:00.018786+00:00",
   "config": {
     "run_sweeps": true,
     "run_ml": true,
@@ -13,21 +13,21 @@
     "1a_watchlist": {
       "sources_checked": 13,
       "partners_checked": 7,
-      "total_findings": 1,
+      "total_findings": 0,
       "sources_with_new_content": 0,
-      "partners_with_new_content": 1
+      "partners_with_new_content": 0
     },
     "1b_disinfo_sweep": null,
     "1c_disinfo_classify": {
-      "events_added": 4,
-      "classified_count": 551,
-      "disinfo_count": 63,
+      "events_added": 0,
+      "classified_count": 547,
+      "disinfo_count": 57,
       "hs_only_count": 0,
-      "noise_count": 488,
-      "high_confidence_count": 51,
-      "medium_confidence_count": 3,
-      "low_confidence_count": 9,
-      "coordination_groups": 21,
+      "noise_count": 490,
+      "high_confidence_count": 55,
+      "medium_confidence_count": 2,
+      "low_confidence_count": 0,
+      "coordination_groups": 15,
       "new_claims": [
         {
           "source_text": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media\n\nWho is Umut \u00c7a\u011fr\u0131 Sar\u0131?\nA Turkish geopolitical commentator pushi",
@@ -43,6 +43,64 @@
           ],
           "url": "https://x.com/CirkaNews/status/1934975949189382447",
           "author": "@CirkaNews"
+        },
+        {
+          "source_text": "KENYA : #BonifaceMwangi\nActivist Boniface Mwangi free after arrest in Tanzania.\nKenyan activist Boniface Mwangi has been released from detention after being held incommunicado for three days by Tanzan",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#bonifacemwangi",
+            "#kenyavstz"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/wishfmkenya/status/1925586026912723288",
+          "author": "@wishfmkenya"
+        },
+        {
+          "source_text": "Kenya must confront a hard truth: who really gains from outsourced protests? It\u2019s not the youth. Recent arrests suggest foreign actors are hijacking activism. Modern coups don\u2019t need tanks\u2014just hashta",
+          "potential_claims": [
+            "manipulated young minds"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/kanairofinest/status/1925511879247487089",
+          "author": "@kanairofinest"
+        },
+        {
+          "source_text": "Kenyans never disappoint with the Parody accounts of the Presidents \ud83d\ude05\ud83d\ude05We have serious issues in Kenya \ud83e\udd23 \n\n#DogsOfWar #FreeBonifaceMwangi  |East Africa coup|Cherargei|Mukuru Owner Speak|Idi Amin Mama|S",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#europaleaguefinal",
+            "#freebonifacemwangi"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/hosea606666/status/1925488697853505620",
+          "author": "@hosea606666"
+        },
+        {
+          "source_text": "In 2024, Kenya witnessed one of the continent's most digitally sophisticated protests funded by the Open Society.\n\nTanzania was almost going the same route. Luckily, the authorities acted swiftly by d",
+          "potential_claims": [
+            "s most digitally sophisticated protests funded by the Open Society"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://x.com/kasongoKbb/status/1925471848843632963",
+          "author": "@kasongoKbb"
         },
         {
           "source_text": "Kenya is building, growing, hustling, and moving forward. But some \"activists\" would rather we stay broken so that they remain \"relevant\" on BBC reels. OPPORTUNISTS!#BBCForChaos #ToxicActivists\nLiverp",
@@ -76,9 +134,9 @@
           "source_text": "Happy New Week and another BBC Documentary that is making rounds painting a bad picture for Kenya. #BBCForChaos #ToxicActivists Hanifa Boni \nJohn Kaboi IPOA #KaribuKenya #GenevaHealingService Eric Shi",
           "potential_claims": [],
           "novel_hashtags": [
-            "#genevahealingservice",
+            "#babuowinomustpay",
             "#karibukenya",
-            "#babuowinomustpay"
+            "#genevahealingservice"
           ],
           "keyword_group": "KE_COORDINATED_DISINFO",
           "narrative_ids": [
@@ -132,62 +190,65 @@
           "author": "@VincentSultaan"
         },
         {
-          "source_text": "KENYA : #BonifaceMwangi\nActivist Boniface Mwangi free after arrest in Tanzania.\nKenyan activist Boniface Mwangi has been released from detention after being held incommunicado for three days by Tanzan",
+          "source_text": "with CSC #dragdrivesimulator #viral #fyp #chaoscartel #foryoupage",
           "potential_claims": [],
           "novel_hashtags": [
-            "#kenyavstz",
-            "#bonifacemwangi"
+            "#foryoupage",
+            "#dragdrivesimulator"
           ],
           "keyword_group": "KE_COORDINATED_DISINFO",
           "narrative_ids": [
             "NAR-KE-003a",
             "NAR-KE-003b"
           ],
-          "url": "https://x.com/wishfmkenya/status/1925586026912723288",
-          "author": "@wishfmkenya"
+          "url": "https://www.tiktok.com/@dhoglaz/video/7617814476531944724",
+          "author": "@dhoglaz"
         },
         {
-          "source_text": "Kenya must confront a hard truth: who really gains from outsourced protests? It\u2019s not the youth. Recent arrests suggest foreign actors are hijacking activism. Modern coups don\u2019t need tanks\u2014just hashta",
-          "potential_claims": [
-            "manipulated young minds"
-          ],
-          "novel_hashtags": [],
-          "keyword_group": "KE_COORDINATED_DISINFO",
-          "narrative_ids": [
-            "NAR-KE-003a",
-            "NAR-KE-003b"
-          ],
-          "url": "https://x.com/kanairofinest/status/1925511879247487089",
-          "author": "@kanairofinest"
-        },
-        {
-          "source_text": "Kenyans never disappoint with the Parody accounts of the Presidents \ud83d\ude05\ud83d\ude05We have serious issues in Kenya \ud83e\udd23 \n\n#DogsOfWar #FreeBonifaceMwangi  |East Africa coup|Cherargei|Mukuru Owner Speak|Idi Amin Mama|S",
+          "source_text": "\ud83d\udd1b\ud83d\udd1d\n\n#ChaosCartel #fyproblox #draganddrivesimulator #fyppppppppppppppppppppppp #advgamers",
           "potential_claims": [],
           "novel_hashtags": [
-            "#freebonifacemwangi",
-            "#europaleaguefinal"
+            "#advgamers",
+            "#draganddrivesimulator",
+            "#fyproblox"
           ],
           "keyword_group": "KE_COORDINATED_DISINFO",
           "narrative_ids": [
             "NAR-KE-003a",
             "NAR-KE-003b"
           ],
-          "url": "https://x.com/hosea606666/status/1925488697853505620",
-          "author": "@hosea606666"
+          "url": "https://www.tiktok.com/@elitemiko28/video/7620093036839603477",
+          "author": "@elitemiko28"
         },
         {
-          "source_text": "In 2024, Kenya witnessed one of the continent's most digitally sophisticated protests funded by the Open Society.\n\nTanzania was almost going the same route. Luckily, the authorities acted swiftly by d",
-          "potential_claims": [
-            "s most digitally sophisticated protests funded by the Open Society"
+          "source_text": "@caixsais #foryoupage #chaoscartel #dragdrivesimulator #viral #fyp",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#dragdrivesimulator",
+            "#foryoupage"
           ],
-          "novel_hashtags": [],
           "keyword_group": "KE_COORDINATED_DISINFO",
           "narrative_ids": [
             "NAR-KE-003a",
             "NAR-KE-003b"
           ],
-          "url": "https://x.com/kasongoKbb/status/1925471848843632963",
-          "author": "@kasongoKbb"
+          "url": "https://www.tiktok.com/@dhoglaz/video/7619572447460904212",
+          "author": "@dhoglaz"
+        },
+        {
+          "source_text": "click v2-160#foryoupage #chaoscartel #fyp #viral #dragdrivesimulator",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#dragdrivesimulator",
+            "#foryoupage"
+          ],
+          "keyword_group": "KE_COORDINATED_DISINFO",
+          "narrative_ids": [
+            "NAR-KE-003a",
+            "NAR-KE-003b"
+          ],
+          "url": "https://www.tiktok.com/@dhoglaz/video/7618026672142535956",
+          "author": "@dhoglaz"
         },
         {
           "source_text": "Upon digging deeper, the \"Minnesota fraud links\" refer to allegations that funds from U.S. Medicaid and food aid scams (e.g., Feeding Our Future) were wired to Kenya, including Eastleigh for real esta",
@@ -208,9 +269,9 @@
           "source_text": "Image:\n #Kenya's \ud83c\uddf0\ud83c\uddea former DP Gachagua @rigathi in trouble as #Nairobi- #Eastleigh BBS Mall @bbsmallnairobi owners petition NCIC @NCIC_Kenya over #USA's \ud83c\uddfa\ud83c\uddf8- #Minnesota fraud claims.\nVideo:\n#Kenya's \ud83c\uddf0\ud83c\uddea",
           "potential_claims": [],
           "novel_hashtags": [
+            "#minnesota",
             "#mandera",
-            "#usa",
-            "#minnesota"
+            "#eastleigh"
           ],
           "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
           "narrative_ids": [
@@ -245,12 +306,12 @@
           "discovery_strategy": "D_FOLLOW_PLATFORMS"
         },
         {
-          "handle": "@OmarJuma001",
-          "platform": "X (Twitter)",
-          "url": "https://x.com/OmarJuma001/status/1916797616395784607",
+          "handle": "@dhoglaz",
+          "platform": "TikTok",
+          "url": "https://www.tiktok.com/@dhoglaz/video/7617814476531944724",
           "type": "HS_DISINFO",
           "country": "Kenya",
-          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "reason": "Posted 3 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
           "proposed_source_basis": "pattern_observed",
           "proposed_confidence_floor": "MEDIUM",
           "discovery_strategy": "D_FOLLOW_PLATFORMS"
@@ -289,6 +350,17 @@
           "discovery_strategy": "D_FOLLOW_PLATFORMS"
         },
         {
+          "handle": "@OmarJuma001",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/OmarJuma001/status/1916797616395784607",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
           "handle": "@grok",
           "platform": "X (Twitter)",
           "url": "https://x.com/grok/status/2017766911413526937",
@@ -302,57 +374,35 @@
       ],
       "timeline_events": [
         {
-          "id": "APF-2026-03-23-310",
-          "date": "2026-03-23",
+          "id": "APF-2026-03-23-370",
+          "date": "2026-03-21",
           "country": "Kenya",
           "event_type": "DISINFO",
           "disinfo_subtype": "coordinated_campaign",
           "threat_level": "P2 HIGH",
-          "headline": "#BBCForChaos, #BloodParliament: Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care",
-          "summary": "Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care about clicks and chaos!    John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 6 near-identical posts from 2 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+          "headline": "#chaoscartel: @caixsais #foryoupage #chaoscartel #dragdrivesimulator #viral #fyp",
+          "summary": "@caixsais #foryoupage #chaoscartel #dragdrivesimulator #viral #fyp. Campaign hashtags: #chaoscartel.",
           "actors": [
-            "@Yasirarafat2520",
-            "@GabrielKim254",
-            "@nasrah_cutie",
-            "@hezwachira",
-            "@wishfmkenya",
-            "@WilliamKiptoo25",
-            "@IamMzalendo",
-            "@EveryAcreKenya",
-            "@iamthevillager",
-            "@VincentSultaan",
-            "@kasongoKbb",
-            "@KenyaWeWant_",
-            "@OmarJuma001"
+            "@dhoglaz"
           ],
           "platforms": [
-            "X (Twitter)"
+            "TikTok"
           ],
           "sources": [
             {
               "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
-              "url": "https://x.com/Yasirarafat2520/status/1916831359156334618",
-              "date": "2026-03-23"
-            },
-            {
-              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
-              "url": "https://x.com/nasrah_cutie/status/1925541462256550160",
-              "date": "2026-03-23"
-            },
-            {
-              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
-              "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+              "url": "https://www.tiktok.com/@dhoglaz/video/7619572447460904212",
               "date": "2026-03-23"
             }
           ],
-          "spread": 5,
+          "spread": 1,
           "disinfo_narratives": [
             "NAR-KE-003b",
             "NAR-KE-003a"
           ],
           "related_events": [],
           "disinfo_confidence": "HIGH",
-          "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bloodparliament, #bbcforchaos. Matches documented troll network pattern.",
+          "disinfo_justification": "Coordinated campaign indicators: #chaoscartel. Matches documented troll network pattern.",
           "detection_method": "direct_tracking",
           "content_observed": true,
           "source_basis": "pattern_observed",
@@ -377,47 +427,11 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-23",
-          "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-          "last_seen": "2026-03-23",
-          "status": "active",
-          "observations": [
-            {
-              "date": "2026-03-23",
-              "url": "https://x.com/Yasirarafat2520/status/1916831359156334618",
-              "summary": "Initial detection",
-              "platforms": [
-                "X (Twitter)"
-              ],
-              "reach": {}
-            },
-            {
-              "date": "2026-03-23",
-              "url": "https://x.com/nasrah_cutie/status/1925541462256550160",
-              "summary": "#DogsOfWar: Miguna has seen this before. These aren\u2019t revolutionaries, they\u2019re operatives, rehearsing their next circus. First",
-              "platforms": [
-                "X (Twitter)"
-              ],
-              "reach": {}
-            },
-            {
-              "date": "2026-03-23",
-              "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
-              "summary": "#BBCForChaos, #BloodParliament: The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using",
-              "platforms": [
-                "X (Twitter)"
-              ],
-              "reach": {}
-            }
-          ],
-          "observation_count": 3,
-          "intensity_trend": [
-            3,
-            3
-          ]
+          "detected_by": "iris_classify_2026-03-23",
+          "detection_timestamp": "2026-03-23T15:02:12.606170+00:00"
         },
         {
-          "id": "APF-2026-03-23-847",
+          "id": "APF-2026-03-23-332",
           "date": "2026-03-23",
           "country": "Kenya",
           "event_type": "DISINFO",
@@ -470,29 +484,86 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-23",
-          "detection_timestamp": "2026-03-23T07:28:25.223688+00:00"
+          "detected_by": "iris_classify_2026-03-23",
+          "detection_timestamp": "2026-03-23T15:02:12.606170+00:00"
         },
         {
-          "id": "APF-2026-03-23-204",
+          "id": "APF-2026-03-23-778",
+          "date": "2026-03-23",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "coordinated_campaign",
+          "threat_level": "P2 HIGH",
+          "headline": "#BBCForChaos, #BloodParliament: Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care",
+          "summary": "Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care about clicks and chaos!    John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 6 near-identical posts from 2 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+          "actors": [
+            "@Yasirarafat2520",
+            "@GabrielKim254"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/Yasirarafat2520/status/1916831359156334618",
+              "date": "2026-03-23"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-KE-003b",
+            "NAR-KE-003a"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Coordinated campaign indicators: #bbcforchaos, #bloodparliament, #toxicactivists. Matches documented troll network pattern.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Delegitimization",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-03-23",
+          "detection_timestamp": "2026-03-23T15:02:12.606170+00:00"
+        },
+        {
+          "id": "APF-2026-03-23-794",
           "date": "2026-03-23",
           "country": "Somalia",
           "event_type": "DISINFO",
           "disinfo_subtype": "propaganda",
           "threat_level": "P2 HIGH",
           "headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
-          "summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
+          "summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 9 near-identical posts from 9 accounts suggest coordinated amplification.",
           "actors": [
+            "@Halgamaassc99",
+            "@Warfidiye",
+            "@war_doon",
             "@11Abuker",
             "@MohamedDekAbdal",
-            "@war_doon",
-            "@AIMLRao",
             "@Sooreyare",
-            "@EnglishCovenant",
-            "@Warfidiye",
-            "@_America_Proud_",
-            "@hirad63",
-            "@Halgamaassc99"
+            "@ArtAngelNYC",
+            "@Tsiane02SW",
+            "@hirad63"
           ],
           "platforms": [
             "X (Twitter)"
@@ -541,25 +612,11 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-23",
-          "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-          "last_seen": "2026-03-23",
-          "status": "active",
-          "observations": [
-            {
-              "date": "2026-03-23",
-              "url": "https://x.com/Halgamaassc99/status/1934568198529028527",
-              "summary": "Initial detection",
-              "platforms": [
-                "X (Twitter)"
-              ],
-              "reach": {}
-            }
-          ],
-          "observation_count": 1
+          "detected_by": "iris_classify_2026-03-23",
+          "detection_timestamp": "2026-03-23T15:02:12.606170+00:00"
         },
         {
-          "id": "APF-2026-03-23-344",
+          "id": "APF-2026-03-23-583",
           "date": "2026-03-23",
           "country": "South Sudan",
           "event_type": "DISINFO",
@@ -611,51 +668,38 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-23",
-          "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-          "last_seen": "2026-03-23",
-          "status": "active",
-          "observations": [
-            {
-              "date": "2026-03-23",
-              "url": "https://x.com/CirkaNews/status/1934975949189382447",
-              "summary": "Initial detection",
-              "platforms": [
-                "X (Twitter)"
-              ],
-              "reach": {}
-            }
-          ],
-          "observation_count": 1
+          "detected_by": "iris_classify_2026-03-23",
+          "detection_timestamp": "2026-03-23T15:02:12.606170+00:00"
         },
         {
-          "id": "APF-2026-03-23-007",
+          "id": "APF-2026-03-23-237",
           "date": "2026-03-23",
           "country": "Kenya",
           "event_type": "DISINFO",
           "disinfo_subtype": "coordinated_campaign",
           "threat_level": "P2 HIGH",
-          "headline": "#BBCForChaos, #BloodParliament: The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using",
-          "summary": "The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using those SELL OUTS to narrate the past tense, yet we are in the present.   William Ruto Liverpool John Kaboi. 28 near-identical posts from 23 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #DogsOfWar.",
+          "headline": "#chaoscartel: The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using",
+          "summary": "The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using those SELL OUTS to narrate the past tense, yet we are in the present.   William Ruto Liverpool John Kaboi. 31 near-identical posts from 25 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ChaosCartel.",
           "actors": [
-            "@hezwachira",
-            "@wishfmkenya",
+            "@BigstarKe",
+            "@AminaTisha94086",
             "@WilliamKiptoo25",
-            "@IamMzalendo",
-            "@EveryAcreKenya",
-            "@iamthevillager",
-            "@VincentSultaan",
-            "@kasongoKbb",
+            "@anode09",
+            "@dhoglaz",
+            "@Merc13Nyambura",
             "@KenyaWeWant_",
-            "@OmarJuma001"
+            "@modi_juma",
+            "@hezwachira",
+            "@Hustleratwork"
           ],
           "platforms": [
-            "X (Twitter)"
+            "X (Twitter)",
+            "TikTok"
           ],
           "sources": [
             {
               "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
-              "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+              "url": "https://x.com/BigstarKe/status/1925839711282634759",
               "date": "2026-03-23"
             }
           ],
@@ -666,7 +710,7 @@
           ],
           "related_events": [],
           "disinfo_confidence": "HIGH",
-          "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bloodparliament, #bbcforchaos. Matches documented troll network pattern.",
+          "disinfo_justification": "Coordinated campaign indicators: #dogsofwar. Matches documented troll network pattern.",
           "detection_method": "direct_tracking",
           "content_observed": true,
           "source_basis": "pattern_observed",
@@ -691,11 +735,11 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-23",
-          "detection_timestamp": "2026-03-23T07:28:25.223688+00:00"
+          "detected_by": "iris_classify_2026-03-23",
+          "detection_timestamp": "2026-03-23T15:02:12.606170+00:00"
         },
         {
-          "id": "APF-2026-03-23-308",
+          "id": "APF-2026-03-23-250",
           "date": "2026-03-23",
           "country": "Kenya",
           "event_type": "DISINFO",
@@ -705,10 +749,10 @@
           "summary": "Image: 's \ud83c\uddf0\ud83c\uddea former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's \ud83c\uddfa\ud83c\uddf8-  fraud claims. Video: 's \ud83c\uddf0\ud83c\uddea former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's \ud83c\uddf0\ud83c\uddea-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
           "actors": [
             "@MunaMunahamed",
-            "@grok",
             "@MohamedAbuno",
-            "@kenyamzeesiraj",
             "@Lyre__Bird",
+            "@grok",
+            "@kenyamzeesiraj",
             "@Eastleighvoice"
           ],
           "platforms": [
@@ -753,58 +797,44 @@
             "auto_classified"
           ],
           "data_source": "social_media_monitoring",
-          "detected_by": "brace4peace_classify_2026-03-23",
-          "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-          "last_seen": "2026-03-23",
-          "status": "active",
-          "observations": [
-            {
-              "date": "2026-03-23",
-              "url": "https://x.com/Eastleighvoice/status/2034912371680915782",
-              "summary": "Initial detection",
-              "platforms": [
-                "X (Twitter)"
-              ],
-              "reach": {}
-            }
-          ],
-          "observation_count": 1
+          "detected_by": "iris_classify_2026-03-23",
+          "detection_timestamp": "2026-03-23T15:02:12.606170+00:00"
         }
       ],
-      "items_file": "/home/runner/work/brace4peace/brace4peace/monitoring/apify_results/items_2026-03-23_morning.json"
+      "items_file": "/home/runner/work/brace4peace/brace4peace/monitoring/apify_results/items_2026-03-23_afternoon.json"
     },
     "1d_event_lifecycle": {
-      "to_dormant": 0,
-      "to_resolved": 0,
+      "to_dormant": 2,
+      "to_resolved": 1,
       "still_active": 4
     },
     "1e_event_review": {
-      "reviewed": 423,
-      "reclassified": 111,
-      "claims_extracted": 317,
-      "keywords_proposed": 702,
+      "reviewed": 5,
+      "reclassified": 0,
+      "claims_extracted": 0,
+      "keywords_proposed": 10,
       "total_events": 428
     },
     "2a_hs_sweep": {
       "groups_searched": 11,
-      "total_results": 531,
+      "total_results": 496,
       "total_cost_usd": 0.1086,
       "budget_remaining_usd": 0.3914,
       "sweep_date": "2026-03-23"
     },
     "2b_hs_classify": {
-      "total_items": 531,
-      "noise_filtered": 2,
-      "ea_rejected": 441,
-      "no_indicators": 25,
-      "hs_confirmed": 63,
-      "hs_high": 15,
-      "hs_medium": 28,
-      "hs_low": 20,
-      "duplicates_skipped": 13,
-      "posts_appended": 46,
+      "total_items": 496,
+      "noise_filtered": 1,
+      "ea_rejected": 417,
+      "no_indicators": 34,
+      "hs_confirmed": 44,
+      "hs_high": 17,
+      "hs_medium": 15,
+      "hs_low": 12,
+      "duplicates_skipped": 14,
+      "posts_appended": 29,
       "autolearning": {
-        "new_toxic_handles": 9,
+        "new_toxic_handles": 1,
         "new_learned_keywords": 10,
         "new_narrative_discoveries": 3
       },
@@ -814,20 +844,20 @@
           "hs_group": "HS_DEHUMANISE_KE",
           "unclassified_count": 8,
           "examples": [
-            "Bomet \nKericho\nNarok\nKajiado\nKisii\nNyamira\nNakuru\nNyeri \nMurang'a\nEmbu\nKirinyaga\nTurkana\nSamburu\nKis",
+            "Migori \nKisii \nNyamira \nHomabay\nKisumu\n\nKajiado\nNarok\nBomet\nNakuru \nBaringo\nKericho\n\nNairobi \n\nMacha",
             "@kichwa_ Meru\nBaringo\nNyeri\nMarsabit\nKericho\nNyandarua\nGarissa \nNakuru\nBusia\nTharaka Nithi \nNarok\nKa",
-            "@Omwamikee Maraga \ud83c\udf20\ud83c\udf20\ud83c\udf20\ud83c\udf20\ud83c\udf20\nOkiya \ud83c\udf20\ud83c\udf20\ud83c\udf20\ud83c\udf20\nJimi Wanjigi \ud83c\udf20\ud83c\udf20\ud83c\udf20\nMatiang'i \ud83c\udf20\ud83c\udf20\ud83c\udf20\nMuturi \ud83c\udf20\ud83c\udf20\ud83c\udf20\nKarua\ud83c\udf20\ud83c\udf20\ud83c\udf20\nKalonzo\ud83c\udf20\ud83c\udf20\nNate"
+            "#Magazetiyaleo \n\nHabari Leo \n\nJumatatu Machi 23, 2026 https://t.co/ZcrnFVGL4e"
           ],
           "status": "needs_review"
         },
         {
           "proposed_subtype": "HS-NEW-HS_POLITICAL_KE",
           "hs_group": "HS_POLITICAL_KE",
-          "unclassified_count": 5,
+          "unclassified_count": 12,
           "examples": [
-            "MACHARIA MUNENE: External, internal factors that have sunk Kenyans deep into desperation\n\nhttps://t.",
+            "@PundaReloaded @kiman39030 @WaNduta8 @KarisKillian @ParassisO @slmiheso @AgapetusWamalwa @mwithigaP ",
             "EX CS Munya Slams Kindiki and Ruto as Samburu Bandits Menace takes over Tigania East region!! https:",
-            "Kericho, Bomet, Narok, Nakuru, Baringo, Nyandarua, Muranga, Machakos, Bungoma, Makueni, Kisumu, Laik"
+            "Kindiki Responds to Gachagua After Threatening to Mobilize Meru Residents to Fight Cattle Rustlers\nh"
           ],
           "status": "needs_review"
         },
@@ -837,36 +867,35 @@
           "unclassified_count": 5,
           "examples": [
             "@kichwa_ Meru\nBaringo\nNyeri\nMarsabit\nKericho\nNyandarua\nGarissa \nNakuru\nBusia\nTharaka Nithi \nNarok\nKa",
-            "#TaifaKwanza #KataaVurugu\n\nSerikali kupitia Wizara ya Vijana imetangaza rasmi kufungua dirisha la mi",
-            "@_MissVivie According to the governant of Kenya 245 millions"
+            "Bomet \nKericho\nNarok\nKajiado\nKisii\nNyamira\nNakuru\nNyeri \nMurang'a\nEmbu\nKirinyaga\nTurkana\nSamburu\nKis",
+            "@Omwamikee Maraga \ud83c\udf20\ud83c\udf20\ud83c\udf20\ud83c\udf20\ud83c\udf20\nOkiya \ud83c\udf20\ud83c\udf20\ud83c\udf20\ud83c\udf20\nJimi Wanjigi \ud83c\udf20\ud83c\udf20\ud83c\udf20\nMatiang'i \ud83c\udf20\ud83c\udf20\ud83c\udf20\nMuturi \ud83c\udf20\ud83c\udf20\ud83c\udf20\nKarua\ud83c\udf20\ud83c\udf20\ud83c\udf20\nKalonzo\ud83c\udf20\ud83c\udf20\nNate"
           ],
           "status": "needs_review"
         }
       ],
       "subtype_distribution": {
-        "Unknown HS Type": 42,
-        "Dehumanisation": 8,
-        "Religious Incitement": 6,
-        "Political Incitement": 4,
-        "Clan Targeting": 3
+        "Unknown HS Type": 31,
+        "Dehumanisation": 5,
+        "Political Incitement": 5,
+        "Religious Incitement": 3
       },
       "country_distribution": {
-        "Kenya": 27,
-        "Somalia": 23,
-        "South Sudan": 13
+        "Kenya": 17,
+        "Somalia": 15,
+        "South Sudan": 12
       }
     },
     "2c_ml_enrich": {
-      "classified": 51,
-      "total": 6841
+      "classified": 32,
+      "total": 6842
     },
     "2d_llm_qa": {
-      "explained": 46,
-      "total": 46
+      "explained": 29,
+      "total": 29
     },
     "2e_quality_gate": {
-      "removed": 28,
-      "remaining": 6813,
+      "removed": 25,
+      "remaining": 6817,
       "archived_to": "/home/runner/work/brace4peace/brace4peace/data/run_history/misclassified_2026-03-23.json"
     },
     "3a_reach": {

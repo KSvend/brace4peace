@@ -1,13 +1,13 @@
 {
   "date": "2026-03-23",
-  "timestamp": "2026-03-23T07:24:15.835399+00:00",
+  "timestamp": "2026-03-23T14:58:18.820066+00:00",
   "api_calls": 20,
   "summary": {
     "sources_checked": 13,
     "partners_checked": 7,
-    "total_findings": 1,
+    "total_findings": 0,
     "sources_with_new_content": 0,
-    "partners_with_new_content": 1
+    "partners_with_new_content": 0
   },
   "source_results": [
     {
@@ -122,17 +122,9 @@
     },
     {
       "name": "CTC West Point",
-      "new_content_found": true,
-      "finding_count": 1
+      "new_content_found": false,
+      "finding_count": 0
     }
   ],
-  "findings": [
-    {
-      "source": "CTC West Point",
-      "title": "Combating Terrorism Center \u2013 CTC at West Point",
-      "snippet": "Skip to content\n\nMAIN MENU\n\nRESEARCH\nDATA & PRIMARY SOURCES\nHARMONY PROGRAM\nMILITANT IMAGERY PROJECT\nAL-MAWLA INTERROGATION REPORTS\nPUBLICATIONS\nREPORTS\nCTC SENTINEL\nCTC PERSPECTIVES\nREGIONS\nEUROPE\nAMERICAS\nAFRICA\nMIDDLE EAST\nSOUTH & CENTRAL ASIA\nEAST & SOUTHEAST ASIA\nTOPICS\nCOOPERATION, COMPETITION",
-      "url": "https://ctc.westpoint.edu",
-      "relevant": true
-    }
-  ]
+  "findings": []
 }

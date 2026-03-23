@@ -533,6 +533,56 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "unmiss withdrawal",
+          "country": "South Sudan",
+          "source": "event_review_extraction",
+          "reason": "Official government pressure on peacekeeping forces",
+          "date_added": "2026-03-23",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "protection sites closure",
+          "country": "South Sudan",
+          "source": "event_review_extraction",
+          "reason": "Specific demand to close civilian protection facilities",
+          "date_added": "2026-03-23",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "deepfake elections",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "AI-generated content targeting electoral process",
+          "date_added": "2026-03-23",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "tiktok manipulation",
+          "country": "Kenya",
+          "source": "event_review_extraction",
+          "reason": "Platform-specific disinformation concerns for 2027 polls",
+          "date_added": "2026-03-23",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
+        },
+        {
+          "keyword": "sspdf violence",
+          "country": "South Sudan",
+          "source": "event_review_extraction",
+          "reason": "Government forces involved in civilian targeting",
+          "date_added": "2026-03-23",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },

@@ -1016,5 +1016,910 @@
     "exp": "This appears to be a news headline about deported Chinese nationals potentially costing Kenyans money, with a subscription link to Daily Nation. This is news content without hate speech elements.",
     "rel": "relevant",
     "kb": []
+  },
+  {
+    "i": "apify-ea260c5245bf",
+    "t": "Yes, Somali clans enslaved other Africans historically. They raided Oromo and Habesha (Ethiopian) groups, capturing thousands for labor, concubinage, or export via ports like Zeila/Berbera to Arabia and beyond (e.g., 1.25M Oromo exported 1800-1850). \n\nBantu slaves (Jareer) from SE Africa were mostly",
+    "d": "2026-03-23",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@grok",
+    "l": "https://x.com/grok/status/2035533117973303539",
+    "pr": "Abusive",
+    "co": 0.4797,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9874
+    },
+    "exp": "This post discusses historical slavery practices by Somali clans against Oromo and Ethiopian groups, providing detailed statistics about human trafficking through Somali ports. While discussing sensitive historical topics, it appears to be factual historical analysis rather than contemporary hate speech targeting specific groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5c710ce9e127",
+    "t": "#fyp #somalitiktok #foyoupage #caanka #somaliya\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4\ud83c\uddf8\ud83c\uddf4",
+    "d": "2025-08-17",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@klydhuuq2",
+    "l": "https://www.tiktok.com/@klydhuuq2/video/7539649449899920645",
+    "pr": "Abusive",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9783
+    },
+    "exp": "This post contains only hashtags related to Somali TikTok content and Somalia with flag emojis. It appears to be standard social media tagging for content visibility with no harmful language or targeting of groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6ce929291d55",
+    "t": "#caanka #somalilandtiktok\ud83d\udc9a\ud83e\udd0d\u2764 #fypppppppppppppppppppppppp #caanka__xafada #ciyaalxamar #caanka___official #somalia #please #viv #fply #@\uff2d\uff41\uff52\uff4b\uff2f\uff53:(",
+    "d": "2025-04-19",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@teamcaanka15",
+    "l": "https://www.tiktok.com/@teamcaanka15/video/7494868804724378886",
+    "pr": "Abusive",
+    "co": 0.8135,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9786
+    },
+    "exp": "This post contains hashtags mixing Somaliland and general Somali TikTok tags along with 'ciyaalxamar' (youth of Mogadishu). While there may be regional tensions implied, this appears to be standard social media content tagging rather than explicit hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-752d9df287b9",
+    "t": "CALANKA \ud83c\uddf8\ud83c\uddf4 #Somali #somalitiktok #somaligirls #foryoupage",
+    "d": "2025-06-27",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@niikoshow",
+    "l": "https://www.tiktok.com/@niikoshow/video/7520434785693551878",
+    "pr": "Normal",
+    "co": 0.998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.978
+    },
+    "exp": "This post shows pride in the Somali flag with hashtags celebrating Somali identity and content. It contains no hateful language or targeting of other groups, appearing to be positive cultural expression.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a38e438ef179",
+    "t": "South Sudan: SSPDF Urges Aid Agencies and Civilians to Return to Akobo https://t.co/HFb3E80U7D https://t.co/9xfpWtzwQb",
+    "d": "2026-03-23",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thetowerpost",
+    "l": "https://x.com/thetowerpost/status/2035668876860567723",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post shares a news headline about South Sudan military urging aid agencies and civilians to return to Akobo. It is straightforward news reporting with no hateful content or group targeting.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4c38bb984d5c",
+    "t": "South Sudan: SPLM-IO Condemns Kiir\u2019s Removals of Its Officials as Anti-Peace Violations of R-ARCSS https://t.co/bCtvEqJSzm https://t.co/SiOrQ6M0CE",
+    "d": "2026-03-23",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thetowerpost",
+    "l": "https://x.com/thetowerpost/status/2035672124556259598",
+    "pr": "Hate",
+    "co": 0.9977,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on South Sudan political tensions regarding SPLM-IO condemning President Kiir's removal of officials as peace agreement violations. It is political news reporting without hate speech content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b93f8a99d78b",
+    "t": "\ud83d\udcf0 Hivileo Daily News Recap \u2013 March 21, 2026\n\n\ud83c\udf27\ufe0f Kenya Met Forecasts Heavy Rains \u2013 Six regions set for intense rainfall over the next five days.\n\ud83d\udd17 https://t.co/88byNrVzkw\u2060\ufffd\n\u2708\ufe0f Senator Osotsi Survives Wilson Airport Incident \u2013 Vihiga Senator among 39 passengers safe after plane crash-landing.\n\ud83d\udd17 https:",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@hivileo1",
+    "l": "https://x.com/hivileo1/status/2035418683321819149",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post is a news recap covering weather forecasts and a transportation incident involving a Kenyan senator. It contains only factual news reporting with no hateful or discriminatory content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4cd0b78155fc",
+    "t": "\ud83d\udcf0 HIVILEO DAILY NEWS RECAP | MARCH 22, 2026\n\n\ud83d\udea8 Police Swing into Action After Mass Grave Discovery in Kericho\nAuthorities have launched investigations following the shocking discovery of a suspected mass grave in Kericho.\n\ud83d\udd17 https://t.co/84lzzkJ4bO\n\n\ud83c\udf0d Govt Evacuates Kenyans from Iran as Regional Cris",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@hivileo1",
+    "l": "https://x.com/hivileo1/status/2035746522915021062",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9988
+    },
+    "exp": "This post is a news recap about police investigations following discovery of a mass grave in Kericho, Kenya. It is straightforward news reporting with no hate speech or group targeting.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2cad0d42dcfc",
+    "t": "I agree 100%. President of @TheVillaSomalia - HSM has held the presidency twice, and his term ends on May 15, 2026. With tensions rising among federal states and Al-Shabaab at the gates of Mogadishu, the situation is critical. #Somalia",
+    "d": "2026-03-23",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Husdarwish",
+    "l": "https://x.com/Husdarwish/status/2035487335144415720",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9702
+    },
+    "exp": "This post discusses political criticism of Somalia's president HSM, mentioning tensions with federal states and Al-Shabaab security concerns. While critical of leadership, it represents legitimate political commentary rather than hate speech targeting groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6af31c30a3d5",
+    "t": "#\u0627\u0644\u0645\u0646\u0627\u0635\u0631 #\u0627\u0644\u0635\u0648\u0645\u0627\u0644\u064a #somalitiktok #fyp",
+    "d": "2026-03-14",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@munaasir1",
+    "l": "https://www.tiktok.com/@munaasir1/video/7617103719976520976",
+    "pr": "Normal",
+    "co": 0.9869,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9738
+    },
+    "exp": "This post contains only hashtags in Arabic and Somali related to TikTok content, with no visible hateful language or group targeting. It appears to be standard social media tagging for content discovery.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5a7389b216e4",
+    "t": "#fyp #fyppp #somalitiktok #somalilandtiktok\ud83d\udc9a\ud83e\udd0d\u2764 #islam",
+    "d": "2025-09-17",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@hilibandbariis3.0",
+    "l": "https://www.tiktok.com/@hilibandbariis3.0/video/7550872729507990806",
+    "pr": "Normal",
+    "co": 0.9691,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9775
+    },
+    "exp": "Just hashtags referencing Somalia, Somaliland, and Islam without any actual content or hateful language. This appears to be standard social media tagging without any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-871f0b1ff10f",
+    "t": "We are not acting because of your empty and childish threats and ultimatums, but because the Government has a duty to protect the people of Kenya and their property - Kithure Kindiki https://t.co/k7XkeZwvWD",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Kenyans",
+    "l": "https://x.com/Kenyans/status/2036005909038596258",
+    "pr": "Normal",
+    "co": 0.8281,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9897
+    },
+    "exp": "A government official (Kithure Kindiki) responding to threats, stating the government will act to protect Kenyan people and property. This is official communication about security matters, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c1ff9f9f2cb9",
+    "t": "Wa Mitego,\n\nI hear you have given me 10 days to address banditry in Meru North or else you will go there to incite the public to arm themselves and fight cattle rustlers.\n\nFor your information, banditry in Meru North has been there for more than 10 years, and it became worse when some of the friends",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@_KithureKindiki",
+    "l": "https://x.com/_KithureKindiki/status/2035998926109647260",
+    "pr": "Normal",
+    "co": 0.5223,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9897
+    },
+    "exp": "Discussion about banditry issues in Meru North and a 10-day ultimatum given to address the problem. This appears to be political discourse about security issues rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-be3432534125",
+    "t": "In a statement on Saturday, March 21, 2026, Diaspora Affairs Principal Secretary Roseline Njogu said a multi-agency team has activated emergency protocols across Kenya Missions in the region. Njogu added that the evacuees are expected to arrive in Kenya on Sunday, March 22, 2026 #HomeOfHardTruths",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@RadioGenKe",
+    "l": "https://x.com/RadioGenKe/status/2035569129311146004",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9989
+    },
+    "exp": "News report about diaspora affairs and evacuation protocols being activated at Kenyan missions. This is factual news reporting without any hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-48619e7ead82",
+    "t": "\ud83d\udea8 \ud835\udde8\ud835\udde3\ud835\uddd7\ud835\uddd4\ud835\udde7\ud835\uddd8:\nAreas identified as at risk include Kibera, parts of Highrise, Lang\u2019ata, South C, Mbagathi Way, and Madaraka.\n\nNairobi Governor Johnson Sakaja joined the Authority in calling for relocation to avert crisis.",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@theHubTVke",
+    "l": "https://x.com/theHubTVke/status/2035810501091897772",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "News update about flood risk areas in Nairobi, with Governor Sakaja calling for relocation to prevent crisis. This is factual emergency information without hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5cb65aff5341",
+    "t": "8AM NEWS WRAP UP - 23rd March, 2026\n\n\ud83d\udc49\ud83c\udfffPresident Museveni and his counterpart Kenyan President William Ruto have launched the construction of the Kisumu\u2013Malaba Standard Gauge Railway line.\n\n\ud83d\udc49\ud83c\udfffThree people have been confirmed dead and six others injured after a Fuso truck carrying market vendors over",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@912CroozeFM",
+    "l": "https://x.com/912CroozeFM/status/2035948483178315984",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "News wrap-up covering railway construction between Kenya and Uganda, and casualties from an incident. This is standard news reporting without hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0e2ff3f231fe",
+    "t": "\u26aa LOW FLOOD RISK \u2013 \ud83c\uddf0\ud83c\uddea Coast, Kenya\n\nType: Downgrade\nKey locations: Mombasa, Mtwapa, Kilifi, Mazeras, Mariakani\nLocal time (approx.): 09:00\nPeak rain (next 6h): 13.4 mm\nSoil moisture range: 0.48\u20131.00",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@FloodLink",
+    "l": "https://x.com/FloodLink/status/2035581263591993556",
+    "pr": "Normal",
+    "co": 0.9981,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "Weather/flood risk report for Kenya's coast region with technical details about rainfall and soil moisture. This is factual meteorological information without any hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2d4f759b130f",
+    "t": "Vice President Taban Says He Has \"Not Met President Kiir for Nearly a Year\" https://t.co/5eboQ2KMXW https://t.co/PONR38wtvO",
+    "d": "2026-03-23",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SSGglobal",
+    "l": "https://x.com/SSGglobal/status/2035803502400729469",
+    "pr": "Hate",
+    "co": 0.9365,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post shares news about South Sudan's Vice President Taban saying he hasn't met President Kiir for nearly a year. It's straightforward political news reporting without any hateful language or group targeting.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b108c8762b15",
+    "t": "The spokesman for #South_Sudan\u2019s Foreign Ministry says that the country prioritizes preparations for parliamentary elections and inter-party dialogue to promote peace over #Kenya's \"Tumaini Initiative.\" https://t.co/iPgDeZIsOz",
+    "d": "2026-03-23",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PatrickHeinisc1",
+    "l": "https://x.com/PatrickHeinisc1/status/2035767458145898780",
+    "pr": "Normal",
+    "co": 0.999,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This post reports on South Sudan's Foreign Ministry spokesman discussing the country's priorities regarding elections and dialogue over Kenya's Tumaini Initiative. It's neutral political news coverage without hate speech elements.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-bde856c4b12b",
+    "t": "1. No confirmed clashes in/around Baidoa on March 22; latest reported exchanges were March 20-21 on outskirts (Daa\u2019uudoow, Buur Hakaba areas) and appear paused per local sources.\n\n2. Limited verified casualties from March 20 skirmishes (gunfire/mortars; armed men captured by SWS forces). No major te",
+    "d": "2026-03-23",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@grok",
+    "l": "https://x.com/grok/status/2035522446573314085",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9985
+    },
+    "exp": "This appears to be a security/conflict update about Baidoa with details about clashes and casualties. It's informational reporting about conflict situations without hateful language targeting specific groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ea895a7fdc22",
+    "t": "South Sudan: VP Taban Deng Says He Has Been Unable to Meet Kiir for Nearly a Year https://t.co/Qq6q0ZrHzY https://t.co/SS7nw94pfP",
+    "d": "2026-03-23",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thetowerpost",
+    "l": "https://x.com/thetowerpost/status/2035668551348949281",
+    "pr": "Normal",
+    "co": 0.991,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This is another news report about Vice President Taban Deng being unable to meet President Kiir for nearly a year. It's factual political news without any hate speech content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-aaf8350f9105",
+    "t": "We call upon all Sudanese  to unite behind the Sudan Founding Alliance (TASIS ) and its forces to confront and defeat this terrorist project and to accelerate the establishment of a new Sudan based on freedom, peace, and justice. The will of the Sudanese people remains unbroken,",
+    "d": "2026-03-23",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Vilma07",
+    "l": "https://x.com/Vilma07/status/2035575071981334834",
+    "pr": "Normal",
+    "co": 0.9985,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "This post calls for Sudanese unity behind the Sudan Founding Alliance to defeat a 'terrorist project' and establish a new Sudan based on freedom, peace, and justice. While using strong political rhetoric, it's political mobilization rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b71c9b526605",
+    "t": "On March 7, 2026, the EAC made an unusual decision. At its summit in Arusha, it skipped South Sudan for the post of secretary-gener... https://t.co/Q3QSodmSn4",
+    "d": "2026-03-23",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@MCokello",
+    "l": "https://x.com/MCokello/status/2035801211484447002",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post mentions the EAC's unusual decision to skip South Sudan for a secretary-general post at its Arusha summit. It appears to be factual reporting about regional organization decisions without hate speech content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d1542811ce2f",
+    "t": "Jobs are being created EVERYWHERE! 640K in Housing and Markets, 200K ClimateWorX, 300K Kazi Mtaani, 538K Kazi Majuu, 820K NYOTA target, 300K digital jobs and 530K Kenyans now working abroad! Hustle is being REWARDED! Niko Kadi \n#ReasonsTukoKadi https://t.co/EK9EPubqOu",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@SeyMonicah",
+    "l": "https://x.com/SeyMonicah/status/2036005645938213010",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post celebrates job creation in Kenya across various sectors including Housing, ClimateWorX, Kazi Mtaani, and international opportunities, using enthusiastic language about rewarding hustle. It's positive political messaging without hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b2e82058802d",
+    "t": "Over 530,000 Kenyans are now working abroad under Kazi Majuu, contributing to remittances and improving livelihoods back home. #ReasonsTukoKadi Niko Kadi",
+    "d": "2026-03-23",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Agwambo_",
+    "l": "https://x.com/Agwambo_/status/2036005098376036453",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-23",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post highlights that over 530,000 Kenyans are working abroad under the Kazi Majuu program, contributing to remittances and improving livelihoods. It's positive messaging about government employment initiatives without any hate speech elements.",
+    "rel": "relevant",
+    "kb": []
   }
 ]

@@ -4127,7 +4127,7 @@
       "George Olande was killed by mob during Linda Mwananchi meeting in Mbale",
       "Violence erupted at Linda Mwananchi rallies in Siaya and Vihiga with casualties"
     ],
-    "status": "active",
+    "status": "dormant",
     "content_observed": false,
     "_reclassified_from": "CONTEXT",
     "_original_headline": "Violence erupts at Linda Mwananchi rallies in Siaya and Vihiga; second man George Olande killed by mob in Mbale",
@@ -6806,7 +6806,7 @@
       "SPLA-IO captured Yuai administrative center on January 2, 2026",
       "SPLA-IO captured Pajut in Duk County and Wau in Ayod County"
     ],
-    "status": "active",
+    "status": "dormant",
     "content_observed": false,
     "_reclassified_from": "CONTEXT",
     "_original_headline": "SPLA-IO captures Yuai (Uror County HQ), Pajut (Duk County), and Wau (Ayod County)",
@@ -11612,7 +11612,7 @@
     "info_type": "CONTEXT",
     "threat_level": "P2 HIGH",
     "headline": "South Sudan demands UNMISS reduce forces 70%, close bases; issues note verbale on Wau and Bentiu closure",
-    "summary": "In October 2025, South Sudan's Ministry of Foreign Affairs formally requested UNMISS reduce its international military contingents by 70%, ground all intelligence-gathering aircraft, and close several military bases including civilian protection sites. In November, Juba issued a note verbale specifically calling for the closure of bases in Wau and Bentiu. Combined with concurrent budget-driven reductions, these demands significantly constrained UNMISS's ability to protect civilians amid escalating conflict.",
+    "summary": "South Sudan's government formally demanded UNMISS reduce military forces by 70% and close key protection sites in Wau and Bentiu through diplomatic notes. This represents an escalation in tensions between Juba and the UN peacekeeping mission, potentially impacting civilian protection capabilities.",
     "escalation_outcome": null,
     "actors": [
       "South Sudan Ministry of Foreign Affairs",
@@ -11660,7 +11660,10 @@
     "reach_data": null,
     "extracted_claims": [],
     "status": "active",
-    "content_observed": false
+    "content_observed": false,
+    "_original_summary": "In October 2025, South Sudan's Ministry of Foreign Affairs formally requested UNMISS reduce its international military contingents by 70%, ground all intelligence-gathering aircraft, and close several military bases including civilian protection sites. In November, Juba issued a note verbale specifically calling for the closure of bases in Wau and Bentiu. Combined with concurrent budget-driven reductions, these demands significantly constrained UNMISS's ability to protect civilians amid escalating conflict.",
+    "_review_notes": "This diplomatic pressure on UNMISS could create information vulnerabilities as protection infrastructure is reduced.",
+    "_reviewed": "2026-03-23T15:02:29.245144+00:00"
   },
   {
     "id": "EXT-2025-031",
@@ -11674,7 +11677,7 @@
     "info_class": "OBSERVED",
     "info_type": "CONTEXT",
     "threat_level": "P3 MODERATE",
-    "headline": "The Standard Kenya Warns: TikTok and AI Deepfakes Pose Major Risk to Kenya's 2027 Elections Two Years Out",
+    "headline": "AI deepfakes and TikTok algorithms threaten Kenya's 2027 elections integrity",
     "summary": "The Standard Kenya published an analysis warning that AI-generated deepfakes and TikTok's algorithmic amplification of sensationalist political content posed significant risks to Kenya's 2027 elections, citing precedents from Nigeria 2023 (Africa's first major deepfake election). The analysis noted that deepfakes are 'not easily detectable' and that political leaders' images were already being manipulated in Kenya in 2024-2025 during Gen Z protests. TikTok's growth in Africa — with over 1.5 billion global users and surging African user bases — made it the key platform risk, given ByteDance's Chinese ownership and the platform's documented algorithmic amplification of emotionally charged political content.",
     "escalation_outcome": null,
     "actors": [
@@ -11724,7 +11727,10 @@
     "reach_data": null,
     "extracted_claims": [],
     "status": "active",
-    "content_observed": false
+    "content_observed": false,
+    "_original_headline": "The Standard Kenya Warns: TikTok and AI Deepfakes Pose Major Risk to Kenya's 2027 Elections Two Years Out",
+    "_review_notes": "Early warning about technological disinformation threats to Kenya's electoral process, referencing Nigeria 2023 precedents.",
+    "_reviewed": "2026-03-23T15:02:29.245162+00:00"
   },
   {
     "id": "SSD-2025-019",
@@ -11787,7 +11793,9 @@
     "reach_data": null,
     "extracted_claims": [],
     "status": "active",
-    "content_observed": false
+    "content_observed": false,
+    "_review_notes": "Significant escalation in violence by government forces could fuel anti-state narratives and retaliatory disinformation campaigns.",
+    "_reviewed": "2026-03-23T15:02:29.245167+00:00"
   },
   {
     "id": "SOM-2025-029",
@@ -11854,7 +11862,9 @@
     "reach_data": null,
     "extracted_claims": [],
     "status": "active",
-    "content_observed": false
+    "content_observed": false,
+    "_review_notes": "Simultaneous security failures and successes create fertile ground for competing narratives about government counter-terrorism effectiveness.",
+    "_reviewed": "2026-03-23T15:02:29.245170+00:00"
   },
   {
     "id": "SSD-2025-018",
@@ -11941,7 +11951,9 @@
     "reach_data": null,
     "extracted_claims": [],
     "status": "active",
-    "content_observed": false
+    "content_observed": false,
+    "_review_notes": "Media restrictions on major political trial create information asymmetry that could fuel ethnic and political disinformation narratives.",
+    "_reviewed": "2026-03-23T15:02:29.245174+00:00"
   },
   {
     "id": "field_south_sudan-019",
@@ -25848,7 +25860,7 @@
     "extracted_claims": [
       "Raila Odinga has died"
     ],
-    "status": "active",
+    "status": "resolved",
     "content_observed": false,
     "_reclassified_from": "CONTEXT",
     "_original_headline": "Raila Odinga died",
@@ -27568,10 +27580,18 @@
       "@VincentSultaan",
       "@kasongoKbb",
       "@KenyaWeWant_",
-      "@OmarJuma001"
+      "@OmarJuma001",
+      "@dhoglaz",
+      "@BigstarKe",
+      "@AminaTisha94086",
+      "@anode09",
+      "@Merc13Nyambura",
+      "@modi_juma",
+      "@Hustleratwork"
     ],
     "platforms": [
-      "X (Twitter)"
+      "X (Twitter)",
+      "TikTok"
     ],
     "sources": [
       {
@@ -27587,6 +27607,16 @@
       {
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+        "date": "2026-03-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://www.tiktok.com/@dhoglaz/video/7619572447460904212",
+        "date": "2026-03-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/BigstarKe/status/1925839711282634759",
         "date": "2026-03-23"
       }
     ],
@@ -27653,10 +27683,31 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-21",
+        "url": "https://www.tiktok.com/@dhoglaz/video/7619572447460904212",
+        "summary": "#chaoscartel: @caixsais #foryoupage #chaoscartel #dragdrivesimulator #viral #fyp",
+        "platforms": [
+          "TikTok"
+        ],
+        "reach": {}
+      },
+      {
+        "date": "2026-03-23",
+        "url": "https://x.com/BigstarKe/status/1925839711282634759",
+        "summary": "#chaoscartel: The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using",
+        "platforms": [
+          "X (Twitter)",
+          "TikTok"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 3,
+    "observation_count": 5,
     "intensity_trend": [
+      3,
+      3,
       3,
       3
     ],
