@@ -1014,9 +1014,14 @@
         .style('fill', ring.color).style('opacity', 0.6).text(ring.label);
     });
 
-    // Narrative segments
+    // Narrative segments (include catch-all for events without narratives)
     const usedNarrativesWithCounts = getUsedNarratives();
     if (usedNarrativesWithCounts.length === 0) return;
+    const unnarrated = filteredEvents.filter(e => !(e.disinfo_narratives || []).some(n => narrativeRef[n]));
+    if (unnarrated.length > 0) {
+      usedNarrativesWithCounts.push(['_UNCLASSIFIED', unnarrated.length]);
+      narrativeRef['_UNCLASSIFIED'] = { short_name: 'Unclassified', name: 'Unclassified Events', color: '#9E9E9E' };
+    }
     const usedNarratives = usedNarrativesWithCounts.map(d => d[0]);
     const narrWeights = new Map(usedNarrativesWithCounts);
     const totalWeight = usedNarrativesWithCounts.reduce((s, d) => s + d[1], 0);
@@ -1070,7 +1075,7 @@
     const eventsByNarr = new Map();
     filteredEvents.forEach(e => {
       const narrs = (e.disinfo_narratives || []).filter(n => usedNarratives.includes(n));
-      const bestNarr = narrs[0] || null;
+      const bestNarr = narrs[0] || (usedNarratives.includes('_UNCLASSIFIED') ? '_UNCLASSIFIED' : null);
       if (bestNarr) {
         if (!eventsByNarr.has(bestNarr)) eventsByNarr.set(bestNarr, []);
         eventsByNarr.get(bestNarr).push(e);
