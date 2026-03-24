@@ -62,7 +62,7 @@
 
   // HS Color: country-based with opacity matching classification severity
   function hsPostColor(post) {
-    return (COUNTRY_COLORS[post.c] || COUNTRY_COLORS['Regional']).dark;
+    return (COUNTRY_COLORS[post.c] || COUNTRY_COLORS['Regional']).mid;
   }
   function hsPostOpacity(post) {
     if (post.pr === 'Hate') return 0.9;
