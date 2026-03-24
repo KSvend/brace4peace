@@ -29399,7 +29399,14 @@
       "@anode09",
       "@Merc13Nyambura",
       "@modi_juma",
-      "@Hustleratwork"
+      "@Hustleratwork",
+      "@LensEmpress",
+      "@ngetichkhillar1",
+      "@ZeroG_Lies",
+      "@mzeemzima100",
+      "@theboyfk",
+      "@hosea606666",
+      "@xholeihub"
     ],
     "platforms": [
       "X (Twitter)",
@@ -29430,6 +29437,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/BigstarKe/status/1925839711282634759",
         "date": "2026-03-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "date": "2026-03-24"
       }
     ],
     "spread": 5,
@@ -29473,7 +29485,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-23",
+    "last_seen": "2026-03-24",
     "status": "active",
     "observations": [
       {
@@ -29521,10 +29533,21 @@
           "TikTok"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-24",
+        "url": "https://x.com/LensEmpress/status/1938221673205092526",
+        "summary": "#chaoscartel: The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using",
+        "platforms": [
+          "X (Twitter)",
+          "TikTok"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 5,
+    "observation_count": 6,
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -29738,7 +29761,17 @@
       "@MohamedAbuno",
       "@kenyamzeesiraj",
       "@Lyre__Bird",
-      "@Eastleighvoice"
+      "@Eastleighvoice",
+      "@NaekuMercy",
+      "@TariqKwame",
+      "@IamMzalendo",
+      "@ToonchiArts",
+      "@MurimiJeff_",
+      "@OjiamboRashid",
+      "@RasBashirWere01",
+      "@MteteziPato",
+      "@AminaTisha94086",
+      "@Mastermastin_GO"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29748,6 +29781,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/Eastleighvoice/status/2034912371680915782",
         "date": "2026-03-23"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/noormuktar99/status/1929647018261061920",
+        "date": "2026-03-24"
       }
     ],
     "spread": 5,
@@ -29791,7 +29829,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-23",
+    "last_seen": "2026-03-24",
     "status": "active",
     "observations": [
       {
@@ -29802,15 +29840,27 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-24",
+        "url": "https://x.com/noormuktar99/status/1929647018261061920",
+        "summary": "#43against1: Amenya hapa umeuma nje! Kikuyus MUST reject leaders trying to isolate the community from the rest of Kenya led by the",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1,
+    "observation_count": 2,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
       "BBS Mall owners petitioned NCIC over Gachagua's fraud claims"
     ],
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
-    "_reviewed": "2026-03-23T07:58:02.306628+00:00"
+    "_reviewed": "2026-03-23T07:58:02.306628+00:00",
+    "intensity_trend": [
+      3
+    ]
   }
 ]
