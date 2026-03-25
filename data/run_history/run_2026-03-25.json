@@ -1,6 +1,6 @@
 {
   "date": "2026-03-25",
-  "timestamp": "2026-03-25T07:28:31.941121+00:00",
+  "timestamp": "2026-03-25T15:14:43.836919+00:00",
   "config": {
     "run_sweeps": true,
     "run_ml": true,
@@ -20,14 +20,14 @@
     "1b_disinfo_sweep": null,
     "1c_disinfo_classify": {
       "events_added": 0,
-      "classified_count": 552,
+      "classified_count": 548,
       "disinfo_count": 43,
-      "hs_only_count": 0,
-      "noise_count": 509,
-      "high_confidence_count": 23,
+      "hs_only_count": 1,
+      "noise_count": 504,
+      "high_confidence_count": 22,
       "medium_confidence_count": 0,
-      "low_confidence_count": 20,
-      "coordination_groups": 11,
+      "low_confidence_count": 21,
+      "coordination_groups": 13,
       "new_claims": [
         {
           "source_text": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media\n\nWho is Umut \u00c7a\u011fr\u0131 Sar\u0131?\nA Turkish geopolitical commentator pushi",
@@ -62,9 +62,9 @@
           "source_text": "My people mistrust and hatred will only leave us standing alone. Leaders who preach division are no friends of Kenya or us\n#43against1 \n#PeaceIsPower\n#EmpoweringWesternKenya\n#BoldReformer\n#BomaYANGUin",
           "potential_claims": [],
           "novel_hashtags": [
-            "#peaceispower",
-            "#bomayanguinanijenga",
-            "#empoweringwesternkenya"
+            "#empoweringwesternkenya",
+            "#boldreformer",
+            "#peaceispower"
           ],
           "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
           "narrative_ids": [
@@ -86,33 +86,55 @@
           "proposed_source_basis": "pattern_observed",
           "proposed_confidence_floor": "MEDIUM",
           "discovery_strategy": "D_FOLLOW_PLATFORMS"
-        },
-        {
-          "handle": "@IamMzalendo",
-          "platform": "X (Twitter)",
-          "url": "https://x.com/IamMzalendo/status/1916826727986196836",
-          "type": "HS_DISINFO",
-          "country": "Kenya",
-          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_FALSE_ETHNIC_CLAIMS, KE_COORDINATED_DISINFO",
-          "proposed_source_basis": "pattern_observed",
-          "proposed_confidence_floor": "MEDIUM",
-          "discovery_strategy": "D_FOLLOW_PLATFORMS"
-        },
-        {
-          "handle": "@MteteziPato",
-          "platform": "X (Twitter)",
-          "url": "https://x.com/MteteziPato/status/1882005308782117047",
-          "type": "HS_DISINFO",
-          "country": "Kenya",
-          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_FALSE_ETHNIC_CLAIMS",
-          "proposed_source_basis": "pattern_observed",
-          "proposed_confidence_floor": "MEDIUM",
-          "discovery_strategy": "D_FOLLOW_PLATFORMS"
         }
       ],
       "timeline_events": [
         {
-          "id": "APF-2026-03-25-946",
+          "id": "APF-2026-03-25-493",
+          "date": "2026-03-25",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "coordinated_campaign",
+          "threat_level": "P3 MODERATE",
+          "headline": "Yep, dem city with Soros connected DA. Desperately needs attention.",
+          "summary": "Yep, dem city with Soros connected DA. Desperately needs attention. 5 near-identical posts from 1 accounts suggest coordinated amplification.",
+          "actors": [
+            "@SimpleDon15TX"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/SimpleDon15TX/status/2036821714240254351",
+              "date": "2026-03-25"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-KE-003b",
+            "NAR-KE-003a"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "MEDIUM",
+          "disinfo_justification": "Single troll network indicator: 'soros'. Insufficient evidence for high confidence.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "pattern_match",
+          "narrative_families": [],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-03-25",
+          "detection_timestamp": "2026-03-25T15:06:49.393011+00:00"
+        },
+        {
+          "id": "APF-2026-03-25-812",
           "date": "2026-03-25",
           "country": "Kenya",
           "event_type": "DISINFO",
@@ -140,7 +162,7 @@
           ],
           "related_events": [],
           "disinfo_confidence": "HIGH",
-          "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bloodparliament, #bbcforchaos. Matches documented troll network pattern.",
+          "disinfo_justification": "Coordinated campaign indicators: #bbcforchaos, #bloodparliament, #toxicactivists. Matches documented troll network pattern.",
           "detection_method": "direct_tracking",
           "content_observed": true,
           "source_basis": "pattern_observed",
@@ -166,10 +188,10 @@
           ],
           "data_source": "social_media_monitoring",
           "detected_by": "iris_classify_2026-03-25",
-          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+          "detection_timestamp": "2026-03-25T15:06:49.393011+00:00"
         },
         {
-          "id": "APF-2026-03-25-570",
+          "id": "APF-2026-03-25-971",
           "date": "2026-03-25",
           "country": "Somalia",
           "event_type": "DISINFO",
@@ -178,13 +200,13 @@
           "headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
           "summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 7 near-identical posts from 7 accounts suggest coordinated amplification.",
           "actors": [
-            "@MohamedDekAbdal",
-            "@war_doon",
-            "@Warfidiye",
-            "@hirad63",
+            "@11Abuker",
             "@Halgamaassc99",
+            "@hirad63",
             "@Sooreyare",
-            "@11Abuker"
+            "@war_doon",
+            "@MohamedDekAbdal",
+            "@Warfidiye"
           ],
           "platforms": [
             "X (Twitter)"
@@ -228,10 +250,10 @@
           ],
           "data_source": "social_media_monitoring",
           "detected_by": "iris_classify_2026-03-25",
-          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+          "detection_timestamp": "2026-03-25T15:06:49.393011+00:00"
         },
         {
-          "id": "APF-2026-03-25-056",
+          "id": "APF-2026-03-25-834",
           "date": "2026-03-25",
           "country": "South Sudan",
           "event_type": "DISINFO",
@@ -258,7 +280,7 @@
           ],
           "related_events": [],
           "disinfo_confidence": "HIGH",
-          "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+          "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq'; all output is definitionally VE propaganda.",
           "detection_method": "direct_tracking",
           "content_observed": true,
           "source_basis": "pattern_observed",
@@ -284,19 +306,18 @@
           ],
           "data_source": "social_media_monitoring",
           "detected_by": "iris_classify_2026-03-25",
-          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+          "detection_timestamp": "2026-03-25T15:06:49.393011+00:00"
         },
         {
-          "id": "APF-2026-03-25-087",
+          "id": "APF-2026-03-25-700",
           "date": "2026-03-25",
           "country": "Kenya",
           "event_type": "DISINFO",
           "disinfo_subtype": "coordinated_campaign",
           "threat_level": "P2 HIGH",
-          "headline": "#BBCForChaos, #BloodParliament: The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using",
-          "summary": "The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using those SELL OUTS to narrate the past tense, yet we are in the present.   William Ruto Liverpool John Kaboi. Observed across 2 posts from 2 accounts on X (Twitter). Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+          "headline": "#BBCForChaos, #BloodParliament: I agree, BBC should be banned in Kenya for fanning no longer serves the purpose of objective is a propaganda tool out",
+          "summary": "I agree, BBC should be banned in Kenya for fanning no longer serves the purpose of objective is a propaganda tool out to drive foreign interests agenda using. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
           "actors": [
-            "@IamMzalendo",
             "@KenyaWeWant_"
           ],
           "platforms": [
@@ -309,14 +330,14 @@
               "date": "2026-03-25"
             }
           ],
-          "spread": 2,
+          "spread": 1,
           "disinfo_narratives": [
             "NAR-KE-003b",
             "NAR-KE-003a"
           ],
           "related_events": [],
           "disinfo_confidence": "HIGH",
-          "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bloodparliament, #bbcforchaos. Matches documented troll network pattern.",
+          "disinfo_justification": "Coordinated campaign indicators: #bbcforchaos, #bloodparliament, #toxicactivists. Matches documented troll network pattern.",
           "detection_method": "direct_tracking",
           "content_observed": true,
           "source_basis": "pattern_observed",
@@ -342,25 +363,26 @@
           ],
           "data_source": "social_media_monitoring",
           "detected_by": "iris_classify_2026-03-25",
-          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+          "detection_timestamp": "2026-03-25T15:06:49.393011+00:00"
         },
         {
-          "id": "APF-2026-03-25-346",
+          "id": "APF-2026-03-25-173",
           "date": "2026-03-25",
           "country": "Kenya",
           "event_type": "DISINFO",
-          "disinfo_subtype": "coordinated_campaign",
+          "disinfo_subtype": "misinformation",
           "threat_level": "P2 HIGH",
           "headline": "#43against1: Kenya is one nation,and leadership should reflect that. Kikuyus must reject divisive rhetoric!  Vihiga Development Tour",
-          "summary": "Kenya is one nation,and leadership should reflect that. Kikuyus must reject divisive rhetoric!  Vihiga Development Tour Raila Odinga Aoko President William Ruto Musalia Mudavadi. 8 near-identical posts from 7 accounts suggest coordinated amplification. Campaign hashtags: #43Against1, #43against1.",
+          "summary": "Kenya is one nation,and leadership should reflect that. Kikuyus must reject divisive rhetoric!  Vihiga Development Tour Raila Odinga Aoko President William Ruto Musalia Mudavadi. 8 near-identical posts from 8 accounts suggest coordinated amplification. Campaign hashtags: #43Against1, #43against1.",
           "actors": [
-            "@IamMzalendo",
-            "@MteteziPato",
-            "@NaekuMercy",
-            "@ObinnaWaGikomba",
-            "@RasBashirWere01",
             "@noormuktar99",
-            "@AminaTisha94086"
+            "@MteteziPato",
+            "@ObinnaWaGikomba",
+            "@AminaTisha94086",
+            "@NaekuMercy",
+            "@Eastleighvoice",
+            "@RasBashirWere01",
+            "@IamMzalendo"
           ],
           "platforms": [
             "X (Twitter)"
@@ -368,7 +390,7 @@
           "sources": [
             {
               "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
-              "url": "https://x.com/noormuktar99/status/1929647018261061920",
+              "url": "https://x.com/Eastleighvoice/status/2034912371680915782",
               "date": "2026-03-25"
             }
           ],
@@ -379,12 +401,18 @@
           ],
           "related_events": [],
           "disinfo_confidence": "HIGH",
-          "disinfo_justification": "Coordinated campaign indicators: #43against1. Matches documented troll network pattern.",
+          "disinfo_justification": "False ethnic claim indicators: bbs mall. Contains verifiably false factual assertions in Kenya context.",
           "detection_method": "direct_tracking",
           "content_observed": true,
           "source_basis": "pattern_observed",
           "verification_status": "confirmed",
           "narrative_families": [
+            {
+              "family": "Ethnic Incitement",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
             {
               "family": "Misinformation/Disinformation",
               "intensity": 3,
@@ -405,10 +433,10 @@
           ],
           "data_source": "social_media_monitoring",
           "detected_by": "iris_classify_2026-03-25",
-          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+          "detection_timestamp": "2026-03-25T15:06:49.393011+00:00"
         }
       ],
-      "items_file": "/home/runner/work/brace4peace/brace4peace/monitoring/apify_results/items_2026-03-25_morning.json"
+      "items_file": "/home/runner/work/brace4peace/brace4peace/monitoring/apify_results/items_2026-03-25_afternoon.json"
     },
     "1d_event_lifecycle": {
       "to_dormant": 0,
@@ -425,66 +453,68 @@
     },
     "2a_hs_sweep": {
       "groups_searched": 11,
-      "total_results": 496,
-      "total_cost_usd": 0.0806,
-      "budget_remaining_usd": 0.4194,
+      "total_results": 470,
+      "total_cost_usd": 0.1264,
+      "budget_remaining_usd": 0.3736,
       "sweep_date": "2026-03-25"
     },
     "2b_hs_classify": {
-      "total_items": 496,
+      "total_items": 470,
       "noise_filtered": 2,
-      "ea_rejected": 402,
-      "no_indicators": 24,
-      "hs_confirmed": 68,
-      "hs_high": 46,
-      "hs_medium": 8,
-      "hs_low": 14,
-      "duplicates_skipped": 8,
-      "posts_appended": 60,
+      "ea_rejected": 375,
+      "no_indicators": 19,
+      "hs_confirmed": 74,
+      "hs_high": 47,
+      "hs_medium": 11,
+      "hs_low": 16,
+      "duplicates_skipped": 24,
+      "posts_appended": 47,
       "autolearning": {
-        "new_toxic_handles": 1,
+        "new_toxic_handles": 0,
         "new_learned_keywords": 10,
-        "new_narrative_discoveries": 7
+        "new_narrative_discoveries": 2
       },
       "subtype_proposals": [
         {
           "proposed_subtype": "HS-NEW-HS_DEHUMANISE_SOM",
           "hs_group": "HS_DEHUMANISE_SOM",
-          "unclassified_count": 9,
+          "unclassified_count": 8,
           "examples": [
-            "MAPEKA SAXDAA EE SOMALIA \ud83c\uddf8\ud83c\uddf4\ud83d\udc99 WAA SIDAAN DHAMAN QOF WALBA WAA IN OW U SAWIRAA SIDAAN WALA QALAD INAAD",
-            "@SomaliaToday24 Digniin culus oo muujinaysa halis amni iyo musiibo bani\u2019aadamnimo.",
-            "@RepOfSomaliland \ud83e\udd21\ud83e\udd21\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37"
+            "@RepOfSomaliland \ud83e\udd21\ud83e\udd21\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37",
+            "\u2764\ufe0f\ud83c\uddf8\ud83c\uddf4\u2764\ufe0fI LOVE SOMALIA \u2764\ufe0f\ud83c\uddf8\ud83c\uddf4\u2764\ufe0f I LOVE SOMALI CULTURE \u2764\ufe0f\u2764\ufe0f\ud83c\uddf8\ud83c\uddf4\u2764\ufe0f I WANT TO LEARN SOMALI \u2764\ufe0f\ud83c\uddf8\ud83c\uddf4\u2764\ufe0f\u2764\ufe0f I WANT SO",
+            "@SomaliaToday24 Digniin culus oo muujinaysa halis amni iyo musiibo bani\u2019aadamnimo."
           ],
           "status": "needs_review"
         }
       ],
       "subtype_distribution": {
-        "Unknown HS Type": 51,
+        "Unknown HS Type": 52,
         "Dehumanisation": 9,
-        "Religious Incitement": 8
+        "Religious Incitement": 8,
+        "Clan Targeting": 4,
+        "Political Incitement": 1
       },
       "country_distribution": {
-        "Kenya": 24,
-        "South Sudan": 23,
-        "Somalia": 21
+        "Somalia": 27,
+        "Kenya": 27,
+        "South Sudan": 20
       }
     },
     "2c_ml_enrich": {
-      "classified": 61,
-      "total": 6895
+      "classified": 50,
+      "total": 6898
     },
     "2d_llm_qa": {
-      "explained": 60,
-      "total": 60
+      "explained": 27,
+      "total": 47
     },
     "2e_quality_gate": {
-      "removed": 44,
-      "remaining": 6851,
+      "removed": 25,
+      "remaining": 6873,
       "archived_to": "/home/runner/work/brace4peace/brace4peace/data/run_history/misclassified_2026-03-25.json"
     },
     "3a_reach": {
-      "updated": 20,
+      "updated": 21,
       "checked": 30
     }
   }

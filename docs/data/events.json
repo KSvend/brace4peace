@@ -29406,7 +29406,8 @@
       "@mzeemzima100",
       "@theboyfk",
       "@hosea606666",
-      "@xholeihub"
+      "@xholeihub",
+      "@SimpleDon15TX"
     ],
     "platforms": [
       "X (Twitter)",
@@ -29442,6 +29443,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/LensEmpress/status/1938221673205092526",
         "date": "2026-03-24"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/SimpleDon15TX/status/2036821714240254351",
+        "date": "2026-03-25"
       }
     ],
     "spread": 5,
@@ -29485,7 +29491,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-24",
+    "last_seen": "2026-03-25",
     "status": "active",
     "observations": [
       {
@@ -29543,15 +29549,25 @@
           "TikTok"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-25",
+        "url": "https://x.com/SimpleDon15TX/status/2036821714240254351",
+        "summary": "Yep, dem city with Soros connected DA. Desperately needs attention.",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 6,
+    "observation_count": 7,
     "intensity_trend": [
       3,
       3,
       3,
       3,
-      3
+      3,
+      2
     ],
     "_original_headline": "#BBCForChaos, #BloodParliament: Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care",
     "_original_summary": "Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care about clicks and chaos!    John Kaboi The KDF IPOA Githurai David Chege Eric Shieni Hanifa Gachagua Atwoli. 6 near-identical posts from 2 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
