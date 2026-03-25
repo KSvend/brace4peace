@@ -1,0 +1,491 @@
+{
+  "date": "2026-03-25",
+  "timestamp": "2026-03-25T07:28:31.941121+00:00",
+  "config": {
+    "run_sweeps": true,
+    "run_ml": true,
+    "run_reach": true
+  },
+  "results": {
+    "0_submissions": {
+      "processed": 0
+    },
+    "1a_watchlist": {
+      "sources_checked": 13,
+      "partners_checked": 7,
+      "total_findings": 0,
+      "sources_with_new_content": 0,
+      "partners_with_new_content": 0
+    },
+    "1b_disinfo_sweep": null,
+    "1c_disinfo_classify": {
+      "events_added": 0,
+      "classified_count": 552,
+      "disinfo_count": 43,
+      "hs_only_count": 0,
+      "noise_count": 509,
+      "high_confidence_count": 23,
+      "medium_confidence_count": 0,
+      "low_confidence_count": 20,
+      "coordination_groups": 11,
+      "new_claims": [
+        {
+          "source_text": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media\n\nWho is Umut \u00c7a\u011fr\u0131 Sar\u0131?\nA Turkish geopolitical commentator pushi",
+          "potential_claims": [
+            "the region of colluding with Israel and link local leaders to Sudans RSF and gold smuggling",
+            "the state of being a WesternZionist puppet",
+            "Bosaso hosts Israeli radar and mercenaries under Denis protection"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "ISS_PROPAGANDA",
+          "narrative_ids": [
+            "NAR-SO-004"
+          ],
+          "url": "https://x.com/CirkaNews/status/1934975949189382447",
+          "author": "@CirkaNews"
+        },
+        {
+          "source_text": "\"The #43against1 hashtag sparked heated debates on tribal divisions in Kenya. Are social media campaigns like these fueling division or exposing political schemes? Share your thoughts!\n\" https://t.co/",
+          "potential_claims": [
+            "political schemes Share your thoughts"
+          ],
+          "novel_hashtags": [],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/RasBashirWere01/status/1903811807598244318",
+          "author": "@RasBashirWere01"
+        },
+        {
+          "source_text": "My people mistrust and hatred will only leave us standing alone. Leaders who preach division are no friends of Kenya or us\n#43against1 \n#PeaceIsPower\n#EmpoweringWesternKenya\n#BoldReformer\n#BomaYANGUin",
+          "potential_claims": [],
+          "novel_hashtags": [
+            "#peaceispower",
+            "#bomayanguinanijenga",
+            "#empoweringwesternkenya"
+          ],
+          "keyword_group": "KE_FALSE_ETHNIC_CLAIMS",
+          "narrative_ids": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "url": "https://x.com/IamMzalendo/status/1882041247126401159",
+          "author": "@IamMzalendo"
+        }
+      ],
+      "new_handles": [
+        {
+          "handle": "@Yasirarafat2520",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/Yasirarafat2520/status/1916831359156334618",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 5 classified disinfo items in single sweep. Groups: KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@IamMzalendo",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/IamMzalendo/status/1916826727986196836",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_FALSE_ETHNIC_CLAIMS, KE_COORDINATED_DISINFO",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        },
+        {
+          "handle": "@MteteziPato",
+          "platform": "X (Twitter)",
+          "url": "https://x.com/MteteziPato/status/1882005308782117047",
+          "type": "HS_DISINFO",
+          "country": "Kenya",
+          "reason": "Posted 2 classified disinfo items in single sweep. Groups: KE_FALSE_ETHNIC_CLAIMS",
+          "proposed_source_basis": "pattern_observed",
+          "proposed_confidence_floor": "MEDIUM",
+          "discovery_strategy": "D_FOLLOW_PLATFORMS"
+        }
+      ],
+      "timeline_events": [
+        {
+          "id": "APF-2026-03-25-946",
+          "date": "2026-03-25",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "coordinated_campaign",
+          "threat_level": "P2 HIGH",
+          "headline": "#BBCForChaos, #BloodParliament: Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care",
+          "summary": "Kenya will not be a playground for BBC. The  documentary is a cheap hit job. BBC doesn't care bout Kenya, they care about clicks and chaos!. 5 near-identical posts from 1 accounts suggest coordinated amplification. Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+          "actors": [
+            "@Yasirarafat2520"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/Yasirarafat2520/status/1916831359156334618",
+              "date": "2026-03-25"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-KE-003b",
+            "NAR-KE-003a"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bloodparliament, #bbcforchaos. Matches documented troll network pattern.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Delegitimization",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-03-25",
+          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+        },
+        {
+          "id": "APF-2026-03-25-570",
+          "date": "2026-03-25",
+          "country": "Somalia",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "propaganda",
+          "threat_level": "P2 HIGH",
+          "headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
+          "summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 7 near-identical posts from 7 accounts suggest coordinated amplification.",
+          "actors": [
+            "@MohamedDekAbdal",
+            "@war_doon",
+            "@Warfidiye",
+            "@hirad63",
+            "@Halgamaassc99",
+            "@Sooreyare",
+            "@11Abuker"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/Halgamaassc99/status/1934568198529028527",
+              "date": "2026-03-25"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-SO-001"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Content references 'wakaalada wararka' with VE context (dagaal); classified as VE propaganda.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Attack Claim",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Recruitment",
+              "intensity": 2,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": true,
+          "al_shabaab_related": true,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-03-25",
+          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+        },
+        {
+          "id": "APF-2026-03-25-056",
+          "date": "2026-03-25",
+          "country": "South Sudan",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "propaganda",
+          "threat_level": "P2 HIGH",
+          "headline": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and",
+          "summary": "\ud83d\udea8Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut \u00c7a\u011fr\u0131 Sar\u0131 and Manjaniq Media Who is Umut \u00c7a\u011fr\u0131 Sar\u0131? A Turkish geopolitical commentator pushing narratives that portray Puntland\u2019s counterterror.",
+          "actors": [
+            "@CirkaNews"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/CirkaNews/status/1934975949189382447",
+              "date": "2026-03-25"
+            }
+          ],
+          "spread": 1,
+          "disinfo_narratives": [
+            "NAR-SO-004"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Attack Claim",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Recruitment",
+              "intensity": 2,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": true,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-03-25",
+          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+        },
+        {
+          "id": "APF-2026-03-25-087",
+          "date": "2026-03-25",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "coordinated_campaign",
+          "threat_level": "P2 HIGH",
+          "headline": "#BBCForChaos, #BloodParliament: The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using",
+          "summary": "The West can't handle an African president like Ruto,who wins big in China. Their way to \"weaken\"Kenya is by using those SELL OUTS to narrate the past tense, yet we are in the present.   William Ruto Liverpool John Kaboi. Observed across 2 posts from 2 accounts on X (Twitter). Campaign hashtags: #BBCForChaos, #BloodParliament, #ToxicActivists.",
+          "actors": [
+            "@IamMzalendo",
+            "@KenyaWeWant_"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/KenyaWeWant_/status/1916927940643717517",
+              "date": "2026-03-25"
+            }
+          ],
+          "spread": 2,
+          "disinfo_narratives": [
+            "NAR-KE-003b",
+            "NAR-KE-003a"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Coordinated campaign indicators: #toxicactivists, #bloodparliament, #bbcforchaos. Matches documented troll network pattern.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Delegitimization",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-03-25",
+          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+        },
+        {
+          "id": "APF-2026-03-25-346",
+          "date": "2026-03-25",
+          "country": "Kenya",
+          "event_type": "DISINFO",
+          "disinfo_subtype": "coordinated_campaign",
+          "threat_level": "P2 HIGH",
+          "headline": "#43against1: Kenya is one nation,and leadership should reflect that. Kikuyus must reject divisive rhetoric!  Vihiga Development Tour",
+          "summary": "Kenya is one nation,and leadership should reflect that. Kikuyus must reject divisive rhetoric!  Vihiga Development Tour Raila Odinga Aoko President William Ruto Musalia Mudavadi. 8 near-identical posts from 7 accounts suggest coordinated amplification. Campaign hashtags: #43Against1, #43against1.",
+          "actors": [
+            "@IamMzalendo",
+            "@MteteziPato",
+            "@NaekuMercy",
+            "@ObinnaWaGikomba",
+            "@RasBashirWere01",
+            "@noormuktar99",
+            "@AminaTisha94086"
+          ],
+          "platforms": [
+            "X (Twitter)"
+          ],
+          "sources": [
+            {
+              "publisher": "MERLx Social Media Monitoring \u2014 Direct content observation",
+              "url": "https://x.com/noormuktar99/status/1929647018261061920",
+              "date": "2026-03-25"
+            }
+          ],
+          "spread": 5,
+          "disinfo_narratives": [
+            "NAR-KE-002",
+            "NAR-KE-004"
+          ],
+          "related_events": [],
+          "disinfo_confidence": "HIGH",
+          "disinfo_justification": "Coordinated campaign indicators: #43against1. Matches documented troll network pattern.",
+          "detection_method": "direct_tracking",
+          "content_observed": true,
+          "source_basis": "pattern_observed",
+          "verification_status": "confirmed",
+          "narrative_families": [
+            {
+              "family": "Misinformation/Disinformation",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            },
+            {
+              "family": "Delegitimization",
+              "intensity": 3,
+              "calibrated": false,
+              "calibration_note": "Auto-classified by apify_classify.py"
+            }
+          ],
+          "ve_related": false,
+          "al_shabaab_related": false,
+          "tags": [
+            "auto_classified"
+          ],
+          "data_source": "social_media_monitoring",
+          "detected_by": "iris_classify_2026-03-25",
+          "detection_timestamp": "2026-03-25T07:19:16.321177+00:00"
+        }
+      ],
+      "items_file": "/home/runner/work/brace4peace/brace4peace/monitoring/apify_results/items_2026-03-25_morning.json"
+    },
+    "1d_event_lifecycle": {
+      "to_dormant": 0,
+      "to_resolved": 0,
+      "still_active": 4
+    },
+    "1f_event_enrich": {
+      "links_added": 0,
+      "threat_upgrades": 0
+    },
+    "1e_event_review": {
+      "reviewed": 0,
+      "total": 428
+    },
+    "2a_hs_sweep": {
+      "groups_searched": 11,
+      "total_results": 496,
+      "total_cost_usd": 0.0806,
+      "budget_remaining_usd": 0.4194,
+      "sweep_date": "2026-03-25"
+    },
+    "2b_hs_classify": {
+      "total_items": 496,
+      "noise_filtered": 2,
+      "ea_rejected": 402,
+      "no_indicators": 24,
+      "hs_confirmed": 68,
+      "hs_high": 46,
+      "hs_medium": 8,
+      "hs_low": 14,
+      "duplicates_skipped": 8,
+      "posts_appended": 60,
+      "autolearning": {
+        "new_toxic_handles": 1,
+        "new_learned_keywords": 10,
+        "new_narrative_discoveries": 7
+      },
+      "subtype_proposals": [
+        {
+          "proposed_subtype": "HS-NEW-HS_DEHUMANISE_SOM",
+          "hs_group": "HS_DEHUMANISE_SOM",
+          "unclassified_count": 9,
+          "examples": [
+            "MAPEKA SAXDAA EE SOMALIA \ud83c\uddf8\ud83c\uddf4\ud83d\udc99 WAA SIDAAN DHAMAN QOF WALBA WAA IN OW U SAWIRAA SIDAAN WALA QALAD INAAD",
+            "@SomaliaToday24 Digniin culus oo muujinaysa halis amni iyo musiibo bani\u2019aadamnimo.",
+            "@RepOfSomaliland \ud83e\udd21\ud83e\udd21\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37\ud83d\udc37"
+          ],
+          "status": "needs_review"
+        }
+      ],
+      "subtype_distribution": {
+        "Unknown HS Type": 51,
+        "Dehumanisation": 9,
+        "Religious Incitement": 8
+      },
+      "country_distribution": {
+        "Kenya": 24,
+        "South Sudan": 23,
+        "Somalia": 21
+      }
+    },
+    "2c_ml_enrich": {
+      "classified": 61,
+      "total": 6895
+    },
+    "2d_llm_qa": {
+      "explained": 60,
+      "total": 60
+    },
+    "2e_quality_gate": {
+      "removed": 44,
+      "remaining": 6851,
+      "archived_to": "/home/runner/work/brace4peace/brace4peace/data/run_history/misclassified_2026-03-25.json"
+    },
+    "3a_reach": {
+      "updated": 20,
+      "checked": 30
+    }
+  }
+}
