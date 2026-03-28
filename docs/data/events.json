@@ -29408,7 +29408,8 @@
       "@hosea606666",
       "@xholeihub",
       "@SimpleDon15TX",
-      "@EllyLly34"
+      "@EllyLly34",
+      "@moacirpogo"
     ],
     "platforms": [
       "X (Twitter)",
@@ -29454,6 +29455,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/EllyLly34/status/2037544042419110128",
         "date": "2026-03-27"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/moacirpogo/status/2037789670969418157",
+        "date": "2026-03-28"
       }
     ],
     "spread": 5,
@@ -29497,7 +29503,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-27",
+    "last_seen": "2026-03-28",
     "status": "active",
     "observations": [
       {
@@ -29573,15 +29579,25 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-28",
+        "url": "https://x.com/moacirpogo/status/2037789670969418157",
+        "summary": "Leite é socialista, filhote do Klaus Schwab e do George Soros. É lobo em pele de cordeiro!",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 8,
+    "observation_count": 9,
     "intensity_trend": [
       3,
       3,
       3,
       3,
       3,
+      2,
       2,
       2
     ],
@@ -29620,7 +29636,8 @@
       "@MinotaurKard",
       "@Sulemanali18610",
       "@georgeo29564433",
-      "@20gimsack"
+      "@20gimsack",
+      "@AfricanReports"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29640,6 +29657,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/20gimsack/status/2037429977969267058",
         "date": "2026-03-27"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/AfricanReports/status/883728480881475585",
+        "date": "2026-03-28"
       }
     ],
     "spread": 5,
@@ -29688,7 +29710,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-27",
+    "last_seen": "2026-03-28",
     "status": "active",
     "observations": [
       {
@@ -29717,9 +29739,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-28",
+        "url": "https://x.com/AfricanReports/status/883728480881475585",
+        "summary": "BREAKING: four  soldiers killed in an  ambush attack Near Halgan town in Hiiraan region. Shahada Agency",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 3,
+    "observation_count": 4,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29728,6 +29759,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3
     ]
