@@ -1,8 +1,8 @@
 handle,platform,country,first_seen,last_seen,flags
 @1ts_me_bambi,x,Somalia,2026-03-27,2026-03-27,2
 @AbdiDr,x,Somalia,2026-03-23,2026-03-23,4
-@Ato_galbeedi,x,Somalia,2026-03-28,2026-03-28,2
-@Ayyyann99,x,Somalia,2026-03-18,2026-03-28,6
+@Ato_galbeedi,x,Somalia,2026-03-28,2026-03-28,4
+@Ayyyann99,x,Somalia,2026-03-18,2026-03-28,9
 @BendouziM,x,Somalia,2026-03-26,2026-03-26,4
 @CGTNEurope,x,South Sudan,2026-03-27,2026-03-27,5
 @CessNdiritu,x,Kenya,2026-03-26,2026-03-26,2
@@ -23,12 +23,12 @@ handle,platform,country,first_seen,last_seen,flags
 @MOH_Kenya,x,Kenya,2026-03-23,2026-03-23,2
 @Marc_Macuda,x,Kenya,2026-03-19,2026-03-19,3
 @MeteoKenya,x,Kenya,2026-03-19,2026-03-25,16
-@Moali838,x,Somalia,2026-03-28,2026-03-28,3
+@Moali838,x,Somalia,2026-03-28,2026-03-28,6
 @Mopaomokonzi200,x,Kenya,2026-03-22,2026-03-22,2
 @OCHASouthSudan,x,South Sudan,2026-03-22,2026-03-22,2
 @ObadiahKipchir3,x,Kenya,2026-03-26,2026-03-27,16
 @PachodoOrg,x,South Sudan,2026-03-26,2026-03-26,4
-@PatrickHeinisc1,x,South Sudan,2026-03-28,2026-03-28,2
+@PatrickHeinisc1,x,South Sudan,2026-03-28,2026-03-28,4
 @RunEmDownDizz,x,Somalia,2026-03-19,2026-03-19,2
 @SSGglobal,x,South Sudan,2026-03-24,2026-03-24,2
 @SecurexEA,x,Kenya,2026-03-19,2026-03-19,2
@@ -40,10 +40,10 @@ handle,platform,country,first_seen,last_seen,flags
 @Suleiman_B1,x,Somalia,2026-03-22,2026-03-22,6
 @Suriyakmaps,x,South Sudan,2026-03-26,2026-03-27,6
 @TRCSouthSudan,x,South Sudan,2026-03-24,2026-03-24,2
-@TheDream101_,x,Somalia,2026-03-18,2026-03-28,60
+@TheDream101_,x,Somalia,2026-03-18,2026-03-28,67
 @TheFishProf,x,South Sudan,2026-03-26,2026-03-26,4
 @TheStarKenya,x,Kenya,2026-03-19,2026-03-19,3
-@Vilma07,x,South Sudan,2026-03-27,2026-03-28,11
+@Vilma07,x,South Sudan,2026-03-27,2026-03-28,19
 @ViralTeaKe,x,Kenya,2026-03-19,2026-03-19,3
 @WamahigaN,x,Kenya,2026-03-26,2026-03-27,12
 @WhatEHappened,x,Kenya,2026-03-20,2026-03-20,2
