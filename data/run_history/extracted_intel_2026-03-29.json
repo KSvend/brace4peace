@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-29",
+  "extracted_claims": [
+    {
+      "claim": "Jaish al-Adl was involved in unspecified activity (corrected to Ansar Al-Furqan)",
+      "country": "Regional",
+      "actors": [
+        "@ChristoMalloo"
+      ],
+      "keywords": [
+        "Jaish al-Adl",
+        "Ansar Al-Furqan",
+        "jihadist"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Ansar Al-Furqan",
+      "country": "Regional",
+      "reason": "Jihadist group mentioned in correction that may be subject to misidentification"
+    },
+    {
+      "keyword": "Jaish al-Adl",
+      "country": "Regional",
+      "reason": "Jihadist group frequently misidentified in regional content"
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 1
+}

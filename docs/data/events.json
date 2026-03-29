@@ -29637,7 +29637,8 @@
       "@Sulemanali18610",
       "@georgeo29564433",
       "@20gimsack",
-      "@AfricanReports"
+      "@AfricanReports",
+      "@RG5417"
     ],
     "platforms": [
       "X (Twitter)"
@@ -29662,6 +29663,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/AfricanReports/status/883728480881475585",
         "date": "2026-03-28"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/RG5417/status/2038152845015330995",
+        "date": "2026-03-29"
       }
     ],
     "spread": 5,
@@ -29710,7 +29716,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-03-28",
+    "last_seen": "2026-03-29",
     "status": "active",
     "observations": [
       {
@@ -29748,9 +29754,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-03-29",
+        "url": "https://x.com/RG5417/status/2038152845015330995",
+        "summary": "Apparently, the US defense establishment slept through the Ukraine war, which provided a live demonstration of what",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 4,
+    "observation_count": 5,
     "_original_headline": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida",
     "_original_summary": "Ugu yaraan 3 qof ayaa ku dhimatay qarax lala beegsaday hodheel ku yaal Kismaayo. Alshabaab ayaa sheegatay qaraxa sida lagu faafiyay wakaalada wararka ee Reuters. Ciidamada dawlada iyo kuwa beelaha Soomaalida ayaa wada dagaal dhan ka ah Shabaab. 10 near-identical posts from 10 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -29759,6 +29774,7 @@
     "_review_notes": "Coordinated amplification of false Al-Shabaab responsibility claims could serve to exaggerate the group's operational capacity and create fear.",
     "_reviewed": "2026-03-23T07:58:02.306609+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3
@@ -29999,5 +30015,90 @@
       3,
       3
     ]
+  },
+  {
+    "id": "APF-2026-03-29-445",
+    "date": "2026-03-29",
+    "country": "Somalia",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P3 MODERATE",
+    "headline": "User corrects misidentification of jihadist group from Jaish al-Adl to Ansar Al-Furqan",
+    "summary": "A Twitter user (@ChristoMalloo) issued a correction regarding the misidentification of a jihadist group, clarifying that content previously attributed to Jaish al-Adl actually involves Ansar Al-Furqan. This represents a factual correction rather than the spread of disinformation.",
+    "actors": [
+      "@ChristoMalloo"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/ChristoMalloo/status/2038124525741814174",
+        "date": "2026-03-29"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-007"
+    ],
+    "related_events": [
+      "ANNEX-023",
+      "ANNEX-033",
+      "SOM-2025-011-DI",
+      "SOM-2025-022-DI",
+      "field_somalia-027",
+      "field_somalia-040"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references 'al-furqan' with VE context (jihad); classified as VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": true,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-03-29",
+    "detection_timestamp": "2026-03-29T07:20:51.271500+00:00",
+    "last_seen": "2026-03-29",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-03-29",
+        "url": "https://x.com/ChristoMalloo/status/2038124525741814174",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "Correction, this is not Jaish al-Adl, instead it's Ansar Al-Furqan, a similar Sunni Jihadist group.",
+    "_original_summary": "Correction, this is not Jaish al-Adl, instead it's Ansar Al-Furqan, a similar Sunni Jihadist group.",
+    "extracted_claims": [
+      "Jaish al-Adl was involved in unspecified activity (corrected to Ansar Al-Furqan)"
+    ],
+    "_review_notes": "This appears to be a factual correction rather than disinformation, suggesting the original misidentification may have been the actual false information being corrected.",
+    "_reviewed": "2026-03-29T07:20:59.748101+00:00"
   }
 ]

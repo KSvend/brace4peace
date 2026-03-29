@@ -1,0 +1,1625 @@
+[
+  {
+    "i": "apify-35124dadae69",
+    "t": "@Camel3nthusiast @hammedyassir @Heal_within96 Yeah, sure, somali bantus have rights like if yall not spamming \"jareer\" on every bantu face. And i would like to get the link ot this study and we can discuss about it",
+    "d": "2026-03-29",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Adham1z1",
+    "l": "https://x.com/Adham1z1/status/2038002315685212408",
+    "pr": "Normal",
+    "co": 0.9979,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.5726
+    },
+    "exp": "This post calls out the use of 'jareer' as spam/harassment against Bantus and questions Somali Bantu rights, appearing to criticize rather than perpetuate hate speech by pointing out discriminatory behavior.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ebd2fd7a8b46",
+    "t": "somalis in the diaspora need to learn that the kafir/murtad/dhilo/jareer gimmick you guys pull on somali women you don\u2019t agree with will never work\n\nwe no longer reside in a shameand honour based society so either engage in good faith or admit you don\u2019t have the range",
+    "d": "2026-03-29",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@CHUUMARXAJ",
+    "l": "https://x.com/CHUUMARXAJ/status/2037943700161011827",
+    "pr": "Hate",
+    "co": 0.9735,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      },
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9536
+    },
+    "exp": "This post criticizes the use of slurs including 'jareer' along with other terms like 'kafir' (infidel) and 'murtad' (apostate) against Somali women, arguing against such harassment tactics.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7eee66a74c45",
+    "t": "@itsyabar @ShantaShambara Seriously since when did Igbo have anything to do with jareer and Somali\nSometimes y'all are exaggerating, \n\nIt's like insulting a Scandinavian with a Portuguese picture \ud83e\udd23",
+    "d": "2026-03-29",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Ag_targi_",
+    "l": "https://x.com/Ag_targi_/status/2037898013452939769",
+    "pr": "Abusive",
+    "co": 0.9091,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9712
+    },
+    "exp": "This post questions the connection between Igbo people and the 'jareer and Somali' discussion, suggesting the comparison is inappropriate and exaggerated, using an analogy about European ethnicities.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a45af8ed6d12",
+    "t": "@LakshaDeirwa @Agricultur1896 @ShantaShambara Jareer are somali. Embrace your culture",
+    "d": "2026-03-29",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@mandelasmind",
+    "l": "https://x.com/mandelasmind/status/2037708123864265123",
+    "pr": "Normal",
+    "co": 0.9933,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9358
+    },
+    "exp": "Counter-response stating that 'jareer' (Bantu people) are Somali and encouraging cultural embrace. Uses the term 'jareer' but in a inclusive, positive context promoting unity.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-db6c722b8735",
+    "t": "Markaa haddii aasaartan laga helay Somaliland waxay ku tusaysaa in ay Boqrtoooyooyin Faraaciinii ka jireen. (FARAACI)waa kalmar Somali ah.\nDabcan Xiliyaddii dambe Boqortooyooyinka qaarkood waxa raadkooda qariyay waa guryaha aqal Somaaliyada ah iyo xoolo dhaqatada reer guuraaga.",
+    "d": "2026-03-29",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@abduljibbar",
+    "l": "https://x.com/abduljibbar/status/2038007821321601346",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.946
+    },
+    "exp": "Somali-language post about archaeological findings in Somaliland and ancient kingdoms. Discusses historical 'Faraaci' term and mentions Somali royal houses, appears to be historical/cultural discussion without hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e42908f85bfc",
+    "t": "@Halgamaassc99 Ka warran way yaseysaa iney isticmaashana way rabtaa. Yaakhay Somali meel ay joogtaba waa walaalo lama kala sareeyo lama kala fiicna. Danteena ma raacanaa oo bani aadamka maka mid noqonaa? Qabiil iyo qashin uun ha ku meereysanina yaa yidhaahda\ud83d\ude2b",
+    "d": "2026-03-29",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Doqonta",
+    "l": "https://x.com/Doqonta/status/2037695865154887853",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.8769
+    },
+    "exp": "Somali-language post promoting unity among Somalis regardless of location, arguing against clan divisions and emphasizing shared humanity. Appears to be counter-speech against tribalism.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4c39398c850f",
+    "t": "#somalitiktok so scared to post this",
+    "d": "2025-07-20",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@serialkillerr_",
+    "l": "https://www.tiktok.com/@serialkillerr_/video/7529295844835659030",
+    "pr": "Normal",
+    "co": 0.9923,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9821
+    },
+    "exp": "Brief post referencing '#somalitiktok' being scared to post something unspecified. No clear hateful content or context provided, appears to be commentary about social media censorship.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6459155262e1",
+    "t": "Note that we build a Kenya where life is sacred at every stage. This March unites us in that vision. #Marchforlife2026, Dignity for the Pre-born.",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@EgertonMaster",
+    "l": "https://x.com/EgertonMaster/status/2037792708727574809",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "Post about pro-life march in Kenya emphasizing protection of unborn life. This is political/religious advocacy without hate speech content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-43531ca1a65b",
+    "t": "To the deployed soldiers in South West State @SNAForce  @SNAForce  , \n\nour soldiers are our sons and daughters. Your duty is to protect the people, not to be used against them.\n\nDo not allow yourselves to be misused for political interests that further divide our country. No political objective just",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@HalimaAIGutale",
+    "l": "https://x.com/HalimaAIGutale/status/2037894577881776289",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9985
+    },
+    "exp": "Message to South Sudanese soldiers warning against political misuse and emphasizing duty to protect people. This appears to be political commentary or advice without hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-815a05ae3782",
+    "t": "\ud83c\uddf3\ud83c\uddec  Mar 29, 2026  \n\ud83c\udf82 Tinubu turns 74 today\n\u2694\ufe0f Army kills 38 ISWAP fighters in Borno \n\ud83d\udccb WAEC \u2014 only 32% passed 5 subjects \n\ud83c\udfdb\ufe0f PDP crisis hits Supreme Court \n\ud83c\udfad AMVCA 2026 nominations out today \n \n#NigeriaNews #Naija #NaijaTwitter",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SarafadeenFaruk",
+    "l": "https://x.com/SarafadeenFaruk/status/2038154185804308876",
+    "pr": "Normal",
+    "co": 0.7415,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This is a news digest about Nigeria covering President Tinubu's birthday, military operations, education statistics, and entertainment awards. It contains no hate speech and is unrelated to East African hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-205eb0f6ebf9",
+    "t": "Darfur24 reports that informal agreements reached between the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF) not to attack Khartoum and Nyala airports.\n\nThis may explain why Khartoum Airport has resumed operations.\n\nhttps://t.co/5opuvU1LQB",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AfriMEOSINT",
+    "l": "https://x.com/AfriMEOSINT/status/2037896987069063204",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This is factual reporting about informal agreements between Sudanese military forces regarding airport attacks. It contains no hate speech and is standard news reporting about the Sudan conflict.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6501c0d2bdef",
+    "t": "Sources revealed on Saturday that there are unofficial agreements between #Sudan's army and the Rapid Support Forces not to attack the airports of Khartoum and Nyala. These agreements were reportedly reached through mediation by foreign countries. https://t.co/FPvosWuXoa",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PatrickHeinisc1",
+    "l": "https://x.com/PatrickHeinisc1/status/2037859908985438376",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This is another factual news report about the same Sudan military agreements mentioned in the previous post. It contains no hate speech and is standard journalism.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e34ab502e307",
+    "t": "#Ayaan_daran_\ud83d\udc94\ud83e\udd7a qeebtii-\u2079laad #foryou #fyp #capcut #somalitiktok",
+    "d": "2026-01-16",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@moor_yaan",
+    "l": "https://www.tiktok.com/@moor_yaan/video/7595913449117453624",
+    "pr": "Abusive",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.979
+    },
+    "exp": "This appears to be a TikTok hashtag post with emojis suggesting sadness or distress. There's no clear hate speech content visible in this brief post.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fc197ebdbc16",
+    "t": "dhalinyaroy rag iyo dumarba please ka kora iska daba laalaadka oo kafikira dhisida wadankiina iyo kor uqaadista magaciina somaliyeed.\ud83e\udec2\nDadka qaar ee aladan soo galaa waa dad aan ogayn qaarkood waxay samaunayaan oo ama xanuusan ama fikrado dadi leeyihiin kusocda marka qofwalba oo iska hadlaa hadad aa",
+    "d": "2025-07-27",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@ayaandhiiranology",
+    "l": "https://www.tiktok.com/@ayaandhiiranology/video/7531791873703300382",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_CLAN_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.8312
+    },
+    "exp": "This Somali text appears to be encouraging youth to focus on building their country and improving Somalia's reputation, mentioning concerns about some people's behavior. It reads more like constructive advice than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c73406efe3f6",
+    "t": "@CopShakurkihara The  highest number of extra judicial killings to have ever happened in kenya to young people who were not given a chance to be heard in a court of law in the name of mungiki happened when she was minister for justice but she remained silent.",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KenyKenya2",
+    "l": "https://x.com/KenyKenya2/status/2037706739529724285",
+    "pr": "Normal",
+    "co": 0.8566,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9626
+    },
+    "exp": "This post criticizes a Kenyan minister's past handling of extrajudicial killings related to Mungiki (a Kikuyu militia group), claiming young people were killed without due process when she was justice minister. This is political criticism of government actions rather than hate speech targeting an identity group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b7902611f747",
+    "t": "#kefir #somalitiktok12 #somalitiktok #toronto #kingkaaha #somaligirls #iscateen #somaliwomen #weightlose \n@Kaaha aka mizz garacad\ud83c\uddf8\ud83c\uddf4\ud83c\udde8\ud83c\udde6 \n@Kaaha aka mizz garacad\ud83c\uddf8\ud83c\uddf4\ud83c\udde8\ud83c\udde6 \n@Kaaha aka mizz garacad\ud83c\uddf8\ud83c\uddf4\ud83c\udde8\ud83c\udde6",
+    "d": "2025-08-12",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@mizzgaracad",
+    "l": "https://www.tiktok.com/@mizzgaracad/video/7537668488207371526",
+    "pr": "Abusive",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9848
+    },
+    "exp": "This appears to be social media hashtags and mentions related to Somali TikTok content, weight loss, and locations like Toronto. No hate speech content is evident, just social media promotion.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-310e1e856631",
+    "t": "\ud83c\uddf0\ud83c\uddea \ud83d\udea8 Kenya Targeted: Multiple Government Services Disrupted\n\nA group identified as Hider_Nex claims responsibility for cyber activity targeting Kenyan government infrastructure.\n\n\ud83d\udd0d Affected domains (based on shared evidence):\n\n\u2022 https://t.co/QU1NAv7tON (Ministry of Defence)\n\u2022 https://t.co/Ej7RR4ujQt",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@DailyDarkWeb",
+    "l": "https://x.com/DailyDarkWeb/status/2037651369797058673",
+    "pr": "Normal",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post reports on cyber attacks targeting Kenyan government infrastructure by a group called Hider_Nex. This is news reporting about security incidents, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a3f4ee96efc9",
+    "t": "Kenya Travel Advisory On March 27, 2026 - https://t.co/qhqGnL3Gt2 - \nInformation on security operation in Laikipia, Meru, and Isiolo counties (\u2018Regional risks\u2019 page).      \n\nTravel Advisory Published: March 27, 2026 23:47\nCited Source: https://t.co/bjCLIspApH\n\nEstonia Tra...",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@SafeDestinatio1",
+    "l": "https://x.com/SafeDestinatio1/status/2037927799843873080",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This is an informational post about a Kenya travel advisory regarding security operations in specific counties. This is factual information sharing, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2a1095425b41",
+    "t": "Further to the earlier Gazette Notice on the measures the government is taking to combat banditry, we have today declared additional areas within Laikipia, Meru, Samburu, and Isiolo counties as security-disturbed and dangerous.\n\nThis designation reinforces ongoing security operations to decisively m",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kipmurkomen",
+    "l": "https://x.com/kipmurkomen/status/2037583964487971304",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post discusses government measures to combat banditry and the declaration of certain areas as security-disturbed in various Kenyan counties. This is official government communication about security measures.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6dc32416d7fd",
+    "t": "KENYA DROUGHT \nAs of March 27, 2026, Kenya is facing a \"drought amid plenty\" scenario. While central and western regions are experiencing heavy, even flood-inducing rains, the northern and eastern Arid and Semi-Arid Lands (ASAL) remain gripped by a severe and life-threatening drought. \n  Approximate",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@CMRNewsAgency",
+    "l": "https://x.com/CMRNewsAgency/status/2037609557380284448",
+    "pr": "Normal",
+    "co": 0.9791,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 20,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.999
+    },
+    "exp": "This post provides information about drought conditions in Kenya, describing regional variations in weather patterns. This is informational content about environmental conditions, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-8527dd85fa1e",
+    "t": "Kenya has declared parts of Laikipia, Meru and Isiolo security-disturbed and dangerous areas for 30 days, effective March 26 at 6pm. This is not a routine notice. It is a serious security signal with direct implications for movement, business activity, investment confidence and livelihoods in the af",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@SokoAnalyst",
+    "l": "https://x.com/SokoAnalyst/status/2037549028733342072",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post reports on Kenya's declaration of certain areas as security-disturbed and dangerous, explaining the implications for movement and business activities. This is factual reporting on security measures.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-77330aa1109c",
+    "t": "Ujinga Iko Kenya perpetrated by police ni ya Hali ya juu",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@NaksLfcRed",
+    "l": "https://x.com/NaksLfcRed/status/2037565993606578258",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "medium",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post criticizes police stupidity/foolishness ('ujinga') in Kenya as being of a high level. This is political criticism of law enforcement rather than hate speech targeting ethnic or religious groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c0e6d9b5071c",
+    "t": "Mt Kenya \ud83e\udee3 Watu wa Kirinyaga\nhttps://t.co/3MbHu4vQ0v\n\nGovernor amesemaje Rigathi Gachagua Tuko Kadi President William Ruto Mombasa Linda Mwananchi Edwin Sifuna ODM SG NDC Oburu Oginga Larry Madowo Somali",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@RicardoEvans0",
+    "l": "https://x.com/RicardoEvans0/status/2037961942443196757",
+    "pr": "Normal",
+    "co": 0.9546,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "The post mentions Mt Kenya region and Kirinyaga with various political figures' names but lacks clear hateful content. It appears to be political commentary or news sharing rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-09f65f0f38f8",
+    "t": "Kenya Met has listed areas expected to receive heavy rainfall in its five-day weather forecast for March 28 to April 1, 2026                                                                                                                          https://t.co/8iNBqbhOHS",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@hivileo1",
+    "l": "https://x.com/hivileo1/status/2037745198575353976",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This is a straightforward weather forecast report from Kenya Met about expected heavy rainfall. It contains no hateful or toxic content, just meteorological information.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5ec9c4d014fa",
+    "t": "Allahouma salli ala Muhammadin wa ala ali Muhammad\nkama sallayta ala Ibrahima wa ala ali Ibrahim\nAllahouma barik ala Muhammadin wa ala ali Muhammad\nkama barakta ala Ibrahima wa ala ali Ibrahim\nfil alamina innaka hamidoun majid",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@RassoullDiop",
+    "l": "https://x.com/RassoullDiop/status/2038147729327591821",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9823
+    },
+    "exp": "This is an Islamic prayer (salawat) invoking blessings upon Prophet Muhammad and Ibrahim. It's religious devotional content with no hateful or toxic elements.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d19b40a6a9a2",
+    "t": "\u201cAssuming office at the Ministry of Home Affairs today, he directed the staff and said that strict action would be taken against corrupt individuals\u201d\n\n#SudanGurung #corruption #AMN \nhttps://t.co/h9kxKOk7MM",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@TheAnnaExpress",
+    "l": "https://x.com/TheAnnaExpress/status/2037550416217674098",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "The post discusses anti-corruption measures at the Ministry of Home Affairs, mentioning strict action against corrupt individuals. This is administrative/political news without hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6143e13b7c96",
+    "t": "#South_Sudan's president receives briefing from vice president. Discussions centered on the implementation of security arrangements. Preparations are ongoing for integration of South Sudan Opposition Alliance forces into the national army within the next two weeks. https://t.co/uB3XWNDaxM",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PatrickHeinisc1",
+    "l": "https://x.com/PatrickHeinisc1/status/2037553074407985569",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This reports on South Sudan's president receiving briefings about security arrangements and military integration plans. It's straightforward political/military news without toxic content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-69704dd8a8e6",
+    "t": "As of March 2026, the country enters its third year of a brutal civil war between the Sudanese Armed Forces (SAF) and the paramilitary Rapid Support Forces (RSF)\u00a0\u00bb",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ElaJelec",
+    "l": "https://x.com/ElaJelec/status/2038012128674677081",
+    "pr": "Normal",
+    "co": 0.9983,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "The post provides factual information about Sudan's civil war between SAF and RSF forces. It's news reporting about conflict without hateful language or targeting specific groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a1073c8633a5",
+    "t": "\ud83d\udd34 Breaking News: Major Developments in South Sudan\u2019s Political Landscape\n\nAccording to Ter Manyang Gatwech, Executive Director of the Nile Institute for Study of Human Rights and Transitional Justice, the Council of Ministers has agreed to approve the recommendations of the C5, paving the way for th",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SouthSudan24_",
+    "l": "https://x.com/SouthSudan24_/status/2038003410415349880",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 17,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This announces political developments in South Sudan regarding the Council of Ministers' decisions, citing an academic source. It's political news without any hateful or toxic content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-abef0b371554",
+    "t": "President @HassanSMohamud has demonstrated unwavering commitment in the fight against terrorism. Throughout the past four years not a single day has passed without decisive action - whether on the battlefield, in disrupting financial networks, or in strengthening national security institutions. The ",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@diinaaari",
+    "l": "https://x.com/diinaaari/status/2038147502617002231",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.998
+    },
+    "exp": "The post praises President Hassan Sheikh Mohamud's counter-terrorism efforts over four years. It's positive political commentary about anti-terrorism work without any hateful elements.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-23cdf59afe09",
+    "t": "Let me update you since you think you know stuff\n1. On the 26th of this month, 18 people were killed in Katsina state,\n2. a day before, the 25th of this month, there was a successful suicide bombing attack in Borno state with 23 people confirmed dead\n3. On the 24th of this same month, Lakurawa murde",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Demme_17",
+    "l": "https://x.com/Demme_17/status/2037842631338631617",
+    "pr": "Normal",
+    "co": 0.9969,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on violence in Nigeria (Katsina and Borno states), detailing casualty numbers from attacks. While violent content, it appears to be factual news reporting about security incidents, not hate speech targeting any group.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2220f0a6de1e",
+    "t": "Sources reveal the RSF's intention to launch an attack on the #Sudanese city of al-Tina, on the border with #Chad, within the next 24 hours. The RSF have mobilized more than 100 combat vehicles and moved them towards the city of Qadir, east of al-Tina. https://t.co/cu4CJEQbqj",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PatrickHeinisc1",
+    "l": "https://x.com/PatrickHeinisc1/status/2037537222203720123",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "This post reports intelligence about Rapid Support Forces (RSF) military movements in Sudan, describing planned attacks on al-Tina city. This is factual military/conflict reporting, not hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d3595d5e4a7e",
+    "t": "Sudan Civil War\nSudan\u2019s civil war between the Sudanese Armed Forces (SAF) and Rapid Support Forces (RSF) enters its third year in 2026 as one of the world\u2019s worst humanitarian crises. Fighting intensifies in Kordofan with drone strikes and ground clashes, displacing millions and triggering famine ri",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@MrblaqKulture",
+    "l": "https://x.com/MrblaqKulture/status/2037912662911131999",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post provides factual information about Sudan's civil war between SAF and RSF, describing it as a humanitarian crisis. It's neutral conflict reporting without targeting any group with hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-89c62aa4c20c",
+    "t": "Sudanese Army Shelling Targets Funeral, Leaving Dead and Injured \n\nKhartoum \u2013 The Sudan Founding Alliance \u201cTa\u2019sees\u201d announced on Saturday that seven people were killed and 38 others injured in shelling by the Sudanese army that struck a funeral gathering in South Kordofan/Nuba Mountains ... More :\n\n",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@aijesinfo",
+    "l": "https://x.com/aijesinfo/status/2037959754065317980",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This post reports on casualties from Sudanese army shelling during a funeral, providing factual details about the incident. It's news reporting about conflict violence, not hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d0472e3dd12b",
+    "t": "South Sudan VP Taban Gai meets President Kiir for first time in a year ...https://t.co/ltX2WW80JN \n\n#PachodoNews #SSOX #SSOT #SouthSudan #South_Sudan #SouthSudanese #Riek_Machar #Salva_Kiir #SouthSudanNews #Sudan #\u062c\u0646\u0648\u0628_\u0627\u0644\u0633\u0648\u062f\u0627\u0646\n#\u0627\u0644\u0633\u0648\u062f\u0627\u0646 https://t.co/ofq6g7dHWf",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@PachodoOrg",
+    "l": "https://x.com/PachodoOrg/status/2037634714136133819",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post reports the same political meeting between South Sudan's VP and President with hashtags. It's factual political news reporting without hate speech content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-37da29618b07",
+    "t": "South Sudan VP Taban Gai meets President Kiir for first time in a year https://t.co/Zs1xPZKAmp",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@hilarykimuyu",
+    "l": "https://x.com/hilarykimuyu/status/2037554034190557483",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports the same political meeting between South Sudan's VP and President. It's straightforward news reporting without any hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e42b5dfd7740",
+    "t": "Recent Operational Tempo and Key Achievements (2023\u2013March 2026)\n\nThe NAF has maintained unrelenting pressure:\nJune 2023\u2013October 2025: Over 5,000 operational sorties and 1,200+ air interdictions across multiple theaters, severely degrading supply routes and providing decisive cover for ground forces.",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@ConciergeofEvil",
+    "l": "https://x.com/ConciergeofEvil/status/2037777447127535998",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 26,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on Nigerian Air Force (NAF) operational achievements and statistics from military operations. It's factual military reporting, not hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1b5c8d5a99c5",
+    "t": "South Sudan\u2019s Vice President for the Infrastructure cluster, Taban Deng Gai, met his boss, President Salva Kiir, after lamenting that he had not seen him for close to a year. \nhttps://t.co/7GdQoyHNAF",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@The_EastAfrican",
+    "l": "https://x.com/The_EastAfrican/status/2037530774040387766",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post reports on the meeting between South Sudan's Vice President Taban Deng Gai and President Salva Kiir, noting they hadn't met for nearly a year. It's factual political news reporting.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c474d064eb4d",
+    "t": "President Salva Kiir Mayardit has issued Republican Decrees introducing changes in key government institutions. https://t.co/h7yxWPS1vi",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Cholatak",
+    "l": "https://x.com/Cholatak/status/2037553088391786823",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on President Salva Kiir issuing Republican Decrees for government institutional changes. It's straightforward news reporting about official government actions.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-440a58466a4a",
+    "t": "Without South Sudan Uganda and Kenyi is nothing\ud83d\ude0c",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@millermartinele",
+    "l": "https://x.com/millermartinele/status/2037594359856533734",
+    "pr": "Hate",
+    "co": 0.7685,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post makes a geopolitical claim that Uganda and Kenya depend on South Sudan, expressed with a smug emoji. It's political commentary rather than hate speech targeting any ethnic or religious group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9cf4f9249cd7",
+    "t": "Guys, I've heard rumours that last year, the southsudanese president appointed a dead person to the cabinet",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Atuzarirwe15061",
+    "l": "https://x.com/Atuzarirwe15061/status/2037818457501089991",
+    "pr": "Abusive",
+    "co": 0.8951,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post shares rumors about the South Sudanese president allegedly appointing a deceased person to cabinet. It's political gossip/criticism rather than hate speech targeting any group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fd495794f460",
+    "t": "South Sudan main national public health laboratory has lost it\u2019s funding  from United States because it was taken over by SSPDF and one corrupt individual. These people have no shame of stealing anything including things needed to sustain lives. How far down does Kiir regime corruption need to reach",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@marcek_m",
+    "l": "https://x.com/marcek_m/status/2037520947830301106",
+    "pr": "Abusive",
+    "co": 0.9588,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post criticizes corruption in South Sudan's health system, specifically mentioning SSPDF takeover of a laboratory and loss of US funding. It's legitimate criticism of institutional corruption rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7b8eb5983d84",
+    "t": "What a time to be alive in South Sudan, The new Minister of Health is reportedly a lawyer. Not entirely strange, but it does feel quite random.",
+    "d": "2026-03-29",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@NgorkiirNgor",
+    "l": "https://x.com/NgorkiirNgor/status/2037631855525028307",
+    "pr": "Normal",
+    "co": 0.9601,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post comments on South Sudan's new Health Minister being a lawyer, expressing mild bewilderment at the appointment. It's political commentary rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a45b5cfa89da",
+    "t": "@PundaReloaded @mauriceoyamo @ParassisO @AgapetusWamalwa @slmiheso @otienood3ra @kiman39030 @KarisKillian @mwithigaP @PundaReicarnate @StanleyOpiyo5 @Ombati_Basweti @AmechokaPunda @punda_amechoka @RobertOGILLO1 @mwithiga @Wanduta @salim @edwinsifuna @SakajaJohnson @WilliamsRuto @ProfKibwana \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+    "d": "2026-03-29",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WaNduta8",
+    "l": "https://x.com/WaNduta8/status/2038147924786352176",
+    "pr": "Abusive",
+    "co": 0.9874,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-29",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post appears to be just a list of Twitter handles/usernames with no substantive content or hate speech targeting any group.",
+    "rel": "possibly_relevant",
+    "kb": []
+  }
+]

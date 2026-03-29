@@ -101,9 +101,15 @@
       "pipeline": "hs_sweep",
       "cost_usd": 0.0928,
       "items": 459
+    },
+    {
+      "date": "2026-03-29",
+      "pipeline": "hs_sweep",
+      "cost_usd": 0.138,
+      "items": 511
     }
   ],
-  "cumulative_usd": 1.696,
+  "cumulative_usd": 1.834,
   "month_start": "2026-03",
-  "monthly_usd": 1.696
+  "monthly_usd": 1.834
 }
