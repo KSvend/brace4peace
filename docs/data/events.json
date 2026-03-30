@@ -30100,5 +30100,85 @@
     ],
     "_review_notes": "This appears to be a factual correction rather than disinformation, suggesting the original misidentification may have been the actual false information being corrected.",
     "_reviewed": "2026-03-29T07:20:59.748101+00:00"
+  },
+  {
+    "id": "APF-2026-03-30-195",
+    "date": "2026-03-30",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "misinformation",
+    "threat_level": "P2 HIGH",
+    "headline": "User posts inflammatory rhetoric about media coverage of Israel-Gaza conflict",
+    "summary": "A social media user posted inflammatory content using Nazi comparisons in relation to media coverage of the Israel-Gaza conflict. The post contains hate speech and inflammatory rhetoric that could contribute to polarization and antisemitic discourse.",
+    "actors": [
+      "@NiaIsALoser"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/NiaIsALoser/status/2038525482908742046",
+        "date": "2026-03-30"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SS-002",
+      "NAR-SS-001",
+      "NAR-SS-005"
+    ],
+    "related_events": [
+      "SSD-2026-002",
+      "SSD-2026-020"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "South Sudan fabricated narrative indicators: genocide, defended. Contains claims requiring verification.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Ethnic Incitement",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-03-30",
+    "detection_timestamp": "2026-03-30T07:59:24.706732+00:00",
+    "last_seen": "2026-03-30",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-03-30",
+        "url": "https://x.com/NiaIsALoser/status/2038525482908742046",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "These nazi idiots think that positively covering “Israel’s” genocide would save them from being treated like subhumans",
+    "_original_summary": "These nazi idiots think that positively covering “Israel’s” genocide would save them from being treated like subhumans by the greater nazis they defended.",
+    "_review_notes": "This appears to be hate speech/inflammatory rhetoric rather than structured disinformation. The content is concerning for its use of Nazi comparisons and inflammatory language.",
+    "_reviewed": "2026-03-30T07:59:31.214763+00:00"
   }
 ]

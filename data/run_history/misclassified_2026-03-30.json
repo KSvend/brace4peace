@@ -1,0 +1,1313 @@
+[
+  {
+    "i": "apify-ae2389f1ad1a",
+    "t": "@Ayaanle0011 @Zaadillaah_Ilma @OgadenSoldier @waamokingg All ciyaal xamar eat cambuulo and muufo is a delicacy fr, there\u2019s nothing wrong with being jareer they are muslim and somali and we all love each other down here so stay in yahuud land with your hate",
+    "d": "2026-03-30",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@guduudiye",
+    "l": "https://x.com/guduudiye/status/2038060677554696440",
+    "pr": "Hate",
+    "co": 0.5077,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9738
+    },
+    "exp": "Uses 'jareer' but in a context that actually defends the group, stating 'there's nothing wrong with being jareer they are muslim and somali and we all love each other.' This appears to be counter-speech against discrimination.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6d538cb97890",
+    "t": "Maandamano against Israel's imperialism? Count me in! #kicksiraeloutofkenya",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@vintagetinnah",
+    "l": "https://x.com/vintagetinnah/status/2038197085623705915",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This is political criticism calling for protests against Israel's policies in Kenya. While using strong language ('imperialism'), it's expressing political opposition rather than targeting a protected group with hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2e7a6259b4b3",
+    "t": "Larry Madowo has NO REWARD from the Kenyan government, but was rewarded by Australian Government for his PHENOMENAL job in journalism. Back home, Presidential Awards are RESERVED for questionable Characters like Moses Kuria, Kimani Ichungwah, Dennis Itumbi and the Osoros.",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Joe_Cooel",
+    "l": "https://x.com/Joe_Cooel/status/2038171746713374780",
+    "pr": "Abusive",
+    "co": 0.7598,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post critiques the Kenyan government's award system, comparing treatment of a journalist versus politicians. It's political commentary without targeting ethnic or religious groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5ce9f60cc446",
+    "t": "The Independent Electoral and Boundaries Commission [@IEBCKenya] has started a 30-day voter registration period from Monday, 30th March 2026, to Tuesday, 28th April 2026 https://t.co/WMJxhAeVEm",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MaudhuiHouse",
+    "l": "https://x.com/MaudhuiHouse/status/2038516698043552058",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This is a factual announcement about voter registration periods in Kenya. It contains no hateful or discriminatory content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d20ed6bcf0d0",
+    "t": "Yobe (178)\nBorno (312)\n\n*Link*: https://t.co/cDklDDp12r\n\n\ud83d\udcc5 *Deadline: April 10, 2026*",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@kareema_darma",
+    "l": "https://x.com/kareema_darma/status/2038518142687744425",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This appears to be statistical data with numbers and a link, possibly related to a job posting or application deadline. No hateful content is present.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c726720026fa",
+    "t": "\ud83d\udccdDespite the alleged 'agreement', Sudanese Armed Forces #SAF carried out a drone strike on Nyala airport, South Darfur state on March 29th. #Sudan https://t.co/xMjPjn5F7n",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Ivadleber",
+    "l": "https://x.com/Ivadleber/status/2038516893460451618",
+    "pr": "Normal",
+    "co": 0.9984,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9993
+    },
+    "exp": "This is news reporting about a drone strike in Sudan's conflict. It's factual reporting without hate speech or targeting of groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-15ad62d30f35",
+    "t": "@WamaithaGithatu @HonKimtaitoo @MixhK16877 @honkabogo @MutahiKagwe @Kinyanjui @2500 In Kenya kikuyus control everything and a reverse of this has brought Kenya into a stand still \" In the 1992  Electionspolitical power prompted Kikuyu Politicians and Businessmen to mobilise their youth popularly kno",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kiruchiu",
+    "l": "https://x.com/kiruchiu/status/2038146379483099530",
+    "pr": "Hate",
+    "co": 0.9989,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Political Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9354
+    },
+    "exp": "This discusses Kikuyu political control in Kenya in analytical terms, mentioning ethnic political dynamics from the 1992 elections. It appears to be political commentary rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ec0d46a7b80c",
+    "t": "@geraldbitok Big things are happening here in Kenya and outside Kenya courtesy Kenya 1!",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@E_brahim_Khalif",
+    "l": "https://x.com/E_brahim_Khalif/status/2037912277580402788",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This is a neutral statement about developments in Kenya with no hateful content or targeting of any group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d4c4ebcf7df6",
+    "t": "Kenya Power Announces Planned Electricity Interruptions in Uasin Gishu, Nyeri and Kiambu on March 30\n\nhttps://t.co/pjhKtnJo4A",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HourlyNewsWave",
+    "l": "https://x.com/HourlyNewsWave/status/2038346257991688595",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This is a factual announcement about planned electricity interruptions in Kenyan counties, containing no hate speech or targeting.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b46b5ce57f7b",
+    "t": "The Ministry of Interior and National Administration has reported a rise in fatalities linked to ongoing floods across the country, with the death toll now at 110, three people still missing, and 6,953 households displaced as of March 29, 2026.\n#starkenyanews https://t.co/HmxNmkUHrA",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TheStarKenya",
+    "l": "https://x.com/TheStarKenya/status/2038519092554932334",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "A factual news report about flood casualties in Kenya, providing statistics on deaths, missing persons, and displaced households. This is neutral disaster reporting without any hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0ed9ae3d3883",
+    "t": "Interior and National Administration Cabinet Secretary Kipchumba Murkomen has warned that politicians have now emerged as the greatest threat to the country\u2019s peace and stability.\nhttps://t.co/XvERKUbfch",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@TheStarKenya",
+    "l": "https://x.com/TheStarKenya/status/2038519998998536341",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9989
+    },
+    "exp": "A news report about a Cabinet Secretary warning that politicians pose threats to peace and stability. This is political news reporting without hate speech or targeting of specific groups.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f7bd2ea56605",
+    "t": "What do you think about it.\n\nEven though there was fire from the attack, there was no sign of death or anything serious, yet he came there, set up a camera, and started giving explanations in a video.\n\n It happened right in the town, and people didn\u2019t even arrive at the scene until morning\nbut he, t",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@mae_tumbin_kudi",
+    "l": "https://x.com/mae_tumbin_kudi/status/2038526319659536874",
+    "pr": "Normal",
+    "co": 0.9906,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9979
+    },
+    "exp": "A speculative comment about someone's response to an attack, questioning the authenticity or timing of their video explanation. This appears to be commentary on a specific incident without hateful language.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ce63c574a403",
+    "t": "Interior CS Murkomen says Gachagua is the only security threat that Kenya is facing today; says the Government will not allow politicians to incite Kenyans https://t.co/7WNX99EJX4",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@AbdulahiAdan10",
+    "l": "https://x.com/AbdulahiAdan10/status/2038286342958796923",
+    "pr": "Normal",
+    "co": 0.9809,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9976
+    },
+    "exp": "A news report quoting Interior CS Murkomen calling Gachagua a 'security threat' and warning against political incitement. This is political news reporting about official government statements.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-674db8aa3d8b",
+    "t": "The death toll as a result of the recent floods has risen to 110, with three people still missing as of March 29, 2026 and more than 6,900 households displaced.\n\nAccording to a recent report by the Ministry of Interior, Nairobi has recorded the highest number of fatalities at 37, followed by the Eas",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KTNNewsKE",
+    "l": "https://x.com/KTNNewsKE/status/2038523929589854449",
+    "pr": "Normal",
+    "co": 0.9992,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "A factual news update about flood casualties and displacement statistics in Kenya, specifically mentioning Nairobi's highest recorded numbers. This is neutral disaster reporting.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6f8a6cebed94",
+    "t": "@Waiswaemma19726 @MTWAUganda @GITA_Africa @WasswaEmma_ @VisitUgTours20 @Uganda_Expozed @Muyodi_Shakie @phiona_nam53267 @karothk256 @Nabimara_Paul @256Rootyherman Hello. We have taken note of this situation and have notified our maintenance team for action. \n\nApologies for the inconvenience caused.",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MoWT_Uganda",
+    "l": "https://x.com/MoWT_Uganda/status/2038524565685420153",
+    "pr": "Normal",
+    "co": 0.9979,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "A customer service response acknowledging a reported issue and confirming that maintenance teams have been notified. This is a standard business communication with no hateful content.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0c805998313e",
+    "t": "@malik_adeniji @Peace_Joseph_ @Chi_Oma_Vivian The attacks tremendously increased since then",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@django_OG",
+    "l": "https://x.com/django_OG/status/2038525158072238510",
+    "pr": "Normal",
+    "co": 0.9991,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.8775
+    },
+    "exp": "A brief comment stating that 'attacks tremendously increased since then' in response to a conversation. Without additional context, this appears to be factual observation rather than hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a97d45a60cfa",
+    "t": "@kenyagossips One question is still lingering in my head: How many people has this guy stabbed before? The confidence he had when threatening @mutuaAbel to hand over the phone shows he's not a first timer, he's clearly experienced",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@dr_blaiz",
+    "l": "https://x.com/dr_blaiz/status/2038519462526357755",
+    "pr": "Normal",
+    "co": 0.9478,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.8347
+    },
+    "exp": "A comment speculating about a perpetrator's criminal experience based on their confidence during a threatening incident involving a phone robbery. This is crime commentary without hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-acbe7c6f5a53",
+    "t": "Madaxweyne Lafta Gareen oo ka digay weerar kasta oo lagu qaado magaalada Baydhabo: Isniin, Maarso 30, 2026 (HOL) -\u00a0Madaxweynaha maamulka Koonfur Galbeed, Cabdicasiis Xasan Maxamed Lafta Gareen, ayaa si kulul uga digay xiisadaha siyaasadeed iyo amni ee ka\u2026 https://t.co/R8gz27BS6a",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@hiiraan",
+    "l": "https://x.com/hiiraan/status/2038518748454564045",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This is a news report in Somali about President Lafta Gareen warning against attacks on Baidoa city. It appears to be standard political/security news coverage with no hateful content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-82ff571778f5",
+    "t": "AN OPEN LETTER TO THE NORTHERN POLITICAL BLOC, POWER BROKERS, AND THE ADC NATIONAL LEADERSHIP.\n\n29th, March 2026.\n\nTo the Custodians of our Political Future,\n\nWe are at a point where the dust of defections and the noise of colorful rallies in Kano threaten to blind us to a grim reality. While the Re",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@M4outreach",
+    "l": "https://x.com/M4outreach/status/2038518523308208457",
+    "pr": "Normal",
+    "co": 0.9009,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 28,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This is an open letter to political leadership discussing political matters including defections and rallies in Kano. It appears to be political discourse without hateful language.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-bfbe9a32cd7e",
+    "t": "Thanks for tagging & questions. Neutral overview from open sources (Mar 29 2026):\n\n1. NO. No FG confirmation it won't extend beyond May 2026; Mar 4-5 amendments extend pres./parl. terms 4\u21925 yrs to 2027 (https://t.co/sKJv9RMIZl Mar 6).\n\n2. \"Diplomatic Briefing Session\" 11am Mar 30 Villa Somalia; agen",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@grok",
+    "l": "https://x.com/grok/status/2038316997650395236",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9981
+    },
+    "exp": "This appears to be a factual response providing neutral information about government term extensions and diplomatic matters, with no hateful content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-525446f492f9",
+    "t": "@GaroweOnline @Laftagareen The people want democracy in South West, yet Laftagareen pushed through a one-day parliamentary selection to maintain his presidency. https://t.co/etkAeraaa1",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@rx_6662",
+    "l": "https://x.com/rx_6662/status/2038525461924401651",
+    "pr": "Abusive",
+    "co": 0.9797,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This is political criticism of Laftagareen's leadership in South West Somalia, criticizing his parliamentary selection process as undemocratic. It's legitimate political criticism without hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1c7c3ac7d9a0",
+    "t": "@DahirSeed @dqdelite @smukhtar_ @HESaidADeni @ashagelle1 @MohamedAbdiwahb @FarahJuxa @M_Dhabancad @HELugatoor @PresidentMadobe @Laftagareen @AhmedAwadSO @OmarSharmarke The demand in South West is clear\u2014democracy\u2014but Laftagareen bypassed it by installing 95 MPs overnight and securing power. https://t",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@rx_6662",
+    "l": "https://x.com/rx_6662/status/2038522909774242092",
+    "pr": "Abusive",
+    "co": 0.8242,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9988
+    },
+    "exp": "Similar to the previous post, this criticizes Laftagareen for bypassing democracy in South West Somalia. It's political criticism rather than hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a69232b7d3ec",
+    "t": "Go'aamo Xukuumada Somaliland Ka Soo Saartay Sixirbararka\n\nThe Bihi Administration, within its first three months, established a national committee comprising members from the Somaliland Finance Ministry and the Somaliland National Bank. This team was tasked with addressing the rising cost of living.",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Saed_Moumin",
+    "l": "https://x.com/Saed_Moumin/status/2037903898283774363",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9953
+    },
+    "exp": "This appears to be a news report in Somali about decisions made by the Somaliland government regarding the Bihi Administration and financial committees. It's informational content without hateful language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d461cab2bfb4",
+    "t": "from 12 midnight of 29th March, to 1st April, 2026.\n\nThe government under the leadership of His Excellency, Governor Caleb Manasseh Mutfwang strongly condemns this barbaric and unprovoked attack on innocent citizens and assures the public that all necessary measures are being",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@sycamore_times",
+    "l": "https://x.com/sycamore_times/status/2038446583021228241",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9986
+    },
+    "exp": "This is a government statement condemning an attack on innocent citizens, describing it as 'barbaric and unprovoked.' It's official condemnation of violence, not hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0f97983ae6ba",
+    "t": "@bontehh @rigathi @edwin_mbosso Hakuna mambo na Kuwait he is creating unnecessary confusion and it will hand Ruto a second term atulie asimamishe bibi yake kama governor wa nyeri",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@KelvinWatoka",
+    "l": "https://x.com/KelvinWatoka/status/2038517801543950823",
+    "pr": "Hate",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9984
+    },
+    "exp": "This appears to be political commentary in Swahili about Kuwait and suggesting someone should have their wife run for governor of Nyeri. It's political discourse without hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2301d2ab6cfe",
+    "t": "Important Political Statement Issued by the Southern Transitional Council\nSouthern Transitional Council \u2013 29 March 2026\n\nOut of the Southern Transitional Council\u2019s commitment to preserving southern unity, safeguarding the social fabric, strengthening national cohesion, prioritizing the supreme natio",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Molame2030",
+    "l": "https://x.com/Molame2030/status/2038210651198206159",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 25,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This is an official political statement from the Southern Transitional Council about preserving southern unity and social fabric. It's institutional political communication without hateful content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a408477d76f1",
+    "t": "@Avv_Abdirizak @Bandhawoow @Laftagareen @FaqiAlis @Ugaashassanmad @DrJilley @SenDrHussein @M_Farmaajo @Abdishakurmire @HonAbdinoor @AbdulazizQambi @AmbMursal @MrDuqa The people want democracy in South West, yet Laftagareen pushed through a one-day parliamentary selection to maintain his presidency. ",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@rx_6662",
+    "l": "https://x.com/rx_6662/status/2038524182158360733",
+    "pr": "Abusive",
+    "co": 0.934,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9977
+    },
+    "exp": "This is another instance of political criticism against Laftagareen's one-day parliamentary process in South West Somalia, arguing for democratic processes. It's legitimate political criticism.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a934b0b4316e",
+    "t": "Le Conseil tient \u00e9galement pour pleinement responsables tous les dirigeants politiques et militaires du Sud au sein des autorit\u00e9s de fait, ainsi que toute personne impliqu\u00e9e dans la fermeture de ses si\u00e8ges, des cons\u00e9quences pouvant r\u00e9sulter de cette escalade, y compris les tensions populaires. Il sa",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Molame2030",
+    "l": "https://x.com/Molame2030/status/2038211007395315811",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This French text discusses political leadership responsibility in South Sudan regarding consequences of office closures. It appears to be formal administrative or diplomatic language without hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-eb4af365eec5",
+    "t": "The illegal constitutional reform enacted under Speaker Aden Madobe &amp; the lack of an election roadmap (w/ 48 days to end of mandate) is the real crisis. This does not negate imperfect, if not fraudulent, state elections in Jubaland (2024), Puntland (2024) &amp; KGS (2026).",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@yhassan_",
+    "l": "https://x.com/yhassan_/status/2038168916674130164",
+    "pr": "Abusive",
+    "co": 0.6022,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9987
+    },
+    "exp": "This post critiques illegal constitutional reforms and electoral processes in Somalia, mentioning specific political figures and regions. It's political criticism without hate speech elements.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-840aea0421e0",
+    "t": "#Somalia's Somali government forces passing through the Daynunay area 17 km from Baidoa city as they advanced toward Baidoa,  today the South West leader Abdiaziz Laftagareen has been re-elected the president of Somalia\u2019s South West State in the second regional election which the federal government ",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@BashirHashiysf",
+    "l": "https://x.com/BashirHashiysf/status/2037940440129769953",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9986
+    },
+    "exp": "This appears to be news reporting about Somali government forces movement and election results in South West State. It's factual reporting without hateful language.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-db90a1c02053",
+    "t": "KONOIN'S EMPOWERMENT \nPresident -2M\nDeputy president kindiki-1M\nCs Murkomen-1M\nCS chirchir-1M\nEng Sudi-1M\nSenator Aron cheruiyot-1M\nWakili Sigei Bomet senator  plusfriends -3.5M\nSonko belgut-500k\nFelix kosgei-300k\nBimbin 200k\nBrighton MP -300k\nWomen rep Toto-100k\nPC sigei-100k",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@Frankli95653357",
+    "l": "https://x.com/Frankli95653357/status/2037933234034553114",
+    "pr": "Normal",
+    "co": 0.9976,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9982
+    },
+    "exp": "This post lists various Kenyan political figures with monetary amounts, appearing to discuss political empowerment or funding in Kenya. No hate speech elements are present.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c284a8cf0041",
+    "t": "Dilling Writes a New Chapter of Resilience: The Sudanese Armed Forces and Supporting Units Repel Rapid Support Militia (Janjaweed) Attack in a Decisive Battle Affirming National Unity\n\nIn a field development that reflects the resilience of the internal front and the firmness of forces on the ground,",
+    "d": "2026-03-30",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SudaneseEcho",
+    "l": "https://x.com/SudaneseEcho/status/2038173748482699631",
+    "pr": "Normal",
+    "co": 0.9822,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 33,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post reports on Sudanese Armed Forces repelling militia attacks, using formal military language. It appears to be news reporting about conflict without hate speech.",
+    "rel": "possibly_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-9c1731f6f118",
+    "t": "National Treasury CS updates the National Assembly Budget Committee on Kenya's external funding pipeline for the remaining part of 2025/26.\n\nPipeline builds to about US$1.2 billion worth of funding as below: \n\n\u00b7 US$750.0 Million from the World Bank under DPO VII\n\u00b7 US$200.0 Million from AfDB\n\u00b7 US$170",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@AmbokoJH",
+    "l": "https://x.com/AmbokoJH/status/2038525937524896181",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post provides factual information about Kenya's Treasury updates on external funding pipeline, containing technical financial details without any hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6f36d31930a4",
+    "t": "@rozzykanyua @philipmathekaj @jennykanyiri @JohnMusang7262 @WMatamano @WamahigaN @ItsDrMutwiri @EngrOchi @RChemutai @sylviepaloma @Josephkihiu12 @raphn @Ronokibet11 @ObadiahKipchir3 @PatrickRudiger2 @CessNdiritu @ItsOnesmus254 @MichukiGavana @wambokamaa @Davidwaflower9 @Annmitchel5 @kunguruu @kibe_t",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GOVERNORKAHUHO1",
+    "l": "https://x.com/GOVERNORKAHUHO1/status/2038485234383999446",
+    "pr": "Normal",
+    "co": 0.7547,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This appears to be a social media mention or tag list of various Kenyan Twitter handles without any substantive content or hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-92d9921c4428",
+    "t": "@ItsDrMutwiri @EngrOchi @RChemutai @sylviepaloma @Josephkihiu12 @raphn @jennykanyiri @Ronokibet11 @ObadiahKipchir3 @PatrickRudiger2 @CessNdiritu @philipmathekaj @ItsOnesmus254 @MichukiGavana @wambokamaa @Davidwaflower9 @Annmitchel5 @kunguruu @kibe_tz @MUTEMBEI1D @elijahsumbeiywo @itsjohnndaiga @AAki",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WamahigaN",
+    "l": "https://x.com/WamahigaN/status/2038474942413488339",
+    "pr": "Abusive",
+    "co": 0.7046,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "Another social media mention or tag list of Kenyan Twitter handles without substantive content or hate speech elements.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-e5568065e907",
+    "t": "@mauriceoyamo @ParassisO @PundaReloaded @AgapetusWamalwa @slmiheso @otienood3ra @kiman39030 @KarisKillian @mwithigaP @PundaReicarnate @StanleyOpiyo5 @Ombati_Basweti @AmechokaPunda @punda_amechoka @RobertOGILLO1 @mwithiga @Wanduta @salim @edwinsifuna @SakajaJohnson @WilliamsRuto @ProfKibwana Even in ",
+    "d": "2026-03-30",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@WaNduta8",
+    "l": "https://x.com/WaNduta8/status/2038517794900226491",
+    "pr": "Abusive",
+    "co": 0.9922,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-03-30",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "Yet another social media mention or tag list of Kenyan Twitter handles without substantive content or hate speech elements.",
+    "rel": "relevant",
+    "kb": []
+  }
+]
