@@ -1,0 +1,23 @@
+Metric,Value,Notes
+Monthly cost (Apify),$38.50,Social media scraping
+Monthly cost (Anthropic),~$1.10,Claude Sonnet QA
+Total monthly cost,~$40,Full pipeline
+Daily cost per run,~$2,Apify + API
+Inference speed,4-10 items/sec,2-vCPU CPU-only
+Batch size,64,BERT inference
+Max token length,256,BERT input
+LLM QA batch size,10,Claude Sonnet
+Pipeline phases,12,Full run_pipeline.py
+
+Apify Keyword Performance,,
+AS_CASUALTY_FABRICATION,"hits=11, fp=37",
+AS_GOVERNANCE_PROPAGANDA,"hits=3, fp=10",
+AS_GAZA_RECRUITMENT,"hits=0, fp=54",
+ISS_PROPAGANDA,"hits=2, fp=8",
+SOMALI_DEEPFAKES_FABRICATION,"hits=2, fp=52",
+SOMALILAND_FALSE_CLAIMS,"hits=0, fp=50",
+SS_FABRICATED_NARRATIVES,"hits=4, fp=15",
+SS_MACHAR_FABRICATION,"hits=0, fp=48",
+KE_COORDINATED_DISINFO,"hits=25, fp=29",
+KE_FALSE_ETHNIC_CLAIMS,"hits=5, fp=20",
+FOREIGN_DISINFO_OPERATIONS,"hits=0, fp=46",

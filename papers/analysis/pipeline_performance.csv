@@ -1,0 +1,20 @@
+Metric,Value
+original_dataset,14754
+after_llm_qa,5987
+noise_reduction_pct,59
+correct_retained,4048
+questionable_retained,2948
+misclassified_removed,7424
+relevant,8547
+not_relevant_removed,4774
+possibly_relevant,1099
+
+QC Label Distribution (verified dataset),
+qc_correct,4144
+qc_questionable,2888
+qc_unknown,2
+
+Relevance Distribution (verified dataset),
+rel_relevant,6306
+rel_possibly_relevant,726
+rel_unknown,2
