@@ -4,7 +4,7 @@
 
 Online hate speech in East Africa functions as a measurable precursor to large-scale political violence, yet the infrastructure for detecting and responding to it remains fragmented, expensive, and poorly adapted to local linguistic and cultural contexts. This paper presents IRIS (Integrated Rapid Intelligence System), an end-to-end deployed pipeline for multilingual hate speech and disinformation monitoring across Somalia, South Sudan, and Kenya. IRIS combines rule-based filtering, fine-tuned BERT classification, and LLM-augmented quality assurance into a five-stage detection workflow that processes social media content from automated Apify keyword sweeps and Phoenix narrative-driven gathers. Drawing on a dataset of approximately 80,000 candidate posts collected through approximately six months of retroactive keyword-based scraping (mid-2025 to early 2026), IRIS produced 7,034 verified hate speech classifications with human-readable explanations and threat-level assignments. Daily automated monitoring has been operational for several weeks; the bulk of the corpus derives from retroactive collection.
 
-The pipeline's classification architecture centers on EA-HS, a bert-base-multilingual-cased model fine-tuned on approximately 12,000 East African social media posts spanning Somali, Swahili, English, and Sudanese Arabic. EA-HS achieves 0.89 F1 on held-out evaluation and is supplemented by three language-specific models for Somalia, Sudan, and Kenya. A Claude API-based LLM quality assurance stage reviews all BERT-positive outputs, generating structured explanations, assigning hate speech subtypes across eight categories, and removing false positives — reducing BERT-positive volume by 59% while retaining high-confidence genuine classifications. The full pipeline, including social media collection, multi-model inference, and LLM review, operates at approximately $40 per month, making continuous deployment feasible for civil society organizations and development agencies in resource-constrained settings.
+The pipeline's classification architecture centers on EA-HS, an XLM-RoBERTa model (xlm-roberta-base, 278M parameters) fine-tuned on approximately 12,000 East African social media posts spanning Somali, Swahili, English, and Sudanese Arabic. EA-HS achieves 0.89 F1 on held-out evaluation and is supplemented by three language-specific models for Somalia, Sudan, and Kenya. A Claude API-based LLM quality assurance stage reviews all BERT-positive outputs, generating structured explanations, assigning hate speech subtypes across eight categories, and removing false positives — reducing BERT-positive volume by 59% while retaining high-confidence genuine classifications. The full pipeline, including social media collection, multi-model inference, and LLM review, operates at approximately $40 per month, making continuous deployment feasible for civil society organizations and development agencies in resource-constrained settings.
 
 IRIS integrates into two parallel operational monitoring modalities: a Disorder Events system tracking narrative-level disinformation campaigns, and a Hate Speech Posts system tracking individual-post subtype distributions — both linked to a structured P1/P2/P3 alert protocol and a live dashboard used by UNDP and civil society partners. This work contributes an operationalized, low-cost multilingual pipeline, a domain-adapted BERT model for East African hate speech, and a documented methodology for integrating LLM-based quality assurance into production NLP classification workflows.
 
@@ -121,7 +121,7 @@ Verified posts (7,034)
 - Flag posts matching ≥1 indicator as "HS candidate"
 
 **Stage 4 — BERT Classification:**
-- EA-HS model (bert-base-multilingual-cased fine-tuned on ~12K East African posts)
+- EA-HS model (XLM-RoBERTa fine-tuned on ~12K East African posts)
 - Outputs: 3-class prediction (Normal, Abusive, Hate) + confidence scores
 - Supplementary models for language-specific refinement (Somali toxicity, Sudan hate speech)
 - Retain posts classified as Hate or Abusive (>0.7 confidence threshold)
@@ -204,9 +204,9 @@ East African hate speech often relies on culturally-specific terminology, coded 
 
 ### 4.2 ML Classification
 
-**Primary model: EA-HS (East Africa Hate Speech BERT)**
+**Primary model: EA-HS (East Africa Hate Speech)**
 
-- **Architecture:** bert-base-multilingual-cased, fine-tuned on ~12,000 East African social media posts (mixed language)
+- **Architecture:** XLM-RoBERTa (xlm-roberta-base, 278M parameters), fine-tuned on ~12,000 East African social media posts (mixed language)
 - **Training data sources:**
   - [placeholder: reference training dataset paper / analysis]
   - Collected from X, Facebook, TikTok across Kenya, Somalia, South Sudan

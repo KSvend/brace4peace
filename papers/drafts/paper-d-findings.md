@@ -75,7 +75,7 @@ Posts were classified using the IRIS automated classification pipeline, a 5-stag
 1. **Noise filtering** — Removal of duplicates, spam, and bot-generated content
 2. **EA relevance gating** — Rule-based and model-based filtering to retain only East Africa-relevant posts
 3. **Rule-based hate speech indicators** — Matching against a curated dictionary of ~140 East African hate speech terms and patterns in Somali, Swahili, English, and Arabic
-4. **BERT classification** — EA-HS multilingual BERT model (bert-base-multilingual-cased fine-tuned on ~12,000 East African posts) classifying posts as Normal, Abusive, or Hate; supplemented by three regional models (Afxumo for Somali, Sudan HS v2, Polarization-Kenya)
+4. **Transformer classification** — EA-HS model (XLM-RoBERTa, xlm-roberta-base, fine-tuned on ~12,000 East African posts) classifying posts as Normal, Abusive, or Hate; supplemented by three regional BERT models (Afxumo for Somali, Sudan HS v2, Polarization-Kenya)
 5. **LLM quality assurance** — Claude API review of BERT-positive outputs for false positive removal, explanation generation, subtype assignment, and macro-categorization (Hate Speech, Violent Extremism, Disinformation, Peace, Mixed/Monitoring, Unknown)
 
 All results reported below are model predictions; error rates and validation performance are documented in Paper A's evaluation section.

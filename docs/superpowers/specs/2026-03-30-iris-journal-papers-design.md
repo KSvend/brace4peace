@@ -68,7 +68,7 @@ The design and evaluation of a deployed end-to-end pipeline that combines rule-b
 
 #### 4. Classification Methodology
 - Rule-based stage: 140+ East Africa indicators, local-language dictionaries (Somali, Swahili, Arabic dialect terms), noise rejection, non-EA fast reject.
-- ML stage: EA-HS BERT model (`bert-base-multilingual-cased` fine-tuned, 3-class: Normal/Abusive/Hate), plus 3 supplementary models (Polarization-Kenya, Afxumo Toxicity, Hate Speech Sudan v2).
+- ML stage: EA-HS model (XLM-RoBERTa `xlm-roberta-base` fine-tuned, 278M params, 3-class: Normal/Abusive/Hate), plus 3 supplementary BERT models (Polarization-Kenya, Afxumo Toxicity, Hate Speech Sudan v2).
 - LLM QA stage: Claude API for explanation generation, false positive removal, HS subtype assignment.
 - How the stages interact — what each catches that the others miss.
 
