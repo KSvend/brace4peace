@@ -1,0 +1,345 @@
+post_id,country,prediction,stratum,primary_annotator,is_shared,cross_annotator,source
+f5a7db32-3d86-39c7-5c89-ec474344fca9,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+a690af5e-39a0-0150-fcf6-4cdc90d17c23,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+1d2902b4-eb07-1320-ec77-5e482a4684b1,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+5e7ca30a-3c7c-dc01-9b6f-196a59391417,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+9f07f816-f174-84fa-bcaf-08ce0ca5dc33,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+faaf0671-a146-286f-0b5d-5223f7b550b3,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+2c1846e4-3037-22b4-39f8-791cedd4235e,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+886e7ff5-550d-6dfa-1adb-a95e77587e81,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+a16897ae-07c8-72a2-0aeb-f1825cf66cd2,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+6f09a2ad-ab72-eec8-28e3-20bb17afcbf1,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+0f902031-9f8e-ca36-fd35-500ac5ba216e,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+d6d663c2-d6c9-594a-3dd3-dd4779b6851a,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+27c73947-970c-3a5a-e9ef-7f356c606797,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+54a6a0fb-458c-2fa7-5a0a-4008057d8145,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+b6359ab7-542a-4298-b5c5-dbe85b819288,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+ce1d24ce-4e95-41fd-b3f8-28a401d2828c,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+5a53daaf-a6f0-27f9-2642-71de75b9be8a,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+d2b6d2a7-b3b5-fa39-513c-de747ff347b8,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+5ad2c998-76d1-2987-129b-aa137a4679da,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+36cc0d5f-4a1c-bd19-53ee-b6db7db07cd1,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+449cc0a9-43b6-f833-0c1a-c64cd2201088,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+63800dac-058d-1b25-b0ef-8f716d0978ec,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+3646a195-151d-ef09-c250-f25b25f53e90,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+8ee73434-09c9-b456-b88b-e5b71b3bd938,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+0fc4501b-b5e5-ec4d-ac7e-4f32db72e2b5,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+5d62338e-b650-ebe1-ea47-4bdcd1ff7ca9,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+b57fcd4d-5818-256b-d59f-03bb1053b754,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+a0996a50-491c-007c-8b2f-6a763f37b92b,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+b6a6b68e-d509-aca5-18ae-f97ef940b015,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+6dd04fcd-1808-2e48-38e8-468056ae21c1,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+dd1a2a45-25ff-0ed2-77b4-401afed285c5,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+2b39f2b3-81e4-6efc-0170-f37729a272e5,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+c2227faa-5ec4-0c4f-e475-f42d9ecbc7ef,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+9fa2a482-a8af-1f95-72f5-9138eb25cfa3,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+e2638ac4-5934-4ef8-89f6-c32ca13ec7d9,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+b71fdb9c-2f6e-4ea1-680e-da35197f1009,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+bac4b1ed-2dfe-9425-b07d-25c7653eb8b1,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+225430a4-64a1-e02e-7866-abc44814608a,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+2ec0d723-c94e-6e6c-a8bb-227fb53b9cc7,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+0ae8568a-6971-59d5-d8ff-10bb1b5fe360,Kenya,Hate,Hate,annotator_kenya,False,,pipeline_positive
+8df1c4eb-d0c4-2206-c9a1-24f66bf4308a,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+6b3625bf-377a-7070-9dab-42539cbddeb8,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+e10c323e-15e5-3d9a-5a3b-d2f5737a6a72,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+515a05da-4958-7038-4ee2-5e889ed5d4f3,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+1405cd9e-6690-57ad-c2fe-e265c238958a,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+1f417baf-f326-5128-d7c0-d6725c081f1f,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+fca99f2a-ab69-2ce6-c800-aa62c6f480f2,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+4c00d914-d7e7-0421-e191-ab9abaa12102,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+apify-0fe993ec6024,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+941dec03-c9ed-df9d-b3fc-b24596aa5aea,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+3ab7d91d-2409-f6b1-ff81-05fea10a1994,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+857a14a6-b059-0d88-9977-5803c637d7cc,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+e92c81ca-c334-c8de-98cc-e2477bb0f26e,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+9b7985a3-e391-726b-2422-0b07b481b92d,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+1f417baf-f326-5128-d7c0-d6725c081f1f,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+1f417baf-f326-5128-d7c0-d6725c081f1f,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+69a08b17-0632-71a2-1fc9-587457a36c74,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+d11701f8-f95b-783f-10f9-d42ddea40f94,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+714ec705-03cf-38e9-377f-1ae4904a3126,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+bf089108-9d12-7115-907d-e61a8c3a06c1,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+dc35d9ba-0dc0-c212-4cea-2641587f5e18,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+98352b40-3712-8d7d-6935-0ad06f8d79ae,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+27b3415c-93f9-6f93-790a-7a34155b274c,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+1f42fe6c-2a75-0427-04ee-272286431428,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+1f417baf-f326-5128-d7c0-d6725c081f1f,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+2d0b9c29-0863-2f6c-f342-d4b08505741a,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+39280195-f0f8-8a2c-b5ee-3cd2de19a1c7,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+141d1b5b-cb30-2f3e-a34f-5d9e7413ce7d,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+ab0aebe4-6871-d928-f3e9-f08356ad03e4,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+f5a108b1-3ad4-bfc3-abf8-4b7848cfa521,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+d6998ac6-3e21-3fed-7bc3-363ca2736a7d,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+f6dfbaf4-82de-dd71-5efd-b74e5a577034,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+4c845f99-1c56-e48b-1310-d32bf9b87e0b,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+786d0fbc-fe17-c211-ac88-b6a0c13a79e4,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+87a54213-bac4-99f8-2170-813904583b63,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+1f417baf-f326-5128-d7c0-d6725c081f1f,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+0cb50c0a-11ee-f327-25c6-8caba84f34ae,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+3270a629-24ce-65f7-7d49-21b372f7246e,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+999ac0ea-b876-46cc-560f-4c90ead68cf4,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+aa9bb396-c245-6f82-a43c-b87e0c583a66,Kenya,Abusive,Abusive,annotator_kenya,False,,pipeline_positive
+1588c2ce-91be-88ce-7b11-dba9f706b0e6,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+ca816b33-435d-556a-b4b5-fac50940f8e3,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+62ed037d-a7a1-fd5d-71b5-5f528aa00644,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+a0606d54-3557-fd62-62a6-86151ecaf848,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+c38f6e3c-1404-b274-fa0c-9545712e91ce,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+d93bf473-6f52-8d17-7030-4f9408ed48c6,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+ec749320-0172-9ded-f938-02351d21dac7,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+6c8ab519-2a7f-0114-6f36-e0bcfa8fe688,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+9d4ae05d-7fb1-62b4-d9c0-ddcfe18312f0,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+db648001-e44e-ff33-28e3-d5d9635103ea,Kenya,Questionable,Questionable,annotator_kenya,True,annotator_somalia,pipeline_positive
+0d6e2fa0-7e04-8612-8902-dc6101b9d55b,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+cdb83bf0-a918-1319-495a-1bcd7ab5906c,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+27bc323c-ad72-56d4-c828-0a345cc0694a,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+apify-8be590bd1016,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+80f3b964-7324-c5b1-7526-eb4d2dc5d04d,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+bf55d7f5-72be-1704-fbe2-f307789e309d,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+62159ffd-b7ff-4866-50f5-e5fb6feba544,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+1f9dcd05-5d64-97a0-f14d-3aa2f37fe7b9,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+4f736f32-3b74-c8a2-878d-3602161c89c0,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+9190611e-d0f3-2604-7c9b-e8d32b24ccd0,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+a71d3375-e176-56d8-5828-4d2d1e79e04e,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+811cbc46-06eb-d493-47e0-352f80da89aa,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+f30ad696-b88e-081f-241d-974fca8f9eae,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+5ade4cc0-930e-8228-ed2d-93d617165d69,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+1c98a424-3d23-0d0c-ec8d-3cdadcd53bd2,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+3c32ad79-11d5-e8dc-84de-f15a48dbe9c1,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+8e029cf0-31f1-51a3-89c0-f06387cd3d38,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+e6d88ef8-a602-8308-3869-53f9fa021949,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+8f5c5176-a03e-60a0-be4c-26c4168cf968,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+9a86e43f-223f-e702-60e5-114e68dbbbcc,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+350537c7-de42-2eda-4c98-8a2f6c68b360,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+c35563cc-5735-074e-f714-7bc50aad5025,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+7f2f4c50-ec38-4cad-1f55-156c4221f313,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+f76ab93c-1e56-08c0-3e26-84651612b1f4,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+,Kenya,Normal,Normal,annotator_kenya,False,,pipeline_positive
+apify-6a5c5c4b7576,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+apify-51d41e777ed8,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+b5eef989-5446-4495-fd86-ef727fb57a75,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+e2e88c39-3978-813e-2fd1-d87f64ae67dc,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+d0822b85-8400-8c70-44c7-cdab7f85d98e,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+19c37928-537c-4225-ff00-95ec7126ceb8,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+88249037-e7ae-577d-f2a2-7aa401045147,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+0ea05ba7-3eeb-b900-86d8-f447e1e7dc2e,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+4dc7924c-bbab-1862-8671-67cffaf50cbf,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+c85da597-f918-d361-79f8-16885981d2c0,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+9bbf2fa9-9628-265a-05ca-c67a28ec2685,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+b6fbbb38-e9d1-f7e6-9844-c5b1f6c9aa8f,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+c2039c06-e493-0fbe-422a-87ffde2a7926,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+882c96a0-7a56-d89a-1a81-df06081954cc,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+952ba1fc-a2ea-91d9-747f-025c2c9801c9,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+029fe040-382d-060f-13d9-f6086904d1b0,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+3a709e12-590a-8f58-2327-0fb06ce4d970,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+e8bbe3df-5566-d40e-aa54-7fbac1e033ed,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+2e918ef9-e756-3635-96db-4f4fcf677310,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+0830c190-d78b-ab0e-9365-7f2a012c5a8b,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+0c35b6dd-bf08-45d7-ba35-edd3d39c5b8e,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+beed0ec2-bfe8-a36a-e3b4-57af8d80f4c1,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+f1bc4cd5-884b-197b-1480-cbf00075ec3a,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+apify-44e8368000c2,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+4cf6d6ac-a6b3-52e1-1bdc-2f05b7b41234,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+cd117baf-2290-0c96-7cc1-ef711f6e105f,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+24b0f83c-970d-a20f-3bf7-f396d6734ddf,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+apify-95211a4930b5,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+4416ec89-e2a3-ef46-d8d9-850e27208265,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+8edbb3e7-7b9e-d227-a552-af2016669310,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+241383a4-f846-1849-dc24-28eaf76ff49c,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+8eaf5118-f45d-1d7b-ab2b-420ff366cdf6,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+78e9f6ce-0439-2949-12d8-7202d56eef72,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+b8b181a5-2146-0eb7-0e99-30892a5d2686,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+c11efe12-7e0e-7766-1e4c-dcaa416ff539,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+4dda85d5-fd5f-ad65-348f-bbf3feda10e0,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+6cba3bcc-e8c0-b0f1-895b-0cd1e3462a95,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+da860017-61e1-fe58-3b6c-2ef42464d81e,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+apify-165c7f5e01cb,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+17009143-a1bf-e6be-61d0-b8a5af5ec8f7,Somalia,Hate,Hate,annotator_somalia,False,,pipeline_positive
+1f2dea7f-9847-a8e9-de39-125ea1f66eaf,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+363f1d29-38b7-143d-1258-27d5b081d00f,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+74e159e6-fecf-f0ee-541d-2573107dd7a5,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+788ea990-d3b9-c3b5-c387-7396ab41c860,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+apify-ff5e56ccd98a,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+b7264ed5-f779-c109-ceb5-6ee930b2a334,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+0ff2c8ad-8b6f-89ff-3f45-74d735c064bc,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+0a8b7eb1-5b70-6d83-3ac7-b5e973741ee2,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+3b75cde0-3819-7f49-fb3b-3f237a4e4871,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+6c08587c-2f91-9c34-9356-f4e594491d2d,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+0d94a54a-30cf-f01b-3d35-38f19895fbdb,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+3476f83d-c7cc-ce88-861a-cc2639eb0e8c,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+07cb09c7-8587-9c17-9298-00f8ebd13650,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+068ef2e4-b314-b5cc-b06b-ee9018b30273,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+564033cf-263e-38e8-1afb-0655c7a09443,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+b47d6a99-3ac2-1496-74f1-53dcca99f998,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+589a916c-e40f-f82c-88f5-577550893ca3,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+apify-386b607ed3e0,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+c905de18-d607-b8ed-5c2d-1b4cfd5162c6,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+fcfb5405-f715-07ad-2d98-6a60bf452355,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+15f943a3-a744-6f21-160b-8ff0588fa6a1,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+c2d305e2-8d9a-2552-84c6-fdd675bf8df9,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+3d9e29f2-ad1a-b469-0b55-ef0ce790ebf9,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+9f176a54-916d-3719-f78e-0cb940814c78,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+c4579c6b-4111-0245-4879-544542547dec,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+13c83745-5319-9742-0eff-3499e430fbaf,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+bf09490d-067c-9199-6e4c-14d15df158ad,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+0a8e7d7c-545e-026c-5e10-922a7368ffcb,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+7b643bff-1e8f-0f02-23f7-442242b82f70,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+1d019fe1-15fb-751b-8dbf-b9b762d2fe02,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+efdb62ae-efcd-f18f-d468-7e397147d118,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+0f7f80f5-f510-91c9-59c0-07a862d93f4d,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+cf4685e1-8320-7982-229d-27339f11cf11,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+2deeae07-b2e8-32a2-2f3a-a1eeea0178cc,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+e07fd2b8-bdf0-80de-0551-ef67dca662bf,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+5048b58d-69e3-c5a9-58bf-bb3737adcfd4,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+a718ce56-16d3-465e-883e-a2d0033e70b5,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+0fb1cd6d-65eb-a053-2e03-409c6a3cf39f,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+51db0af3-511b-0310-acd8-93267d9a6921,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+e6bc77a6-03e3-8f0c-da89-244c346e9306,Somalia,Abusive,Abusive,annotator_somalia,False,,pipeline_positive
+0e9129e0-287b-6915-0f2f-b0ea1c9ef256,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+3bace743-d8a0-54be-ae78-cbad14284ca0,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+30738cfe-aab8-ed3b-eb4a-c391a919d2a2,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+9c0b9930-f429-09c5-3adf-291aa14dabab,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+e0d45efd-09a4-4a53-2faf-6b8a990d6495,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+cc998c74-fe3b-4430-17ad-286bbcdd83a9,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+54923b1f-fd96-2d2a-e3e7-dd77c772ce7d,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+b308cb9a-5937-b4c8-7ecc-939ac91d5b7e,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+f1819696-5f3e-711d-bbfa-df09e4f1ff85,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+ae247a35-a601-2d93-a4d1-708384b5f818,Somalia,Questionable,Questionable,annotator_somalia,True,annotator_south_sudan,pipeline_positive
+82b76f82-a93b-95c1-ec52-40ec3a06f12e,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+2524c8c9-a381-341e-e340-f02afe2c24fa,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+45e58a4d-5603-dd84-99d0-70d801b33be2,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+5a803040-4f21-93a5-4955-589d890f0453,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+7ce04703-48cd-90b1-c33c-7a10b864e1ad,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+apify-4148effc9af6,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+59941455-316d-3753-ac6f-330166b1c504,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+apify-a8933ab7afa6,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+e40be2d4-f5a6-5873-c77d-e24ffd228d6a,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+apify-2b4aaed9b28f,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+cc101c84-d104-4ca6-58c7-78c2cfa2ed1a,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+c369856d-693c-929d-24e4-c7d8ca5ed5ad,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+35352a59-b522-8a2f-b9ab-654f6901b2c1,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+7d90d228-6849-8098-7fdc-57a766ae1a5d,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+dea74cf4-fbe5-e6ea-f5dc-520e9fe5401d,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+0aea7598-5603-3fbb-402c-4d17425c7ab5,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+442fc493-3afc-273f-7548-22d0ec6fbce6,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+71fbd26b-0276-f79b-783c-6b9ed7795911,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+f2cc46d9-cb59-868f-892a-7b0d9db4e283,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+4809423c-75ff-6161-0cee-6bdd045cb087,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+ffd5684e-3cd4-04dd-f8f5-76727b6201c3,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+26d79afd-7d99-2638-17ce-8c115ae043f7,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+21e37b52-7755-ea11-9799-e3fb69952cbf,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+c1e119a4-1aaf-07a2-8515-c93d59f375ae,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+ea5519c2-b46a-6abe-ac87-3c2cac78d3c8,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+8815e794-6523-7434-e091-a767b05a5ee8,Somalia,Normal,Normal,annotator_somalia,False,,pipeline_positive
+0cde5d04-423c-691e-4e37-43f535099f42,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+cdcbaf57-2f82-0d3a-c264-ac1407318236,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+9c779ad4-688e-d0a0-8ba7-42402c7bb85b,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+831154f4-797a-7a1a-b632-20df89bcc64b,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+ab7e9bdb-fc50-9922-41d0-2389f755defb,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+f4c35902-12ef-fc5c-e71f-c9fb8e9142d6,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+23e13532-25b0-4d25-0082-53b34543cb10,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+7abed338-2b91-114c-ade7-1376f3c39268,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+602e36a7-914b-8093-dd00-40c1d25f8b3d,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+4ec23b28-4a13-a280-5af1-59ea2a24e23e,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+ffea46d2-9e42-cd7a-e32a-7b29f72ee7c2,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+12ea9232-a134-bc01-b2cc-959888431991,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+193b47ea-5436-739f-e555-d0265cd2be92,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+apify-33336ba63964,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+a7da0117-f2ff-4895-42d6-1e93944a77dc,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+ea93ad0e-2e82-e294-6b9a-2054c31a6edd,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+f094aeb0-9350-72b5-9959-d229a88b6511,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+d75e8e7f-aa0d-2ad5-a4bf-cb6ce1f3ce3a,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+b25d98b5-b352-3964-e729-2d4cda2c9c50,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+db817d4a-b97a-e4b7-4aa7-f8e2d85822ca,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+284c20ee-579e-2634-1443-26cbc9a57ff1,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+f574e3ee-eb8c-ceb9-1465-f81b5b5311bb,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+c1353e14-feee-ca9d-d168-c359ad208d7e,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+23b0e637-a84c-c957-3ee2-8fa3fd9d4686,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+08095563-0cc9-f8f9-78da-cbde0c4e82d3,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+8ba2d900-6db1-4cd4-9d3c-267a554ca134,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+6e978ab6-2270-148d-e6a0-3062152b3bb7,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+1bfe2826-2621-9719-a8ce-6ced04292ec1,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+902b48d3-4565-fe69-2e3d-6c9f327dce5f,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+d991dd5e-04ce-eb7f-c877-cb0c20841074,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+6c44f19a-6597-a91e-564b-6adb90161b50,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+59c0c78f-052f-3660-0362-0455d384baf8,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+4acd8704-77f0-0dfc-6145-9231e0fc375e,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+d974da51-ed2e-aaa9-87ad-3a1e38cc4c47,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+65d781c1-26ad-ae49-d892-642932e3bf29,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+589e3120-9385-2367-4c0e-b5c6ceb832dd,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+312dd394-f302-8800-477d-1693e701408e,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+f1fe39d0-7546-0a19-d51d-665a7ba4c821,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+05ebc7b9-1ede-cbf7-6df5-ab4b22a14256,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+a8230f17-03cb-6ed9-af00-79ee198e89b0,South Sudan,Hate,Hate,annotator_south_sudan,False,,pipeline_positive
+9fb7a342-4055-bd4d-67ac-75a016e6e49c,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+2ac8319f-3729-79b5-af52-ab83ed5f09c1,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+110bfd3f-1250-9188-735b-08dacd3e3da7,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+2fa722a0-ae44-7225-a02d-0603b0c3aa60,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+3a5a35a0-ab6b-fda9-62a6-10bd0d14a20f,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+e54e1e8d-91f1-2049-f7f5-77be9ddc41f8,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+8ba07b94-a699-e323-eb1b-73ed5fa29812,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+c8dba9e3-e165-55ea-8c61-0843098aa14e,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+89228f11-72d7-1b5c-6d4d-ada81a0dce1d,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+02509c72-ad49-9c33-b7de-3bc4766e23fb,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+c5445834-c039-805e-3f32-9babb17f1bdb,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+dda43ffa-89ff-524c-e0f9-144636da9943,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+86eca5a9-8323-38b4-3695-ff10a20cfc35,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+aaee7d4a-9899-3e56-5380-f580d9f2bf57,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+966e5909-f8cb-6f8c-3ce6-0e1e64aa38cd,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+c39e0ed4-2582-b808-a5a6-c09e9d1e3fee,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+443e92bd-0452-1f6e-4d6e-aed019e9e689,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+f70bbf31-71fd-74b7-f745-9c6a87780384,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+40570bfe-3afc-16c8-7e8d-44a7f476528c,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+0dca0525-85b7-2769-9bb3-33063121ef13,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+825c9bfb-d953-b8f4-ee1d-613103004fd0,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+6015b3ae-dbaf-e7fa-fbef-20e08d800b76,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+5c368fe3-e859-a6ea-e93e-2674cfd73809,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+e5ec6a01-ad4d-5e4b-275e-0d98a571f580,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+9c7f4b9c-a5f2-74ce-69dc-ba254933867c,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+a10dbc66-3a94-f304-a719-79dfee9dbcf2,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+b129410f-8b04-c80c-e7ec-4f1b899a697c,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+d49d73d1-ca53-de2f-02dc-72bf88a979e0,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+41811732-079b-d09b-cb09-b93b02bc39ab,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+9df357ba-e18c-4052-ab1f-4b07e76cd496,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+ac5add93-8463-5471-660f-d48f4bbd2257,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+e9c235b9-66cd-864f-2842-99476d5f88d4,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+5c75654d-dbbf-cfd5-e765-f73b5e13b18f,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+be4997f5-51fb-410d-3b7b-425af262aef4,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+ff10a109-0e32-fbf2-e760-6aaee64beb6e,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+d4120586-ee83-aeef-d8c3-b3d2a9519185,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+74cc60cb-1e64-3d81-de9f-a03c26d2779b,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+33b4b94a-bf4c-fc23-dd61-cfdee9fb9e18,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+18db8749-322d-e9ed-7ba0-34acd3739c65,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+332a0d18-4f0b-3147-77c5-464d794d26b5,South Sudan,Abusive,Abusive,annotator_south_sudan,False,,pipeline_positive
+085caddb-c19d-7542-f011-fd1c3c790363,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+a931cd00-0bcb-bc78-e43b-74864c7706b0,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+191608a4-beb6-067d-57e5-045dd2446b95,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+e974ea3f-bc2d-5c71-0f2f-9390fd0db36b,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+0200f31e-6069-b4c6-6a1e-00395ce09a84,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+d7604440-1691-fd31-71c2-7a61d414f616,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+f1251357-5b07-8562-37da-0c00f2d44366,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+36250250-2829-d464-eb93-f9a91367ec00,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+0392fd67-3dbb-b9f9-eda6-d732a2d2ec43,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+1b0f6d4a-3602-16fa-73ba-c2cbc0fce135,South Sudan,Questionable,Questionable,annotator_south_sudan,True,annotator_kenya,pipeline_positive
+apify-61f110527160,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+apify-84eb0d3520c5,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+apify-5813b046229c,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+5b6446dc-6609-a82c-5bc8-fd42883ea61b,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+3c7b184a-cc7a-f78d-b3e7-f2a84acb479f,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+ef4d6d3d-87df-9482-eab9-88cba062cee1,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+e4386b61-2cd0-c98d-e2f4-8b7c2f1474e7,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+bd85ce70-e20e-8a05-17a2-e35b42f7564b,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+fbbbaa58-e984-fc1d-4b0b-58e1a6dd06c5,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+7d910ba6-f7e9-10b0-9981-8af5c1817f67,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+f6977adf-3a2e-3fcd-4b5b-6c5f51798847,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+3dd0bfc5-a7f5-ef00-41e2-3cbf8750901e,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+1acaedb2-9993-80aa-01af-8a3e33e9ae51,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+9bdb8344-94d8-c659-7628-8d3e9d35a262,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+9f86b21c-0f69-5148-f160-3189b5f412b7,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+9f20471c-38e7-a26b-ecdd-71c6b7ee87c3,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
+945df569-d889-d721-42e5-b387598e3b13,South Sudan,Normal,Normal,annotator_south_sudan,False,,pipeline_positive
