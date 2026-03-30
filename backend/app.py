@@ -124,6 +124,63 @@ class AnnotationRequest(BaseModel):
     note: str | None = None
 
 
+class BlindAnnotationRequest(BaseModel):
+    post_id: str
+    reviewer_name: str
+    pass_number: int
+    classification: str
+    subtype: str | None = None
+    confidence: str | None = None
+    note: str | None = None
+
+
+# ---------------------------------------------------------------------------
+# Lazy loaders for blind-review data
+# ---------------------------------------------------------------------------
+
+_blind_posts = None
+
+
+def _get_blind_posts():
+    global _blind_posts
+    if _blind_posts is None:
+        path = (
+            Path(__file__).resolve().parent.parent
+            / "papers"
+            / "evaluation"
+            / "sample_blind.json"
+        )
+        if path.exists():
+            _blind_posts = json.loads(path.read_text())
+        else:
+            _blind_posts = []
+    return _blind_posts
+
+
+_blind_manifest = None
+
+
+def _get_blind_manifest():
+    """Return manifest as dict: post_id -> row dict."""
+    global _blind_manifest
+    if _blind_manifest is None:
+        import csv
+
+        path = (
+            Path(__file__).resolve().parent.parent
+            / "papers"
+            / "evaluation"
+            / "sample_manifest.csv"
+        )
+        result = {}
+        if path.exists():
+            with path.open() as f:
+                for row in csv.DictReader(f):
+                    result[row["post_id"]] = row
+        _blind_manifest = result
+    return _blind_manifest
+
+
 # ---------------------------------------------------------------------------
 # Endpoints
 # ---------------------------------------------------------------------------
@@ -376,6 +433,47 @@ async def posts_annotate(req: AnnotationRequest, _=Depends(verify_api_key)):
         }
     ).execute()
     return {"post_id": req.post_id, "action": req.action, "status": "saved"}
+
+
+@app.post("/posts/blind-annotate")
+async def posts_blind_annotate(req: BlindAnnotationRequest, _=Depends(verify_api_key)):
+    """Save a blind annotation (pass 1 or 2) for gold-standard evaluation."""
+    client = _get_supabase()
+    client.table("blind_annotations").insert(
+        {
+            "post_id": req.post_id,
+            "reviewer": req.reviewer_name,
+            "pass": req.pass_number,
+            "classification": req.classification,
+            "subtype": req.subtype,
+            "confidence": req.confidence,
+            "note": req.note,
+        }
+    ).execute()
+    return {"post_id": req.post_id, "pass": req.pass_number, "status": "saved"}
+
+
+@app.get("/posts/blind-review-queue")
+async def posts_blind_review_queue(
+    reviewer: str,
+    limit: int = 20,
+    offset: int = 0,
+    _=Depends(verify_api_key),
+):
+    """Return blind-review posts assigned to the given reviewer via the manifest."""
+    manifest = _get_blind_manifest()
+    posts = _get_blind_posts()
+    # Build set of post_ids assigned to this reviewer (primary or cross)
+    assigned_ids = {
+        pid
+        for pid, row in manifest.items()
+        if row.get("primary_annotator") == reviewer
+        or row.get("cross_annotator") == reviewer
+    }
+    # Filter posts by assignment
+    filtered = [p for p in posts if p.get("i") in assigned_ids]
+    page = filtered[offset : offset + limit]
+    return {"posts": page, "total": len(filtered)}
 
 
 class DisinfoFlagRequest(BaseModel):
