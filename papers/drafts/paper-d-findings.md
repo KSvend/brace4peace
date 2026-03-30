@@ -70,13 +70,13 @@ By platform distribution:
 
 ### 3.3 Classification Methodology: The 5-Stage IRIS Pipeline
 
-Posts were classified using the IRIS automated classification pipeline, a 5-stage deep learning system described in detail in Paper A. The pipeline combines:
+Posts were classified using the IRIS automated classification pipeline, a 5-stage system described in full detail in Paper A (see that paper for architecture, training data, hyperparameters, and evaluation). Briefly, the five stages are:
 
-1. **Language detection and preprocessing** — Standardizing text across English, Somali, Kiswahili, and other regional languages; handling transliteration and code-switching
-2. **Hate speech detection** — Binary classification (hate speech / not hate speech) using fine-tuned transformer models
-3. **Hate speech subtype classification** — Multi-label categorization of hate speech types where present
-4. **Disinformation/counter-disinformation scoring** — Classification of posts for narrative content indicative of disinformation events
-5. **Macro-categorization** — Final assignment to aggregate categories (Hate Speech, Disinformation, Peace, Mixed/Monitoring, Unknown, Violent Extremism)
+1. **Noise filtering** — Removal of duplicates, spam, and bot-generated content
+2. **EA relevance gating** — Rule-based and model-based filtering to retain only East Africa-relevant posts
+3. **Rule-based hate speech indicators** — Matching against a curated dictionary of ~140 East African hate speech terms and patterns in Somali, Swahili, English, and Arabic
+4. **BERT classification** — EA-HS multilingual BERT model (bert-base-multilingual-cased fine-tuned on ~12,000 East African posts) classifying posts as Normal, Abusive, or Hate; supplemented by three regional models (Afxumo for Somali, Sudan HS v2, Polarization-Kenya)
+5. **LLM quality assurance** — Claude API review of BERT-positive outputs for false positive removal, explanation generation, subtype assignment, and macro-categorization (Hate Speech, Violent Extremism, Disinformation, Peace, Mixed/Monitoring, Unknown)
 
 All results reported below are model predictions; error rates and validation performance are documented in Paper A's evaluation section.
 
@@ -407,7 +407,7 @@ This paper has presented the first large-scale cross-national analysis of online
 
 2. **Platform asymmetries**: Facebook is strategically dominant in Kenya and South Sudan, while X/Twitter dominates Somalia discourse. Western-centric platform governance models are poorly calibrated for regional realities.
 
-3. **Substantial disinformation presence**: 430+ disinformation events clustered into 9 narrative families, with strong overlap to hate speech and conflict escalation patterns.
+3. **Substantial disinformation presence**: 430+ disinformation events distributed across 17 coded narrative families (organized within 9 conceptual narrative categories), with strong overlap to hate speech and conflict escalation patterns.
 
 4. **Capacity for automated monitoring**: Demonstrated feasibility of large-scale, multilingual, multi-platform automated classification, enabling rapid event detection and longitudinal tracking.
 
