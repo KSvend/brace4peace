@@ -143,6 +143,12 @@
       "pipeline": "hs_sweep",
       "cost_usd": 0.0,
       "items": 0
+    },
+    {
+      "date": "2026-04-01",
+      "pipeline": "hs_sweep",
+      "cost_usd": 0.0,
+      "items": 0
     }
   ],
   "cumulative_usd": 2.1202,
