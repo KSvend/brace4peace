@@ -1,0 +1,78 @@
+{
+  "date": "2026-04-03",
+  "timestamp": "2026-04-03T07:18:34.559496+00:00",
+  "config": {
+    "run_sweeps": true,
+    "run_ml": true,
+    "run_reach": true
+  },
+  "results": {
+    "0_submissions": {
+      "processed": 0
+    },
+    "1a_watchlist": {
+      "sources_checked": 13,
+      "partners_checked": 7,
+      "total_findings": 0,
+      "sources_with_new_content": 0,
+      "partners_with_new_content": 0
+    },
+    "1b_disinfo_sweep": null,
+    "1c_disinfo_classify": {
+      "error": "No items files found",
+      "events_added": 0
+    },
+    "1d_event_lifecycle": {
+      "to_dormant": 0,
+      "to_resolved": 0,
+      "still_active": 4
+    },
+    "1f_event_enrich": {
+      "links_added": 0,
+      "threat_upgrades": 0
+    },
+    "1e_event_review": {
+      "reviewed": 0,
+      "total": 430
+    },
+    "2a_hs_sweep": {
+      "groups_searched": 11,
+      "total_results": 0,
+      "total_cost_usd": 0.0,
+      "budget_remaining_usd": 0.5,
+      "sweep_date": "2026-04-03"
+    },
+    "2b_hs_classify": {
+      "total_items": 0,
+      "noise_filtered": 0,
+      "ea_rejected": 0,
+      "no_indicators": 0,
+      "hs_confirmed": 0,
+      "hs_high": 0,
+      "hs_medium": 0,
+      "hs_low": 0,
+      "duplicates_skipped": 0,
+      "posts_appended": 0,
+      "autolearning": {},
+      "subtype_proposals": [],
+      "subtype_distribution": {},
+      "country_distribution": {}
+    },
+    "2c_ml_enrich": {
+      "classified": 2,
+      "total": 7034
+    },
+    "2d_llm_qa": {
+      "explained": 0,
+      "total": 0
+    },
+    "2e_quality_gate": {
+      "removed": 0,
+      "remaining": 7034
+    },
+    "3a_reach": {
+      "updated": 0,
+      "checked": 32
+    }
+  }
+}
