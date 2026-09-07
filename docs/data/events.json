@@ -30256,7 +30256,11 @@
       "@primemediakenya",
       "@thekenyatimes",
       "@dchoops254",
-      "@OmarArtand1"
+      "@OmarArtand1",
+      "@TAM_EnterRd",
+      "@dennismwangi22",
+      "@KenyaWeWant_",
+      "@TECNOMobile254"
     ],
     "platforms": [
       "X (Twitter)"
@@ -30401,6 +30405,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/TECNOMobile254/status/2087069262896922959",
         "date": "2026-08-12"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/BuyRentKenya/status/2095030212907942163",
+        "date": "2026-09-07"
       }
     ],
     "spread": 5,
@@ -30444,7 +30453,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-03-23",
     "detection_timestamp": "2026-03-23T07:28:25.223688+00:00",
-    "last_seen": "2026-08-12",
+    "last_seen": "2026-09-07",
     "status": "active",
     "observations": [
       {
@@ -30698,9 +30707,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-07",
+        "url": "https://x.com/BuyRentKenya/status/2095030212907942163",
+        "summary": "#43against1: Somali international referee Omar Abdulkadir Artan was warmly received in Kenya during a special event at BBS Mall in",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 28,
+    "observation_count": 29,
     "_original_headline": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's",
     "_original_summary": "Image: 's 🇰🇪 former DP Gachagua  in trouble as -  BBS Mall  owners petition NCIC  over 's 🇺🇸-  fraud claims. Video: 's 🇰🇪 former DP Gachagua  under fire over  - 's BBS Mall  remarks. (top L&R). Image and Video: 'Drought situation in 's 🇰🇪-  County  \". 7 near-identical posts from 6 accounts suggest coordinated amplification.",
     "extracted_claims": [
@@ -30709,6 +30727,7 @@
     "_review_notes": "Coordinated disinformation targeting a prominent political figure through fabricated business fraud allegations suggests organized political interference.",
     "_reviewed": "2026-03-23T07:58:02.306628+00:00",
     "intensity_trend": [
+      3,
       3,
       3,
       3,
@@ -37789,7 +37808,7 @@
     "detected_by": "iris_classify_2026-06-09",
     "detection_timestamp": "2026-06-09T11:54:04.886443+00:00",
     "last_seen": "2026-06-09",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-09",
@@ -37875,7 +37894,7 @@
     "detected_by": "iris_classify_2026-06-09",
     "detection_timestamp": "2026-06-09T11:54:04.886443+00:00",
     "last_seen": "2026-06-09",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-09",
@@ -45745,7 +45764,7 @@
     "detected_by": "iris_classify_2026-08-08",
     "detection_timestamp": "2026-08-08T09:24:23.363206+00:00",
     "last_seen": "2026-08-08",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-08",
@@ -48389,7 +48408,7 @@
     "country": "South Sudan",
     "event_type": "DISINFO",
     "disinfo_subtype": "misinformation",
-    "threat_level": "P5 NONE",
+    "threat_level": "P3 MODERATE",
     "headline": "Event content is irrelevant; appears malformed.",
     "summary": "The provided headline and summary text are unrelated to South Sudan or disinformation, discussing Radio Moscow and Vladimir Pozner. This event appears to be malformed, with irrelevant content replacing the expected disinformation details.",
     "actors": [
@@ -48465,5 +48484,90 @@
     "_original_summary": "Back in the USSR On the other side of the shortwave dial was Radio Moscow, and among the more distinctive English-speaking voices that emerged from the static was Vladimir Pozner. He explained, defended, and occasionally attempted to make sense of th.",
     "_review_notes": "This event record contains placeholder or corrupted text unrelated to East African disinformation. It requires investigation to determine the actual content or if it's a system error.",
     "_reviewed": "2026-09-06T12:30:20.522918+00:00"
+  },
+  {
+    "id": "APF-2026-09-07-008",
+    "date": "2026-09-07",
+    "country": "South Sudan",
+    "event_type": "CONTEXT",
+    "disinfo_subtype": "propaganda",
+    "threat_level": "P2 HIGH",
+    "headline": "Analysis questions similarities between pro-Turkish analysts' narratives and ISIS propaganda regarding Puntland",
+    "summary": "An analysis by @CirkaNews on X (Twitter) investigates potential similarities between the narratives pushed by Turkish geopolitical commentator Umut Çağrı Sarı and ISIS propaganda, specifically concerning Puntland's counter-terrorism efforts. The analysis questions whether Sarı's commentary, which reportedly portrays Puntland's counter-terrorism negatively, inadvertently echoes themes found in ISIS messaging, drawing comparisons to Manjaniq Media.",
+    "actors": [
+      "@CirkaNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "date": "2026-09-07"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-004"
+    ],
+    "related_events": [
+      "APF-2026-07-27-913",
+      "APF-2026-08-11-786",
+      "APF-2026-08-17-543",
+      "APF-2026-08-21-380",
+      "APF-2026-09-01-109",
+      "APF-2026-09-05-979"
+    ],
+    "disinfo_confidence": "HIGH",
+    "disinfo_justification": "Content references designated VE propaganda outlet 'manjaniq media'; all output is definitionally VE propaganda.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "confirmed",
+    "narrative_families": [
+      {
+        "family": "Attack Claim",
+        "intensity": 3,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      },
+      {
+        "family": "Recruitment",
+        "intensity": 2,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": true,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-07",
+    "detection_timestamp": "2026-09-07T14:30:55.345223+00:00",
+    "last_seen": "2026-09-07",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-07",
+        "url": "https://x.com/CirkaNews/status/1934975949189382447",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_reclassified_from": "DISINFO",
+    "_original_headline": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and",
+    "_original_summary": "🚨Are Pro-Turkish Analysts Echoing ISIS Propaganda? A Breakdown of the Striking Similarities Between Umut Çağrı Sarı and Manjaniq Media Who is Umut Çağrı Sarı? A Turkish geopolitical commentator pushing narratives that portray Puntland’s counterterror.",
+    "extracted_claims": [
+      "Narratives portraying Puntland's counter-terrorism efforts negatively, potentially echoing ISIS propaganda."
+    ],
+    "_review_notes": "This event is an analysis *about* potential disinformation, not the disinformation itself. It highlights a potential link between a geopolitical commentator's narratives concerning Puntland's counter-terrorism and ISIS propaganda. The country context for Puntland is Somalia, not South Sudan.",
+    "_reviewed": "2026-09-07T14:35:32.188676+00:00"
   }
 ]

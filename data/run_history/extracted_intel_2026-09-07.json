@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-07",
+  "extracted_claims": [
+    {
+      "claim": "Narratives portraying Puntland's counter-terrorism efforts negatively, potentially echoing ISIS propaganda.",
+      "country": "Somalia",
+      "actors": [
+        "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+        "Manjaniq Media"
+      ],
+      "keywords": [
+        "Puntland",
+        "counter-terrorism",
+        "ISIS",
+        "Turkey"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Umut \u00c7a\u011fr\u0131 Sar\u0131",
+      "country": "Regional",
+      "reason": "Specific individual identified as a geopolitical commentator whose narratives are being analyzed."
+    },
+    {
+      "keyword": "Manjaniq Media",
+      "country": "Regional",
+      "reason": "Specific media outlet identified as an ISIS propaganda arm for comparison."
+    },
+    {
+      "keyword": "Puntland counter-terrorism",
+      "country": "Somalia",
+      "reason": "Specific subject of the narratives being discussed."
+    },
+    {
+      "keyword": "Turkish analysts",
+      "country": "Regional",
+      "reason": "Actor group identified in the analysis."
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 1
+}

@@ -1633,6 +1633,16 @@
           "status": "proposed",
           "hits": 0,
           "rotations_run": 0
+        },
+        {
+          "keyword": "turkish analysts",
+          "country": "Regional",
+          "source": "event_review_extraction",
+          "reason": "Actor group identified in the analysis.",
+          "date_added": "2026-09-07",
+          "status": "proposed",
+          "hits": 0,
+          "rotations_run": 0
         }
       ]
     },
