@@ -48069,7 +48069,16 @@
     "summary": "Social media posts are spreading claims that foreign-funded protests are destabilizing Kenya, with external actors allegedly misusing civic groups. The Open Society Foundations (OSF) is specifically named as an implicated entity. This narrative suggests a regional pattern of resistance and hints at an 'East African Coup,' amplified using the hashtag #DogsOfWar.",
     "actors": [
       "@hezwachira",
-      "@its_meek__"
+      "@its_meek__",
+      "@kanairofinest",
+      "@Kyson254",
+      "@favour_ke1",
+      "@recreatedd16",
+      "@_ItsMkisii",
+      "@Amazingmasai_",
+      "@DreamBoy254",
+      "@hosea606666",
+      "@TechTonicAi_"
     ],
     "platforms": [
       "X (Twitter)"
@@ -48079,6 +48088,11 @@
         "publisher": "MERLx Social Media Monitoring — Direct content observation",
         "url": "https://x.com/hezwachira/status/1925485465441882497",
         "date": "2026-09-03"
+      },
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "date": "2026-09-08"
       }
     ],
     "spread": 2,
@@ -48122,7 +48136,7 @@
     "data_source": "social_media_monitoring",
     "detected_by": "iris_classify_2026-09-03",
     "detection_timestamp": "2026-09-03T13:06:05.720810+00:00",
-    "last_seen": "2026-09-03",
+    "last_seen": "2026-09-08",
     "status": "active",
     "observations": [
       {
@@ -48133,9 +48147,18 @@
           "X (Twitter)"
         ],
         "reach": {}
+      },
+      {
+        "date": "2026-09-08",
+        "url": "https://x.com/EveryAcreKenya/status/1925582552728813935",
+        "summary": "#DogsOfWar: Why would a foreign foundation fund Kenyan activists to travel to Tanzania immediately after Gen Z protests rocked",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
       }
     ],
-    "observation_count": 1,
+    "observation_count": 2,
     "_original_headline": "#DogsOfWar: As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being",
     "_original_summary": "As foreign-funded protests rock Kenya, Tanzania says “not here.” External actors misusing civic groups are being investigated. OSF is named. The pattern is unmistakable, and the resistance now regional. EastAfrican Coup. Observed across 2 posts from 2 accounts on X (Twitter). Campaign hashtags: #DogsOfWar.",
     "extracted_claims": [
@@ -48145,7 +48168,10 @@
       "There is a regional pattern of resistance leading to an 'East African Coup'."
     ],
     "_review_notes": "This event highlights a significant disinformation campaign attempting to delegitimize protests in Kenya by framing them as foreign-funded and part of a broader destabilization effort, potentially impacting regional stability.",
-    "_reviewed": "2026-09-03T13:11:00.841891+00:00"
+    "_reviewed": "2026-09-03T13:11:00.841891+00:00",
+    "intensity_trend": [
+      3
+    ]
   },
   {
     "id": "APF-2026-09-03-400",
