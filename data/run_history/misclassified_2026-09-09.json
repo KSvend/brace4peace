@@ -1,0 +1,2511 @@
+[
+  {
+    "i": "apify-629e7132b7ba",
+    "t": "Ha u noolanin in aad qof qanciso.\ud83d\udc4d\ud83d\udc4c#foryou #foryoupage #somalitiktok #viral #veiwsproblem",
+    "d": "2025-12-21",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@mohamett_343",
+    "l": "https://www.tiktok.com/@mohamett_343/video/7586269203091459340",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9861
+    },
+    "exp": "This post contains a motivational message in Somali, \"Ha u noolanin in aad qof qanciso\" which translates to \"Don't live to please someone.\" It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ba07b6f55361",
+    "t": "Ha iskibrin bani'adamkad kamid tahay....\n.\n.\n#sheikhmustafe #somalilyrics\ud83c\udf3a\ud83d\ude15\ud83d\udc8e #viraltiktok #foryoupage #fyp\u30b7viral",
+    "d": "2026-01-15",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@wll_hassan0",
+    "l": "https://www.tiktok.com/@wll_hassan0/video/7595500329773370635",
+    "pr": "Normal",
+    "co": 0.8514,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9886
+    },
+    "exp": "This post contains a moral message in Somali, \"Ha iskibrin bani'adamkad kamid tahay\" which translates to \"Don't be arrogant, you are part of humanity,\" attributed to Sheikh Mustafe. It is not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-26ce2dea789b",
+    "t": "waa dilaha qabka bani'aadamka-\ud83e\udef6\u2764\ufe0f\u200d\ud83e\ude79\ud83d\udd25-#dhiirigalin #maxamed #siyaadbare #zaky_somali #zaky_somali_\ud83e\uddd1\u200d\ud83d\udcbb",
+    "d": "2025-10-18",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@moon_rich2027",
+    "l": "https://www.tiktok.com/@moon_rich2027/video/7562627213691063574",
+    "pr": "Normal",
+    "co": 0.9792,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9864
+    },
+    "exp": "This post states in Somali, \"waa dilaha qabka bani'aadamka\" which translates to \"It is the killer of human dignity/pride,\" followed by hashtags including #dhiirigalin (motivation) and #siyaadbare (referring to former Somali president Siad Barre). The phrase itself is a general philosophical statement and not directed as hate speech towards any specific group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d896ebc148fa",
+    "t": "@jennykanyiri @Josephkihiu12 @RChemutai @sylviepaloma @JohnMusang7262 @Annmitchel5 @philipmathekaj @ciiramaina @CessNdiritu @MaIgnatius_Nem @WamahigaN @YoungAmoh1 @JamesVungo @MUTEMBEI1D @AAkiyao @PatrickRudiger2 @itsjohnndaiga @ObadiahKipchir3 @stevestupit @Janetmw25 @MichukiGavana @kibe_tz @Davyie",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@IAmKevintoh",
+    "l": "https://x.com/IAmKevintoh/status/2097568933104570480",
+    "pr": "Normal",
+    "co": 0.921,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of a long list of user mentions on a social media platform. There is no textual content to analyze for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f58388ca6407",
+    "t": "@Josephkihiu12 @RChemutai @sylviepaloma @JohnMusang7262 @Annmitchel5 @philipmathekaj @ciiramaina @CessNdiritu @MaIgnatius_Nem @WamahigaN @YoungAmoh1 @JamesVungo @MUTEMBEI1D @AAkiyao @PatrickRudiger2 @itsjohnndaiga @ObadiahKipchir3 @stevestupit @Janetmw25 @MichukiGavana @kibe_tz @DavyieRhyno @WMatama",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@jennykanyiri",
+    "l": "https://x.com/jennykanyiri/status/2097560829855936671",
+    "pr": "Abusive",
+    "co": 0.9903,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of a long list of user mentions on a social media platform. There is no textual content to analyze for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-fa4c397534fc",
+    "t": "@JohnMusang7262 @RChemutai @Annmitchel5 @philipmathekaj @jennykanyiri @ciiramaina @CessNdiritu @MaIgnatius_Nem @sylviepaloma @WamahigaN @YoungAmoh1 @JamesVungo @MUTEMBEI1D @AAkiyao @PatrickRudiger2 @itsjohnndaiga @ObadiahKipchir3 @stevestupit @Janetmw25 @MichukiGavana @kibe_tz @DavyieRhyno @WMataman",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Josephkihiu12",
+    "l": "https://x.com/Josephkihiu12/status/2097551817601089805",
+    "pr": "Abusive",
+    "co": 0.4836,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post consists solely of a long list of user mentions on a social media platform. There is no textual content to analyze for hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4b6ae670826c",
+    "t": "In the dailies in Kenya \ud83c\uddf0\ud83c\uddea \nWednesday, September 9, 2026 https://t.co/tQ0ocqFU6i",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@IamWafula1",
+    "l": "https://x.com/IamWafula1/status/2097552785113780365",
+    "pr": "Normal",
+    "co": 0.985,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a factual update about \"the dailies in Kenya\" for a specific date. It is a news-related post and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-96a2e7435a9d",
+    "t": "#MillardAyoMagazeti Tz &amp; Kenya September 9, 2026\n\nhttps://t.co/W3wyGgnsqG https://t.co/xwekZEwX3O",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@millardayo",
+    "l": "https://x.com/millardayo/status/2097502068848370030",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post uses the hashtag #MillardAyoMagazeti to share news about newspapers in Tanzania and Kenya for a specific date. It is a news-related post and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b4f0c30c2127",
+    "t": "#Magazetiyaleo \n\nMwananchi \n\nJumatano Septemba 9, 2026 https://t.co/rxpoTfptn1",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2097477085031788851",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_DEHUMANISE_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post uses the hashtag #Magazetiyaleo (newspapers today) to share information about the \"Mwananchi\" newspaper for a specific date. It is a news-related post and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-eaeb3de2db8a",
+    "t": "@sylviepaloma @ItsDrMutwiri @iamsubarru @JohnMusang7262 @Annmitchel5 @simba_sheldon @jairus_nyakagwa @kibe_tz @kone_william @BarrackFerguson @ItsAminaKuria @philipmathekaj @PindiweLily12 @ADVOCATEakim081 @BonnieMejja @ObadiahKipchir3 @_WangechiKabiu @DebrahNjogu @JamesVungo @kisiranisumbufu @CessNdi",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KabuaJulius",
+    "l": "https://x.com/KabuaJulius/status/2097533135684542645",
+    "pr": "Abusive",
+    "co": 0.9693,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a list of Twitter mentions and does not contain any discernible text or hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-68bf7f05c4c3",
+    "t": "Kunazo kama hizi mzee ukitaka smh tembea kenya",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@mtupombe24390",
+    "l": "https://x.com/mtupombe24390/status/2097538681623945293",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "The post says 'There are like these old man if you want smh visit Kenya.' The phrase 'smh' (shaking my head) suggests frustration or disapproval, but the post itself is too vague to be classified as hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-205cfa461166",
+    "t": "Kenya is strengthening partnerships to advance public health preparedness, prevention and response.\n\nThe Ministry of Health, through the State Department for Public Health and Professional Standards, together with HENNET, engaged health partners and civil society organisations on key public health p",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MOH_Kenya",
+    "l": "https://x.com/MOH_Kenya/status/2097596159527137636",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 28,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a news update about Kenya strengthening partnerships for public health preparedness and response. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-42d8ba986df1",
+    "t": "@ItsDrMutwiri @iamsubarru @JohnMusang7262 @Annmitchel5 @simba_sheldon @jairus_nyakagwa @kibe_tz @kone_william @BarrackFerguson @ItsAminaKuria @philipmathekaj @PindiweLily12 @ADVOCATEakim081 @BonnieMejja @KabuaJulius @ObadiahKipchir3 @_WangechiKabiu @DebrahNjogu @JamesVungo @kisiranisumbufu @CessNdir",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@mwixzip",
+    "l": "https://x.com/mwixzip/status/2097569449582682174",
+    "pr": "Abusive",
+    "co": 0.976,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post is a list of Twitter mentions and does not contain any discernible text or hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1c47ece03cdd",
+    "t": "Omowaziri o' Agriculture Mutahi Kagwe, otebire buna nachie korigereria engana yogoachera ogosombwa gocha Kenya ebituma chitonne chimillion isato, ebio birachie gokonya chingaki ense ya Kenya erigereretie gochia gotwara rigesa ria inse mono engaki eyeiga. ^MK\n#MintoFM https://t.co/DYOfBcV738",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MintoFmradio",
+    "l": "https://x.com/MintoFmradio/status/2097626075060994169",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is written in Ekegusii, a Kenyan language, and discusses agricultural matters, specifically about Mutahi Kagwe (former Health CS, not Agriculture) and the importation of 3 million tonnes of something to help Kenya's harvest. It is a news-like update and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-08887cbdbb1e",
+    "t": "#Magazetiyaleo \n\nMwanaspoti \n\nJumatano Septemba 9, 2026 https://t.co/NdjRib8l6t",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@swahilitimes",
+    "l": "https://x.com/swahilitimes/status/2097477088764895532",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post is a news headline from 'Mwanaspoti' newspaper for Wednesday, September 9, 2026. It is a factual news reference and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f55007136088",
+    "t": "@itsjohnndaiga @RChemutai @Josephkihiu12 @KokoMukoya13895 @sylviepaloma @MaIgnatius_Nem @chrstian_Benard @petermutie380 @jennykanyiri @raphn @PatrickRudiger2 @wambokamaa @WamahigaN @MUTEMBEI1D @JohnMusang7262 @MichukiGavana @Tonnywachipo @ciiramaina @WMatamano @CessNdiritu @YoungAmoh1 @AAkiyao @Obad",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Joni_N_kin",
+    "l": "https://x.com/Joni_N_kin/status/2097537828322165165",
+    "pr": "Normal",
+    "co": 0.8102,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a list of Twitter mentions and does not contain any discernible text or hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3373cb06f921",
+    "t": "@raphn @RChemutai @jennykanyiri @sylviepaloma @kibe_tz @MaIgnatius_Nem @chrstian_Benard @petermutie380 @PatrickRudiger2 @wambokamaa @WamahigaN @MUTEMBEI1D @JohnMusang7262 @MichukiGavana @Tonnywachipo @ciiramaina @itsjohnndaiga @WMatamano @CessNdiritu @YoungAmoh1 @AAkiyao @ObadiahKipchir3 @Sharon_ond",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Josephkihiu12",
+    "l": "https://x.com/Josephkihiu12/status/2097550415424348635",
+    "pr": "Normal",
+    "co": 0.9048,
+    "tx": "low",
+    "gt": "HS_ETHNIC_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post is a list of Twitter mentions and does not contain any discernible text or hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c5e042f1f9ed",
+    "t": "Gabaygii Garnaqsi  ee ogaden iyo somalida kale ee somali galbeed degta \nOon cidna laga tagin\n\nDhagaysi wacan https://t.co/N1LW8zUuUz",
+    "d": "2026-09-09",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@mohamed_wacane",
+    "l": "https://x.com/mohamed_wacane/status/2097532841500254602",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.5765
+    },
+    "exp": "This post shares a link to a poem (gabay) titled 'Garnaqsi' (Justice/Arbitration) concerning the Ogaden region and other Somalis living in Somali Galbeed. It does not contain hate speech but rather refers to a cultural form of expression about a specific region and its people.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0386a8ab58c9",
+    "t": "@CabdiqaniXasa14 Maxaad U baran  wayday taariikhda runta ah ee aad Somaliland ku leedahay, intaad mid been-abuur ah aad doonaysid. 21 sanadood Kacaankii Siyaad bare iyo xulufadii Idaajaa. Taariikh been abuurka darawiishtu gaajo iyo Dhulbaahan baad ka qadeen.",
+    "d": "2026-09-09",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@jamalamore",
+    "l": "https://x.com/jamalamore/status/2097607254832795985",
+    "pr": "Normal",
+    "co": 0.9986,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.8347
+    },
+    "exp": "The user criticizes another user for not learning the 'true history' of Somaliland, accusing them of pursuing a 'fake history' related to the Siad Barre regime and the Darawiish (Dervish) movement, implying it led to 'hunger and landlessness'. This is political criticism and historical debate, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-17ceed0edf02",
+    "t": "Ina ciro oo dadal wayn ku bixinaya inu ka hor tago aqonsiga somaliland hada wa xaqiq",
+    "d": "2026-09-09",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@AliHassanA44670",
+    "l": "https://x.com/AliHassanA44670/status/2097677341426077746",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.6085
+    },
+    "exp": "The post states that 'Ina Ciro' (a political figure) is making great efforts to prevent the recognition of Somaliland, and claims this is now a 'reality'. This is a political statement about the status of Somaliland and a political figure's actions, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a620cc39ddd9",
+    "t": "Somalia is hunting the wahabi takfiris one by one.\nMinister of Defence Ahmed Moalim Fiqi, the SNA command, and Major General Ibrahim Mohamed Mohamud are on the frontlines wiping out Al-Shabaab while the army and the people praise Rasulullah \ufdfa the way Somalis always did  Qasidah, Mawlid, the Sufi way",
+    "d": "2026-09-09",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@trappo0593",
+    "l": "https://x.com/trappo0593/status/2097556911109374374",
+    "pr": "Hate",
+    "co": 0.5509,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 18,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9877
+    },
+    "exp": "This post describes the Somali government's efforts to 'hunt' and 'wipe out' 'wahabi takfiris' (a derogatory term for those deemed extremist Muslims, often associated with groups like Al-Shabaab). While 'takfiri' is a religiously charged term, in this context, it refers to a designated terrorist group (Al-Shabaab) and the government's counter-terrorism efforts, not a broad religious group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-dcb4febcea74",
+    "t": "Hijab is crazy girl I\u2019m actually a murtad #fyp #viral #somalitiktok #exmuslim #somali",
+    "d": "2026-09-01",
+    "c": "Somalia",
+    "p": "tiktok",
+    "a": "@finestnaagnool",
+    "l": "https://www.tiktok.com/@finestnaagnool/video/7680601151535959318",
+    "pr": "Normal",
+    "co": 0.9874,
+    "tx": "low",
+    "gt": "HS_RELIGIOUS_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [
+      {
+        "n": "Religious Incitement",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_afxumo",
+      "score": 0.9276
+    },
+    "exp": "The user states 'Hijab is crazy girl I\u2019m actually a murtad', using the Somali term 'murtad' which means apostate. This is a personal declaration of apostasy, which can be offensive to religious individuals but is not hate speech targeting a group. It's a statement about one's own religious identity.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-3720bdea81eb",
+    "t": "The Ministry of Health has identified seven counties as high-risk areas for mpox, with Mombasa, Nairobi, Busia, Makueni, Kiambu, Kilifi and Nakuru requiring heightened vigilance due to their location along major transport corridors and proximity to border points. \n\nKenya has recorded 1,298 confirmed",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@biznakenya",
+    "l": "https://x.com/biznakenya/status/2097583541072572729",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 43,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post is a news update from the Ministry of Health identifying seven counties in Kenya as high-risk areas for mpox. It is factual information and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7446a628fdd8",
+    "t": "Kenya MET projects above-normal October-December short rains, and warmer temperatures nationwide as strong El Nino signal continues to intensify, DG Edward Muriuki says. https://t.co/M4Dz6kFBmy",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@StandardKenya",
+    "l": "https://x.com/StandardKenya/status/2097675906365968850",
+    "pr": "Normal",
+    "co": 0.999,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a weather forecast from Kenya MET, projecting above-normal short rains and warmer temperatures. It is factual information and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d36110a950ef",
+    "t": "Burundians shelter in church\n\nHundreds of Burundians seek refuge in Mombasa church\nBurundians flee homes after threats in Likoni\n\nMajambere: They told us to leave and go back to Burundi\n\nPolitique mbi irakanyagwa \ud83e\udd79\ud83e\udd79\ud83e\udd79\ud83e\udd79 ahubwo barenze bajya Tanzania \ud83c\uddf9\ud83c\uddff  https://t.co/0A44b8BLuC https://t.co/68xLN141it",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Ingabir72782091",
+    "l": "https://x.com/Ingabir72782091/status/2097633487578603791",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.999
+    },
+    "exp": "This post reports on Burundians seeking refuge in a Mombasa church after receiving threats in Likoni, being told to 'leave and go back to Burundi'. The post itself is reporting on xenophobic threats, but is not expressing or endorsing hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-cf6857d19465",
+    "t": "@sylviepaloma @CessNdiritu @MaIgnatius_Nem @philipmathekaj @MichukiGavana @rozzykanyua @jennykanyiri @Josephkihiu12 @YoungAmoh1 @itsjohnndaiga @PatrickRudiger2 @JamesVungo @EltonKarisa @MUTEMBEI1D @WamahigaN @RChemutai @ObadiahKipchir3 @stevestupit @Janetmw25 @kibe_tz @DavyieRhyno @WMatamano @Leonar",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@EllikinsL69344",
+    "l": "https://x.com/EllikinsL69344/status/2097563093530198520",
+    "pr": "Abusive",
+    "co": 0.5116,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a series of Twitter mentions, tagging multiple users. It contains no discernible content or hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4db0e821d888",
+    "t": "LADY calls out MBITHI for attempting to wreck her marriage - Shares messages that popped up on her phone while in the company of her husband https://t.co/P3P154LtY6",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@dailypost_ke",
+    "l": "https://x.com/dailypost_ke/status/2097599351220531207",
+    "pr": "Normal",
+    "co": 0.5344,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is about a personal marital dispute involving a woman, her husband, and someone named Mbithi. It discusses infidelity and personal drama, not targeting any specific group based on identity.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6a08a7f23e94",
+    "t": "EL NINO PREPAREDNESS\n\nGovernment to relocate people on riparian land.\n\nEl Nino rains expected from October 2026.\n\nKenya Met: Early rains expected in September.\n\nKenya Met: Rains likely to persist until February 2027.\n\n#TV47News @wakiomzenge https://t.co/zYLLTKWNrC",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@tv47digital",
+    "l": "https://x.com/tv47digital/status/2097671992400888262",
+    "pr": "Normal",
+    "co": 0.9982,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 12,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a news report about El Ni\u00f1o preparedness in Kenya, detailing government plans for relocation and meteorological forecasts. It is purely informational and does not contain any hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-331461f56360",
+    "t": "This is shameful and completely unacceptable. Threatening people and forcing them out of their houses because they are Burundian is xenophobia, plain and simple. Kenya must not allow this to become normal.",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Dr_Muigai",
+    "l": "https://x.com/Dr_Muigai/status/2097575574872985813",
+    "pr": "Hate",
+    "co": 0.8832,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.8762
+    },
+    "exp": "This post condemns xenophobia, specifically the act of threatening and forcing Burundian people out of their homes in Kenya. It is a statement against hate speech and xenophobia, not an instance of it.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4aa3b6be7657",
+    "t": "STATEMENT ON EL NI\u00d1O PREPAREDNESS\n\nThe emerging threat of El Ni\u00f1o demands presidential leadership, not political theatre. Across Africa, governments facing serious weather risks are placing preparedness at the highest level, with Presidents and Prime Ministers directing emergency planning and mobili",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@HonJBMuturi",
+    "l": "https://x.com/HonJBMuturi/status/2097637512424337562",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 107,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9994
+    },
+    "exp": "This post is a political commentary on El Ni\u00f1o preparedness, criticizing the government's response and calling for stronger leadership. It is political criticism and does not target any group with hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f7606e564967",
+    "t": "A Burundian national was attacked today by three drunkards at a place called Maili Saba. But they picked the wrong Burundian.\n\nHe fought back, caught one of them and raised the alarm.\n\nWhat broke my heart was hearing him ask: \u201cNimekosa nini? Kwa nini mnaniiba? Mimi ni binadamu kama wewe.\u201d\n\nThat is t",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ouma_neko",
+    "l": "https://x.com/ouma_neko/status/2097672002349723717",
+    "pr": "Normal",
+    "co": 0.9984,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 31,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9437
+    },
+    "exp": "This post describes an attack on a Burundian national in Kenya, highlighting xenophobia. The victim's question, 'Nimekosa nini? Kwa nini...' (What have I done wrong? Why...), underscores the unprovoked nature of the attack based on identity. The post itself is reporting and condemning the xenophobic act.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f2fb62aac02e",
+    "t": "I am an idea whose time has come. \n\nPlaytime is over. \n\nKuresoi South 2027 will not be business as usual. \n\n#KuresoiSouth #Nakuru #Kenya https://t.co/9bSGaqFPTO",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Benaline1",
+    "l": "https://x.com/Benaline1/status/2097673901824196838",
+    "pr": "Normal",
+    "co": 0.9983,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post is a political campaign message, expressing ambition for the Kuresoi South 2027 elections. It uses assertive language but does not contain any hate speech or target any group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2f4c8ab3c86c",
+    "t": "18 COUNTIES TARGETED IN EL NINO PLAN.\n\nMoH: Kenya faces 99 percent risk of El Ni\u00f1o.\n\nThe Ministry of health rolls out El Ni\u00f1o response plan.\n\n18 counties identified as most at risk.\n\n#TV47News @WakioMzenge https://t.co/I8kUPrgbnz",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@tv47digital",
+    "l": "https://x.com/tv47digital/status/2097674103549260208",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9988
+    },
+    "exp": "This post is a news report about El Ni\u00f1o preparedness in Kenya, detailing the Ministry of Health's response plan and identifying at-risk counties. It is purely informational and does not contain any hateful content.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5a38357c15f0",
+    "t": "I have just watched a video of armed GOONs attacking Clinical Officers who were peacefully marching towards Governor Mutula Kilonzo's office to present their grievances.\n\nIt's very sad that leaders in Opposition have resorted to hiring goons to attack anyone who disagrees with them then suddenly the",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Belive_Kinuthia",
+    "l": "https://x.com/Belive_Kinuthia/status/2097568154218123741",
+    "pr": "Hate",
+    "co": 0.9985,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 33,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.525
+    },
+    "exp": "This post describes and condemns an attack by 'armed GOONs' on Clinical Officers during a peaceful march. It criticizes leaders for allegedly hiring these goons. While it describes violence, the post itself is a condemnation of that violence and political thuggery, not an instance of hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c18e78c9beda",
+    "t": "NEWS UPDATE\n\ud83d\udc49Woman injured in alleged panga attack in Mbarara\n\n\ud83d\udc49Ibanda records seven murders in less than a month\n\n\ud83d\udc49Bushenyi councillors\u2019 executive committee case set for October 8\n\n\ud83d\udc49Court grants bail to former parliamentary officials accused of Shs27 billion fraud\n\n\ud83d\udc49Luwero leaders raise alarm over ",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@912CroozeFM",
+    "l": "https://x.com/912CroozeFM/status/2097668570838675617",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 51,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post is a news update listing various crime and legal events in Uganda, specifically mentioning Mbarara, Ibanda, and Bushenyi. It is purely informational and does not contain any hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-319901b44039",
+    "t": "Kenya MET projects above-normal October-December short rains, and warmer temperatures nationwide as strong El Nino signal continues to intensify, DG Edward Muriuki says. https://t.co/35ARi0UGbZ",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KTNNewsKE",
+    "l": "https://x.com/KTNNewsKE/status/2097671593027686776",
+    "pr": "Normal",
+    "co": 0.999,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 10,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post is a weather forecast from the Kenya Meteorological Department, projecting above-normal short rains and warmer temperatures. It is a factual news report and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6ef1f815cd1b",
+    "t": "Dear Kenyans. Add a community note to this tweet coz we clearly know this video is a lie and we are not Xenophobic \ud83d\udcaf",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MugoKenny",
+    "l": "https://x.com/MugoKenny/status/2097670476268982433",
+    "pr": "Normal",
+    "co": 0.9888,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post asks Kenyans to add a community note to a tweet, claiming a video is a lie and stating that Kenyans are not xenophobic. It is a call for counter-speech and a defense against accusations of xenophobia, not hate speech itself.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-1440825d94e5",
+    "t": "Fresh killings raise alarm along the Turkana\u2013West Pokot border https://t.co/7lzelB752D @SpokespersonGoK https://t.co/vLd38jAFsi",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KenyaNewsAgency",
+    "l": "https://x.com/KenyaNewsAgency/status/2097631706828214695",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9987
+    },
+    "exp": "This post reports on \"Fresh killings\" along the Turkana\u2013West Pokot border, which is a known area of inter-communal conflict in Kenya. While it describes violence, the post itself is a news report and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-63b11c7bbf6c",
+    "t": "A new kingpin has emerged in Mt Kenya West in Ndindi Nyoro. https://t.co/LOCPRV62wu",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@abuga_makori",
+    "l": "https://x.com/abuga_makori/status/2097543665749053481",
+    "pr": "Normal",
+    "co": 0.9668,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [
+      {
+        "n": "Dehumanisation",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post states that \"A new kingpin has emerged in Mt Kenya West in Ndindi Nyoro.\" This is a political observation about a rising figure in a specific region and does not contain any hate speech or derogatory terms.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-0459471ba020",
+    "t": "Huku Kenya ni kurukana tuh, mtu anasema kitu ikibackfire anasema sikusema hivyo. \ud83d\ude02\nLatest casualty. \ud83d\udc47\ud83d\udc47 https://t.co/Ys14IA7LVH",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MinWandera",
+    "l": "https://x.com/MinWandera/status/2097631474967060737",
+    "pr": "Normal",
+    "co": 0.9653,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "The post says, \"Huku Kenya ni kurukana tuh, mtu anasema kitu ikibackfire anasema sikusema hivyo. \ud83d\ude02 Latest casualty. \ud83d\udc47\ud83d\udc47\" This translates to \"Here in Kenya, it's just about jumping (changing positions), someone says something, and if it backfires, they say they didn't say that.\" This is a general cynical commentary on political discourse and accountability in Kenya, using informal language but not targeting any specific group with hate.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-04133bee9779",
+    "t": "President Ruto made the remarks on Sept 2, 2026, directing foreigners in small businesses/hawking to close from Sept 7. Reports of street harassment of mainly East African traders followed around then in Nairobi and elsewhere. The video matches scenes from that period. No verified reports confirm be",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@grok",
+    "l": "https://x.com/grok/status/2097630867396890895",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 33,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post describes President Ruto's directive for foreigners in small businesses to close and reports on subsequent street harassment of East African traders. It is a factual report on events and policies, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-07a32f880e3c",
+    "t": "Every two or three weeks, this money launderer has to come to Kenya to aid the president in smuggling the proceeds of corruption.",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JoelKuriaNjugu3",
+    "l": "https://x.com/JoelKuriaNjugu3/status/2097669174076051960",
+    "pr": "Abusive",
+    "co": 0.436,
+    "tx": "low",
+    "gt": "HS_POLITICAL_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 9,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post accuses an unnamed \"money launderer\" of frequently coming to Kenya to aid the president in smuggling proceeds of corruption. This is a political accusation of corruption against individuals, not hate speech targeting a group.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-5a1f76f9ebea",
+    "t": "Severe drought and conflict threaten Sudan\u2019s agricultural season\nInternational \u2018Quintet\u2019 headed to Khartoum in fresh push for Sudanese peace\nSudanese government intervenes as bread prices skyrocket\nThe army controls Hamrat al-Waz and bombs Dilling\nICC begins hearing on reparations for victims of Dar",
+    "d": "2026-09-09",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AyinSudan",
+    "l": "https://x.com/AyinSudan/status/2097586806120165508",
+    "pr": "Normal",
+    "co": 0.9766,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 28,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post is a compilation of news headlines related to Sudan, covering drought, conflict, peace efforts, economic issues, and military actions. It is purely informational and does not contain any hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-57d4c208bf77",
+    "t": "Umuyobozi ushinzwe Ingabo z'Umuryango w'Abibumbye ziri mu butumwa bw'amahoro muri Sudani y'Epfo (UNMISS) igice cy'Amajyepfo, Brigadier General Shishir Bhardwag, yashimye Ingabo z'u Rwanda zigize Batayo ya Rwanbatt-3, ziri muri ubu butumwa kubera imyitwarire myiza, ubunyamwuga n'ubwitange bagaragaje ",
+    "d": "2026-09-09",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@kigalitoday",
+    "l": "https://x.com/kigalitoday/status/2097666731242127487",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post is in Kinyarwanda and discusses a Brigadier General from UNMISS commending Rwandan peacekeepers in South Sudan. It is a news report about peacekeeping efforts and contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-784239f7f946",
+    "t": "South Sudan: Salva Kiir\u2019s Son Gen. Atem Salva Kiir Takes Command of Tiger Division https://t.co/rRixO9eyYb https://t.co/x4k1dZmpkQ",
+    "d": "2026-09-09",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thetowerpost",
+    "l": "https://x.com/thetowerpost/status/2097660919664804272",
+    "pr": "Normal",
+    "co": 0.9325,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9989
+    },
+    "exp": "This post is a news report about Salva Kiir's son taking command of the Tiger Division in South Sudan. It is factual reporting and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6ca0326ec76c",
+    "t": "@sylviepaloma @ItsDrMutwiri @iamsubarru @JohnMusang7262 @Annmitchel5 @simba_sheldon @jairus_nyakagwa @kibe_tz @kone_william @BarrackFerguson @ItsAminaKuria @philipmathekaj @PindiweLily12 @ADVOCATEakim081 @KabuaJulius @ObadiahKipchir3 @_WangechiKabiu @DebrahNjogu @JamesVungo @kisiranisumbufu @CessNdi",
+    "d": "2026-09-09",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@BonnieMejja",
+    "l": "https://x.com/BonnieMejja/status/2097532370622558515",
+    "pr": "Abusive",
+    "co": 0.9055,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 14,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "hate_speech",
+      "score": 0.6667
+    },
+    "exp": "This post is a reply to multiple Twitter users, likely part of a conversation. Without further context, it appears to be a benign social media interaction and does not contain hate speech.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-20374b92f928",
+    "t": "#SouthSudan #SouthSudaneseCapaciy #book \nA Case for the Capacity of South Sudanese to Rule Themselves https://t.co/eQUnmfVLCb",
+    "d": "2026-09-09",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@AkolMiyenKuol",
+    "l": "https://x.com/AkolMiyenKuol/status/2097672852891750817",
+    "pr": "Normal",
+    "co": 0.9986,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 8,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post shares a link to a book titled 'A Case for the Capacity of South Sudanese to Rule Themselves'. This is a political or academic discussion and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6b0bdbac136a",
+    "t": "\ud83d\udccd Leader of the Free Lions and part of Tasis coalition Mabrouk Mubarak Salim announced the mobilization of his troops to the front lines. https://t.co/0Lbp1lye6y",
+    "d": "2026-09-09",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@IvaDlebeR",
+    "l": "https://x.com/IvaDlebeR/status/2097631295094358524",
+    "pr": "Normal",
+    "co": 0.9996,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 6,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9991
+    },
+    "exp": "This post is a news report about a leader announcing the mobilization of his troops to the front lines. It describes a political or military development and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-25a2bcb814d6",
+    "t": "The Sudan People\u2019s Liberation Movement-Former Detainees (SPLM-FD) has expelled one of its members, Isaiah Hakim Garang, following remarks he allegedly made criticizing Vice President for Youth and Gender Cluster Rebecca Nyandeng de Mabior.\n\nhttps://t.co/jGPHPAZInQ",
+    "d": "2026-09-09",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@SudansPost",
+    "l": "https://x.com/SudansPost/status/2097676409070121082",
+    "pr": "Normal",
+    "co": 0.9995,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 19,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.9992
+    },
+    "exp": "This post reports on the expulsion of a member from a political movement for criticizing a Vice President. This is a news report about political events and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-94299d61dca5",
+    "t": "\ud83c\uddf8\ud83c\udde9\u2694\ufe0f Sudan Civil War: Why is the country at war?\n\nSudan\u2019s current civil war began on April 15, 2023. The main fighting is between two powerful military factions:\n\n\ud83c\uddf8\ud83c\udde9 Sudanese Armed Forces (SAF) \u2014 led by General Abdel Fattah al-Burhan.\n\n\u2694\ufe0f Rapid Support Forces (RSF) \u2014 a paramilitary force led by Moha",
+    "d": "2026-09-09",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@merry236419",
+    "l": "https://x.com/merry236419/status/2097562212005285932",
+    "pr": "Normal",
+    "co": 0.9984,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 70,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post provides an explanation of the Sudan Civil War, detailing the main factions involved. It is an informative post about a conflict and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-4a7c5b557f56",
+    "t": "The TASIS-led Government of Peace has begun moves to centralise public revenues in South Darfur, as authorities in Nyala push ahead with efforts in across territories under their control.\n\nhttps://t.co/SnwDUV0HoF https://t.co/SYGlxh6if4",
+    "d": "2026-09-09",
+    "c": "South Sudan",
+    "p": "x",
+    "a": "@thesudantimes",
+    "l": "https://x.com/thesudantimes/status/2097669711462809698",
+    "pr": "Normal",
+    "co": 0.9993,
+    "tx": "low",
+    "gt": "HS_POLITICAL_SS",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 17,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_hate_speech",
+      "score": 0.999
+    },
+    "exp": "This post reports on a government's move to centralize public revenues in South Darfur. It is a news report about political and administrative actions and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a7a9a41ec4cd",
+    "t": "I am so proud to be a Kenyan my heart if full I teared up to see Kenyans fighting against Xenophobia.\nThank you for not allowing to be led to violence by selfish leaders! \nThey should do immigration clean up the legit way not instigate violence in the communities\nThank you Kenya",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@JanoNyaga",
+    "l": "https://x.com/JanoNyaga/status/2097589758096544084",
+    "pr": "Normal",
+    "co": 0.9986,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 16,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "polarization",
+      "score": 0.8396
+    },
+    "exp": "This post expresses pride in Kenyans for fighting against xenophobia and not being led to violence by selfish leaders. It is a positive message against xenophobia and violence, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-76898c789c2f",
+    "t": "\ud835\udc13\ud835\udc07\ud835\udc04 \ud835\udc0a\ud835\udc04\ud835\udc0d\ud835\udc18\ud835\udc00\ud835\udc0d \ud835\udc0f\ud835\udc00\ud835\udc0f\ud835\udc04\ud835\udc11\ud835\udc12 \ud835\udc13\ud835\udc0e\ud835\udc03\ud835\udc00\ud835\udc18\n\n\ud835\udc01\ud835\udc14\ud835\udc12\ud835\udc08\ud835\udc0d\ud835\udc04\ud835\udc12\ud835\udc12 \ud835\udc03\ud835\udc00\ud835\udc08\ud835\udc0b\ud835\udc18: \ud835\udc79\ud835\udc96\ud835\udc8d\ud835\udc86\ud835\udc94 \ud835\udc94\ud835\udc89\ud835\udc82\ud835\udc8c\ud835\udc86-\ud835\udc96\ud835\udc91 \ud835\udc82\ud835\udc94 \ud835\udc8a\ud835\udc8f\ud835\udc97\ud835\udc86\ud835\udc94\ud835\udc95\ud835\udc90\ud835\udc93\ud835\udc94 \ud835\udc82\ud835\udc83\ud835\udc82\ud835\udc8f\ud835\udc85\ud835\udc90\ud835\udc8f \ud835\udc7a\ud835\udc8930 \ud835\udc83\ud835\udc8a\ud835\udc8d\ud835\udc8d\ud835\udc8a\ud835\udc90\ud835\udc8f \ud835\udc85\ud835\udc8a\ud835\udc97\ud835\udc8a\ud835\udc85\ud835\udc86\ud835\udc8f\ud835\udc85\ud835\udc94: UFAA is proposing lower penalties and a longer dormancy period to help unlock Sh30.5 billion in unclaimed dividends owed to investors in Saccos and listed companies. The proposed changes would give f",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Eastleighvoice",
+    "l": "https://x.com/Eastleighvoice/status/2097169099876975002",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 87,
+    "st": [
+      {
+        "n": "Anti-Foreign",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post shares headlines from 'The Kenyan Papers Today', specifically a business daily headline about rules shake-up and unclaimed dividends. It is a news summary and does not contain hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-7d80340f04d7",
+    "t": "Kenya yatanze agahenge ku banyamahanga bakora ubucuruzi buciriritse\n\nGuverinoma ya Kenya yatangaje imbabazi z\u2019igihe gito (temporary amnesty and registration window)ku baturage bo muri Afurika y\u2019Iburasirazuba badafite ibyangombwa byemewe, nyuma y\u2019uko Aburundi babarirwa mu magana bari bateraniye kuri ",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@kigalitoday",
+    "l": "https://x.com/kigalitoday/status/2097622004358635618",
+    "pr": "Normal",
+    "co": 0.9998,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post, written in Kinyarwanda, reports that the Kenyan government has offered a temporary amnesty and registration window for East African citizens without valid documents who are involved in small businesses. It is a news report, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-6ee0b35ad927",
+    "t": "Kenya : Des Burundais cherchent \u00e0 rentrer au pays apr\u00e8s la fermeture des petits commerces \u00e9trangers\n\nhttps://t.co/BJUQS9pr1w.",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@burkina24",
+    "l": "https://x.com/burkina24/status/2097675892407275968",
+    "pr": "Normal",
+    "co": 0.9979,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 1,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9855
+    },
+    "exp": "This French post is a news headline stating that Burundians are seeking to return to their country after the closure of small foreign businesses in Kenya. It is factual reporting, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-31530a80d13c",
+    "t": "Rashid Peter Kaberia Burundians SGBV Kenya Othaya NBO2 Data Centre KEMFSED Inter Milan Kajiado North Class R Permit Asman Ambeta",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MteteziPato",
+    "l": "https://x.com/MteteziPato/status/2097585757879718135",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 7,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9997
+    },
+    "exp": "This post appears to be a collection of keywords or tags related to various topics including individuals, locations in Kenya, and 'Burundians SGBV Kenya'. It does not form a coherent statement and does not express hate.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-df898586c9cb",
+    "t": "Idara ya Upelelezi yawaonya Wakenya kutowachukulia sheria mkononi wageni\nhttps://t.co/gZnuNWG0ug https://t.co/mhm5DSKAjc",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@bbcswahili",
+    "l": "https://x.com/bbcswahili/status/2097573717874200702",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [
+      {
+        "n": "Anti-Foreign",
+        "s": 0.5
+      }
+    ],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This Swahili post is a news report stating that the Directorate of Criminal Investigations (DCI) is warning Kenyans not to take the law into their own hands against foreigners. This is a message from authorities discouraging vigilantism, which is counter-speech, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-abd5a12ae3a8",
+    "t": "In the Daily Monitor Uganda \ud83c\uddfa\ud83c\uddec \nWednesday, September 9, 2026 https://t.co/j7ABsYJUY7",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@IamWafula1",
+    "l": "https://x.com/IamWafula1/status/2097552210011832807",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post simply refers to an article in the 'Daily Monitor Uganda' newspaper on a specific date. It is a factual reference and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-a37493a71b75",
+    "t": "In the dailies in Tanzania \ud83c\uddf9\ud83c\uddff \nWednesday, September 9, 2026 https://t.co/qLEPUziVvY",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@IamWafula1",
+    "l": "https://x.com/IamWafula1/status/2097552519991845069",
+    "pr": "Normal",
+    "co": 0.9994,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 5,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9998
+    },
+    "exp": "This post simply refers to articles in Tanzanian newspapers on a specific date. It is a factual reference and not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-c2aa88de7dc8",
+    "t": "Ooooh yesss!happy #wcw, karibu sana tabarira_ini ya #gukenaxpress ugiterebwo ni Wagura Wa Githui,kimwana kia munene.Urat\u016bamuk\u00eera w\u00ec mwena \u016br\u00eek\u016b?\n#Gukenafm https://t.co/5YJ9lBbLKO",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@GukenaFMKenya",
+    "l": "https://x.com/GukenaFMKenya/status/2097672157710909787",
+    "pr": "Hate",
+    "co": 0.9315,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 3,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post, written in Gikuyu, is a promotional message for a radio show called '#gukenaxpress', wishing listeners a happy #wcw (Woman Crush Wednesday) and introducing the host, Wagura Wa Githui, referred to respectfully as 'kimwana kia munene' (son of the elder/chief). It is positive and engaging, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-f20d0da95f84",
+    "t": "Wadau wataka uhuru wa vyombo vya habari, kujieleza https://t.co/KLHRNu238a",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MwananchiNews",
+    "l": "https://x.com/MwananchiNews/status/2097669495431004386",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9528
+    },
+    "exp": "This Swahili post is a news headline stating that 'Wadau' (stakeholders) want freedom of the media and expression. This is political commentary, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-54c68f9be408",
+    "t": "Foreign nationals cannot legally hawk or engage in street vending in Kenya. Under Kenyan immigration and labor laws, there is no work permit category or business visa classification that allows a foreigner to enter the country to conduct low-capital retail trade, kiosk operations, or street hawking",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@MaumauGrandson",
+    "l": "https://x.com/MaumauGrandson/status/2097669238689292340",
+    "pr": "Normal",
+    "co": 0.999,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 22,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post provides factual information about Kenyan immigration and labor laws, stating that foreign nationals cannot legally engage in street vending or hawking in Kenya. It is an informative statement, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-b1b14da167ac",
+    "t": "Kenya : des milliers de Burundais cherchent \u00e0 quitter le pays apr\u00e8s l'annonce du pr\u00e9sident William Ruto de fermer les petits commerces tenus par des \u00e9trangers. Se sentant vis\u00e9s, ils affluent depuis lundi \u00e0 leur ambassade \u00e0 Nairobi https://t.co/mS8J0C5dxU",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@F_Desouche",
+    "l": "https://x.com/F_Desouche/status/2097669030492483931",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 2,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9388
+    },
+    "exp": "This French post is a news report detailing how thousands of Burundians are seeking to leave Kenya after President William Ruto's announcement to close small businesses run by foreigners, feeling targeted by the policy. It is factual reporting on a socio-political situation, not hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-d5b49af38c62",
+    "t": "@ItsDrMutwiri @iamsubarru @JohnMusang7262 @Annmitchel5 @simba_sheldon @jairus_nyakagwa @kibe_tz @kone_william @BarrackFerguson @ItsAminaKuria @philipmathekaj @PindiweLily12 @ADVOCATEakim081 @BonnieMejja @ObadiahKipchir3 @_WangechiKabiu @DebrahNjogu @JamesVungo @kisiranisumbufu @CessNdiritu @jennykan",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@KabuaJulius",
+    "l": "https://x.com/KabuaJulius/status/2097532635924840944",
+    "pr": "Abusive",
+    "co": 0.9855,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9995
+    },
+    "exp": "This post consists solely of a list of Twitter mentions and contains no discernible text content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-baa3dba46f26",
+    "t": "@JohnMusang7262 @sylviepaloma @Josephkihiu12 @jennykanyiri @RChemutai @kibe_tz @MaIgnatius_Nem @chrstian_Benard @petermutie380 @raphn @PatrickRudiger2 @wambokamaa @WamahigaN @MUTEMBEI1D @MichukiGavana @Tonnywachipo @ciiramaina @itsjohnndaiga @WMatamano @CessNdiritu @YoungAmoh1 @AAkiyao @Sharon_ondis",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@ObadiahKipchir3",
+    "l": "https://x.com/ObadiahKipchir3/status/2097575893073854788",
+    "pr": "Normal",
+    "co": 0.6928,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9992
+    },
+    "exp": "This post consists solely of a list of Twitter mentions and contains no discernible text content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-2ff4a4fb95d5",
+    "t": "@sylviepaloma @itsjohnndaiga @RChemutai @Josephkihiu12 @KokoMukoya13895 @MaIgnatius_Nem @chrstian_Benard @petermutie380 @jennykanyiri @raphn @PatrickRudiger2 @wambokamaa @WamahigaN @MUTEMBEI1D @JohnMusang7262 @MichukiGavana @Tonnywachipo @ciiramaina @WMatamano @CessNdiritu @YoungAmoh1 @AAkiyao @Obad",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@Joni_N_kin",
+    "l": "https://x.com/Joni_N_kin/status/2097539430168846415",
+    "pr": "Normal",
+    "co": 0.9302,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 13,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post consists solely of a list of Twitter mentions and contains no discernible text content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-20049464ec29",
+    "t": "Wakenya wajitayarishe kukaa na mvua kwa miezi nne. Kuanzia Oktoba hadi Januari mwaka ujao. - COL. Rtd david Samoei MBS, Dir. National Disaster Operations Centre. \n\n#JamboKenya  \n#RadioNumberOne https://t.co/9X4prBLIRL",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@RadioCitizenFM",
+    "l": "https://x.com/RadioCitizenFM/status/2097549141307978230",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 11,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9996
+    },
+    "exp": "This post is a news update in Swahili, informing Kenyans about an upcoming four-month rainy season, attributed to a director from the National Disaster Operations Centre. It contains no hate speech.",
+    "rel": "relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-395b1dbd4e2f",
+    "t": "@ItsDrMutwiri @iamsubarru @JohnMusang7262 @Annmitchel5 @simba_sheldon @jairus_nyakagwa @kibe_tz @kone_william @BarrackFerguson @ItsAminaKuria @philipmathekaj @PindiweLily12 @ADVOCATEakim081 @KabuaJulius @ObadiahKipchir3 @_WangechiKabiu @DebrahNjogu @JamesVungo @kisiranisumbufu @CessNdiritu @jennykan",
+    "d": "2026-09-09",
+    "c": "Kenya",
+    "p": "x",
+    "a": "@BonnieMejja",
+    "l": "https://x.com/BonnieMejja/status/2097531249485115495",
+    "pr": "Abusive",
+    "co": 0.9658,
+    "tx": "low",
+    "gt": "HS_ANTI_FOREIGN_KE",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 15,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "not_polarization",
+      "score": 0.9993
+    },
+    "exp": "This post consists solely of a list of Twitter mentions and contains no discernible text content.",
+    "rel": "not_relevant",
+    "kb": []
+  },
+  {
+    "i": "apify-ef1a69bf09e0",
+    "t": "Wararka aan helayo ayaa sheegaya in wariyahaan ay xireen gooni u goosadka waqooyiga \ud83c\uddf8\ud83c\uddf4 Somalia oo loogu yeedho Somalilad https://t.co/ZTmZoSuNI8",
+    "d": "2026-09-09",
+    "c": "Somalia",
+    "p": "x",
+    "a": "@Osman_estate",
+    "l": "https://x.com/Osman_estate/status/2097677730707911033",
+    "pr": "Normal",
+    "co": 0.9997,
+    "tx": "low",
+    "gt": "HS_GENDER_SOM",
+    "en": {
+      "l": 0,
+      "s": 0,
+      "c": 0
+    },
+    "ma": 4,
+    "st": [],
+    "txd": {
+      "sev": "low",
+      "ins": "low",
+      "idt": "low",
+      "thr": "low"
+    },
+    "qc": "misclassified",
+    "_source": "hs_apify_sweep",
+    "_sweep_date": "2026-09-09",
+    "_country_model": {
+      "label": "afxumo",
+      "score": 0.9414
+    },
+    "exp": "This post reports in Somali that a journalist was arrested by \"gooni u goosadka\" (separatists) in northern Somalia, referring to the self-declared state of Somaliland. While \"separatists\" is a politically charged term from the perspective of a unified Somalia, it describes a political group and is not a hate speech slur or dehumanizing language.",
+    "rel": "relevant",
+    "kb": []
+  }
+]

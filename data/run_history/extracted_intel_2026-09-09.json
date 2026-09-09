@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-09",
+  "extracted_claims": [
+    {
+      "claim": "Fabricated audio attributed to a Puntland Minister is circulating.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland Minister",
+        "fabricated audio"
+      ]
+    },
+    {
+      "claim": "A doctored statement from Puntland's President is being spread.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland President",
+        "doctored statement"
+      ]
+    },
+    {
+      "claim": "Troops are setting up roadblocks in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland",
+        "troops",
+        "roadblocks"
+      ]
+    },
+    {
+      "claim": "False information is being spread about Bosaso Port in Puntland.",
+      "country": "Somalia",
+      "actors": [
+        "@PuntJubNews"
+      ],
+      "keywords": [
+        "Puntland",
+        "Bosaso Port"
+      ]
+    }
+  ],
+  "proposed_keywords": [
+    {
+      "keyword": "Puntland Minister",
+      "country": "Somalia",
+      "reason": "Specific target of disinformation"
+    },
+    {
+      "keyword": "Puntland President",
+      "country": "Somalia",
+      "reason": "Specific target of disinformation"
+    },
+    {
+      "keyword": "Bosaso Port",
+      "country": "Somalia",
+      "reason": "Specific critical infrastructure targeted by disinformation"
+    },
+    {
+      "keyword": "Puntland roadblocks",
+      "country": "Somalia",
+      "reason": "Specific false event being reported"
+    }
+  ],
+  "events_reviewed": 1,
+  "events_reclassified": 0
+}

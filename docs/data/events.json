@@ -38060,7 +38060,7 @@
     "detected_by": "iris_classify_2026-06-11",
     "detection_timestamp": "2026-06-11T12:39:26.559653+00:00",
     "last_seen": "2026-06-11",
-    "status": "dormant",
+    "status": "resolved",
     "observations": [
       {
         "date": "2026-06-11",
@@ -45920,7 +45920,7 @@
     "detected_by": "iris_classify_2026-08-10",
     "detection_timestamp": "2026-08-10T10:13:27.712422+00:00",
     "last_seen": "2026-08-10",
-    "status": "active",
+    "status": "dormant",
     "observations": [
       {
         "date": "2026-08-10",
@@ -48595,5 +48595,87 @@
     ],
     "_review_notes": "This event is an analysis *about* potential disinformation, not the disinformation itself. It highlights a potential link between a geopolitical commentator's narratives concerning Puntland's counter-terrorism and ISIS propaganda. The country context for Puntland is Somalia, not South Sudan.",
     "_reviewed": "2026-09-07T14:35:32.188676+00:00"
+  },
+  {
+    "id": "APF-2026-09-09-440",
+    "date": "2026-09-09",
+    "country": "Somalia",
+    "event_type": "DISINFO",
+    "disinfo_subtype": "deepfake",
+    "threat_level": "P2 HIGH",
+    "headline": "False claims of fabricated minister audio, doctored presidential statements, troop roadblocks, and port issues circulate in Puntland",
+    "summary": "Over the past two weeks, accounts, including @PuntJubNews, have actively spread multiple false claims targeting Puntland. These include fabricated audio attributed to a Puntland Minister, a doctored statement from the Puntland President, and false reports of troops establishing roadblocks. Most recently, disinformation campaigns have focused on spreading lies concerning the status or operations of Bosaso Port. This coordinated effort aims to sow confusion and distrust within the region.",
+    "actors": [
+      "@PuntJubNews"
+    ],
+    "platforms": [
+      "X (Twitter)"
+    ],
+    "sources": [
+      {
+        "publisher": "MERLx Social Media Monitoring — Direct content observation",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "date": "2026-09-09"
+      }
+    ],
+    "spread": 1,
+    "disinfo_narratives": [
+      "NAR-SO-009",
+      "NAR-SO-005"
+    ],
+    "related_events": [
+      "APF-2026-07-09-986",
+      "APF-2026-07-10-308",
+      "APF-2026-08-11-057",
+      "APF-2026-08-26-424",
+      "APF-2026-08-28-077",
+      "APF-2026-09-02-165"
+    ],
+    "disinfo_confidence": "MEDIUM",
+    "disinfo_justification": "Deepfake/fabricated media indicators in East Africa context: doctored.",
+    "detection_method": "direct_tracking",
+    "content_observed": true,
+    "source_basis": "pattern_observed",
+    "verification_status": "pattern_match",
+    "narrative_families": [
+      {
+        "family": "Misinformation/Disinformation",
+        "intensity": 4,
+        "calibrated": false,
+        "calibration_note": "Auto-classified by apify_classify.py"
+      }
+    ],
+    "ve_related": false,
+    "al_shabaab_related": false,
+    "tags": [
+      "auto_classified"
+    ],
+    "data_source": "social_media_monitoring",
+    "detected_by": "iris_classify_2026-09-09",
+    "detection_timestamp": "2026-09-09T13:18:05.046929+00:00",
+    "last_seen": "2026-09-09",
+    "status": "active",
+    "observations": [
+      {
+        "date": "2026-09-09",
+        "url": "https://x.com/PuntJubNews/status/1376951327331393536",
+        "summary": "Initial detection",
+        "platforms": [
+          "X (Twitter)"
+        ],
+        "reach": {}
+      }
+    ],
+    "observation_count": 1,
+    "_original_headline": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied",
+    "_original_summary": ": The past 2 weeks  bots have fabricated audio of a  Minister, doctored a statement from Puntland's President, lied about troops setting up roadblocks in Puntland and TODAY they are spreading lies about  Port in !.",
+    "extracted_claims": [
+      "Fabricated audio attributed to a Puntland Minister is circulating.",
+      "A doctored statement from Puntland's President is being spread.",
+      "Troops are setting up roadblocks in Puntland.",
+      "False information is being spread about Bosaso Port in Puntland."
+    ],
+    "_review_notes": "This event highlights a multi-pronged disinformation campaign targeting key government figures and critical infrastructure in Puntland, indicating a deliberate effort to destabilize the region.",
+    "_reviewed": "2026-09-09T13:22:45.304220+00:00"
   }
 ]
